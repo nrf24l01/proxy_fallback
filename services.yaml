@@ -1,0 +1,60 @@
+# srvimit — record-time configuration: live services -> fixtures/<name>/
+#
+# `record` crawls each upstream and stores status, headers and bodies; `verify`
+# compares the snapshot with the live instance.
+#
+# record:  ./bin/srvimit record -config services.yaml
+# serve:   ./bin/srvimit serve -all -base-port 8000
+# verify:  ./bin/srvimit verify -config services.yaml   (upstreams + imitator running)
+
+listen: 0.0.0.0
+
+services:
+  # ---------------------------------------------------------------- Grafana
+  - name: grafana
+    port: 8081                       # port Xray fallback points at
+    fixture_dir: fixtures/grafana
+    upstream: http://127.0.0.1:3000  # record-time only
+    public_url: https://grafana.example.com
+    pages: ["/"]
+    extra_urls_file: fixtures/grafana/urls.txt
+    max_assets: 600
+    api:
+      - /api/health
+      - /api/frontend/settings
+      - /api/login/ping
+      - /public/build/manifest.json
+    record_not_found: true
+    keep_set_cookie: false
+    rewrite:
+      - from: "http://127.0.0.1:3000"
+        to: "https://grafana.example.com"
+    rewrite_body: false
+
+  # ------------------------------------------------------------------ Gitea
+  - name: gitea
+    port: 8082
+    fixture_dir: fixtures/gitea
+    upstream: http://127.0.0.1:3001
+    public_url: https://git.example.com
+    pages: ["/", "/user/login"]
+    extra_urls_file: fixtures/gitea/urls.txt
+    api:
+      - /api/v1/version
+      - /api/v1/settings/api
+    record_not_found: true
+    keep_set_cookie: false
+
+  # -------------------------------------------------------------- Portainer
+  - name: portainer
+    port: 8083
+    fixture_dir: fixtures/portainer
+    upstream: http://127.0.0.1:3003
+    public_url: https://portainer.example.com
+    pages: ["/"]
+    extra_urls_file: fixtures/portainer/urls.txt
+    api:
+      - /api/system/status
+      - /api/users/admin/check
+    record_not_found: true
+    keep_set_cookie: false

@@ -1,0 +1,29 @@
+[Unit]
+Description=srvimit - imitates self-hosted services from recorded snapshots
+Documentation=file:/opt/srvimit/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/srvimit
+ExecStart=/opt/srvimit/bin/srvimit serve -all -base-port 8000 -listen 127.0.0.1
+Restart=always
+RestartSec=2
+User=srvimit
+Group=srvimit
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+ReadOnlyPaths=/opt/srvimit
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=srvimit
+
+[Install]
+WantedBy=multi-user.target

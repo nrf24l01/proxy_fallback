@@ -1,0 +1,806 @@
+# Declarative catalog of services recorded into snapshots (record-time only).
+#
+# Every credential below is a throwaway value used by an ephemeral container that
+# lives for one recording run and is torn down afterwards. None of them are meant
+# to be reused, and none guard real data: the containers start empty, are recorded
+# and removed. Replace them if you record on a shared host.
+#
+# Each entry is started with its own docker compose project, waits until `wait`
+# answers, is recorded, and is torn down. `host_port` doubles as the default port
+# of the resulting catalog entry (`srvimit serve -service <name>`).
+
+
+- name: vaultwarden
+  title: Vaultwarden
+  category: security
+  host_port: 8201
+  login_path: /
+  pages: ["/"]
+  api: [/api/config]
+  wait: /
+  posts:
+    - path: /identity/connect/token
+      content_type: application/x-www-form-urlencoded
+      body: 'grant_type=password&username=admin%40example.com&password=definitely-wrong&scope=api%20offline_access&client_id=web&deviceType=10&deviceIdentifier=veil-verify&deviceName=firefox'
+    - path: /identity/connect/token
+      content_type: application/json
+      body: '{"grant_type":"password","username":"admin@example.com","password":"definitely-wrong","client_id":"web"}'
+  compose:
+    services:
+      app:
+        image: vaultwarden/server:latest
+        ports: ["127.0.0.1:8201:80"]
+        environment:
+          SIGNUPS_ALLOWED: "false"
+          INVITATIONS_ALLOWED: "false"
+          ADMIN_TOKEN: "catalogRecordToken123456"
+          DOMAIN: "https://vaultwarden.example.com"
+          I_REALLY_WANT_VOLATILE_STORAGE: "true"
+
+- name: uptime-kuma
+  title: Uptime Kuma
+  category: monitoring
+  host_port: 8202
+  login_path: /
+  pages: ["/"]
+  api: [/api/entry-page, /api/status-page/heartbeat/default]
+  wait: /
+  compose:
+    services:
+      app:
+        image: louislam/uptime-kuma:1
+        ports: ["127.0.0.1:8202:3001"]
+
+- name: memos
+  title: Memos
+  category: notes
+  host_port: 8203
+  login_path: /auth
+  pages: ["/auth"]
+  api: [/api/v1/workspace/profile]
+  wait: /auth
+  posts:
+    - path: /api/v1/auth/signin
+      content_type: application/json
+      body: '{"password":"definitely-wrong","username":"admin"}'
+  compose:
+    services:
+      app:
+        image: neosmemo/memos:stable
+        ports: ["127.0.0.1:8203:5230"]
+
+- name: actual
+  title: Actual Budget
+  category: finance
+  host_port: 8204
+  login_path: /
+  pages: ["/"]
+  api: []
+  wait: /
+  posts:
+    - path: /account/login
+      content_type: application/json
+      body: '{"password":"definitely-wrong"}'
+  compose:
+    services:
+      app:
+        image: actualbudget/actual-server:latest
+        ports: ["127.0.0.1:8204:5006"]
+
+- name: mealie
+  title: Mealie
+  category: home
+  host_port: 8205
+  login_path: /login
+  pages: ["/login"]
+  api: [/api/app/about]
+  wait: /api/app/about
+  posts:
+    - path: /api/auth/token
+      content_type: application/x-www-form-urlencoded
+      body: 'username=admin%40example.com&password=definitely-wrong&remember_me=false'
+  compose:
+    services:
+      app:
+        image: ghcr.io/mealie-recipes/mealie:latest
+        ports: ["127.0.0.1:8205:9000"]
+        environment:
+          ALLOW_SIGNUP: "false"
+          DEFAULT_EMAIL: admin@example.com
+
+- name: grocy
+  title: Grocy
+  category: home
+  host_port: 8206
+  login_path: /login
+  pages: ["/"]
+  api: []
+  wait: /login
+  compose:
+    services:
+      app:
+        image: lscr.io/linuxserver/grocy:latest
+        ports: ["127.0.0.1:8206:80"]
+        environment:
+          PUID: "1000"
+          PGID: "1000"
+          TZ: UTC
+
+- name: gotify
+  title: Gotify
+  category: comms
+  host_port: 8207
+  login_path: /login
+  pages: ["/"]
+  api: [/version]
+  wait: /
+  compose:
+    services:
+      app:
+        image: gotify/server:latest
+        ports: ["127.0.0.1:8207:80"]
+        environment:
+          GOTIFY_DEFAULTUSER_NAME: admin
+          GOTIFY_DEFAULTUSER_PASS: Adm1nPassw0rd
+
+- name: pocketbase
+  title: PocketBase
+  category: data
+  host_port: 8208
+  login_path: /_/
+  pages: ["/_/"]
+  api: [/api/health]
+  wait: /api/health
+  posts:
+    - path: /api/collections/_superusers/auth-with-password
+      content_type: application/json
+      body: '{"identity":"admin@example.com","password":"definitely-wrong"}'
+  compose:
+    services:
+      app:
+        image: ghcr.io/muchobien/pocketbase:latest
+        ports: ["127.0.0.1:8208:8090"]
+
+- name: code-server
+  title: code-server
+  category: dev
+  host_port: 8209
+  login_path: /login
+  pages: ["/login"]
+  api: []
+  wait: /login
+  posts:
+    - path: /login
+      content_type: application/x-www-form-urlencoded
+      body: 'password=definitely-wrong'
+  compose:
+    services:
+      app:
+        image: codercom/code-server:latest
+        ports: ["127.0.0.1:8209:8080"]
+        environment:
+          PASSWORD: Adm1nPassw0rd
+          HASHED_PASSWORD: ""
+
+- name: adguard
+  title: AdGuard Home
+  category: network
+  host_port: 8210
+  login_path: /login.html
+  pages: ["/login.html"]
+  api: []
+  wait: /login.html
+  posts:
+    - path: /control/login
+      content_type: application/json
+      body: '{"name":"admin","password":"definitely-wrong"}'
+  compose:
+    services:
+      app:
+        image: adguard/adguardhome:latest
+        ports: ["127.0.0.1:8210:3000"]
+
+- name: pihole
+  title: Pi-hole
+  category: network
+  host_port: 8211
+  login_path: /admin/login
+  pages: ["/admin/login"]
+  api: []
+  wait: /admin/login
+  posts:
+    - path: /admin/index.php?login
+      content_type: application/x-www-form-urlencoded
+      body: 'pw=definitely-wrong'
+  compose:
+    services:
+      app:
+        image: pihole/pihole:latest
+        ports: ["127.0.0.1:8211:80"]
+        environment:
+          WEBPASSWORD: Adm1nPassw0rd
+          FTLCONF_webserver_api_password: Adm1nPassw0rd
+          TZ: UTC
+
+- name: navidrome
+  title: Navidrome
+  category: media
+  host_port: 8212
+  login_path: /app/
+  pages: ["/", "/app/"]
+  api: [/app/api/keepalive]
+  wait: /app/
+  posts:
+    - path: /auth/login
+      content_type: application/json
+      body: '{"username":"admin","password":"definitely-wrong"}'
+  compose:
+    services:
+      app:
+        image: deluan/navidrome:latest
+        ports: ["127.0.0.1:8212:4533"]
+
+- name: photoprism
+  title: PhotoPrism
+  category: photos
+  host_port: 8213
+  login_path: /library/login
+  pages: ["/library/login", "/library/browse"]
+  api: [/api/v1/config]
+  wait: /library/login
+  posts:
+    - path: /api/v1/session
+      content_type: application/json
+      body: '{"username":"admin","password":"definitely-wrong"}'
+  compose:
+    services:
+      app:
+        image: photoprism/photoprism:latest
+        ports: ["127.0.0.1:8213:2342"]
+        environment:
+          PHOTOPRISM_ADMIN_PASSWORD: Adm1nPassw0rd
+          PHOTOPRISM_AUTH_MODE: password
+
+- name: forgejo
+  title: Forgejo
+  category: dev
+  host_port: 8214
+  login_path: /user/login
+  pages: ["/", "/user/login"]
+  api: [/api/v1/version]
+  wait: /
+  posts:
+    - path: /user/login
+      content_type: application/x-www-form-urlencoded
+      body: 'user_name=admin&password=definitely-wrong'
+  compose:
+    services:
+      app:
+        image: codeberg.org/forgejo/forgejo:9
+        ports: ["127.0.0.1:8214:3000"]
+        environment:
+          FORGEJO__security__INSTALL_LOCK: "true"
+          FORGEJO__database__DB_TYPE: sqlite3
+
+- name: keycloak
+  title: Keycloak
+  category: security
+  host_port: 8215
+  login_path: /admin/
+  pages: ["/admin/", "/realms/master/account/"]
+  api: []
+  wait: /admin/
+  compose:
+    services:
+      app:
+        image: quay.io/keycloak/keycloak:26.0
+        command: ["start-dev"]
+        ports: ["127.0.0.1:8215:8080"]
+        environment:
+          KC_BOOTSTRAP_ADMIN_USERNAME: admin
+          KC_BOOTSTRAP_ADMIN_PASSWORD: Adm1nPassw0rd
+
+- name: vikunja
+  title: Vikunja
+  category: productivity
+  host_port: 8216
+  login_path: /login
+  pages: ["/login"]
+  api: [/api/v1/info]
+  wait: /api/v1/info
+  compose:
+    services:
+      app:
+        image: vikunja/vikunja:latest
+        ports: ["127.0.0.1:8216:3456"]
+        environment:
+          VIKUNJA_SERVICE_PUBLICURL: "https://vikunja.example.com"
+          VIKUNJA_DATABASE_TYPE: sqlite
+          VIKUNJA_DATABASE_PATH: /app/vikunja/files/vikunja.db
+          VIKUNJA_SERVICE_JWTSECRET: "catalogJwtSecret1234567890abcdef"
+          VIKUNJA_FILES_BASEPATH: /app/vikunja/files
+
+- name: wallabag
+  title: Wallabag
+  category: reading
+  host_port: 8217
+  login_path: /login
+  pages: ["/login"]
+  api: []
+  wait: /login
+  compose:
+    services:
+      app:
+        image: wallabag/wallabag:latest
+        ports: ["127.0.0.1:8217:80"]
+        environment:
+          SYMFONY__ENV__DATABASE_DRIVER: pdo_sqlite
+          SYMFONY__ENV__DATABASE_PATH: "/var/www/wallabag/data/db.sqlite"
+          SYMFONY__ENV__SECRET: "catalystRecordsSecret1234567890abcdef"
+          POPULATE_DATABASE: "true"
+
+- name: nocodb
+  title: NocoDB
+  category: data
+  host_port: 8218
+  login_path: /signin
+  pages: ["/signin", "/signup"]
+  api: [/api/v1/utils/version]
+  wait: /signin
+  posts:
+    - path: /api/v1/auth/user/signin
+      content_type: application/json
+      body: '{"email":"admin@example.com","password":"definitely-wrong"}'
+  compose:
+    services:
+      app:
+        image: nocodb/nocodb:latest
+        ports: ["127.0.0.1:8218:8080"]
+        environment:
+          NC_DISABLE_TELE: "true"
+          NC_AUTH_JWT_SECRET: "catalogJwtSecret1234567890"
+
+- name: directus
+  title: Directus
+  category: data
+  host_port: 8219
+  login_path: /admin/login
+  pages: ["/admin/login", "/admin/"]
+  api: [/server/health]
+  wait: /admin/login
+  posts:
+    - path: /auth/login
+      content_type: application/json
+      body: '{"email":"admin@example.com","password":"definitely-wrong"}'
+  compose:
+    services:
+      app:
+        image: directus/directus:latest
+        ports: ["127.0.0.1:8219:8055"]
+        environment:
+          KEY: "catalogKey1234567890"
+          SECRET: "catalogSecret1234567890"
+          DB_CLIENT: sqlite3
+          DB_FILENAME: /directus/database/data.db
+          ADMIN_EMAIL: admin@example.com
+          ADMIN_PASSWORD: Adm1nPassw0rd
+          PUBLIC_URL: "https://directus.example.com"
+
+- name: open-webui
+  title: Open WebUI
+  category: ai
+  host_port: 8220
+  login_path: /auth
+  pages: ["/auth"]
+  api: [/api/config]
+  wait: /auth
+  posts:
+    - path: /api/v1/auths/signin
+      content_type: application/json
+      body: '{"email":"admin@example.com","password":"definitely-wrong"}'
+  compose:
+    services:
+      app:
+        image: ghcr.io/open-webui/open-webui:main
+        ports: ["127.0.0.1:8220:8080"]
+        environment:
+          WEBUI_AUTH: "true"
+          ENABLE_SIGNUP: "true"
+
+- name: flowise
+  title: Flowise
+  category: ai
+  host_port: 8221
+  login_path: /signin
+  pages: ["/signin"]
+  api: [/api/v1/version]
+  wait: /signin
+  compose:
+    services:
+      app:
+        image: flowiseai/flowise:latest
+        ports: ["127.0.0.1:8221:3000"]
+        environment:
+          FLOWISE_USERNAME: admin
+          FLOWISE_PASSWORD: Adm1nPassw0rd
+
+- name: photoview
+  title: Photoview
+  category: photos
+  host_port: 8222
+  login_path: /login
+  pages: ["/login"]
+  api: []
+  wait: /login
+  compose:
+    services:
+      app:
+        image: viktorstrate/photoview:latest
+        ports: ["127.0.0.1:8222:80"]
+        environment:
+          PHOTOVIEW_DATABASE_DRIVER: sqlite
+          PHOTOVIEW_LISTEN_PORT: "80"
+          PHOTOVIEW_SERVE_UI: "true"
+
+- name: audiobookshelf
+  title: Audiobookshelf
+  category: media
+  host_port: 8223
+  login_path: /login
+  pages: ["/login"]
+  api: [/status]
+  wait: /login
+  posts:
+    - path: /login
+      content_type: application/json
+      body: '{"username":"admin","password":"definitely-wrong"}'
+  compose:
+    services:
+      app:
+        image: ghcr.io/advplyr/audiobookshelf:latest
+        ports: ["127.0.0.1:8223:80"]
+
+- name: homebox
+  title: HomeBox
+  category: home
+  host_port: 8224
+  login_path: /login
+  pages: ["/login"]
+  api: [/api/v1/status]
+  wait: /api/v1/status
+  compose:
+    services:
+      app:
+        image: ghcr.io/sysadminsmedia/homebox:latest
+        ports: ["127.0.0.1:8224:7745"]
+        environment:
+          HBOX_OPTIONS_ALLOW_REGISTRATION: "false"
+          HBOX_OPTIONS_AUTO_MIGRATE: "true"
+
+- name: paperless
+  title: Paperless-ngx
+  category: documents
+  host_port: 8225
+  login_path: /accounts/login/
+  pages: ["/accounts/login/"]
+  api: [/api/remote/version]
+  wait: /accounts/login/
+  posts:
+    - path: /accounts/login/
+      content_type: application/x-www-form-urlencoded
+      body: 'username=admin&password=definitely-wrong&csrfmiddlewaretoken=veil'
+  compose:
+    services:
+      broker:
+        image: redis:7-alpine
+      db:
+        image: postgres:16-alpine
+        environment:
+          POSTGRES_DB: paperless
+          POSTGRES_USER: paperless
+          POSTGRES_PASSWORD: paperless
+      app:
+        image: ghcr.io/paperless-ngx/paperless-ngx:latest
+        ports: ["127.0.0.1:8225:8000"]
+        depends_on: [broker, db]
+        environment:
+          PAPERLESS_REDIS: redis://broker:6379
+          PAPERLESS_DBHOST: db
+          PAPERLESS_DBUSER: paperless
+          PAPERLESS_DBPASS: paperless
+          PAPERLESS_SECRET_KEY: catalogsecretkey1234567890
+          PAPERLESS_ADMIN_USER: admin
+          PAPERLESS_ADMIN_PASSWORD: Adm1nPassw0rd
+          PAPERLESS_URL: "https://paperless.example.com"
+          PAPERLESS_TIME_ZONE: UTC
+
+- name: mattermost
+  title: Mattermost
+  category: comms
+  host_port: 8226
+  login_path: /login
+  pages: ["/login"]
+  api: [/api/v4/system/ping]
+  wait: /api/v4/system/ping
+  posts:
+    - path: /api/v4/users/login
+      content_type: application/json
+      body: '{"login_id":"admin@example.com","password":"definitely-wrong"}'
+  compose:
+    services:
+      db:
+        image: postgres:16-alpine
+        environment:
+          POSTGRES_USER: mmuser
+          POSTGRES_PASSWORD: mmpass
+          POSTGRES_DB: mattermost
+      app:
+        image: mattermost/mattermost-team-edition:latest
+        ports: ["127.0.0.1:8226:8065"]
+        depends_on: [db]
+        environment:
+          MM_SQLSETTINGS_DRIVERNAME: postgres
+          MM_SQLSETTINGS_DATASOURCE: "postgres://mmuser:mmpass@db:5432/mattermost?sslmode=disable&connect_timeout=10"
+          MM_SERVICESETTINGS_SITEURL: "https://mattermost.example.com"
+          MM_FILESETTINGS_DRIVERNAME: local
+          MM_SERVICESETTINGS_ENABLEOPENSERVER: "true"
+
+- name: bookstack
+  title: BookStack
+  category: documents
+  host_port: 8227
+  login_path: /login
+  pages: ["/login"]
+  api: []
+  wait: /login
+  posts:
+    - path: /login
+      content_type: application/x-www-form-urlencoded
+      body: 'email=admin%40example.com&password=definitely-wrong'
+  compose:
+    services:
+      db:
+        image: mariadb:11
+        environment:
+          MARIADB_DATABASE: bookstack
+          MARIADB_USER: bookstack
+          MARIADB_PASSWORD: bookstack
+          MARIADB_ROOT_PASSWORD: bookstackroot
+      app:
+        image: lscr.io/linuxserver/bookstack:latest
+        ports: ["127.0.0.1:8227:80"]
+        depends_on: [db]
+        environment:
+          PUID: "1000"
+          PGID: "1000"
+          APP_URL: "https://bookstack.example.com"
+          APP_KEY: "base64:MDEyMzQ1Njc4OWFiY2RlZjAxMjM0NTY3ODlhYmNkZWY="
+          DB_HOST: db
+          DB_DATABASE: bookstack
+          DB_USERNAME: bookstack
+          DB_PASSWORD: bookstack
+
+- name: grafana
+  title: Grafana
+  category: monitoring
+  host_port: 8230
+  login_path: /login
+  pages: ["/"]
+  api: [/api/health, /api/frontend/settings, /api/login/ping]
+  wait: /login
+  posts:
+    - path: /login
+      content_type: application/json
+      body: '{"user":"admin","password":"definitely-wrong"}'
+  compose:
+    services:
+      app:
+        image: grafana/grafana:11.3.0
+        ports: ["127.0.0.1:8230:3000"]
+        environment:
+          GF_SECURITY_ADMIN_USER: admin
+          GF_SECURITY_ADMIN_PASSWORD: Adm1nPassw0rd
+          GF_ANALYTICS_REPORTING_ENABLED: "false"
+          GF_ANALYTICS_CHECK_FOR_UPDATES: "false"
+          GF_USERS_ALLOW_SIGN_UP: "false"
+          GF_SERVER_ROOT_URL: "https://grafana.example.com"
+
+- name: gitea
+  title: Gitea
+  category: dev
+  host_port: 8231
+  login_path: /user/login
+  pages: ["/", "/user/login"]
+  api: [/api/v1/version]
+  wait: /user/login
+  posts:
+    - path: /user/login
+      content_type: application/x-www-form-urlencoded
+      body: 'user_name=admin&password=definitely-wrong'
+  compose:
+    services:
+      app:
+        image: gitea/gitea:1.23.1
+        ports: ["127.0.0.1:8231:3000"]
+        environment:
+          GITEA__security__INSTALL_LOCK: "true"
+          GITEA__database__DB_TYPE: sqlite3
+          GITEA__server__ROOT_URL: "https://gitea.example.com/"
+          GITEA__service__DISABLE_REGISTRATION: "true"
+          GITEA__server__DISABLE_SSH: "true"
+
+- name: outline
+  title: Outline
+  category: documents
+  host_port: 8232
+  login_path: /login
+  pages: ["/login"]
+  api: [/_health]
+  wait: /login
+  compose:
+    services:
+      db:
+        image: postgres:16-alpine
+        environment:
+          POSTGRES_USER: outline
+          POSTGRES_PASSWORD: outline
+          POSTGRES_DB: outline
+      redis:
+        image: redis:7-alpine
+      app:
+        image: outlinewiki/outline:latest
+        ports: ["127.0.0.1:8232:3000"]
+        depends_on: [db, redis]
+        environment:
+          DATABASE_URL: "postgres://outline:outline@db:5432/outline"
+          REDIS_URL: "redis://redis:6379"
+          SECRET_KEY: "catalogsecretkey1234567890abcdef"
+          UTILS_SECRET: "catalogutilssecret1234567890abcdef"
+          URL: "https://outline.example.com"
+          FORCE_HTTPS: "false"
+
+- name: jenkins
+  title: Jenkins
+  category: dev
+  host_port: 8233
+  login_path: /login
+  pages: ["/login"]
+  api: []
+  wait: /login
+  posts:
+    - path: /j_spring_security_check
+      content_type: application/x-www-form-urlencoded
+      body: 'j_username=admin&j_password=definitely-wrong&from=&Submit=Sign+in'
+  compose:
+    services:
+      app:
+        image: jenkins/jenkins:lts-jdk17
+        ports: ["127.0.0.1:8233:8080"]
+        environment:
+          JAVA_OPTS: "-Djenkins.install.runSetupWizard=false -Dexecutable-war=/usr/share/jenkins/jenkins.war"
+
+- name: miniflux
+  title: Miniflux
+  category: reading
+  host_port: 8234
+  login_path: /login
+  pages: ["/login"]
+  api: [/healthcheck]
+  wait: /healthcheck
+  compose:
+    services:
+      db:
+        image: postgres:16-alpine
+        environment:
+          POSTGRES_USER: miniflux
+          POSTGRES_PASSWORD: miniflux
+          POSTGRES_DB: miniflux
+      app:
+        image: miniflux/miniflux:latest
+        ports: ["127.0.0.1:8234:8080"]
+        depends_on: [db]
+        environment:
+          DATABASE_URL: "postgres://miniflux:miniflux@db:5432/miniflux?sslmode=disable"
+          RUN_MIGRATIONS: "1"
+          CREATE_ADMIN: "1"
+          ADMIN_USERNAME: admin
+          ADMIN_PASSWORD: Adm1nPassw0rd
+
+- name: netbird
+  title: NetBird
+  category: network
+  host_port: 8240
+  login_path: /
+  pages: ["/"]
+  api: []
+  wait: /
+  public_url: http://127.0.0.1:8240
+  compose:
+    services:
+      app:
+        image: netbirdio/dashboard:latest
+        ports: ["127.0.0.1:8240:80"]
+        environment:
+          NETBIRD_MGMT_API_ENDPOINT: "http://127.0.0.1:8240"
+          NETBIRD_MGMT_GRPC_API_ENDPOINT: "http://127.0.0.1:8240"
+          AUTH_AUTHORITY: "http://127.0.0.1:8240/oauth2"
+          AUTH_CLIENT_ID: "netbird-client"
+          AUTH_AUDIENCE: "netbird-client"
+          AUTH_SUPPORTED_SCOPES: "openid profile email groups"
+          AUTH_REDIRECT_URI: "http://127.0.0.1:8240/nb-auth"
+          AUTH_SILENT_REDIRECT_URI: "http://127.0.0.1:8240/nb-silent-auth"
+          USE_AUTH0: "false"
+          NETBIRD_TOKEN_SOURCE: "accessToken"
+
+- name: nextcloud
+  title: Nextcloud
+  category: files
+  host_port: 8241
+  login_path: /login
+  pages:
+    - /
+    - /login
+  api:
+    - /status.php
+    - /ocs/v2.php/cloud/capabilities?format=json
+  wait: /status.php
+  public_url: http://127.0.0.1:8241
+  posts:
+    - path: /login
+      content_type: application/x-www-form-urlencoded
+      body: 'user=admin&password=definitely-wrong&timezone=UTC&timezone_offset=0&requesttoken=veil'
+  compose:
+    services:
+      app:
+        image: nextcloud:30-apache
+        ports: ["127.0.0.1:8241:80"]
+        environment:
+          SQLITE_DATABASE: nextcloud
+          NEXTCLOUD_ADMIN_USER: admin
+          NEXTCLOUD_ADMIN_PASSWORD: Adm1nPassw0rd1
+          NEXTCLOUD_TRUSTED_DOMAINS: "127.0.0.1 localhost"
+          OVERWRITEHOST: "127.0.0.1:8241"
+          OVERWRITEPROTOCOL: "http"
+          TRUSTED_PROXIES: "127.0.0.1"
+
+- name: immich
+  title: Immich
+  category: photos
+  host_port: 8242
+  login_path: /auth/login
+  pages: ["/", "/auth/login"]
+  api: [/api/server/ping, /api/server/about, /api/server/config, /api/server/version]
+  wait: /api/server/ping
+  public_url: http://127.0.0.1:8242
+  setup:
+    - >-
+      curl -s -o /dev/null -w "admin-signup:%{http_code}"
+      -X POST http://127.0.0.1:{port}/api/auth/admin-signup
+      -H "Content-Type: application/json"
+      -d '{"email":"admin@example.com","password":"Adm1nPassw0rd1","name":"admin"}'
+  posts:
+    - path: /api/auth/login
+      content_type: application/json
+      body: '{"email":"admin@example.com","password":"definitely-wrong"}'
+  compose:
+    services:
+      db:
+        image: ghcr.io/immich-app/postgres:14-vectorchord0.4.3-pgvectors0.2.0
+        environment:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: immich
+          POSTGRES_INITDB_ARGS: "--data-checksums"
+      redis:
+        image: valkey/valkey:8
+      app:
+        image: ghcr.io/immich-app/immich-server:release
+        ports: ["127.0.0.1:8242:2283"]
+        depends_on: [db, redis]
+        environment:
+          DB_HOSTNAME: db
+          DB_USERNAME: postgres
+          DB_PASSWORD: postgres
+          DB_DATABASE_NAME: immich
+          REDIS_HOSTNAME: redis
+          IMMICH_MACHINE_LEARNING_ENABLED: "false"

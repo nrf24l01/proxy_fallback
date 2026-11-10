@@ -1,0 +1,11 @@
+# build artefacts
+bin/
+dist/
+*.tar.gz
+*.log
+
+# snapshots are recorded locally (see README: Recording snapshots)
+fixtures/
+
+# docker catalog scratch space
+.catalog/

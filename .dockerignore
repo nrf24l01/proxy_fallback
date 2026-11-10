@@ -1,0 +1,10 @@
+.git
+.github
+bin
+dist
+fixtures
+.catalog
+upstreams
+*.tar.gz
+*.log
+__pycache__
