@@ -49,7 +49,13 @@ func Load(root string) ([]Entry, error) {
 		return out[i].Name < out[j].Name
 	})
 	if len(out) == 0 {
-		return nil, fmt.Errorf("no snapshots found under %s (record them with `srvimit record`, or mount them at /data/fixtures)", root)
+		if _, statErr := os.Stat(root); statErr == nil {
+			return nil, fmt.Errorf("no snapshots found under %s — the image ships with snapshots "+
+				"baked in, so a volume mounted over this path (with an empty or missing host dir) hides them; "+
+				"drop the volumes: section or point it at a real fixtures directory", root)
+		}
+		return nil, fmt.Errorf("snapshot directory %s does not exist — use the published image "+
+			"(snapshots are inside at /data/fixtures) or mount a fixtures directory there", root)
 	}
 	return out, nil
 }
