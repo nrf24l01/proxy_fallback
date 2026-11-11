@@ -4,7 +4,7 @@ GO  ?= go
 VER ?= $(shell git describe --tags --always --dirty 2>/dev/null || echo dev)
 LDF := -s -w -X main.version=$(VER)
 
-.PHONY: all build build-catalog check fmt vet test lint image image-multiarch cross up up-catalog down list serve catalog catalog-up record verify smoke dist clean
+.PHONY: all build build-catalog check fmt vet test lint image image-multiarch cross up up-all compose down list serve catalog catalog-up record verify smoke dist clean
 
 all: check build
 

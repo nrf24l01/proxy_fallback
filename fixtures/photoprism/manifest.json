@@ -1,0 +1,2085 @@
+{
+ "service": "photoprism",
+ "title": "PhotoPrism",
+ "category": "photos",
+ "login_path": "/library/login",
+ "default_port": 8213,
+ "upstream": "http://127.0.0.1:8213",
+ "public_url": "https://photoprism.example.com",
+ "recorded_at": "2026-11-10T19:55:57.402316489Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 307,
+   "headers": [
+    {
+     "name": "Location",
+     "value": "/library/login"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "50"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/90087fe6432e022734d2.bin",
+   "size": 50,
+   "sha256": "90087fe6432e022734d2e73bcf860d9cb31a56a6309ecf0f5f541df8a816f29d"
+  },
+  {
+   "key": "/api/v1/config",
+   "path": "/api/v1/config",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    }
+   ],
+   "body_file": "bodies/cdd945ac8cf5365034a7.bin",
+   "size": 5715,
+   "sha256": "cdd945ac8cf5365034a795ba3663f35104da4b507033af27f881b5618a5a8480",
+   "chunked": true
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "101617"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/vnd.microsoft.icon"
+    }
+   ],
+   "body_file": "bodies/25721006516eac2f02f2.ico",
+   "size": 101617,
+   "sha256": "25721006516eac2f02f23fea855440c08b13137d3dbf71848f8b61a17afddabc"
+  },
+  {
+   "key": "/library/browse",
+   "path": "/library/browse",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    }
+   ],
+   "body_file": "bodies/c2e114788cbc93569585.bin",
+   "size": 16827,
+   "sha256": "c2e114788cbc9356958548b971e49fd0d48ea0e1a0e76cba1e26b2d772f0af85",
+   "chunked": true
+  },
+  {
+   "key": "/library/login",
+   "path": "/library/login",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    }
+   ],
+   "body_file": "bodies/c2e114788cbc93569585.bin",
+   "size": 16827,
+   "sha256": "c2e114788cbc9356958548b971e49fd0d48ea0e1a0e76cba1e26b2d772f0af85",
+   "chunked": true
+  },
+  {
+   "key": "/manifest.json?b51a1ba4",
+   "path": "/manifest.json",
+   "query": "b51a1ba4",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-store"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4188"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/manifest+json"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    }
+   ],
+   "body_file": "bodies/82f236a5dadd633beea8.json",
+   "size": 4188,
+   "sha256": "82f236a5dadd633beea854e32c3641eef867bc7310e77ae3dc8d7dc7196712f3"
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "51"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    }
+   ],
+   "body_file": "bodies/20aabad1a825038d9bdc.txt",
+   "size": 51,
+   "sha256": "20aabad1a825038d9bdcacb4be431ab985bd6b9aa59f9dee5cd282f7c72e605b"
+  },
+  {
+   "key": "/static/build/app.2bf63b2b.css",
+   "path": "/static/build/app.2bf63b2b.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1028064"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/ae56d745b317d4215f3d.css",
+   "size": 1028064,
+   "sha256": "ae56d745b317d4215f3daa3fd843ef839fb7fe7a4db2094d1d4ca2b8944bb453"
+  },
+  {
+   "key": "/static/build/app.9f6ca6bd.js",
+   "path": "/static/build/app.9f6ca6bd.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1961353"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    }
+   ],
+   "body_file": "bodies/46a34bf10e8ec71c8b07.js",
+   "size": 1961353,
+   "sha256": "46a34bf10e8ec71c8b07e4b2bf555a43917b2d8edb084dfde8be7099c72725ec"
+  },
+  {
+   "key": "/static/build/chunk/clipboard.1f18e944.js",
+   "path": "/static/build/chunk/clipboard.1f18e944.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "760175"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    }
+   ],
+   "body_file": "bodies/b580586c9969c6ec2d46.js",
+   "size": 760175,
+   "sha256": "b580586c9969c6ec2d464b4628ceb573bddec216cf511e42e61c009071fee2fc"
+  },
+  {
+   "key": "/static/build/chunk/en-json.8918ce65.js",
+   "path": "/static/build/chunk/en-json.8918ce65.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "58"
+    }
+   ],
+   "body_file": "bodies/9bcd059482b9eec8c9f4.js",
+   "size": 58,
+   "sha256": "9bcd059482b9eec8c9f43dd25cff2bf19481897517f65f5d28182340c8111293"
+  },
+  {
+   "key": "/static/build/materialdesignicons-webfont.7b98fc15.ttf?v=7.4.47",
+   "path": "/static/build/materialdesignicons-webfont.7b98fc15.ttf",
+   "query": "v=7.4.47",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "1307660"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/ttf"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    }
+   ],
+   "body_file": "bodies/61e8aba5a4e981fe22cf.ttf",
+   "size": 1307660,
+   "sha256": "61e8aba5a4e981fe22cf7c8e8bcdbea00476e75c62c37f01bf7ee33361d68428"
+  },
+  {
+   "key": "/static/build/materialdesignicons-webfont.92afc295.eot",
+   "path": "/static/build/materialdesignicons-webfont.92afc295.eot",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/vnd.ms-fontobject"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1307880"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    }
+   ],
+   "body_file": "bodies/0b183104d2fc5f26196e.eot",
+   "size": 1307880,
+   "sha256": "0b183104d2fc5f26196e773c77bdaf2e05509fd4259d2d15ecedca79b87e84f9"
+  },
+  {
+   "key": "/static/build/materialdesignicons-webfont.92afc295.eot?v=7.4.47",
+   "path": "/static/build/materialdesignicons-webfont.92afc295.eot",
+   "query": "v=7.4.47",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/vnd.ms-fontobject"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1307880"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    }
+   ],
+   "body_file": "bodies/0b183104d2fc5f26196e.eot",
+   "size": 1307880,
+   "sha256": "0b183104d2fc5f26196e773c77bdaf2e05509fd4259d2d15ecedca79b87e84f9"
+  },
+  {
+   "key": "/static/build/materialdesignicons-webfont.e9e6ff96.woff2",
+   "path": "/static/build/materialdesignicons-webfont.e9e6ff96.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "403216"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    }
+   ],
+   "body_file": "bodies/662fefa8f2f8a95c1858.woff2",
+   "size": 403216,
+   "sha256": "662fefa8f2f8a95c18588d21774789c107c64e771cbe65a69af46291c4311afc"
+  },
+  {
+   "key": "/static/build/materialdesignicons-webfont.e9e6ff96.woff2?v=7.4.47",
+   "path": "/static/build/materialdesignicons-webfont.e9e6ff96.woff2",
+   "query": "v=7.4.47",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "403216"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    }
+   ],
+   "body_file": "bodies/662fefa8f2f8a95c1858.woff2",
+   "size": 403216,
+   "sha256": "662fefa8f2f8a95c18588d21774789c107c64e771cbe65a69af46291c4311afc"
+  },
+  {
+   "key": "/static/build/materialdesignicons-webfont.f5e6dfed.woff?v=7.4.47",
+   "path": "/static/build/materialdesignicons-webfont.f5e6dfed.woff",
+   "query": "v=7.4.47",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "587984"
+    }
+   ],
+   "body_file": "bodies/a5928a0d5c2f624e46f9.woff",
+   "size": 587984,
+   "sha256": "a5928a0d5c2f624e46f98d9b15c2f60045377f7c594dd78a1759132ea3b463eb"
+  },
+  {
+   "key": "/static/build/pdf-worker.c921a7f8.js",
+   "path": "/static/build/pdf-worker.c921a7f8.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1227504"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    }
+   ],
+   "body_file": "bodies/540544f751ba538f96f6.js",
+   "size": 1227504,
+   "sha256": "540544f751ba538f96f6cfadc5a88ccf4d5d513e07e44d71972ad6648523dc18"
+  },
+  {
+   "key": "/static/build/sphere-viewer-core.977a0f18.css",
+   "path": "/static/build/sphere-viewer-core.977a0f18.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "9829"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    }
+   ],
+   "body_file": "bodies/8b90b715d10b16e7761a.css",
+   "size": 9829,
+   "sha256": "8b90b715d10b16e7761a07da1d5b03768243c53bde5223f85a732324730a8ee5"
+  },
+  {
+   "key": "/static/build/sphere-viewer-video-plugin.bbb3f1e0.css",
+   "path": "/static/build/sphere-viewer-video-plugin.bbb3f1e0.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2740"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/71730aa1958ae2ab6e7c.css",
+   "size": 2740,
+   "sha256": "71730aa1958ae2ab6e7ceaac3eb629b121addae331d40f92b478f487f7af2190"
+  },
+  {
+   "key": "/static/build/splash.10fec78a.css",
+   "path": "/static/build/splash.10fec78a.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5191"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    }
+   ],
+   "body_file": "bodies/a11fedc0a774860557e3.css",
+   "size": 5191,
+   "sha256": "a11fedc0a774860557e350a5cad10acd1f97bd9612d70bec36a1121b564622c8"
+  },
+  {
+   "key": "/static/build/splash.d554317d.js",
+   "path": "/static/build/splash.d554317d.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.js",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/static/build/sw-scope-cleanup.js",
+   "path": "/static/build/sw-scope-cleanup.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "324"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    }
+   ],
+   "body_file": "bodies/bb2c5678d033eddbb4d1.js",
+   "size": 324,
+   "sha256": "bb2c5678d033eddbb4d1421171673d9d8e3a5e3bda6b977591fa63b4ad3e6d46"
+  },
+  {
+   "key": "/static/icons/logo.svg",
+   "path": "/static/icons/logo.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "777"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    }
+   ],
+   "body_file": "bodies/86bd8c8f7e4cf813a407.svg",
+   "size": 777,
+   "sha256": "86bd8c8f7e4cf813a407a5d58b98a10f7cb11eab83f6c29895c94b0d45a8f5e9"
+  },
+  {
+   "key": "/static/icons/logo/114.png",
+   "path": "/static/icons/logo/114.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "7385"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    }
+   ],
+   "body_file": "bodies/0d3b0da272a2500f3751.png",
+   "size": 7385,
+   "sha256": "0d3b0da272a2500f375135237b7cc01f68db33fa659eb195e423fc07cc3966e5"
+  },
+  {
+   "key": "/static/icons/logo/128.png",
+   "path": "/static/icons/logo/128.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Length",
+     "value": "8475"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    }
+   ],
+   "body_file": "bodies/0d0ff43302322028d530.png",
+   "size": 8475,
+   "sha256": "0d0ff43302322028d53092231075a51c450b6bcbd117bcb27b81cd2cea0829ba"
+  },
+  {
+   "key": "/static/icons/logo/144.png",
+   "path": "/static/icons/logo/144.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "9579"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    }
+   ],
+   "body_file": "bodies/a8c260edf4606e5b7f00.png",
+   "size": 9579,
+   "sha256": "a8c260edf4606e5b7f00b36aca41542eabaa5bda9b3167676511dae0268d2b6d"
+  },
+  {
+   "key": "/static/icons/logo/16.png",
+   "path": "/static/icons/logo/16.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "713"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    }
+   ],
+   "body_file": "bodies/123412914bb46861ab1c.png",
+   "size": 713,
+   "sha256": "123412914bb46861ab1c1210561b3f8c0413f697078c5932180c7845f51539e9"
+  },
+  {
+   "key": "/static/icons/logo/160.png",
+   "path": "/static/icons/logo/160.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "10852"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    }
+   ],
+   "body_file": "bodies/24b4b90fad846fb6dd34.png",
+   "size": 10852,
+   "sha256": "24b4b90fad846fb6dd342e549773923501ae8c98ba90865ee717cb564e19c231"
+  },
+  {
+   "key": "/static/icons/logo/192.png",
+   "path": "/static/icons/logo/192.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "13316"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    }
+   ],
+   "body_file": "bodies/928e0a97c999db5f5a0c.png",
+   "size": 13316,
+   "sha256": "928e0a97c999db5f5a0cdf7fe3145143d31fab892bec31828408715ded01fbe8"
+  },
+  {
+   "key": "/static/icons/logo/196.png",
+   "path": "/static/icons/logo/196.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Length",
+     "value": "13667"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    }
+   ],
+   "body_file": "bodies/2eaaa6629bf1b8d9f2da.png",
+   "size": 13667,
+   "sha256": "2eaaa6629bf1b8d9f2da1ef203471f7e0dfc40c9be44ea653ee362aa3c887aed"
+  },
+  {
+   "key": "/static/icons/logo/256.png",
+   "path": "/static/icons/logo/256.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Length",
+     "value": "18884"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    }
+   ],
+   "body_file": "bodies/9a4692d3f055592ef6ab.png",
+   "size": 18884,
+   "sha256": "9a4692d3f055592ef6ab11bb42431f508054ff186335d98f9add6f1de302a8a0"
+  },
+  {
+   "key": "/static/icons/logo/32.png",
+   "path": "/static/icons/logo/32.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1595"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    }
+   ],
+   "body_file": "bodies/ae976b2c66080d1f82fd.png",
+   "size": 1595,
+   "sha256": "ae976b2c66080d1f82fd62b549435afd48a444683ec3eb650b696fe2358ba4a1"
+  },
+  {
+   "key": "/static/icons/logo/512.png",
+   "path": "/static/icons/logo/512.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Length",
+     "value": "42677"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    }
+   ],
+   "body_file": "bodies/58326dc984db76877004.png",
+   "size": 42677,
+   "sha256": "58326dc984db768770042a2064cf9c77ac17ff33e41df881a44c303a518bef1b"
+  },
+  {
+   "key": "/static/icons/logo/72.png",
+   "path": "/static/icons/logo/72.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4351"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    }
+   ],
+   "body_file": "bodies/0a53e9aa66505b6f7259.png",
+   "size": 4351,
+   "sha256": "0a53e9aa66505b6f7259691e421f34ad3327e58be20c3b56cf0b9853646bd855"
+  },
+  {
+   "key": "/static/icons/logo/touch/120.png",
+   "path": "/static/icons/logo/touch/120.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "5535"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    }
+   ],
+   "body_file": "bodies/8a70ec2cb33fe848f020.png",
+   "size": 5535,
+   "sha256": "8a70ec2cb33fe848f0201098e177cd9bf9a078f4ab9db911b0483723ef39ff8c"
+  },
+  {
+   "key": "/static/icons/logo/touch/152.png",
+   "path": "/static/icons/logo/touch/152.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "7135"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    }
+   ],
+   "body_file": "bodies/f33633782d536a78905b.png",
+   "size": 7135,
+   "sha256": "f33633782d536a78905bfd98118adf5eaeb90716539daf91eeaf02edd1b8cb06"
+  },
+  {
+   "key": "/static/icons/logo/touch/167.png",
+   "path": "/static/icons/logo/touch/167.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "8128"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/99d35d12e18b3b85178a.png",
+   "size": 8128,
+   "sha256": "99d35d12e18b3b85178aedd85aef000928b820a64c0e6d2b8a4cb49dbf806eb0"
+  },
+  {
+   "key": "/static/icons/logo/touch/180.png",
+   "path": "/static/icons/logo/touch/180.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Length",
+     "value": "8758"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    }
+   ],
+   "body_file": "bodies/d140f7c8324a19010e27.png",
+   "size": 8758,
+   "sha256": "d140f7c8324a19010e274ef08062e4e48929661fae9fe4ee78a5531345268e59"
+  },
+  {
+   "key": "/static/img/wallpaper/welcome.jpg",
+   "path": "/static/img/wallpaper/welcome.jpg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "196304"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/jpeg"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    }
+   ],
+   "body_file": "bodies/ba333525886573c9a937.jpg",
+   "size": 196304,
+   "sha256": "ba333525886573c9a937086be6ffaa5b78666c403e9682fee0fd196de688ad03"
+  },
+  {
+   "key": "/static/js/browser-check.js",
+   "path": "/static/js/browser-check.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3517"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800, immutable"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/744ae1a3d81eb676bd66.js",
+   "size": 3517,
+   "sha256": "744ae1a3d81eb676bd66483dce74d73505aabb8673a943173fa8da09986327bd"
+  },
+  {
+   "key": "/sw-scope-cleanup.js",
+   "path": "/sw-scope-cleanup.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-store"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "324"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/bb2c5678d033eddbb4d1.js",
+   "size": 324,
+   "sha256": "bb2c5678d033eddbb4d1421171673d9d8e3a5e3bda6b977591fa63b4ad3e6d46"
+  },
+  {
+   "key": "/sw.js",
+   "path": "/sw.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2036"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    }
+   ],
+   "body_file": "bodies/aadc2e7229db0bf20015.js",
+   "size": 2036,
+   "sha256": "aadc2e7229db0bf20015a215531f20d9727d1dde0e107ae75dc81bc9c57624fa"
+  },
+  {
+   "key": "/workbox-86637ee2.js",
+   "path": "/workbox-86637ee2.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 29 Oct 2026 21:40:44 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "14309"
+    }
+   ],
+   "body_file": "bodies/3a7264a3b7b937de8c48.js",
+   "size": 14309,
+   "sha256": "3a7264a3b7b937de8c48af95fc9ec8a489453b79f9cd60c0b683ac9b2f2eb00a"
+  },
+  {
+   "key": "POST /api/v1/session :: application/json",
+   "path": "/api/v1/session",
+   "method": "POST",
+   "req_content_type": "application/json",
+   "req_body": "{\"username\":\"admin\",\"password\":\"definitely-wrong\"}",
+   "status": 401,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "76"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    }
+   ],
+   "body_file": "bodies/cc31fff36975b194ec1b.bin",
+   "size": 76,
+   "sha256": "cc31fff36975b194ec1b2eb9250246b240104851f0622dfb667f0c25b49afbb6"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-83bd8f238181",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:55:57 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    }
+   ],
+   "body_file": "bodies/f9ba29a7dc0c26fa958d.bin",
+   "size": 6938,
+   "sha256": "f9ba29a7dc0c26fa958d95377ea5339f73a1657cb1ed6185427559920cae30db",
+   "chunked": true
+  }
+ ]
+}

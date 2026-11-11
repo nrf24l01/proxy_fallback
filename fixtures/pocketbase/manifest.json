@@ -1,0 +1,1206 @@
+{
+ "service": "pocketbase",
+ "title": "PocketBase",
+ "category": "data",
+ "login_path": "/_/",
+ "default_port": 8208,
+ "upstream": "http://127.0.0.1:8208",
+ "public_url": "https://pocketbase.example.com",
+ "recorded_at": "2026-11-10T19:53:35.014338229Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "52"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    }
+   ],
+   "body_file": "bodies/6f0f31c3b9f9f220c249.bin",
+   "size": 52,
+   "sha256": "6f0f31c3b9f9f220c2491104d179fb1075b43649512864c04386af6682169a0e"
+  },
+  {
+   "key": "/_/",
+   "path": "/_/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "340"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/eca905cc03431838381e.bin",
+   "size": 340,
+   "sha256": "eca905cc03431838381ee340e8001bc1b7ac4572249314adc707d692f0c779dd",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_/assets/index-Cx1HYrDT.css",
+   "path": "/_/assets/index-Cx1HYrDT.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/5acaa23b078d4e6eb13f.css",
+   "size": 49719,
+   "sha256": "5acaa23b078d4e6eb13fdf82a8517db7a221bed8034dfd24ed976fe7ad16bf09",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_/assets/index-DxrBioZt.js",
+   "path": "/_/assets/index-DxrBioZt.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    }
+   ],
+   "body_file": "bodies/23285c2d227589668416.js",
+   "size": 168792,
+   "sha256": "23285c2d227589668416408bafc2b11ba98c5cb881fda74ed09a9ce9311d03bd",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_/extensions.js",
+   "path": "/_/extensions.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.js",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/_/fonts/ibm-plex-mono/ibm-plex-mono-v20-latin-600.woff2",
+   "path": "/_/fonts/ibm-plex-mono/ibm-plex-mono-v20-latin-600.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    }
+   ],
+   "body_file": "bodies/a5a4818e276deac35845.woff2",
+   "size": 15645,
+   "sha256": "a5a4818e276deac358451df0b3b7707176b4158770e724c74d718424f8230d91",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_/fonts/ibm-plex-mono/ibm-plex-mono-v20-latin-regular.woff2",
+   "path": "/_/fonts/ibm-plex-mono/ibm-plex-mono-v20-latin-regular.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/248e613e6ef6a25fe017.woff2",
+   "size": 14733,
+   "sha256": "248e613e6ef6a25fe0177cd15e501aed2c76592f6cac2b9dbe25292237c27f59",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_/fonts/ibm-plex-sans/ibm-plex-sans-v23-cyrillic_latin_latin-ext-600.woff2",
+   "path": "/_/fonts/ibm-plex-sans/ibm-plex-sans-v23-cyrillic_latin_latin-ext-600.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    }
+   ],
+   "body_file": "bodies/3018b785d06f04c60f29.woff2",
+   "size": 76594,
+   "sha256": "3018b785d06f04c60f29c76333e5267801b824f2c7983c857111f62a3adedf4b",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_/fonts/ibm-plex-sans/ibm-plex-sans-v23-cyrillic_latin_latin-ext-600italic.woff2",
+   "path": "/_/fonts/ibm-plex-sans/ibm-plex-sans-v23-cyrillic_latin_latin-ext-600italic.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/ba9de1edf38eef8462f0.woff2",
+   "size": 83538,
+   "sha256": "ba9de1edf38eef8462f0a9f6e5d901fe1544fdcf1da656079b585d1ee01e65b3",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_/fonts/ibm-plex-sans/ibm-plex-sans-v23-cyrillic_latin_latin-ext-italic.woff2",
+   "path": "/_/fonts/ibm-plex-sans/ibm-plex-sans-v23-cyrillic_latin_latin-ext-italic.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/fdc56df1c2dbbbc0aa38.woff2",
+   "size": 76234,
+   "sha256": "fdc56df1c2dbbbc0aa38ac7fa1831e5b0d7fa77be9af9a2676d7e448fca67a4c",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_/fonts/ibm-plex-sans/ibm-plex-sans-v23-cyrillic_latin_latin-ext-regular.woff2",
+   "path": "/_/fonts/ibm-plex-sans/ibm-plex-sans-v23-cyrillic_latin_latin-ext-regular.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    }
+   ],
+   "body_file": "bodies/75b4ba02a333921c83e8.woff2",
+   "size": 69898,
+   "sha256": "75b4ba02a333921c83e88fec1efe82f01716beb34417963a9faf0725f6c43c06",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_/fonts/remixicon/remixicon.woff2?t=1734404658139",
+   "path": "/_/fonts/remixicon/remixicon.woff2",
+   "query": "t=1734404658139",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    }
+   ],
+   "body_file": "bodies/f04dd8d620ba96209c8f.woff2",
+   "size": 176847,
+   "sha256": "f04dd8d620ba96209c8fe64cf8fbfd0b998b9a870367d032ffcf1c8b29c518e8",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_/images/logo.svg",
+   "path": "/_/images/logo.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "691"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    }
+   ],
+   "body_file": "bodies/d007208d6c79a67517c7.svg",
+   "size": 691,
+   "sha256": "d007208d6c79a67517c71c798eada209b0696de1518f94cca4413c2e03cc8240",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_/libs/prism/prism.js",
+   "path": "/_/libs/prism/prism.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/3a30a90261b8b86ae80b.js",
+   "size": 24127,
+   "sha256": "3a30a90261b8b86ae80b659b606ff9d2b9657bb3f3f00b100d2ba04a8812289e",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_/libs/shablon/shablon.iife.js",
+   "path": "/_/libs/shablon/shablon.iife.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/1b4a2a6b99cac681bcb5.js",
+   "size": 3228,
+   "sha256": "1b4a2a6b99cac681bcb545b2367f9b3dc01c098e62b77e674db3edec37dc9c7e",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_/libs/uplot/uplot.css",
+   "path": "/_/libs/uplot/uplot.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "771"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/2545e3edc0b643e9acad.css",
+   "size": 771,
+   "sha256": "2545e3edc0b643e9acadf40d3a2a3d59b54be30e0da4d27d085e1481898cdc76",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_/libs/uplot/uplot.iife.js",
+   "path": "/_/libs/uplot/uplot.iife.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=1209600, stale-while-revalidate=86400"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://127.0.0.1:* https://tile.openstreetmap.org data: blob:; connect-src 'self' http://127.0.0.1:* https://nominatim.openstreetmap.org; script-src 'self' http://127.0.0.1:*; frame-ancestors 'none'"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/6a5b347a2641fc46176a.js",
+   "size": 23451,
+   "sha256": "6a5b347a2641fc46176a2adc47e91efcd8ee8fa96389f95ce449f00f505e6fab",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/api/collections/_superusers/auth-methods?fields=mfa%2Cotp%2Cpassword%2Coauth2",
+   "path": "/api/collections/_superusers/auth-methods",
+   "query": "fields=mfa%2Cotp%2Cpassword%2Coauth2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "172"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    }
+   ],
+   "body_file": "bodies/3f3a74ec5929ab53781a.bin",
+   "size": 172,
+   "sha256": "3f3a74ec5929ab53781a663dbf4fc86cdd1a440e9774263f4f5cc5d0a1893b6a"
+  },
+  {
+   "key": "/api/health",
+   "path": "/api/health",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "50"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    }
+   ],
+   "body_file": "bodies/7866fe68a1da660cb4b5.bin",
+   "size": 50,
+   "sha256": "7866fe68a1da660cb4b513219bb95ff18ba9e1402aa9d0043b05832a18da2004"
+  },
+  {
+   "key": "POST /api/collections/_superusers/auth-with-password :: application/json",
+   "path": "/api/collections/_superusers/auth-with-password",
+   "method": "POST",
+   "req_content_type": "application/json",
+   "req_body": "{\"identity\":\"admin@example.com\",\"password\":\"definitely-wrong\"}",
+   "status": 400,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "60"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    }
+   ],
+   "body_file": "bodies/74455e019cd463889aaa.bin",
+   "size": 60,
+   "sha256": "74455e019cd463889aaa1b07f8211e8c9f5f51c181760c68e3165fe681aae705"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-c601f528686b",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:53:35 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "52"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/6f0f31c3b9f9f220c249.bin",
+   "size": 52,
+   "sha256": "6f0f31c3b9f9f220c2491104d179fb1075b43649512864c04386af6682169a0e"
+  }
+ ]
+}

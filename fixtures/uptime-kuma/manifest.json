@@ -1,0 +1,939 @@
+{
+ "service": "uptime-kuma",
+ "title": "Uptime Kuma",
+ "category": "monitoring",
+ "login_path": "/",
+ "default_port": 8202,
+ "upstream": "http://127.0.0.1:8202",
+ "public_url": "https://uptime-kuma.example.com",
+ "recorded_at": "2026-11-10T19:51:22.249888771Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Location",
+     "value": "/dashboard"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "39"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/38df1d0401156f80d545.bin",
+   "size": 39,
+   "sha256": "38df1d0401156f80d54562c5174216bfc436f90790f072a6c69124ee8cb3dc07"
+  },
+  {
+   "key": "/api/entry-page",
+   "path": "/api/entry-page",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "37"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"25-/lijfFfzZ3hPlmV2+hTmbhnQLHE\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    }
+   ],
+   "body_file": "bodies/5e11479b239f9f7ba1b4.bin",
+   "size": 37,
+   "sha256": "5e11479b239f9f7ba1b4763ddc38d2cb6dff1e84be24af46ec8d2b4383106dd1"
+  },
+  {
+   "key": "/api/status-page/heartbeat/default",
+   "path": "/api/status-page/heartbeat/default",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "36"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"24-EsPVtSRb2MavNViD7fIuXL0bd5o\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    }
+   ],
+   "body_file": "bodies/528b62d122655893ff0c.bin",
+   "size": 36,
+   "sha256": "528b62d122655893ff0c8676dfcbde85d8282c9fede11f1d8ab53409d082091b"
+  },
+  {
+   "key": "/apple-touch-icon.png",
+   "path": "/apple-touch-icon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 20 Oct 2025 17:49:08 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"12c7-19a02bd3e20\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4807"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    }
+   ],
+   "body_file": "bodies/ed763b85fc2cb1f4db5c.png",
+   "size": 4807,
+   "sha256": "ed763b85fc2cb1f4db5c6768eaab71e9cf68211ef66dfa5e351f539d799d864d"
+  },
+  {
+   "key": "/assets/index-BBxTfFCS.js",
+   "path": "/assets/index-BBxTfFCS.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"77a65-19a02c09598\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 20 Oct 2025 17:52:47 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "490085"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    }
+   ],
+   "body_file": "bodies/6c7a916d436590b51f02.js",
+   "size": 490085,
+   "sha256": "6c7a916d436590b51f02781a2b81c11d478b8adeafadf066845bbebb9012c87e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/assets/index-bOVKKa1O.css",
+   "path": "/assets/index-bOVKKa1O.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "44995"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=UTF-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 20 Oct 2025 17:52:47 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"afc3-19a02c09598\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/dc2abb385237aa102d55.css",
+   "size": 44995,
+   "sha256": "dc2abb385237aa102d550d28a30e7863da4b973d3aec99cc3200812fcc38719c",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/assets/index-legacy-DAPjczQA.js",
+   "path": "/assets/index-legacy-DAPjczQA.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 20 Oct 2025 17:52:47 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"83369-19a02c09598\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "537449"
+    }
+   ],
+   "body_file": "bodies/58175fedc4ef8acd832b.js",
+   "size": 537449,
+   "sha256": "58175fedc4ef8acd832b118d779e31ed2fe389f5905bb31755dc80e4498d7653",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/assets/polyfills-legacy-CC6RtsPR.js",
+   "path": "/assets/polyfills-legacy-CC6RtsPR.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "60880"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 20 Oct 2025 17:52:47 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"edd0-19a02c09598\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    }
+   ],
+   "body_file": "bodies/0a3d39e4ee5541bc1c94.js",
+   "size": 60880,
+   "sha256": "0a3d39e4ee5541bc1c940d2bc2e8ff7460a854ebf93aacd75e5cd1bb4c5d4b7e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/dashboard",
+   "path": "/dashboard",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2493"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"9bd-o+u1qAJaX55AlM3ua5ybw1NrD9E\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/b5015db432a4b1aa1480.bin",
+   "size": 2493,
+   "sha256": "b5015db432a4b1aa14802f4d3bcf0b0871f52e9be8b6565e425bfab2ea08f4f2"
+  },
+  {
+   "key": "/docker-latest-warning.js",
+   "path": "/docker-latest-warning.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 16 Sep 2026 11:34:17 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2694"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"a86-1a0a9ff02a8\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    }
+   ],
+   "body_file": "bodies/aa8de002516112b67e15.js",
+   "size": 2694,
+   "sha256": "aa8de002516112b67e15fedf9735003967b1c6461b7c5e400442e7a99e7234f7"
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"3aee-18d1374df78\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "15086"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 16 Jan 2024 18:07:23 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/x-icon"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/2ee8099edcb296efc93e.ico",
+   "size": 15086,
+   "sha256": "2ee8099edcb296efc93e69f8c57cfa02993b684e906f60d029dbb3974cd46068"
+  },
+  {
+   "key": "/icon.svg",
+   "path": "/icon.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"269-19a02c09598\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "617"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 20 Oct 2025 17:52:47 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/7c42f6500093f335054c.svg",
+   "size": 617,
+   "sha256": "7c42f6500093f335054cda2ae4c8f9b93e848a6c6c8cbecf1153e9672da10545",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/manifest.json",
+   "path": "/manifest.json",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 16 Jan 2024 18:07:23 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"19f-18d1374df78\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "415"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    }
+   ],
+   "body_file": "bodies/faf7ed745ce5871dce55.json",
+   "size": 415,
+   "sha256": "faf7ed745ce5871dce552029da1deb3a131a69ee438829a98594673ab720c1f4"
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"19-2NTlN/votVlrfMtAaltZ799LfR0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "25"
+    }
+   ],
+   "body_file": "bodies/efdb5938a9736727f5cc.txt",
+   "size": 25,
+   "sha256": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce"
+  },
+  {
+   "key": "/socket.io/?EIO=4\u0026transport=polling\u0026t=3viehlvj",
+   "path": "/socket.io/",
+   "query": "EIO=4\u0026transport=polling\u0026t=3viehlvj",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "118"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    }
+   ],
+   "body_file": "bodies/578dd8983c2f7edf2d1e.bin",
+   "size": 118,
+   "sha256": "578dd8983c2f7edf2d1e6bbad7ee8291c84bbd9a9740ec2f8cfeccab8936ab41"
+  },
+  {
+   "key": "/socket.io/?EIO=4\u0026transport=polling\u0026t=3vigqab5\u0026sid=CxtpgXObjVvI0UxdAAAA",
+   "path": "/socket.io/",
+   "query": "EIO=4\u0026transport=polling\u0026t=3vigqab5\u0026sid=CxtpgXObjVvI0UxdAAAA",
+   "method": "GET",
+   "status": 400,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/8acac48bc106c4eae580.bin",
+   "size": 41,
+   "sha256": "8acac48bc106c4eae580c08071597f9dafab96d959deff65bec44514da907b1d",
+   "chunked": true
+  },
+  {
+   "key": "/socket.io/?EIO=4\u0026transport=polling\u0026t=3vigsogt\u0026sid=CxtpgXObjVvI0UxdAAAA",
+   "path": "/socket.io/",
+   "query": "EIO=4\u0026transport=polling\u0026t=3vigsogt\u0026sid=CxtpgXObjVvI0UxdAAAA",
+   "method": "GET",
+   "status": 400,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    }
+   ],
+   "body_file": "bodies/8acac48bc106c4eae580.bin",
+   "size": 41,
+   "sha256": "8acac48bc106c4eae580c08071597f9dafab96d959deff65bec44514da907b1d",
+   "chunked": true
+  },
+  {
+   "key": "/socket.io/?EIO=4\u0026transport=polling\u0026t=3vihqow4\u0026sid=CxtpgXObjVvI0UxdAAAA",
+   "path": "/socket.io/",
+   "query": "EIO=4\u0026transport=polling\u0026t=3vihqow4\u0026sid=CxtpgXObjVvI0UxdAAAA",
+   "method": "GET",
+   "status": 400,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    }
+   ],
+   "body_file": "bodies/8acac48bc106c4eae580.bin",
+   "size": 41,
+   "sha256": "8acac48bc106c4eae580c08071597f9dafab96d959deff65bec44514da907b1d",
+   "chunked": true
+  },
+  {
+   "key": "/socket.io/?EIO=4\u0026transport=polling\u0026t=3viiwu4l\u0026sid=CxtpgXObjVvI0UxdAAAA",
+   "path": "/socket.io/",
+   "query": "EIO=4\u0026transport=polling\u0026t=3viiwu4l\u0026sid=CxtpgXObjVvI0UxdAAAA",
+   "method": "GET",
+   "status": 400,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/8acac48bc106c4eae580.bin",
+   "size": 41,
+   "sha256": "8acac48bc106c4eae580c08071597f9dafab96d959deff65bec44514da907b1d",
+   "chunked": true
+  },
+  {
+   "key": "/socket.io/?EIO=4\u0026transport=polling\u0026t=3vij0ytm\u0026sid=CxtpgXObjVvI0UxdAAAA",
+   "path": "/socket.io/",
+   "query": "EIO=4\u0026transport=polling\u0026t=3vij0ytm\u0026sid=CxtpgXObjVvI0UxdAAAA",
+   "method": "GET",
+   "status": 400,
+   "headers": [
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/8acac48bc106c4eae580.bin",
+   "size": 41,
+   "sha256": "8acac48bc106c4eae580c08071597f9dafab96d959deff65bec44514da907b1d",
+   "chunked": true
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-e6a52486c453",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:22 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2493"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"9bd-o+u1qAJaX55AlM3ua5ybw1NrD9E\""
+    }
+   ],
+   "body_file": "bodies/b5015db432a4b1aa1480.bin",
+   "size": 2493,
+   "sha256": "b5015db432a4b1aa14802f4d3bcf0b0871f52e9be8b6565e425bfab2ea08f4f2"
+  }
+ ]
+}

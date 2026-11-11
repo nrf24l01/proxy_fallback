@@ -1,0 +1,16 @@
+/
+/368.238d87538b99dd2b92c7.js
+/466839efc4da38d60ce3.module.wasm
+/app/main.1176a28a68b7b4809391.js
+/app/polyfills.11c471dc266a0d8811d6.js
+/app/vendor.55e794a42a5fe0d2e9eb.js
+/cca56971e438d22818d6.json
+/css/vaultwarden.css
+/fonts/bwi-font.9ae6e12297499bbf04d1.ttf
+/fonts/inter.c504db5c06caaf7cdfba.woff2
+/images/favicon-32x32.png
+/images/logo.svg
+/locales/en/messages.json?cache=rjxzf
+/styles.31d6cfe0d16ae931b73c.js
+/styles.7b4e836b041b0b1d10ae.css
+/theme_head.6991036cc6ce1ab5eee1.js

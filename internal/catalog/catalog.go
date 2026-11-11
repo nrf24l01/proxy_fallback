@@ -49,7 +49,7 @@ func Load(root string) ([]Entry, error) {
 		return out[i].Name < out[j].Name
 	})
 	if len(out) == 0 {
-		return nil, fmt.Errorf("no snapshots found under %s (run -mode record first)", root)
+		return nil, fmt.Errorf("no snapshots found under %s (record them with `srvimit record`, or mount them at /data/fixtures)", root)
 	}
 	return out, nil
 }

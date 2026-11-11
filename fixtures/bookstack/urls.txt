@@ -1,0 +1,11 @@
+/
+/dist/app.js?version=v26.09.2
+/dist/styles.css?version=v26.09.2
+/icon-128.png
+/icon-180.png
+/icon-32.png
+/icon-64.png
+/icon.png
+/login
+/logo.png
+/manifest.json

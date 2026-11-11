@@ -1,0 +1,556 @@
+{
+ "service": "code-server",
+ "title": "code-server",
+ "category": "dev",
+ "login_path": "/login",
+ "default_port": 8209,
+ "upstream": "http://127.0.0.1:8209",
+ "public_url": "https://code-server.example.com",
+ "recorded_at": "2026-11-10T19:54:07.122397815Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Location",
+     "value": "./login"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept, Accept-Encoding"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "36"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:07 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/60de8fefa6b9cd98449f.bin",
+   "size": 36,
+   "sha256": "60de8fefa6b9cd98449f99679890e597b9c77d6679231a5588257577ba3e320d"
+  },
+  {
+   "key": "/_static/src/browser/media/favicon-dark-support.svg",
+   "path": "/_static/src/browser/media/favicon-dark-support.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:07 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "685"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 06 Nov 2026 23:18:09 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"2ad-1a1b327bf68\""
+    }
+   ],
+   "body_file": "bodies/a1b626ee51f51ef4e3dc.svg",
+   "size": 685,
+   "sha256": "a1b626ee51f51ef4e3dc339efd35452f0930ea421c66ff7b6df821856ca19ba6"
+  },
+  {
+   "key": "/_static/src/browser/media/favicon.ico",
+   "path": "/_static/src/browser/media/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 06 Nov 2026 23:18:09 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:07 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1110-1a1b327bf68\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/vnd.microsoft.icon"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/324e23f8d47a3dc9e676.ico",
+   "size": 4208,
+   "sha256": "324e23f8d47a3dc9e676dd4679424533bffcae2bd2150a2b7436bc4d7af84133",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_static/src/browser/media/pwa-icon-192.png",
+   "path": "/_static/src/browser/media/pwa-icon-192.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 06 Nov 2026 23:18:09 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"ccc-1a1b327bf68\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "3276"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:07 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/8ca5bcfdcf9066add0e9.png",
+   "size": 3276,
+   "sha256": "8ca5bcfdcf9066add0e9e49b77e1a9b1bcd299871591735c8a7f2bb4179b3009"
+  },
+  {
+   "key": "/_static/src/browser/media/pwa-icon-512.png",
+   "path": "/_static/src/browser/media/pwa-icon-512.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 06 Nov 2026 23:18:09 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"2129-1a1b327bf68\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Length",
+     "value": "8489"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:07 GMT"
+    }
+   ],
+   "body_file": "bodies/499fcd615b3d32708272.png",
+   "size": 8489,
+   "sha256": "499fcd615b3d32708272287fe8054ad65530d6075745be770f237ed7ff142b7b"
+  },
+  {
+   "key": "/_static/src/browser/pages/global.css",
+   "path": "/_static/src/browser/pages/global.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:07 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 06 Nov 2026 23:18:09 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"758-1a1b327bf68\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/7b106b7f914d3495c7d3.css",
+   "size": 787,
+   "sha256": "7b106b7f914d3495c7d37752c9865fc4d988dcfd9ea8c525fe662d2c4398e2f9",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_static/src/browser/pages/login.css",
+   "path": "/_static/src/browser/pages/login.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 06 Nov 2026 23:18:09 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"449-1a1b327bf68\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:07 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/e12ef39486aca5577e1d.css",
+   "size": 447,
+   "sha256": "e12ef39486aca5577e1d6b3c99104094ddc617133bfe52d79a17c3984d96968b",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/login",
+   "path": "/login",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:07 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"a3d-qLfy6/mTNC2ZPU3Yn/Ib0cNF+yk\""
+    }
+   ],
+   "body_file": "bodies/1b186f126f2245046add.bin",
+   "size": 1021,
+   "sha256": "1b186f126f2245046add816902e5af88b076ce49d21831e3e8f35a97e66cef29",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/manifest.json",
+   "path": "/manifest.json",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/manifest+json"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:07 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/42510ef4f3878636d99f.json",
+   "size": 279,
+   "sha256": "42510ef4f3878636d99f2a9827d1e478033054a15985983689fd31e3255ada40",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "26"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1a-Y2V8u31whsVrDNTlxpmbtoNmSGg\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:07 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/331ea9090db0c9f6f597.txt",
+   "size": 26,
+   "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+  },
+  {
+   "key": "POST /login :: application/x-www-form-urlencoded",
+   "path": "/login",
+   "method": "POST",
+   "req_content_type": "application/x-www-form-urlencoded",
+   "req_body": "password=definitely-wrong",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"a68-hur3/hnJpMQYC2qlmYygZORhHgc\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:07 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/6b7ccccd759482a581ad.bin",
+   "size": 1036,
+   "sha256": "6b7ccccd759482a581adc0e86a3c675b92543d0c90eefef6d2476d7016a61e7b",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-6c7d18b5f95b",
+   "method": "GET",
+   "status": 401,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:07 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"613-tZPrkTEHLf6ntp74i6zqiOMkzEY\""
+    }
+   ],
+   "body_file": "bodies/f8abe1f61d292194255a.bin",
+   "size": 638,
+   "sha256": "f8abe1f61d292194255a9cb9f9090845e50ee3c506027400b1737ae33e221dc2",
+   "content_encoding": "gzip",
+   "chunked": true
+  }
+ ]
+}

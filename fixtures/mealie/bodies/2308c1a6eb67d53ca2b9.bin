@@ -1,0 +1,1 @@
+{"production":true,"version":"v2.2.0","demoStatus":false,"allowSignup":false,"defaultGroupSlug":null,"defaultHouseholdSlug":null,"enableOidc":false,"oidcRedirect":false,"oidcProviderName":"OAuth","enableOpenai":false,"enableOpenaiImageServices":false}

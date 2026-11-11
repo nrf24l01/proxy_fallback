@@ -1,0 +1,1123 @@
+{
+ "service": "gotify",
+ "title": "Gotify",
+ "category": "comms",
+ "login_path": "/login",
+ "default_port": 8207,
+ "upstream": "http://127.0.0.1:8207",
+ "public_url": "https://gotify.example.com",
+ "recorded_at": "2026-11-10T19:52:58.237896932Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "820"
+    }
+   ],
+   "body_file": "bodies/1aae85c26490415b107d.bin",
+   "size": 820,
+   "sha256": "1aae85c26490415b107dec2de07bfb9272db0c5018228df45202c1c67af2528a",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/login",
+   "path": "/login",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "73"
+    }
+   ],
+   "body_file": "bodies/a2a96f09aa356835f5c7.bin",
+   "size": 73,
+   "sha256": "a2a96f09aa356835f5c764706b3a7ce820f8b2df74eee3f0c6d37ae1b297c57c"
+  },
+  {
+   "key": "/manifest.json",
+   "path": "/manifest.json",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "146"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    }
+   ],
+   "body_file": "bodies/b4b5af835493a08790e4.json",
+   "size": 146,
+   "sha256": "b4b5af835493a08790e4e690a173996eb8ceed6a2ad717d46ab2fe0c51eb6ba5",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/static/apple-touch-icon-114x114.png",
+   "path": "/static/apple-touch-icon-114x114.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "8524"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/c7147315e57beda99b85.png",
+   "size": 8524,
+   "sha256": "c7147315e57beda99b853de7fa7f1eb1a0988fa0ecccc9e5258b618402927b14"
+  },
+  {
+   "key": "/static/apple-touch-icon-120x120.png",
+   "path": "/static/apple-touch-icon-120x120.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "9176"
+    }
+   ],
+   "body_file": "bodies/f7c650c4165c93c4628f.png",
+   "size": 9176,
+   "sha256": "f7c650c4165c93c4628fd7f22514c93ecd472df4182bb16924e67bd4ce46e830"
+  },
+  {
+   "key": "/static/apple-touch-icon-144x144.png",
+   "path": "/static/apple-touch-icon-144x144.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "11138"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/3ee563b0a9dcf4101ea8.png",
+   "size": 11138,
+   "sha256": "3ee563b0a9dcf4101ea8e6b5c4115b6d1863b99f761c86a89a7972189bbc38b5"
+  },
+  {
+   "key": "/static/apple-touch-icon-152x152.png",
+   "path": "/static/apple-touch-icon-152x152.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "11771"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/b44ea8e1ca8b73b274a4.png",
+   "size": 11771,
+   "sha256": "b44ea8e1ca8b73b274a4420cef082573d12dc0c5fd5b737178a766d0615fe0ec"
+  },
+  {
+   "key": "/static/apple-touch-icon-57x57.png",
+   "path": "/static/apple-touch-icon-57x57.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3793"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/093e52a10d612896e7bf.png",
+   "size": 3793,
+   "sha256": "093e52a10d612896e7bfc95d09edb8cf9715e35634a9f71d1b8d0b3e3771b706"
+  },
+  {
+   "key": "/static/apple-touch-icon-60x60.png",
+   "path": "/static/apple-touch-icon-60x60.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4070"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/d0a48013dce3e638cf05.png",
+   "size": 4070,
+   "sha256": "d0a48013dce3e638cf057cad5cad1017faabc6d43224ed4233a60f7e6c90f68e"
+  },
+  {
+   "key": "/static/apple-touch-icon-72x72.png",
+   "path": "/static/apple-touch-icon-72x72.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5053"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/aec84e3a65f9af52781d.png",
+   "size": 5053,
+   "sha256": "aec84e3a65f9af52781d4107609c0b198515f328207b1794ea6c08b83a2ebc88"
+  },
+  {
+   "key": "/static/apple-touch-icon-76x76.png",
+   "path": "/static/apple-touch-icon-76x76.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5333"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/8b710f5992eb2521e152.png",
+   "size": 5333,
+   "sha256": "8b710f5992eb2521e15268e40c7ad63294d16d9e63768f39728399d28f54e4bd"
+  },
+  {
+   "key": "/static/favicon-128.png",
+   "path": "/static/favicon-128.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "9885"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/7716e801e26336207d16.png",
+   "size": 9885,
+   "sha256": "7716e801e26336207d16cf8d7edfc3accb14955c19075f231e0954c4dc2be1ed"
+  },
+  {
+   "key": "/static/favicon-16x16.png",
+   "path": "/static/favicon-16x16.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "812"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/96a07931878dc99c8be4.png",
+   "size": 812,
+   "sha256": "96a07931878dc99c8be40f628e074026d08112ed6a49fede03ae9b07f82cafe4"
+  },
+  {
+   "key": "/static/favicon-196x196.png",
+   "path": "/static/favicon-196x196.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15750"
+    }
+   ],
+   "body_file": "bodies/1f854444a9087c0497a5.png",
+   "size": 15750,
+   "sha256": "1f854444a9087c0497a597e999f4e80fc27f4139f44c5d1c24c046541ffb1004"
+  },
+  {
+   "key": "/static/favicon-32x32.png",
+   "path": "/static/favicon-32x32.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1942"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/10063b62964fb3ec03be.png",
+   "size": 1942,
+   "sha256": "10063b62964fb3ec03be19835749616b15882cbf6e54f6c71418ab4d39303bb6"
+  },
+  {
+   "key": "/static/favicon-96x96.png",
+   "path": "/static/favicon-96x96.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "7084"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/eb75cdef60de9cadc159.png",
+   "size": 7084,
+   "sha256": "eb75cdef60de9cadc15973242648306dd4874d811ecaebcaeaf5603a40077fd3"
+  },
+  {
+   "key": "/static/favicon.ico",
+   "path": "/static/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/vnd.microsoft.icon"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/e622431fd659f8fb9e6f.ico",
+   "size": 8989,
+   "sha256": "e622431fd659f8fb9e6fa6b2c93d5625d3e72710520475538a4a968b90af3b3d",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/index-BDMh_36D.css",
+   "path": "/static/index-BDMh_36D.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/09fa00df6948fab25bca.css",
+   "size": 6730,
+   "sha256": "09fa00df6948fab25bca83a69a41b5439090ecf301c9c3f2f05975820d919ab2",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/index-DVQRMgAo.js",
+   "path": "/static/index-DVQRMgAo.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/bc53e693f13c7221c66e.js",
+   "size": 321307,
+   "sha256": "bc53e693f13c7221c66ef87b7e21edf614ce0469068235e9bac432f07f808438",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-cyrillic-400-normal-Bjg-1-sg.woff",
+   "path": "/static/roboto-cyrillic-400-normal-Bjg-1-sg.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/accadff290df69bdc520.woff",
+   "size": 10432,
+   "sha256": "accadff290df69bdc520dd2d4603da0bbe024d4eaecfd26d6e3acf8889442d3c",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-cyrillic-400-normal-CBPI_iaY.woff2",
+   "path": "/static/roboto-cyrillic-400-normal-CBPI_iaY.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/6d419baba3e60dc68b58.woff2",
+   "size": 12136,
+   "sha256": "6d419baba3e60dc68b58e76b725ecf2a1afd758a63be89eadeebeca6ca740641",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-cyrillic-ext-400-normal-CaK1767H.woff",
+   "path": "/static/roboto-cyrillic-ext-400-normal-CaK1767H.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/8c3d1c8a03974c8398d9.woff",
+   "size": 16245,
+   "sha256": "8c3d1c8a03974c8398d934c9810d9733858cba53126786b42cd0b22cd6a99a32",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-cyrillic-ext-400-normal-qHufge6k.woff2",
+   "path": "/static/roboto-cyrillic-ext-400-normal-qHufge6k.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/97a747f6775de1adb7fe.woff2",
+   "size": 17405,
+   "sha256": "97a747f6775de1adb7fe7ff8f3743d64847b8a0a6adbdfdc2cf0abdf114802be",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-greek-400-normal-Bb5mj_fZ.woff",
+   "path": "/static/roboto-greek-400-normal-Bb5mj_fZ.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/1c91e3eac86d1480b558.woff",
+   "size": 7539,
+   "sha256": "1c91e3eac86d1480b558f82c7f7bfc064d1523b121deb442ada3f327c79ba036",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-greek-400-normal-ai2Z1K3C.woff2",
+   "path": "/static/roboto-greek-400-normal-ai2Z1K3C.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/bbbb5328ba56289fb094.woff2",
+   "size": 9584,
+   "sha256": "bbbb5328ba56289fb094a944b862883597845164600edc2d613a0506aca0fe7f",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-latin-400-normal-BqEyEoaF.woff2",
+   "path": "/static/roboto-latin-400-normal-BqEyEoaF.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/2136f292d2fb06807c80.woff2",
+   "size": 21917,
+   "sha256": "2136f292d2fb06807c80685f8e7e1c7fe635f9850827c96270a716fd7f33c6c2",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-latin-400-normal-DyYNIH4P.woff",
+   "path": "/static/roboto-latin-400-normal-DyYNIH4P.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/0e4716021e2f8e3b8901.woff",
+   "size": 21727,
+   "sha256": "0e4716021e2f8e3b8901c9eb38834f4ffdd2a269542b097dbf7a69e4514c0ebf",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-latin-ext-400-normal-C3tdtHj3.woff2",
+   "path": "/static/roboto-latin-ext-400-normal-C3tdtHj3.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/50049156115e30d93ca1.woff2",
+   "size": 15068,
+   "sha256": "50049156115e30d93ca1b7f1ac33484d6de4f89791c0fefce1dae41947c8b870",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-latin-ext-400-normal-scX0fKtV.woff",
+   "path": "/static/roboto-latin-ext-400-normal-scX0fKtV.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/8e61256b6bb9c6221225.woff",
+   "size": 14247,
+   "sha256": "8e61256b6bb9c6221225b0c833c7f9abbefcc2906141758d5a13c1a9a569185a",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-math-400-normal-BEFej5gc.woff2",
+   "path": "/static/roboto-math-400-normal-BEFej5gc.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/7c101cf9329c75db1a83.woff2",
+   "size": 20121,
+   "sha256": "7c101cf9329c75db1a83de313f669a07e1513ebe86511623d4fd51f3b35a6566",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-math-400-normal-C9RxBKAh.woff",
+   "path": "/static/roboto-math-400-normal-C9RxBKAh.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/a41fe23935d21cd93963.woff",
+   "size": 19179,
+   "sha256": "a41fe23935d21cd93963841d52762124b4038ab64e3616a9d6cd6dc5d29b639f",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-symbols-400-normal-CB1Ce4Gk.woff2",
+   "path": "/static/roboto-symbols-400-normal-CB1Ce4Gk.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/ac339fdb9f53574109d9.woff2",
+   "size": 10764,
+   "sha256": "ac339fdb9f53574109d9d103bbccbb9289cc1af1dc6331b683b0a3a58a841fd1",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-symbols-400-normal-DLYbZahX.woff",
+   "path": "/static/roboto-symbols-400-normal-DLYbZahX.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/aaf42a378e8565357c21.woff",
+   "size": 8868,
+   "sha256": "aaf42a378e8565357c219e0cfa94f29d882b1df7aa7fd06aac04c83f5e3efec0",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-vietnamese-400-normal-D2PTxGxD.woff2",
+   "path": "/static/roboto-vietnamese-400-normal-D2PTxGxD.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/9a776b36b3776c7d9f41.woff2",
+   "size": 8396,
+   "sha256": "9a776b36b3776c7d9f4114b337908f42840b8b48a8abd86ce85d872f3bde35cb",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/roboto-vietnamese-400-normal-DnpnVwnf.woff",
+   "path": "/static/roboto-vietnamese-400-normal-DnpnVwnf.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    }
+   ],
+   "body_file": "bodies/06b512400de35c59b99e.woff",
+   "size": 6209,
+   "sha256": "06b512400de35c59b99e980b1ada89025b5a834668b214754ece7165d0226e4e",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/version",
+   "path": "/version",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "105"
+    }
+   ],
+   "body_file": "bodies/957500ab4d5140c86efa.bin",
+   "size": 105,
+   "sha256": "957500ab4d5140c86efa9c9bcc7abbffdbe6c34e01d1080a5f48c9de81e7c273"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-36ff96b68468",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:58 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "73"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    }
+   ],
+   "body_file": "bodies/a2a96f09aa356835f5c7.bin",
+   "size": 73,
+   "sha256": "a2a96f09aa356835f5c764706b3a7ce820f8b2df74eee3f0c6d37ae1b297c57c"
+  }
+ ]
+}

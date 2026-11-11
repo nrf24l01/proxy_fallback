@@ -1,0 +1,1 @@
+var e=(e,t)=>{let n={};return Object.keys(e).forEach(t=>{t.startsWith(`team_`)?n[t.replace(`team_`,``)]=e[t]:n[t]=e[t]}),t&&(n.is_member=t.is_member,n.members_count=t.members_count,n.managers_count=t.managers_count,n.managers=t.managers),n};export{e as t};

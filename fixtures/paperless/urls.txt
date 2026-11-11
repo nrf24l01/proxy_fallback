@@ -1,0 +1,5 @@
+/
+/accounts/login/
+/favicon.ico
+/static/base.css
+/static/bootstrap.min.css

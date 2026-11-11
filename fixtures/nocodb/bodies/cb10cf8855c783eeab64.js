@@ -1,0 +1,1 @@
+import{Pm as e,lh as t,ph as n,qm as r}from"./jR-xmCvV.js";import{t as i}from"./BDNMzG2s.js";r();var a={},o={class:`nc-ant-dropdown-menu-item-label`};function s(r,i){return t(),e(`div`,o,[n(r.$slots,`default`,{},void 0,!0)])}var c=Object.assign(i(a,[[`render`,s],[`__scopeId`,`data-v-b1f42ad9`]]),{__name:`NcMenuItemLabel`});export{c as t};

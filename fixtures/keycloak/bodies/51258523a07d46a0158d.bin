@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="login-pf">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
+
+            <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Sign in to Keycloak</title>
+    <link rel="icon" href="/resources/fvfbg/login/keycloak.v2/img/favicon.ico" />
+            <link href="/resources/fvfbg/common/keycloak/vendor/patternfly-v5/patternfly.min.css" rel="stylesheet" />
+            <link href="/resources/fvfbg/common/keycloak/vendor/patternfly-v5/patternfly-addons.css" rel="stylesheet" />
+            <link href="/resources/fvfbg/login/keycloak.v2/css/styles.css" rel="stylesheet" />
+    <script type="importmap">
+        {
+            "imports": {
+                "rfc4648": "/resources/fvfbg/common/keycloak/vendor/rfc4648/rfc4648.js"
+            }
+        }
+    </script>
+    <script type="module" src="/resources/fvfbg/login/keycloak.v2/js/passwordVisibility.js"></script>
+    <script type="module">
+        import { startSessionPolling } from "/resources/fvfbg/login/keycloak.v2/js/authChecker.js";
+
+        startSessionPolling(
+            "http://keycloak.example.com/realms/master/login-actions/restart?skip_logout=true"
+        );
+
+        const DARK_MODE_CLASS = "pf-v5-theme-dark";
+        const mediaQuery =window.matchMedia("(prefers-color-scheme: dark)");
+        updateDarkMode(mediaQuery.matches);
+        mediaQuery.addEventListener("change", (event) =>
+          updateDarkMode(event.matches),
+        );
+        function updateDarkMode(isEnabled) {
+          const { classList } = document.documentElement;
+          if (isEnabled) {
+            classList.add(DARK_MODE_CLASS);
+          } else {
+            classList.remove(DARK_MODE_CLASS);
+          }
+        }
+    </script>
+</head>
+
+<body id="keycloak-bg" class="">
+
+<div class="pf-v5-c-login">
+  <div class="pf-v5-c-login__container">
+    <header id="kc-header" class="pf-v5-c-login__header">
+      <div id="kc-header-wrapper"
+              class="pf-v5-c-brand"><div class="kc-logo-text"><span>Keycloak</span></div></div>
+    </header>
+    <main class="pf-v5-c-login__main">
+      <div class="pf-v5-c-login__main-header">
+        <h1 class="pf-v5-c-title pf-m-3xl" id="kc-page-title">        We are sorry...
+</h1>
+      </div>
+      <div class="pf-v5-c-login__main-body">
+
+
+        <div id="kc-error-message">
+            <p class="instruction">Page not found</p>
+        </div>
+
+
+      </div>
+      <div class="pf-v5-c-login__main-footer">
+      </div>
+    </main>
+
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url='https://bookstack.example.com/login'" />
+
+        <title>Redirecting to https://bookstack.example.com/login</title>
+    </head>
+    <body>
+        Redirecting to <a href="https://bookstack.example.com/login">https://bookstack.example.com/login</a>.
+    </body>
+</html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <base href="/resources/mj7ow/account/keycloak.v3/">
+    <link rel="icon" type="image/svg+xml" href="/resources/mj7ow/account/keycloak.v3/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Account Console is a web-based interface for managing your account.">
+    <title>Account Management</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      body, #app {
+        height: 100%;
+      }
+
+      .container {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+      }
+
+      .keycloak__loading-container {
+        height: 100vh;
+        width: 100%;
+        color: #151515;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .keycloak__loading-container {
+          color: #e0e0e0;
+          background-color: #1b1d21;
+        }
+      }
+
+      #loading-text {
+        z-index: 1000;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 32px;
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "/resources/mj7ow/common/keycloak/vendor/react/react.production.min.js",
+          "react/jsx-runtime": "/resources/mj7ow/common/keycloak/vendor/react/react-jsx-runtime.production.min.js",
+          "react-dom": "/resources/mj7ow/common/keycloak/vendor/react-dom/react-dom.production.min.js"
+        }
+      }
+    </script>
+      <script type="module" src="/resources/mj7ow/common/keycloak/vendor/web-crypto-shim/web-crypto-shim.js"></script>
+        <link rel="stylesheet" href="/resources/mj7ow/account/keycloak.v3/assets/main-CUWX3Deh.css">
+      <script type="module" src="/resources/mj7ow/account/keycloak.v3/assets/main-Cwp0syZZ.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <main class="container">
+        <div class="keycloak__loading-container">
+          <span class="pf-c-spinner pf-m-xl" role="progressbar" aria-valuetext="Loading&hellip;">
+            <span class="pf-c-spinner__clipper"></span>
+            <span class="pf-c-spinner__lead-ball"></span>
+            <span class="pf-c-spinner__tail-ball"></span>
+          </span>
+          <div>
+            <p id="loading-text">Loading the Account Console</p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <noscript>JavaScript is required to use the Account Console.</noscript>
+    <script id="environment" type="application/json">
+      {
+        "serverBaseUrl": "http://keycloak.example.com",
+        "authUrl": "http://keycloak.example.com/",
+        "authServerUrl": "http://keycloak.example.com/",
+        "realm": "master",
+        "clientId": "account-console",
+        "resourceUrl": "/resources/mj7ow/account/keycloak.v3",
+        "logo": "",
+        "logoUrl": "",
+        "baseUrl": "http://keycloak.example.com/realms/master/account/",
+        "locale": "en",
+        "referrerName": "",
+        "referrerUrl": "",
+        "features": {
+          "isRegistrationEmailAsUsername": false,
+          "isEditUserNameAllowed": false,
+          "isInternationalizationEnabled": false,
+          "isLinkedAccountsEnabled": false,
+          "isMyResourcesEnabled": false,
+          "isViewOrganizationsEnabled": false,
+          "deleteAccountAllowed": false,
+          "updateEmailFeatureEnabled": false,
+          "updateEmailActionEnabled": false,
+          "isViewGroupsEnabled": false,
+          "isOid4VciEnabled": false
+        }
+      }
+    </script>
+  </body>
+</html>

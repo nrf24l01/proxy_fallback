@@ -1,0 +1,2 @@
+import{N as o,O as v,P as y,Q as T,R as f,S as l,T as m,U as i,V as p,W as R}from"./DQSHAlqE.js";import{B as A}from"./Bf83M7nQ.js";function E(d,_,e){var s;o&&(s=R,v());var r=new A(d);y(()=>{var a=_()??null;if(o){var h=f(s),c=h===p,u=a!==null;if(c!==u){var t=l();m(t),r.anchor=t,i(!1),r.ensure(a,a&&(n=>e(n,a))),i(!0);return}}r.ensure(a,a&&(n=>e(n,a)))},T)}export{E as c};
+//# sourceMappingURL=23SxV4kb.js.map

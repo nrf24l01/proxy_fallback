@@ -1,0 +1,101 @@
+{
+    "name": "PhotoPrism",
+    "short_name": "PhotoPrism",
+    "description": "AI-Powered Photos App for the Decentralized Web",
+    "categories": [
+        "photo"
+    ],
+    "display": "standalone",
+    "orientation": "any",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "scope": "/",
+    "start_url": "/library/",
+    "serviceworker": {
+        "src": "sw.js",
+        "scope": "/",
+        "use_cache": true
+    },
+    "permissions": [
+        "geolocation",
+        "downloads",
+        "storage"
+    ],
+    "icons": [
+        {
+            "src": "/static/icons/logo/16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/76.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/114.png",
+            "sizes": "114x114",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/160.png",
+            "sizes": "160x160",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/167.png",
+            "sizes": "167x167",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/196.png",
+            "sizes": "196x196",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/400.png",
+            "sizes": "400x400",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

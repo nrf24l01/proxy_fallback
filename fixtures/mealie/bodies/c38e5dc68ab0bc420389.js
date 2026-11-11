@@ -1,0 +1,1 @@
+import{c as e,o as t}from"./BBAEdAbY.js";import{_ as n}from"#entry";var r=t(()=>{let{user:t}=n();if(!t.value?.canOrganize)return console.warn(`User is not allowed to organize data`),e(`/`)});export{r as default};

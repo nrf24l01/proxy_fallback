@@ -1,0 +1,9 @@
+/
+/assets/css/index.css?v=1.23.1
+/assets/css/theme-gitea-auto.css?v=1.23.1
+/assets/img/favicon.png
+/assets/img/favicon.svg
+/assets/img/logo.svg
+/assets/js/index.js?v=1.23.1
+/assets/js/webcomponents.js?v=1.23.1
+/user/login

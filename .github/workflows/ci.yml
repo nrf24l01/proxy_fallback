@@ -78,9 +78,6 @@ jobs:
       - name: smoke test the image
         run: |
           docker run --rm srvimit:ci version
-          # snapshots are data: without a mount the catalog is simply empty
-          docker run --rm srvimit:ci list -fixtures /data/fixtures || echo "no fixtures mounted (expected)"
-          # with a mount the CLI resolves them
-          mkdir -p fixtures/smoke
-          printf '{"service":"smoke","title":"Smoke","category":"test","login_path":"/","recorded_at":"2026-01-01T00:00:00Z","entries":[]}' > fixtures/smoke/manifest.json
-          docker run --rm -v "$PWD/fixtures:/data/fixtures:ro" srvimit:ci list -fixtures /data/fixtures
+          # snapshots ship inside the image: the catalog must be visible as-is
+          docker run --rm srvimit:ci list | tail -2
+          docker run --rm srvimit:ci compose | head -14

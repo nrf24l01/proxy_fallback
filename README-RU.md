@@ -172,33 +172,33 @@ docker run --rm -v "$PWD/fixtures:/data/fixtures:ro" srvimit list -fixtures /dat
 
 ## Docker Compose
 
-Два файла, оба монтируют снапшоты read-only в `/data/fixtures`:
+Выбор сервиса происходит аргументом compose. Снапшоты уже внутри образа, монтировать
+ничего не нужно:
 
 ```bash
-# один сервис (SERVICE / PORT из .env, по умолчанию grafana на 127.0.0.1:8080)
-cp .env.example .env
-docker compose up -d
-curl -sI http://127.0.0.1:8080/login
-
-# весь каталог, подряд идущие порты (8000, 8001, …)
-docker compose -f docker-compose.catalog.yml up -d
-curl -sI http://127.0.0.1:8000/login
-./bin/srvimit list          # какой сервис на каком порту
-
-docker compose down         # или: -f docker-compose.catalog.yml down
+docker compose up -d grafana            # имитировать ровно один сервис
+docker compose up -d immich vaultwarden  # или несколько
+docker compose up -d                    # все сервисы файла, по порту на каждый
+docker compose logs -f grafana
+docker compose down
 ```
 
-Любой параметр переопределяется без правки файлов:
+`docker-compose.yml` **генерируется** из записанных снапшотов (один сервис на снапшот,
+порты по порядку каталога с 8000):
 
 ```bash
-SERVICE=immich PORT=8081 docker compose up -d
-IMAGE=ghcr.io/nrf24l01/proxy_fallback:latest FIXTURES_PATH=/srv/fixtures docker compose up -d
-IMAGE=srvimit:local docker compose up -d      # локально собранный тег
+srvimit compose > docker-compose.yml            # перегенерировать после пере-записи
+srvimit compose -base-port 9000 -bind 0.0.0.0   # свои порты / адрес
 ```
 
-Оба файла запускают контейнер в режиме read-only (`read_only: true`,
-`no-new-privileges`), публикуют порт на `127.0.0.1` и проверяют здоровье через сам бинарь
-(`srvimit list`), потому что в distroless-образе нет shell и curl.
+На свежем клоне compose соберёт образ локально (секция `build:` входит в
+сгенерированный файл); если уже скачан образ `ghcr.io/nrf24l01/proxy_fallback` —
+используется он.
+
+И образ, и контейнеры работают в read-only (`read_only: true`, `no-new-privileges`),
+порты по умолчанию публикуются на `127.0.0.1`, а healthcheck проверяет листенер
+`wget`-ом (рантайм Alpine, shell есть).
+
 
 ## Ограничения (честно)
 
@@ -227,9 +227,7 @@ internal/verify/       сравнение с живым апстримом
 catalog/services.yaml  что можно записать (образы, env, пути логина, POST-пробы)
 tools/                 capture-urls.sh (Chromium), browser-smoke.sh
 deploy/                systemd unit
-docker-compose.yml     один сервис (SERVICE/PORT из .env)
-docker-compose.catalog.yml  весь каталог подряд идущими портами
-.env.example           дефолты для обоих compose-файлов
+docker-compose.yml     сгенерированный: один compose-сервис на снапшот (srvimit compose)
 ```
 
 ## CI/CD

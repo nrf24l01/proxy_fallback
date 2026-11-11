@@ -1,0 +1,1 @@
+{"onboarding":true,"status":true,"name":"Open WebUI","version":"0.5.7","default_locale":"","oauth":{"providers":{}},"features":{"auth":true,"auth_trusted_header":false,"enable_ldap":false,"enable_api_key":true,"enable_signup":true,"enable_login_form":true,"enable_websocket":true},"google_drive":{"client_id":"","api_key":""}}

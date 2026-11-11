@@ -2,7 +2,6 @@
 .github
 bin
 dist
-fixtures
 .catalog
 upstreams
 *.tar.gz

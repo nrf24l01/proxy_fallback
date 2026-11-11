@@ -1,0 +1,170 @@
+{
+    "manifest_version": 2,
+    "id": "http://localhost:2342/",
+    "name": "PhotoPrism",
+    "short_name": "PhotoPrism",
+    "lang": "en",
+    "dir": "ltr",
+    "categories": [
+        "photo"
+    ],
+    "developer": {
+        "name": "PhotoPrism",
+        "url": "https://www.photoprism.app/"
+    },
+    "display_override": [
+        "standalone",
+        "fullscreen",
+        "tabbed",
+        "minimal-ui"
+    ],
+    "display": "standalone",
+    "orientation": "any",
+    "default_locale": "en",
+    "theme_color": "#19191a",
+    "background_color": "#19191a",
+    "scope": "/",
+    "start_url": "./library",
+    "shortcuts": [
+        {
+            "name": "Search",
+            "url": "library/browse"
+        },
+        {
+            "name": "Albums",
+            "url": "library/albums"
+        },
+        {
+            "name": "Places",
+            "url": "library/places"
+        },
+        {
+            "name": "Settings",
+            "url": "library/settings"
+        }
+    ],
+    "serviceworker": {
+        "src": "sw.js",
+        "scope": "/",
+        "use_cache": true
+    },
+    "permissions": [
+        "geolocation",
+        "downloads",
+        "storage",
+        "background",
+        "webNavigation",
+        "webRequest",
+        "clipboardWrite"
+    ],
+    "optional_permissions": [
+        "nativeMessaging",
+        "notifications"
+    ],
+    "host_permissions": [
+        "*://localhost/*"
+    ],
+    "icons": [
+        {
+            "src": "/static/icons/logo/16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/76.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/114.png",
+            "sizes": "114x114",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/160.png",
+            "sizes": "160x160",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/167.png",
+            "sizes": "167x167",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/196.png",
+            "sizes": "196x196",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/400.png",
+            "sizes": "400x400",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/logo/maskable/192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/static/icons/logo/maskable/512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/static/img/screenshots/wide.jpg",
+            "sizes": "1280x900",
+            "type": "image/jpeg",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/static/img/screenshots/narrow.jpg",
+            "sizes": "375x667",
+            "type": "image/jpeg",
+            "form_factor": "narrow"
+        }
+    ]
+}

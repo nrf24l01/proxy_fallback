@@ -1,0 +1,1 @@
+import{c as e,o as t}from"./BBAEdAbY.js";import{_ as n}from"#entry";var r=t(t=>{let{user:r}=n();if(t.params.groupSlug!==r.value?.groupSlug)return e(`/`)});export{r as default};

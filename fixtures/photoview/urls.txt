@@ -1,0 +1,14 @@
+/
+/api/graphql
+/assets/InitialSetupPage.311b7f50.js
+/assets/Input.89047652.js
+/assets/LoginPage.8c5378bd.js
+/assets/MessageBox.bc17ffe6.js
+/assets/index.0ac106ed.css
+/assets/index.8d4c57fa.js
+/assets/index.esm.13de2d9b.js
+/assets/photoview-logo.svg
+/login
+/manifest.json
+/photoview-logo.svg
+/service-worker.js

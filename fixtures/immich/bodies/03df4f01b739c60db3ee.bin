@@ -1,0 +1,1 @@
+{"ffmpeg":{"realtime":{"enabled":false}},"map":{"enabled":true,"lightStyle":"https://tiles.immich.cloud/v1/style/light.json","darkStyle":"https://tiles.immich.cloud/v1/style/dark.json"},"oauth":{"autoLaunch":false,"buttonText":"Login with OAuth","enabled":false},"passkey":{"enabled":false},"passwordLogin":{"enabled":true},"server":{"loginPageMessage":""}}

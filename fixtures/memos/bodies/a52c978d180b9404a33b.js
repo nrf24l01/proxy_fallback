@@ -1,0 +1,1 @@
+var e=(...e)=>{let t=e.filter(e=>!!e);return t.length===0?void 0:t.map(e=>`(${e})`).join(` && `)},t=e=>e.kind===`space`?`space == ${JSON.stringify(e.name)}`:void 0;export{e as n,t};

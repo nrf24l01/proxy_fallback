@@ -1,0 +1,3321 @@
+{
+ "service": "vaultwarden",
+ "title": "Vaultwarden",
+ "category": "security",
+ "login_path": "/",
+ "default_port": 8201,
+ "upstream": "http://127.0.0.1:8201",
+ "public_url": "https://vaultwarden.example.com",
+ "recorded_at": "2026-11-10T19:50:48.261638185Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "23139"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=600"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 10 Nov 2026 20:00:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    }
+   ],
+   "body_file": "bodies/d358da3d01e385d476e5.bin",
+   "size": 23139,
+   "sha256": "d358da3d01e385d476e5b1a31bd3cdac5da4b8441a7533ad9398921893e98dde",
+   "expires_in": 600,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/368.238d87538b99dd2b92c7.js",
+   "path": "/368.238d87538b99dd2b92c7.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Length",
+     "value": "22422"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    }
+   ],
+   "body_file": "bodies/f3ab95111b9a6ea5b46a.js",
+   "size": 22422,
+   "sha256": "f3ab95111b9a6ea5b46adad679807ca07af5c92dc232fe2e88d785e4ae6ae4ae",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/466839efc4da38d60ce3.module.wasm",
+   "path": "/466839efc4da38d60ce3.module.wasm",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "7913954"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/wasm"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/2fd7fe38bae0974df01b.wasm",
+   "size": 7913954,
+   "sha256": "2fd7fe38bae0974df01bfdeddc31e4f69c7d74a5d86c567d378fa0afc81a0a16",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/api/config",
+   "path": "/api/config",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, max-age=0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Length",
+     "value": "653"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    }
+   ],
+   "body_file": "bodies/932007032d34ac4a30ec.bin",
+   "size": 653,
+   "sha256": "932007032d34ac4a30ec32bdaa323b0db0d1f252c88a1f6e763410825012c20a"
+  },
+  {
+   "key": "/app/main.1176a28a68b7b4809391.js",
+   "path": "/app/main.1176a28a68b7b4809391.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5951929"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    }
+   ],
+   "body_file": "bodies/5defb27621655bc05a54.js",
+   "size": 5951929,
+   "sha256": "5defb27621655bc05a54d042e32ce21d66dadd337b3bc60bc0cb49c234e441d1",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/app/polyfills.11c471dc266a0d8811d6.js",
+   "path": "/app/polyfills.11c471dc266a0d8811d6.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "256005"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    }
+   ],
+   "body_file": "bodies/f82c77595dd5dc54e2b9.js",
+   "size": 256005,
+   "sha256": "f82c77595dd5dc54e2b9b84e1cabfc0ea8b0e0aa267eb0adf2c5bde5e686f823",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/app/vendor.55e794a42a5fe0d2e9eb.js",
+   "path": "/app/vendor.55e794a42a5fe0d2e9eb.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2844073"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    }
+   ],
+   "body_file": "bodies/72743d318759598b69c3.js",
+   "size": 2844073,
+   "sha256": "72743d318759598b69c3c774bc3aff8cde97af3c54f3b3b912575ae4bc740e75",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/cca56971e438d22818d6.json",
+   "path": "/cca56971e438d22818d6.json",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "352"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    }
+   ],
+   "body_file": "bodies/9ceeb68a7833945fa96c.json",
+   "size": 352,
+   "sha256": "9ceeb68a7833945fa96c89084b473bbf3d708f0e5729e7a9e658adaded51853f",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/css/vaultwarden.css",
+   "path": "/css/vaultwarden.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1226"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "\"5f3cc9710e7f4fabd5d5745dc232b6206be37a2dbf97e54ddc71d62766b0ae70\""
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, no-cache"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    }
+   ],
+   "body_file": "bodies/5f3cc9710e7f4fabd5d5.css",
+   "size": 1226,
+   "sha256": "5f3cc9710e7f4fabd5d5745dc232b6206be37a2dbf97e54ddc71d62766b0ae70"
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1150"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/x-icon"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    }
+   ],
+   "body_file": "bodies/f65459e2b8497edfcc18.ico",
+   "size": 1150,
+   "sha256": "f65459e2b8497edfcc181b8b28bddd4ab6cafa46e951dd809bae36eac5c2c5ae",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/fonts/bwi-font.68db43ff94a97d3d2dba.woff",
+   "path": "/fonts/bwi-font.68db43ff94a97d3d2dba.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "13900"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    }
+   ],
+   "body_file": "bodies/ca07587d7118b4136888.woff",
+   "size": 13900,
+   "sha256": "ca07587d7118b4136888ed15808cc4a6cbf68b5da25c74144f20b94ac48db144",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/fonts/bwi-font.9ae6e12297499bbf04d1.ttf",
+   "path": "/fonts/bwi-font.9ae6e12297499bbf04d1.ttf",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/font-sfnt"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "26552"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    }
+   ],
+   "body_file": "bodies/70cb2ae62156d639046b.ttf",
+   "size": 26552,
+   "sha256": "70cb2ae62156d639046b4035104775c8d84852e5ed587e810ebd0298331b5203",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/fonts/bwi-font.ba3c47f27559256c8878.woff2",
+   "path": "/fonts/bwi-font.ba3c47f27559256c8878.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "11372"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    }
+   ],
+   "body_file": "bodies/0029fbc360276037cd99.woff2",
+   "size": 11372,
+   "sha256": "0029fbc360276037cd99b6f5586be800cab6d69b068529856696abc2bde3baf4",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/fonts/bwi-font.db5928d5442707ff2c32.svg",
+   "path": "/fonts/bwi-font.db5928d5442707ff2c32.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "427070"
+    }
+   ],
+   "body_file": "bodies/8b21e4c7cff6ce2801d6.svg",
+   "size": 427070,
+   "sha256": "8b21e4c7cff6ce2801d660f38604df010111cd43364e9e4ec2f124d335f80a7c",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/fonts/inter.c504db5c06caaf7cdfba.woff2",
+   "path": "/fonts/inter.c504db5c06caaf7cdfba.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "352240"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    }
+   ],
+   "body_file": "bodies/693b77d4f32ee9b8bfc9.woff2",
+   "size": 352240,
+   "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/amex-dark.png",
+   "path": "/images/amex-dark.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Content-Length",
+     "value": "773"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    }
+   ],
+   "body_file": "bodies/83bf974daa26b1130c23.png",
+   "size": 773,
+   "sha256": "83bf974daa26b1130c2374dd108d479e358a5d07d721d996a9711e5456c6c27c",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/amex-light.png",
+   "path": "/images/amex-light.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Content-Length",
+     "value": "773"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    }
+   ],
+   "body_file": "bodies/83bf974daa26b1130c23.png",
+   "size": 773,
+   "sha256": "83bf974daa26b1130c2374dd108d479e358a5d07d721d996a9711e5456c6c27c",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/apple-touch-icon.png",
+   "path": "/images/apple-touch-icon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3250"
+    }
+   ],
+   "body_file": "bodies/5fab9252ef66809000b7.png",
+   "size": 3250,
+   "sha256": "5fab9252ef66809000b78c285965b1f6607881344cefbb394906373daed3ed7d",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/close-button.svg",
+   "path": "/images/close-button.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "573"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    }
+   ],
+   "body_file": "bodies/8edba4195d945ecb2f1c.svg",
+   "size": 573,
+   "sha256": "8edba4195d945ecb2f1c50936794330282ae60c93c2824cccd6a824ff6fc7c21",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/diners_club-dark.png",
+   "path": "/images/diners_club-dark.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "783"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    }
+   ],
+   "body_file": "bodies/109fd65c746c35209223.png",
+   "size": 783,
+   "sha256": "109fd65c746c3520922340cdcfe5f23b0f85d338a97e368436ce96eb89188765",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/diners_club-light.png",
+   "path": "/images/diners_club-light.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Content-Length",
+     "value": "713"
+    }
+   ],
+   "body_file": "bodies/021e2722fdb858782ebf.png",
+   "size": 713,
+   "sha256": "021e2722fdb858782ebfd8e69aebb186e3f273e89dfe8f7e20902e7362c68ac0",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/discover-dark.png",
+   "path": "/images/discover-dark.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Content-Length",
+     "value": "808"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    }
+   ],
+   "body_file": "bodies/d9476354151de1fe1654.png",
+   "size": 808,
+   "sha256": "d9476354151de1fe16540b6272c08828ddeab569d2c4a62f50a4d1584266d3d9",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/discover-light.png",
+   "path": "/images/discover-light.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "830"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    }
+   ],
+   "body_file": "bodies/a7a30020f3501beeedc1.png",
+   "size": 830,
+   "sha256": "a7a30020f3501beeedc1901cc8752495d6333807d763e8a16648bc3139d05678",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/favicon-16x16.png",
+   "path": "/images/favicon-16x16.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Content-Length",
+     "value": "372"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    }
+   ],
+   "body_file": "bodies/6c1dd15f4339af9abcc4.png",
+   "size": 372,
+   "sha256": "6c1dd15f4339af9abcc4c267cadb5dee44a79ed1f9aabf6483d611a433bc7b34",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/favicon-32x32.png",
+   "path": "/images/favicon-32x32.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Content-Length",
+     "value": "886"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    }
+   ],
+   "body_file": "bodies/05da83489e3ee3e39eb9.png",
+   "size": 886,
+   "sha256": "05da83489e3ee3e39eb9ccaf2eff1d522a2acbcd54537b0cf125e66cf5871c77",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/icon-white.svg",
+   "path": "/images/icon-white.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3908"
+    }
+   ],
+   "body_file": "bodies/cc3f6fa3724456dc0115.svg",
+   "size": 3908,
+   "sha256": "cc3f6fa3724456dc0115edb83ff097d1aa2a1344d5d85be7e2ed2ddccdb53112",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/jcb-dark.png",
+   "path": "/images/jcb-dark.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Content-Length",
+     "value": "836"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    }
+   ],
+   "body_file": "bodies/eb5c72a0649643ec2464.png",
+   "size": 836,
+   "sha256": "eb5c72a0649643ec246484ee47794a4b99e674e1ead7e4022d4194a0dee39892",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/jcb-light.png",
+   "path": "/images/jcb-light.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Content-Length",
+     "value": "798"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    }
+   ],
+   "body_file": "bodies/449707877ac6132c1174.png",
+   "size": 798,
+   "sha256": "449707877ac6132c1174f36d2e11f3469f07e9afa02829f96849da37329de016",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/loading-white.svg",
+   "path": "/images/loading-white.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Content-Length",
+     "value": "288"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/c1a4d8d8fab8f4026d1b.svg",
+   "size": 288,
+   "sha256": "c1a4d8d8fab8f4026d1b3083a8286938d41fdc4831376e7c713f763f3e333115",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/loading.svg",
+   "path": "/images/loading.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "287"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    }
+   ],
+   "body_file": "bodies/bf8013ba8c1136927073.svg",
+   "size": 287,
+   "sha256": "bf8013ba8c1136927073e8d6625496aff47acc47bf8b6fd801d0319d88da49f9",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/logo-white.svg",
+   "path": "/images/logo-white.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "5093"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    }
+   ],
+   "body_file": "bodies/ced2df8ed5b108bf8c92.svg",
+   "size": 5093,
+   "sha256": "ced2df8ed5b108bf8c92093b493630dbabc3b852dc34cc859d2022bed9479d27",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/logo.svg",
+   "path": "/images/logo.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5081"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    }
+   ],
+   "body_file": "bodies/40f23ac1e0e1cdae225c.svg",
+   "size": 5081,
+   "sha256": "40f23ac1e0e1cdae225cbd644e59ab871afbb4d8c0e30ad0c556e36ab707d44d",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/maestro-dark.png",
+   "path": "/images/maestro-dark.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "752"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    }
+   ],
+   "body_file": "bodies/3781b3113df575270d49.png",
+   "size": 752,
+   "sha256": "3781b3113df575270d4940157fd7a46a27b0c9ca08178fbd23139158bf7e18b8",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/maestro-light.png",
+   "path": "/images/maestro-light.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Length",
+     "value": "820"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    }
+   ],
+   "body_file": "bodies/5e46cb211a380c9fce9d.png",
+   "size": 820,
+   "sha256": "5e46cb211a380c9fce9d315bd9584bb30b5e8c98c7adcdb6282f93e639547f44",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/mastercard-dark.png",
+   "path": "/images/mastercard-dark.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Content-Length",
+     "value": "737"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    }
+   ],
+   "body_file": "bodies/b5caf488c096de56d1bb.png",
+   "size": 737,
+   "sha256": "b5caf488c096de56d1bb5198fc78fa3034b00f132e141b5a2291ee1d19402fdc",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/mastercard-light.png",
+   "path": "/images/mastercard-light.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Length",
+     "value": "757"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/1bd2ef53333ecc9824ed.png",
+   "size": 757,
+   "sha256": "1bd2ef53333ecc9824ed7267fed8736ad3786626a8e27962d5d98a658cf37330",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/ru_pay-dark.png",
+   "path": "/images/ru_pay-dark.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Length",
+     "value": "797"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    }
+   ],
+   "body_file": "bodies/5f3de381e3913e307a21.png",
+   "size": 797,
+   "sha256": "5f3de381e3913e307a21e28a0d44c8719fbdf04b7fb3c8681bf6da4cf20a9943",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/ru_pay-light.png",
+   "path": "/images/ru_pay-light.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Length",
+     "value": "874"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    }
+   ],
+   "body_file": "bodies/e85c3a18002a223029f6.png",
+   "size": 874,
+   "sha256": "e85c3a18002a223029f60cf7247512889d6693e35d219b6ca942342764509736",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/safari-pinned-tab.svg",
+   "path": "/images/safari-pinned-tab.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "7002"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    }
+   ],
+   "body_file": "bodies/a3329f4d754e12407bf0.svg",
+   "size": 7002,
+   "sha256": "a3329f4d754e12407bf0eb090b77d81d241a4c0027979cb31ee2f45cd157aa04",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/union_pay-dark.png",
+   "path": "/images/union_pay-dark.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1255"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    }
+   ],
+   "body_file": "bodies/be61373d41545f0db3bf.png",
+   "size": 1255,
+   "sha256": "be61373d41545f0db3bfd4ff6e03388615e57cf5ef57d992a4685ed49180d28f",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/union_pay-light.png",
+   "path": "/images/union_pay-light.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1245"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    }
+   ],
+   "body_file": "bodies/32de72d6aff97fff0f1a.png",
+   "size": 1245,
+   "sha256": "32de72d6aff97fff0f1a1d708ac65b7252a834c52723f5de999264b1e5742f03",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/visa-dark.png",
+   "path": "/images/visa-dark.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    },
+    {
+     "name": "Content-Length",
+     "value": "548"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    }
+   ],
+   "body_file": "bodies/c3649e1ff893587f093b.png",
+   "size": 548,
+   "sha256": "c3649e1ff893587f093b439cf239706ce52dce11fc2586ea2e0da061e6dd2971",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/images/visa-light.png",
+   "path": "/images/visa-light.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "590"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; frame-src 'none'; object-src 'none"
+    }
+   ],
+   "body_file": "bodies/6d35379ada7d653fd7e1.png",
+   "size": 590,
+   "sha256": "6d35379ada7d653fd7e12e11c99b1a984e639ac31a32d440cf9885e26f93c00f",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/locales/en/messages.json?cache=rjxzf",
+   "path": "/locales/en/messages.json",
+   "query": "cache=rjxzf",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "580165"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    }
+   ],
+   "body_file": "bodies/7e0fc3748453f7042df8.json",
+   "size": 580165,
+   "sha256": "7e0fc3748453f7042df89b5753b80c55378aaf8570f30cee798e8d9f857bbbcf",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/styles.31d6cfe0d16ae931b73c.js",
+   "path": "/styles.31d6cfe0d16ae931b73c.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.js",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/styles.7b4e836b041b0b1d10ae.css",
+   "path": "/styles.7b4e836b041b0b1d10ae.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Length",
+     "value": "274752"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    }
+   ],
+   "body_file": "bodies/96e32b8bebd4e5ab4b44.css",
+   "size": 274752,
+   "sha256": "96e32b8bebd4e5ab4b4485dfafac4053c0eb59e8ef77a8dd76da19c226b09561",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/theme_head.6991036cc6ce1ab5eee1.js",
+   "path": "/theme_head.6991036cc6ce1ab5eee1.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, immutable, max-age=604800"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 17 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "488"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    }
+   ],
+   "body_file": "bodies/f238a0b9bcff5db162f9.js",
+   "size": 488,
+   "sha256": "f238a0b9bcff5db162f9bdd0c340190081a079a11d07514bf56e7fd4c9448259",
+   "expires_in": 604800,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "POST /identity/connect/token :: application/json",
+   "path": "/identity/connect/token",
+   "method": "POST",
+   "req_content_type": "application/json",
+   "req_body": "{\"grant_type\":\"password\",\"username\":\"admin@example.com\",\"password\":\"definitely-wrong\",\"client_id\":\"web\"}",
+   "status": 415,
+   "headers": [
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, max-age=0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "501"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    }
+   ],
+   "body_file": "bodies/79fbe18ae806081ed631.bin",
+   "size": 501,
+   "sha256": "79fbe18ae806081ed63146d7003f6c224963c041ec800f77976d56ea8cb9dcb4"
+  },
+  {
+   "key": "POST /identity/connect/token :: application/x-www-form-urlencoded",
+   "path": "/identity/connect/token",
+   "method": "POST",
+   "req_content_type": "application/x-www-form-urlencoded",
+   "req_body": "grant_type=password\u0026username=admin%40example.com\u0026password=definitely-wrong\u0026scope=api%20offline_access\u0026client_id=web\u0026deviceType=10\u0026deviceIdentifier=veil-verify\u0026deviceName=firefox",
+   "status": 400,
+   "headers": [
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, max-age=0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "351"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    }
+   ],
+   "body_file": "bodies/1f08bfbd53da707cb457.bin",
+   "size": 351,
+   "sha256": "1f08bfbd53da707cb45701cdf55c9a909ac1a35923995e10563451d16aed883b"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-6b5fabc87363",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Server",
+     "value": "Rocket"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    },
+    {
+     "name": "Cross-Origin-Resource-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; object-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com; frame-ancestors 'self' chrome-extension://nngceckbapebfimnlniiiahkandclblb chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh moz-extension://* ; img-src 'self' data: https://haveibeenpwned.com ; connect-src 'self' https://api.pwnedpasswords.com https://api.2fa.directory https://app.simplelogin.io/api/ https://app.addy.io/api/ https://api.fastmail.com/ https://api.forwardemail.net ;"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:50:48 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, max-age=0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1834"
+    }
+   ],
+   "body_file": "bodies/c0897956e262bb8979bc.bin",
+   "size": 1834,
+   "sha256": "c0897956e262bb8979bc4738f495bafe4fd1237e0d29f273d1aad5517ad50a60"
+  }
+ ]
+}

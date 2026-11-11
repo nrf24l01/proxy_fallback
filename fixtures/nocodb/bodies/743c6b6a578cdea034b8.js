@@ -1,0 +1,1 @@
+import{t as e}from"./DRF3_p3g.js";var t=e(Object.getPrototypeOf,Object);export{t};

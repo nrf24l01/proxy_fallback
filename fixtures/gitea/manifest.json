@@ -1,0 +1,491 @@
+{
+ "service": "gitea",
+ "title": "Gitea",
+ "category": "dev",
+ "login_path": "/user/login",
+ "default_port": 8231,
+ "upstream": "http://127.0.0.1:8231",
+ "public_url": "https://gitea.example.com",
+ "recorded_at": "2026-11-10T20:08:37.738868103Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=0, private, must-revalidate, no-transform"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "i_like_gitea=6206346c545b5789; Path=/; HttpOnly; Secure; SameSite=Lax"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "_csrf=cEzcjIVQjkPS8qN95u9EAfpNHXw6MTc5NDM0MTMxNzczOTk2ODA2OQ; Path=/; Max-Age=86400; HttpOnly; Secure; SameSite=Lax"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:08:37 GMT"
+    }
+   ],
+   "body_file": "bodies/006833bb96516d52466e.bin",
+   "size": 13498,
+   "sha256": "006833bb96516d52466e8c6eb93c45e4656b50879aff599fbc25075054195c5a",
+   "chunked": true
+  },
+  {
+   "key": "/api/v1/version",
+   "path": "/api/v1/version",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json;charset=utf-8"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:08:37 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "21"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=0, private, must-revalidate, no-transform"
+    }
+   ],
+   "body_file": "bodies/71f076a902cb8fda70f4.bin",
+   "size": 21,
+   "sha256": "71f076a902cb8fda70f4824bfa9b2c8df3949ba93e8820366ccaaf5b1aef1462"
+  },
+  {
+   "key": "/assets/css/index.css?v=1.23.1",
+   "path": "/assets/css/index.css",
+   "query": "v=1.23.1",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "private, max-age=21600"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 10 Jan 2025 08:17:16 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:08:37 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/03f70b19d8ff39b2da0c.css",
+   "size": 63435,
+   "sha256": "03f70b19d8ff39b2da0cc84603105c9802f7e46092407dca3b68d96de3a241ff",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/assets/css/theme-gitea-auto.css?v=1.23.1",
+   "path": "/assets/css/theme-gitea-auto.css",
+   "query": "v=1.23.1",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "private, max-age=21600"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 10 Jan 2025 08:17:16 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:08:37 GMT"
+    }
+   ],
+   "body_file": "bodies/0996e0727d43d45d85d0.css",
+   "size": 4258,
+   "sha256": "0996e0727d43d45d85d082b4d5100ff17c97230043b65025cc2f633e3823d70d",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/assets/img/favicon.png",
+   "path": "/assets/img/favicon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 10 Jan 2025 08:17:16 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:08:37 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "private, max-age=21600"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4351"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    }
+   ],
+   "body_file": "bodies/5918e62e75718b404eda.png",
+   "size": 4351,
+   "sha256": "5918e62e75718b404eda91849927d40e955f8f844a69daeebb62a6d92c687344"
+  },
+  {
+   "key": "/assets/img/favicon.svg",
+   "path": "/assets/img/favicon.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "1040"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "private, max-age=21600"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 10 Jan 2025 08:17:16 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:08:37 GMT"
+    }
+   ],
+   "body_file": "bodies/2e000fcccf4f39ae5e01.svg",
+   "size": 1040,
+   "sha256": "2e000fcccf4f39ae5e01ea81d4aa00909322f3b933aebfc7a7ca534aa6a15ad9",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/assets/img/logo.svg",
+   "path": "/assets/img/logo.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 10 Jan 2025 08:17:16 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:08:37 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1040"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "private, max-age=21600"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    }
+   ],
+   "body_file": "bodies/2e000fcccf4f39ae5e01.svg",
+   "size": 1040,
+   "sha256": "2e000fcccf4f39ae5e01ea81d4aa00909322f3b933aebfc7a7ca534aa6a15ad9",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/assets/js/index.js?v=1.23.1",
+   "path": "/assets/js/index.js",
+   "query": "v=1.23.1",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "private, max-age=21600"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 10 Jan 2025 08:17:16 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:08:37 GMT"
+    }
+   ],
+   "body_file": "bodies/931c75ee145b651fa5a7.js",
+   "size": 314717,
+   "sha256": "931c75ee145b651fa5a742eb2fb6eb8ffca36661607b7e616ac0ba52fed95b4c",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/assets/js/webcomponents.js?v=1.23.1",
+   "path": "/assets/js/webcomponents.js",
+   "query": "v=1.23.1",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 10 Jan 2025 08:17:16 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:08:37 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "private, max-age=21600"
+    }
+   ],
+   "body_file": "bodies/c5e1c04fd35a9aeb4885.js",
+   "size": 30661,
+   "sha256": "c5e1c04fd35a9aeb4885e1f3cf651fc1d843732f95813a0dc26ee8ffe9655f86",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 301,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Location",
+     "value": "/assets/img/favicon.png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:08:37 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "58"
+    }
+   ],
+   "body_file": "bodies/5d8a4dcf68f1d5ad76ee.ico",
+   "size": 58,
+   "sha256": "5d8a4dcf68f1d5ad76ee1aee52aa90ec03c4ff3298ef73bb517c9f3be1c54e5d"
+  },
+  {
+   "key": "/user/login",
+   "path": "/user/login",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:08:37 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=0, private, must-revalidate, no-transform"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "i_like_gitea=ffbb82048dbd0310; Path=/; HttpOnly; Secure; SameSite=Lax"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "_csrf=0C4u01-kwuXIQTvl1hMaAdx6vio6MTc5NDM0MTMxNzc0NTU1Njc5OQ; Path=/; Max-Age=86400; HttpOnly; Secure; SameSite=Lax"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "gitea_incredible=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    }
+   ],
+   "body_file": "bodies/6a3c9d5cf49707ff8e79.bin",
+   "size": 11418,
+   "sha256": "6a3c9d5cf49707ff8e7973272ec73e30434a8acab46b08aff269e64de5d24e86",
+   "chunked": true
+  },
+  {
+   "key": "POST /user/login :: application/x-www-form-urlencoded",
+   "path": "/user/login",
+   "method": "POST",
+   "req_content_type": "application/x-www-form-urlencoded",
+   "req_body": "user_name=admin\u0026password=definitely-wrong",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:08:37 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=0, private, must-revalidate, no-transform"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "i_like_gitea=bc8cb1cfc1f3c0db; Path=/; HttpOnly; Secure; SameSite=Lax"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "_csrf=DsMGDI0eebgzzSfDSBgO2mTRqk06MTc5NDM0MTMxNzc4NDA5ODg3OQ; Path=/; Max-Age=86400; HttpOnly; Secure; SameSite=Lax"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    }
+   ],
+   "body_file": "bodies/ac4cf3af2521077b03ff.bin",
+   "size": 11555,
+   "sha256": "ac4cf3af2521077b03ff9111d17eb238a28231f6cfcabf990c2cff3cbf336a28",
+   "chunked": true
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-4294a5c20829",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Set-Cookie",
+     "value": "i_like_gitea=f87b3cc057b0737c; Path=/; HttpOnly; Secure; SameSite=Lax"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "_csrf=hNz2u2B0ZTmRsYHUg4xVMpIknR06MTc5NDM0MTMxNzc5ODE2Mjc1MQ; Path=/; Max-Age=86400; HttpOnly; Secure; SameSite=Lax"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:08:37 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=0, private, must-revalidate, no-transform"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/6b317c45228122861b5a.bin",
+   "size": 9199,
+   "sha256": "6b317c45228122861b5a1e9bab24a539c795a775886790e8d1750247d8ef1eea",
+   "chunked": true
+  }
+ ]
+}

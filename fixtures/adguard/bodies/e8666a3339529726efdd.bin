@@ -1,0 +1,1 @@
+{"interfaces":{"eth0":{"hardware_address":"02:42:c0:a8:40:02","flags":"up|broadcast|multicast|running","ip_addresses":["192.168.64.2"],"name":"eth0","mtu":1500},"lo":{"hardware_address":"","flags":"up|loopback|running","ip_addresses":["127.0.0.1","::1"],"name":"lo","mtu":65536}},"version":"v0.107.80","web_port":80,"dns_port":53}

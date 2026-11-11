@@ -1,0 +1,706 @@
+{
+ "service": "photoview",
+ "title": "Photoview",
+ "category": "photos",
+ "login_path": "/login",
+ "default_port": 8222,
+ "upstream": "http://127.0.0.1:8222",
+ "public_url": "https://photoview.example.com",
+ "recorded_at": "2026-11-10T20:03:33.10613406Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:38 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "433"
+    }
+   ],
+   "body_file": "bodies/5429dc9b520d881a5980.bin",
+   "size": 433,
+   "sha256": "5429dc9b520d881a5980812bf96321754fe033059f0a0c9174794018a69c0ad9",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/api/graphql",
+   "path": "/api/graphql",
+   "method": "GET",
+   "status": 422,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "130"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/bfa58502ae3798b29dee.bin",
+   "size": 130,
+   "sha256": "bfa58502ae3798b29dee5be8b2d300a8bf731d8be952cf22da26432096146685",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/assets/InitialSetupPage.311b7f50.js",
+   "path": "/assets/InitialSetupPage.311b7f50.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:38 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1003"
+    }
+   ],
+   "body_file": "bodies/34db3b49d6b54f6a285e.js",
+   "size": 1003,
+   "sha256": "34db3b49d6b54f6a285eaa3a7785f124fd116aee416223074eab3db913f5d997",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/assets/Input.89047652.js",
+   "path": "/assets/Input.89047652.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:38 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/24cc2e319b8871c848b4.js",
+   "size": 2148,
+   "sha256": "24cc2e319b8871c848b4c955f2bca11caedf592d97cc63f31c0238660985e103",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/assets/LoginPage.8c5378bd.js",
+   "path": "/assets/LoginPage.8c5378bd.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:38 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1147"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/6cee16e3380993a457de.js",
+   "size": 1147,
+   "sha256": "6cee16e3380993a457de4e2370ddffa3be0178995611cc3f144bf3badd45add8",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/assets/MessageBox.bc17ffe6.js",
+   "path": "/assets/MessageBox.bc17ffe6.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:38 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "365"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/99e0ccbec7911d6eab03.js",
+   "size": 365,
+   "sha256": "99e0ccbec7911d6eab0384e32456af1a76647833c528b8e0442d003ded61997f",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/assets/index.0ac106ed.css",
+   "path": "/assets/index.0ac106ed.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:38 GMT"
+    }
+   ],
+   "body_file": "bodies/5ea2abd6b7781d6393a1.css",
+   "size": 5908,
+   "sha256": "5ea2abd6b7781d6393a14bcf9fbe608056813bcf899737ea054d0e9383ab0a4a",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/assets/index.8d4c57fa.js",
+   "path": "/assets/index.8d4c57fa.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:38 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/294c61d3f5f6d86e03b7.js",
+   "size": 166393,
+   "sha256": "294c61d3f5f6d86e03b794841408044ae53427f99685dc1772d932178345971d",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/assets/index.esm.13de2d9b.js",
+   "path": "/assets/index.esm.13de2d9b.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:38 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/2d2cf68c47c206886ff2.js",
+   "size": 7260,
+   "sha256": "2d2cf68c47c206886ff2210c1eda36abbdf77d116977523666becb2987a6c991",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/assets/photoview-logo.svg",
+   "path": "/assets/photoview-logo.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:38 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "433"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/5429dc9b520d881a5980.svg",
+   "size": 433,
+   "sha256": "5429dc9b520d881a5980812bf96321754fe033059f0a0c9174794018a69c0ad9",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "735"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/vnd.microsoft.icon"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:35 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/e466c70bdc7f25476230.ico",
+   "size": 735,
+   "sha256": "e466c70bdc7f254762309f16b609444b01d2cde4710e14d7e8077e1f06bfb2c2",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/login",
+   "path": "/login",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:38 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "433"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/5429dc9b520d881a5980.bin",
+   "size": 433,
+   "sha256": "5429dc9b520d881a5980812bf96321754fe033059f0a0c9174794018a69c0ad9",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/logo192.png",
+   "path": "/logo192.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:35 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    }
+   ],
+   "body_file": "bodies/f19650c02be5aa59dee8.png",
+   "size": 18686,
+   "sha256": "f19650c02be5aa59dee87eb89d6b2bde58ff033bdef63ebf65590e9054513d10",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/manifest.json",
+   "path": "/manifest.json",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:35 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "252"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/ff256183056a4cf9c8db.json",
+   "size": 252,
+   "sha256": "ff256183056a4cf9c8dbf704766c4cbd6bb8a4fa2bd190b052e4f8d4486936f5",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/photoview-logo.svg",
+   "path": "/photoview-logo.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:35 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    }
+   ],
+   "body_file": "bodies/36ed4e5a84b8787b54e1.svg",
+   "size": 58960,
+   "sha256": "36ed4e5a84b8787b54e162965079dbaeee14245492e347aec8c2102c1e1e53a4",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "433"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:38 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    }
+   ],
+   "body_file": "bodies/5429dc9b520d881a5980.txt",
+   "size": 433,
+   "sha256": "5429dc9b520d881a5980812bf96321754fe033059f0a0c9174794018a69c0ad9",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/service-worker.js",
+   "path": "/service-worker.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "433"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:38 GMT"
+    }
+   ],
+   "body_file": "bodies/5429dc9b520d881a5980.js",
+   "size": 433,
+   "sha256": "5429dc9b520d881a5980812bf96321754fe033059f0a0c9174794018a69c0ad9",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-4d9e0e126092",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "433"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 23 Jun 2024 19:30:38 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:33 GMT"
+    }
+   ],
+   "body_file": "bodies/5429dc9b520d881a5980.bin",
+   "size": 433,
+   "sha256": "5429dc9b520d881a5980812bf96321754fe033059f0a0c9174794018a69c0ad9",
+   "content_encoding": "gzip"
+  }
+ ]
+}

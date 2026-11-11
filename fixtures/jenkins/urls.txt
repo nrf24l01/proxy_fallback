@@ -1,0 +1,5 @@
+/
+/login
+/static/523847c1/favicon.ico
+/static/523847c1/images/svgs/logo.svg
+/static/523847c1/jsbundles/simple-page.css

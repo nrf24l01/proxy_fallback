@@ -1,0 +1,70 @@
+<!doctype html>
+<!--
+*  Pi-hole: A black hole for Internet advertisements
+*  (c) 2017 Pi-hole, LLC (https://pi-hole.net)
+*  Network-wide ad blocking via your own hardware.
+*
+*  This file is copyright under the latest version of the EUPL.
+*  Please see LICENSE file for your rights under this license.
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pi-hole 15e6e7dba2ca</title>
+    <meta name="csrf-token" content="">
+
+    <link rel="apple-touch-icon" href="/admin/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/admin/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/admin/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/admin/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/admin/img/favicons/safari-pinned-tab.svg" color="#367fa9">
+    <link rel="shortcut icon" href="/admin/img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#367fa9">
+    <meta name="msapplication-TileImage" content="/admin/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#367fa9">
+
+    <!-- Theme fonts -->
+    <link rel="stylesheet" href="/admin/vendor/fonts/source-sans-pro/source-sans-pro.css?v=1793404958">
+
+    <style>
+        html { background-color: #000; }
+    </style>
+
+    <!-- Common styles -->
+    <link rel="stylesheet" href="/admin/vendor/bootstrap/css/bootstrap.min.css?v=1793404958">
+    <link rel="stylesheet" href="/admin/vendor/animate/animate.min.css?v=1793404958">
+    <link rel="stylesheet" href="/admin/vendor/font-awesome/css/all.min.css?v=1793404958">
+    <link rel="stylesheet" href="/admin/vendor/nprogress/nprogress.min.css?v=1793404958">
+    <link rel="stylesheet" href="/admin/vendor/adminLTE/AdminLTE.min.css?v=1793404958">
+
+
+    <!-- Theme styles (default-auto) -->
+    <link rel="stylesheet" href="/admin/style/pi-hole.css?v=1793404958">
+    <link rel="stylesheet" href="/admin/style/themes/default-dark.css?v=1793404958" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="/admin/style/themes/default-light.css?v=1793404958" media="not (prefers-color-scheme: dark)">
+
+    <noscript><link rel="stylesheet" href="/admin/vendor/js-warn/js-warn.css?v=1793404958"></noscript>
+
+    <!-- scripts -->
+    <script src="/admin/vendor/jquery/jquery.min.js?v=1793404958"></script>
+    <script src="/admin/vendor/bootstrap/js/bootstrap.min.js?v=1793404958"></script>
+    <script src="/admin/vendor/adminLTE/adminlte.min.js?v=1793404958"></script>
+    <script src="/admin/vendor/nprogress/nprogress.min.js?v=1793404958"></script>
+    <script src="/admin/scripts/js/utils.js?v=1793404958"></script>
+</head>
+<body class="hold-transition layout-boxed login-page page-error404">
+    <div class="box login-box">
+        <section style="padding: 15px;">
+                <h2 class="error-headline text-yellow">404</h2>
+                <div class="error-content">
+                    <h3><i class="fa fa-warning text-yellow"></i> Oops! Page not found.</h3>
+                    <p>
+                        We could not find the page you were looking for.<br>
+                        Meanwhile, you may want to return to <a href="/admin/">the dashboard</a>.
+                    </p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

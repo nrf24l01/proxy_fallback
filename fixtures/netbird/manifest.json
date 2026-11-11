@@ -1,0 +1,2084 @@
+{
+ "service": "netbird",
+ "title": "NetBird",
+ "category": "network",
+ "login_path": "/",
+ "default_port": 8240,
+ "upstream": "http://127.0.0.1:8240",
+ "public_url": "http://127.0.0.1:8240",
+ "recorded_at": "2026-11-10T20:09:18.139844721Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd4-126d\""
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/2de17e6e9133d02391af.bin",
+   "size": 1251,
+   "sha256": "2de17e6e9133d02391afac5825a1c742dfa18a4f2e17de62b26f1bb4aeb7e467",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/08fci0vgyyt7m.js",
+   "path": "/_next/static/chunks/08fci0vgyyt7m.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-63fa\""
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    }
+   ],
+   "body_file": "bodies/77a39dc786deebc9b83a.js",
+   "size": 8179,
+   "sha256": "77a39dc786deebc9b83a3fdc3898abb6772936c6904c6105cccdc87db76638bd",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/0cz1d0mv5g_q7.js",
+   "path": "/_next/static/chunks/0cz1d0mv5g_q7.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-1b7d2\""
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    }
+   ],
+   "body_file": "bodies/16c0f345b71fe8e15659.js",
+   "size": 39373,
+   "sha256": "16c0f345b71fe8e15659e330817da31529a0b752ea1d0115262d9de75fa7c618",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/0d22ntax5-su4.js",
+   "path": "/_next/static/chunks/0d22ntax5-su4.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-15945\""
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    }
+   ],
+   "body_file": "bodies/3f0cbb0bf9b15c85b4bc.js",
+   "size": 30502,
+   "sha256": "3f0cbb0bf9b15c85b4bce1018193c3f5885ea6bfb2e8f5c57bd8b3b4423019e4",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/0gn25bpnbkbom.js",
+   "path": "/_next/static/chunks/0gn25bpnbkbom.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-4e4\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    }
+   ],
+   "body_file": "bodies/44712d8125cf08065776.js",
+   "size": 686,
+   "sha256": "44712d8125cf08065776b297a11700ad1dee12ff2f5c970a16b6f2e0aff1a62d",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/0p2-k5vmfs2sj.js",
+   "path": "/_next/static/chunks/0p2-k5vmfs2sj.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-54a7\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    }
+   ],
+   "body_file": "bodies/758e73af60939d0f9542.js",
+   "size": 7247,
+   "sha256": "758e73af60939d0f95429a97859ba0f5f6e72caa4ecd126aa2bcea6c3687be78",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/0v5o9z-ar7jdo.js",
+   "path": "/_next/static/chunks/0v5o9z-ar7jdo.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-115e\""
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    }
+   ],
+   "body_file": "bodies/e08c593f70b6dc69f1c4.js",
+   "size": 2054,
+   "sha256": "e08c593f70b6dc69f1c4635b2fe62d3004240c41016f20786239964602b385b2",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/0ymf0vz1-86i_.js",
+   "path": "/_next/static/chunks/0ymf0vz1-86i_.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-3190a\""
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    }
+   ],
+   "body_file": "bodies/1a0bcbd8c46e793e3214.js",
+   "size": 64992,
+   "sha256": "1a0bcbd8c46e793e3214a4fca4e0e048eb916a5fee035c40deeaf7c6edb334e7",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/1nki20gvv6bro.js",
+   "path": "/_next/static/chunks/1nki20gvv6bro.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-3ad1\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    }
+   ],
+   "body_file": "bodies/e6cad16ded2be0fc9ef6.js",
+   "size": 4215,
+   "sha256": "e6cad16ded2be0fc9ef69d75bde7c7d7deecb9bf45cf3dde490180fb18cbdf65",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/1rcik1bejps8x.js",
+   "path": "/_next/static/chunks/1rcik1bejps8x.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-6c35\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/273a18d6a7a044987b41.js",
+   "size": 9682,
+   "sha256": "273a18d6a7a044987b41c6d0f3c27b55cc7ede84dcbb73be196eccbfcd07b1cc",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/242x7dx0zu3hf.js",
+   "path": "/_next/static/chunks/242x7dx0zu3hf.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-756a\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    }
+   ],
+   "body_file": "bodies/e7d38654617fc43d91d3.js",
+   "size": 8150,
+   "sha256": "e7d38654617fc43d91d302dda2881040f0c535ee47b5bf0d8d0b39336c9c74e7",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/2a2eo269bjiuy.js",
+   "path": "/_next/static/chunks/2a2eo269bjiuy.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-26ece\""
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    }
+   ],
+   "body_file": "bodies/02df07bc97eed825788f.js",
+   "size": 44275,
+   "sha256": "02df07bc97eed825788f374f437fa85e2334b2fc21f8f9d43d311ac19983c54b",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/2bwc-562wq9j-.js",
+   "path": "/_next/static/chunks/2bwc-562wq9j-.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-4e4\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    }
+   ],
+   "body_file": "bodies/32142fd7c485578803a0.js",
+   "size": 686,
+   "sha256": "32142fd7c485578803a045a68e8aa50a85c70db02e436b86049e12c5b451de55",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/2crj5kse9ebp_.js",
+   "path": "/_next/static/chunks/2crj5kse9ebp_.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af379ed-6da0\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/917bac60ceca63812c0c.js",
+   "size": 10627,
+   "sha256": "917bac60ceca63812c0cbf6739d07e8224b1ebf016b40401a3f9f8cff8c701d8",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/2om6vqlfxdo8e.js",
+   "path": "/_next/static/chunks/2om6vqlfxdo8e.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-5e0e\""
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/601f3d115e2d4fd7b52a.js",
+   "size": 8737,
+   "sha256": "601f3d115e2d4fd7b52a46bb7b4bad7db569a438b08af0d3962660aa96d80b3a",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/2s4vat9o98xzp.js",
+   "path": "/_next/static/chunks/2s4vat9o98xzp.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-c62a\""
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/64f6c3850ac6d1b7a193.js",
+   "size": 17960,
+   "sha256": "64f6c3850ac6d1b7a193857d095bea46930165a42cf57a038843f5771ce2e96e",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/2u1e2nucj6bn1.css",
+   "path": "/_next/static/chunks/2u1e2nucj6bn1.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-2ab61\""
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/160d07a0daea11a0eb77.css",
+   "size": 25148,
+   "sha256": "160d07a0daea11a0eb77036269906aace33df73074894bb62fb5416e67fcb98d",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/32rpv9eg--tvp.js",
+   "path": "/_next/static/chunks/32rpv9eg--tvp.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-710f\""
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    }
+   ],
+   "body_file": "bodies/d32cc0a610c962fc45b5.js",
+   "size": 10369,
+   "sha256": "d32cc0a610c962fc45b534146eb26d07612c490b9b74dc60e40d0c1f86a63204",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/35n8xegm0yogw.js",
+   "path": "/_next/static/chunks/35n8xegm0yogw.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-10bcc\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/8c569887d98fb8dec009.js",
+   "size": 22509,
+   "sha256": "8c569887d98fb8dec00951f1aa69a20a4a842061194ba3c517cfdc10b341301d",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/399bh1d5k5lsc.css",
+   "path": "/_next/static/chunks/399bh1d5k5lsc.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-533\""
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/03e2c700770b1b91ff9e.css",
+   "size": 619,
+   "sha256": "03e2c700770b1b91ff9ebb84227fe8e42e8898e32c8edb33cfa97886effc49fe",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/3b-ji2e6tdvan.js",
+   "path": "/_next/static/chunks/3b-ji2e6tdvan.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-13ca9\""
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/976188e6ab1abd4c0ce5.js",
+   "size": 22296,
+   "sha256": "976188e6ab1abd4c0ce58d06e11904eed72e84d6733a44d9d70d1c9c4129e78e",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/3ri09dp9v4_o8.js",
+   "path": "/_next/static/chunks/3ri09dp9v4_o8.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-18cb5\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    }
+   ],
+   "body_file": "bodies/6ccad6f5a3ab928234ea.js",
+   "size": 31144,
+   "sha256": "6ccad6f5a3ab928234ea8041f845ca7d7745cc245678ba9a9e13a268faeb164e",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/3yuahb84_vzbh.js",
+   "path": "/_next/static/chunks/3yuahb84_vzbh.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-37d9e\""
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    }
+   ],
+   "body_file": "bodies/bd0808fc654c000f0d6c.js",
+   "size": 71512,
+   "sha256": "bd0808fc654c000f0d6c6127065c65b9008cf84951ef540eee368d6af26a57c1",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+   "path": "/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-272e\""
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    }
+   ],
+   "body_file": "bodies/811957f35b9b84fa6a5f.js",
+   "size": 3946,
+   "sha256": "811957f35b9b84fa6a5f7ee78cc477907177af7eac2cf9852e03f6597efdb0c2",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_next/static/media/Inter-s.p.2qfvxwbz8enzy.ttf",
+   "path": "/_next/static/media/Inter-s.p.2qfvxwbz8enzy.ttf",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Content-Length",
+     "value": "804612"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6af2bcd3-c4704\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/cf3cb43b0366e2dc6df6.ttf",
+   "size": 804612,
+   "sha256": "cf3cb43b0366e2dc6df60e1132b1c9a4c15777f0cd8e5a53e0c15124003e9ed4"
+  },
+  {
+   "key": "/_next/static/media/netbird.3sglvi5al7sxv.svg",
+   "path": "/_next/static/media/netbird.3sglvi5al7sxv.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-1f4\""
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/d4bfe533688beee1bff1.svg",
+   "size": 312,
+   "sha256": "d4bfe533688beee1bff1b7ad4ee1e58ed7df051e83c929cceb5e34a986f74c53",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/api/instance",
+   "path": "/api/instance",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd4-11d9\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    }
+   ],
+   "body_file": "bodies/7a72ba3e75dc539a24f2.bin",
+   "size": 1207,
+   "sha256": "7a72ba3e75dc539a24f2dbc747dcac8274bc844d3c6b74bea634351fc3b8522d",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/apple-icon.png?apple-icon.3secjquraddav.png",
+   "path": "/apple-icon.png",
+   "query": "apple-icon.3secjquraddav.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6af2bcd3-d52\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3410"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/4485181ad226be9b3f2f.png",
+   "size": 3410,
+   "sha256": "4485181ad226be9b3f2fc52c9d12cf1fac7a493354e59c3348aec3c9fa6d5a95"
+  },
+  {
+   "key": "/assets/chunk.dc2313e4.js",
+   "path": "/assets/chunk.dc2313e4.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd4-1eb1\""
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    }
+   ],
+   "body_file": "bodies/f2628795891d6fda1083.js",
+   "size": 1873,
+   "sha256": "f2628795891d6fda1083a81d8e8816916c58a315313ef9d2ea36fb643e5153ea",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/x-icon"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-3aee\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/90850c89ecfd90b13087.ico",
+   "size": 2019,
+   "sha256": "90850c89ecfd90b130871ed4318f978c0ffdab0bf11684aefc212e11f84181fe",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/favicon.ico?favicon.2a75_42amgon1.ico",
+   "path": "/favicon.ico",
+   "query": "favicon.2a75_42amgon1.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-3aee\""
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/x-icon"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/90850c89ecfd90b13087.ico",
+   "size": 2019,
+   "sha256": "90850c89ecfd90b130871ed4318f978c0ffdab0bf11684aefc212e11f84181fe",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/oauth2/.well-known/openid-configuration",
+   "path": "/oauth2/.well-known/openid-configuration",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd4-11d9\""
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html"
+    }
+   ],
+   "body_file": "bodies/7a72ba3e75dc539a24f2.bin",
+   "size": 1207,
+   "sha256": "7a72ba3e75dc539a24f2dbc747dcac8274bc844d3c6b74bea634351fc3b8522d",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd3-1a\""
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain"
+    }
+   ],
+   "body_file": "bodies/6c85abcfe9018d0570fa.txt",
+   "size": 46,
+   "sha256": "6c85abcfe9018d0570fadcc78ea7e36fec9c549a7b6991d0262c8ab41e39b675",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-e99c100d5dab",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:18 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af2bcd4-11d9\""
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 https://api.digitalocean.com https://api.github.com/repos/netbirdio/netbird/releases/latest https://api.hetzner.cloud https://raw.githubusercontent.com/netbirdio/dashboard/ js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com ws://127.0.0.1 wss://*.netbird.io wss://ws.hotjar.com www.google.com www.googleadservices.com; frame-src 'self' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; script-src 'self' 'wasm-unsafe-eval' 'sha256-7knV6EIjKUvCpYWE2rCYx8dYV2WCNb2bpTuitFXzBcA=' *.clarity.ms *.google-analytics.com *.googletagmanager.com *.hotjar.com *.hotjar.io *.hs-analytics.net *.hs-banner.com *.hs-scripts.com *.hsadspixel.net *.hscollectedforms.net *.hsforms.com *.hsforms.net *.hubapi.com *.hubspot.com *.hubspot.net *.licdn.com *.linkedin.com *.microsoft.com *.redditstatic.com *.sibforms.com *.vector.co analytics.google.com c.bing.com googleads.g.doubleclick.net http://127.0.0.1:8240 http://127.0.0.1:8240/oauth2 js.hs-analytics.com pagead2.googlesyndication.com pixel-config.reddit.com pkgs.netbird.io static.hsappstatic.net track.hubspot.com www.google.com www.googleadservices.com; font-src 'self'; img-src * data:; manifest-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';"
+    }
+   ],
+   "body_file": "bodies/7a72ba3e75dc539a24f2.bin",
+   "size": 1207,
+   "sha256": "7a72ba3e75dc539a24f2dbc747dcac8274bc844d3c6b74bea634351fc3b8522d",
+   "content_encoding": "gzip",
+   "chunked": true
+  }
+ ]
+}

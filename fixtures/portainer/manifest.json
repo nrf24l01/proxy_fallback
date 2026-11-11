@@ -1,0 +1,755 @@
+{
+ "service": "portainer",
+ "upstream": "http://127.0.0.1:3003",
+ "public_url": "https://portainer.example.com",
+ "recorded_at": "2026-11-10T13:49:54.906042Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 19 Dec 2024 21:13:37 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:22 GMT"
+    }
+   ],
+   "body_file": "bodies/8f5201b9a874fa733780.bin",
+   "size": 8502,
+   "sha256": "8f5201b9a874fa733780fdca0669f2440a5b3e67555dbacb37c893dc8e243ea5",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/060b2710bdbbe3dfe48b.svg",
+   "path": "/060b2710bdbbe3dfe48b.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 19 Dec 2024 21:13:37 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:23 GMT"
+    }
+   ],
+   "body_file": "bodies/663e5a2571dc82c5862c.svg",
+   "size": 26261,
+   "sha256": "663e5a2571dc82c5862c715e0f91dbe52a25429ca25318327c61049dbcbae08c",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/112a479c093f4729251d.png",
+   "path": "/112a479c093f4729251d.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:22 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 19 Dec 2024 21:13:37 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Length",
+     "value": "800"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/dd1421c56c491f88cdd6.png",
+   "size": 800,
+   "sha256": "dd1421c56c491f88cdd6f8d92dc423519a4656ed0c2988dae1acd092f35ada39",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/2dcfc527d067d4ae3424.png",
+   "path": "/2dcfc527d067d4ae3424.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:22 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1165"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 19 Dec 2024 21:13:37 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    }
+   ],
+   "body_file": "bodies/e6ad5a4c14e3c32aaad2.png",
+   "size": 1165,
+   "sha256": "e6ad5a4c14e3c32aaad25ed5a4d26183105386be570b7fe10a08c1aac5677073",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/63a301f0574f1a696ce6.png",
+   "path": "/63a301f0574f1a696ce6.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:23 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 19 Dec 2024 21:13:37 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/ec4d0cf11ea1ebec3d2e.png",
+   "size": 6049,
+   "sha256": "ec4d0cf11ea1ebec3d2e1291764e8d62c5ae20e951fd174085345ff2538afead",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/api/settings/public",
+   "path": "/api/settings/public",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:22 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "507"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/6e7b7d40481bc44ab3d4.bin",
+   "size": 507,
+   "sha256": "6e7b7d40481bc44ab3d447110ed4ef12314170c333a3ca1624285172c0d77a43"
+  },
+  {
+   "key": "/api/system/status",
+   "path": "/api/system/status",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:22 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "141"
+    }
+   ],
+   "body_file": "bodies/306102a9cca451fe0bee.bin",
+   "size": 141,
+   "sha256": "306102a9cca451fe0beecbccdf58d5adb832c44e5f8dea0580f21982a97f519d"
+  },
+  {
+   "key": "/api/users/admin/check",
+   "path": "/api/users/admin/check",
+   "method": "GET",
+   "status": 204,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:22 GMT"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.bin",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/api/users/me",
+   "path": "/api/users/me",
+   "method": "GET",
+   "status": 401,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "77"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:22 GMT"
+    }
+   ],
+   "body_file": "bodies/6924ce1e5547bf60fb98.bin",
+   "size": 77,
+   "sha256": "6924ce1e5547bf60fb98483f22fb25df0aa682bd5055b431b09b74d87f76b550"
+  },
+  {
+   "key": "/locales/en-US/translation.json",
+   "path": "/locales/en-US/translation.json",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:22 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "43"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/6e12b019464ce5940902.json",
+   "size": 43,
+   "sha256": "6e12b019464ce5940902a46e80d482f5bcc21c231da1abd9b51f6db610697da1",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/locales/en/translation.json",
+   "path": "/locales/en/translation.json",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "328"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:22 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 19 Dec 2024 21:13:37 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/2ddaa96ee1d2ad57ddfc.json",
+   "size": 328,
+   "sha256": "2ddaa96ee1d2ad57ddfc62800dcb945bf3feeb1a9197842ca066b776e1a2db00",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/main.06baa8f2a0ab154d4a3e.js",
+   "path": "/main.06baa8f2a0ab154d4a3e.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:22 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 19 Dec 2024 21:13:37 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/f74c37b17fd6e5913a31.js",
+   "size": 856073,
+   "sha256": "f74c37b17fd6e5913a31219ccdb8e650198b2d527360b34784536ad5760b15f5",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/main.33e0a59057a6399dbb8d.css",
+   "path": "/main.33e0a59057a6399dbb8d.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 19 Dec 2024 21:13:37 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:22 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    }
+   ],
+   "body_file": "bodies/b4b2e41ce9d64fc365fa.css",
+   "size": 542591,
+   "sha256": "b4b2e41ce9d64fc365fa1bf1e0a707d71470f4e9564a686e95d5807bb79f816b",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/runtime.942fa683274b3d3c26cf.js",
+   "path": "/runtime.942fa683274b3d3c26cf.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    },
+    {
+     "name": "Content-Length",
+     "value": "1340"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 19 Dec 2024 21:13:37 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:23 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/b9574601af6d1e243b7f.js",
+   "size": 1340,
+   "sha256": "b9574601af6d1e243b7f1de6401fdf7220f02a8a3dbc4867444307ba9308462f",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/vendor.606309a975cde2d2503f.js",
+   "path": "/vendor.606309a975cde2d2503f.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 19 Dec 2024 21:13:37 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:23 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/01236b92472173e4aeaf.js",
+   "size": 1083773,
+   "sha256": "01236b92472173e4aeaf1747212f2a23114ac935269dc744d241ed62371d1a8f",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/vendor.b4533442c1cbb18b98a1.css",
+   "path": "/vendor.b4533442c1cbb18b98a1.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Csrf-Token",
+     "value": ""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Thu, 19 Dec 2024 21:13:37 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:23 GMT"
+    }
+   ],
+   "body_file": "bodies/d595a5f09e4d53c5632d.css",
+   "size": 121920,
+   "sha256": "d595a5f09e4d53c5632db80d2eff05b8ac8b865d4f9108d11561e9f93b53467a",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-f576d5a9f10a",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 07:51:23 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "43"
+    }
+   ],
+   "body_file": "bodies/6e12b019464ce5940902.bin",
+   "size": 43,
+   "sha256": "6e12b019464ce5940902a46e80d482f5bcc21c231da1abd9b51f6db610697da1",
+   "content_encoding": "gzip"
+  }
+ ],
+ "title": "Portainer",
+ "category": "dev",
+ "login_path": "/",
+ "default_port": 8083
+}

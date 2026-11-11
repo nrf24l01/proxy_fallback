@@ -1,0 +1,9 @@
+/
+/assets/css/index.css?v=9.0.3~gitea-1.22.0
+/assets/css/theme-forgejo-auto.css?v=9.0.3~gitea-1.22.0
+/assets/img/favicon.png
+/assets/img/favicon.svg
+/assets/img/logo.svg
+/assets/js/index.js?v=9.0.3~gitea-1.22.0
+/assets/js/webcomponents.js?v=9.0.3~gitea-1.22.0
+/user/login

@@ -1,0 +1,13 @@
+/
+/assets/index-BBxTfFCS.js
+/assets/index-bOVKKa1O.css
+/dashboard
+/docker-latest-warning.js
+/icon.svg
+/manifest.json
+/socket.io/?EIO=4&transport=polling&t=3viehlvj
+/socket.io/?EIO=4&transport=polling&t=3vigqab5&sid=CxtpgXObjVvI0UxdAAAA
+/socket.io/?EIO=4&transport=polling&t=3vigsogt&sid=CxtpgXObjVvI0UxdAAAA
+/socket.io/?EIO=4&transport=polling&t=3vihqow4&sid=CxtpgXObjVvI0UxdAAAA
+/socket.io/?EIO=4&transport=polling&t=3viiwu4l&sid=CxtpgXObjVvI0UxdAAAA
+/socket.io/?EIO=4&transport=polling&t=3vij0ytm&sid=CxtpgXObjVvI0UxdAAAA

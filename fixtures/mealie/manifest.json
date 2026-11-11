@@ -1,0 +1,7305 @@
+{
+ "service": "mealie",
+ "title": "Mealie",
+ "category": "home",
+ "login_path": "/login",
+ "default_port": 8205,
+ "upstream": "http://127.0.0.1:8205",
+ "public_url": "https://mealie.example.com",
+ "recorded_at": "2026-11-10T19:52:42.060718233Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"dd9bcc17061dc8cf92dae7fd572faaaa\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2940"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/1e0caeceb9c2d3eaaf8d.bin",
+   "size": 2940,
+   "sha256": "1e0caeceb9c2d3eaaf8d8f6816322d72a85033f4a4bbc0d16c4d089fc80f9c68",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/2-JPzWAH.js",
+   "path": "/_nuxt/2-JPzWAH.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"7f48649bbb9942a82f25433e86dd87ed\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "947"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/b958f089fdb79ad66da3.js",
+   "size": 947,
+   "sha256": "b958f089fdb79ad66da3a0866f7a99435428dd68e1bb88fef87f721de7dae3ee",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/4_Xs2W8c.js",
+   "path": "/_nuxt/4_Xs2W8c.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "262"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"808b547601e61d8d26058cc962566fa1\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    }
+   ],
+   "body_file": "bodies/8d2e6fcb6590b01b5a13.js",
+   "size": 262,
+   "sha256": "8d2e6fcb6590b01b5a13e7bd4c4f75d3e77ffd14fa90cb307667ce58b2cdf7e2"
+  },
+  {
+   "key": "/_nuxt/AppHeader.CRmPcvQY.css",
+   "path": "/_nuxt/AppHeader.CRmPcvQY.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9ddfd2ea8f42c0237d68285b8d6fc023\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "792"
+    }
+   ],
+   "body_file": "bodies/fd4a4d06f6aa5c8c0332.css",
+   "size": 792,
+   "sha256": "fd4a4d06f6aa5c8c03323bf467c11830ab8e46e36c18a8ec786d344747e197e6"
+  },
+  {
+   "key": "/_nuxt/AppLogo.DTj4wYhO.css",
+   "path": "/_nuxt/AppLogo.DTj4wYhO.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "279"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"da9a939f20a244537362f2e76159b66d\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/b8ddf5aca8937e1ffced.css",
+   "size": 279,
+   "sha256": "b8ddf5aca8937e1ffcedfb776a5bef3db423e7cc9fb8c45d49ebdef797530f79"
+  },
+  {
+   "key": "/_nuxt/AppSidebar.D82cB5uu.css",
+   "path": "/_nuxt/AppSidebar.D82cB5uu.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"b5da01192dcec82223b9c65e69d0531b\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "364"
+    }
+   ],
+   "body_file": "bodies/85bfecfbf0f073bef20b.css",
+   "size": 364,
+   "sha256": "85bfecfbf0f073bef20b237d889fdfe0c093cb3a96a9fa0c96b990002e98a31d"
+  },
+  {
+   "key": "/_nuxt/B1LQimsF.js",
+   "path": "/_nuxt/B1LQimsF.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"c91d5b280972f62226ae07e8133f2c2b\""
+    }
+   ],
+   "body_file": "bodies/d8cca6aeebc70f9d0e82.js",
+   "size": 15,
+   "sha256": "d8cca6aeebc70f9d0e82614d9547d2b4d8dd589e667f8936c03f3ff71c069734"
+  },
+  {
+   "key": "/_nuxt/B6A0yUPv.js",
+   "path": "/_nuxt/B6A0yUPv.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "993"
+    },
+    {
+     "name": "Etag",
+     "value": "\"3c199aab43223e2e7c3fb0f7bd459445\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/766125b4f0c8362cd770.js",
+   "size": 993,
+   "sha256": "766125b4f0c8362cd770596a0f698842d52e63c153a4ade4d849f51a6efd594e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/B90Lsfxk.js",
+   "path": "/_nuxt/B90Lsfxk.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5421"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"2d880ec7a78127474fca807184cc5fce\""
+    }
+   ],
+   "body_file": "bodies/da6c9e062f0947dec577.js",
+   "size": 5421,
+   "sha256": "da6c9e062f0947dec5772953087bc2c36820cf4b3563e92a21f6d20f80aff5dc",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/BBAEdAbY.js",
+   "path": "/_nuxt/BBAEdAbY.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"b2e644ffcd95316d4f15d3251818aaa9\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/30057f1a6d1e51a2e516.js",
+   "size": 33208,
+   "sha256": "30057f1a6d1e51a2e5164129cbb68f31ceba4a2fbd65b43d9486aed0b782c99e",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_nuxt/BD7bfkfo.js",
+   "path": "/_nuxt/BD7bfkfo.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "856"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"7cdb1cacc702c200f7ec12a619f921c9\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/3cc02470a710bba5fc0f.js",
+   "size": 856,
+   "sha256": "3cc02470a710bba5fc0f7a5283cde9bbf910881c56cb385cf3c1cc565accb5d8",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/BHCnTglv.js",
+   "path": "/_nuxt/BHCnTglv.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "1114"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9dbdda4daf2ea56da479590dddf64fe9\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/6cdd86088ad18e2ffd9f.js",
+   "size": 1114,
+   "sha256": "6cdd86088ad18e2ffd9f7c0dc105dffb3fbf6c32b0c1421e0a1b7e1939e61615",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/BRueOuuz.js",
+   "path": "/_nuxt/BRueOuuz.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "394"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"216c58a52ad3d34663f46601591534eb\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    }
+   ],
+   "body_file": "bodies/ca77cc946d487ecdc0bc.js",
+   "size": 394,
+   "sha256": "ca77cc946d487ecdc0bcaaef6033e0cb3097da0640907e18a16d7f55108265e4"
+  },
+  {
+   "key": "/_nuxt/BVTUFNPG.js",
+   "path": "/_nuxt/BVTUFNPG.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3504"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"5d4e2f59a48ab1e781a20aec58e57218\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/070a06e24a07963df608.js",
+   "size": 3504,
+   "sha256": "070a06e24a07963df608826321d993619c2d4a375540b7b423646fc1b68b065b",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/BZxLa3_V.js",
+   "path": "/_nuxt/BZxLa3_V.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"ed19a8cf72818956a941aa7a0e2e51de\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "880"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/99a0c21b1f4114d959b2.js",
+   "size": 880,
+   "sha256": "99a0c21b1f4114d959b25b6e8c6c4f4c5eb8cb5d2ab22d23df8a888826b32ee5",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/BaseDialog.uTvPD-Z5.css",
+   "path": "/_nuxt/BaseDialog.uTvPD-Z5.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "540"
+    },
+    {
+     "name": "Etag",
+     "value": "\"05647455adb887d62fd2d6c6e75dfd70\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/2fd7b28de8bd55eb3a67.css",
+   "size": 540,
+   "sha256": "2fd7b28de8bd55eb3a677b1178202855902e736c31059c021f36c4cc9f1977d3",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/Bd17z0YL.js",
+   "path": "/_nuxt/Bd17z0YL.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "\"c704edaa7cf2a8144356cc5c20fefd4e\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2214"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/ebb9da20ad68681c9933.js",
+   "size": 2214,
+   "sha256": "ebb9da20ad68681c993395c07f5a2eca76b75efdc4d9146c33df6e2141b0e44b",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/BdrFU3cO.js",
+   "path": "/_nuxt/BdrFU3cO.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "220"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"467d5ce2bd77feebfcbe03ef80755d2d\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/6e793051f36124f5b311.js",
+   "size": 220,
+   "sha256": "6e793051f36124f5b3110b2d87e1d96021589e625d8894320a7d32ebc1bbc558"
+  },
+  {
+   "key": "/_nuxt/Bf3UeQY3.js",
+   "path": "/_nuxt/Bf3UeQY3.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "212"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"8d4ac092ba7caac983375f766af0b4aa\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    }
+   ],
+   "body_file": "bodies/c38e5dc68ab0bc420389.js",
+   "size": 212,
+   "sha256": "c38e5dc68ab0bc4203892cb5361339223c4966e4bb37342046206b136a58ea75"
+  },
+  {
+   "key": "/_nuxt/Bfcz6sCs.js",
+   "path": "/_nuxt/Bfcz6sCs.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"b33397ce7d71eecefb9b3fc73cfe7830\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2309"
+    }
+   ],
+   "body_file": "bodies/baba9f9581adce706b74.js",
+   "size": 2309,
+   "sha256": "baba9f9581adce706b74ff2c775ec8dbd3278323c767998564010015e2a5dddf",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/BjeH-aHY.js",
+   "path": "/_nuxt/BjeH-aHY.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5497"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"1655ecb7d9161e2738bf96c16a571ab3\""
+    }
+   ],
+   "body_file": "bodies/93374778a795c58dfe99.js",
+   "size": 5497,
+   "sha256": "93374778a795c58dfe9981afc372b33d78f57a7336a22f68c96813f4754e2c6e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/BlhMazFx.js",
+   "path": "/_nuxt/BlhMazFx.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Etag",
+     "value": "\"db575d66ec59c81d27b0c9ec4395411a\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "10306"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/cfbf0b0b27a1e9bce2cb.js",
+   "size": 10306,
+   "sha256": "cfbf0b0b27a1e9bce2cbfc1fb661b5363e13ee263bdf082465d527ac7c6b0ba4",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/Bn7Tg0VW.js",
+   "path": "/_nuxt/Bn7Tg0VW.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "825"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"1213a927ca3e0d37da0caca200f393fe\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/e774b4c259a5fef63e22.js",
+   "size": 825,
+   "sha256": "e774b4c259a5fef63e224343c58c5d5c84c7f617ffa32c17617ea91d6fd3ba69",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/Bq0l_zKC.js",
+   "path": "/_nuxt/Bq0l_zKC.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "948"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "\"a6e509215cfcd2138f7896d29b54476c\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/690cbbcf131f99720b75.js",
+   "size": 948,
+   "sha256": "690cbbcf131f99720b7517326c3f6b238f7b0ce24436ab5abd8be388e5014388",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/BtSIJElF.js",
+   "path": "/_nuxt/BtSIJElF.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "\"63a982e62f0574698d5ce92493edabb2\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/c1af8a56f30476656600.js",
+   "size": 21816,
+   "sha256": "c1af8a56f30476656600cbf851321449fc406beff521684e29433c9c24a6bbf3",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_nuxt/BwTXmlRJ.js",
+   "path": "/_nuxt/BwTXmlRJ.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"73c810bf0638e178520460a0d4127993\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1795"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/9c93dfec19853f50f5c7.js",
+   "size": 1795,
+   "sha256": "9c93dfec19853f50f5c784625f5a284d5197aab8b307e107c95d763073ce85a3",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/By3np7bR.js",
+   "path": "/_nuxt/By3np7bR.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "575"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"2f5e34cdf948b9c2c2eaa1742047bd61\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/a250183867ca421db202.js",
+   "size": 575,
+   "sha256": "a250183867ca421db202a594f4f8ba0595725513ae5747145f2619f2ea201e0b",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/Bym-BmSN.js",
+   "path": "/_nuxt/Bym-BmSN.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3843"
+    },
+    {
+     "name": "Etag",
+     "value": "\"b79a003b20ba965aa8c6bb8f43041aa0\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/16e1026855590b3a8843.js",
+   "size": 3843,
+   "sha256": "16e1026855590b3a8843c68cd11134ac891759500ed667c883aa67d58307cc3b",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/C6YFaYij.js",
+   "path": "/_nuxt/C6YFaYij.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2159"
+    },
+    {
+     "name": "Etag",
+     "value": "\"3150da3f9d7bd6a223ed7cdf04f260c2\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/6f2933a5b078a964febb.js",
+   "size": 2159,
+   "sha256": "6f2933a5b078a964febbae6d90d51f6daa821b6bddbc7193d60abe711617d90a",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/C6hoxZKN.js",
+   "path": "/_nuxt/C6hoxZKN.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "827"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"27bf458e71cc533dc0405325f11814b1\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/5344c22771b086119b1c.js",
+   "size": 827,
+   "sha256": "5344c22771b086119b1c8ee579dd47500363b99663a8b3e50b91c6328254a445"
+  },
+  {
+   "key": "/_nuxt/C6jpd6Ad.js",
+   "path": "/_nuxt/C6jpd6Ad.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3398"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Etag",
+     "value": "\"828260f9439575daf12d0022babc161b\""
+    }
+   ],
+   "body_file": "bodies/eab790a89a99e01d7eb8.js",
+   "size": 3398,
+   "sha256": "eab790a89a99e01d7eb806966fcdc18ae5e72edda50c37ddb9aee487af0d33d3",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/CD2bxDM1.js",
+   "path": "/_nuxt/CD2bxDM1.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"06bed72f7b8a6b1b3ca86f1277befb2d\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "12355"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/bd28bada3d01a2fee8b3.js",
+   "size": 12355,
+   "sha256": "bd28bada3d01a2fee8b31b40a30f44d25405fb7898153ccf5d1d7b2e000ec155",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/CI_2axKV.js",
+   "path": "/_nuxt/CI_2axKV.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2351"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "\"210ae71e594986b8685fc9eb97a31330\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/36836b09e2bf60205cda.js",
+   "size": 2351,
+   "sha256": "36836b09e2bf60205cdaabe3de57c212ea8125c42f8062bbd7d7cc94deb828fc",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/CIfRwNST.js",
+   "path": "/_nuxt/CIfRwNST.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5648"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9ff13b9d185b09dca91341c625f1f20f\""
+    }
+   ],
+   "body_file": "bodies/b2fc238a9848ab3163bf.js",
+   "size": 5648,
+   "sha256": "b2fc238a9848ab3163bf25ce8f6e4b3470edc63cf56438f8c729a2fd65643b96",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/CJIIezT0.js",
+   "path": "/_nuxt/CJIIezT0.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "804"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"a55b4971c7d0cf082da05cf27220209b\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/81a87e8d279315980062.js",
+   "size": 804,
+   "sha256": "81a87e8d279315980062b74483dbd978819780bb1dd6bd482bfd22daa54b48dc"
+  },
+  {
+   "key": "/_nuxt/CJb7Kari.js",
+   "path": "/_nuxt/CJb7Kari.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "422"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"1305cd5323c1bcb81e8298c03d1512f9\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/69ba36ae41b785066e86.js",
+   "size": 422,
+   "sha256": "69ba36ae41b785066e8650f50e74f4962aea92e719798dd915812eda6fcf92e3",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/CNu1J5Fw.js",
+   "path": "/_nuxt/CNu1J5Fw.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"cb3d5380def5220086f7c858b243320d\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1228"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/7212c236827eb632c10f.js",
+   "size": 1228,
+   "sha256": "7212c236827eb632c10fd2e4569a09cd3b8672761b6d672e0f2c4876ef87bb37",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/CQqkarzb.js",
+   "path": "/_nuxt/CQqkarzb.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2062"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"c9628114e3485f00394a9ef936529a37\""
+    }
+   ],
+   "body_file": "bodies/5da195495c0ee7975700.js",
+   "size": 2062,
+   "sha256": "5da195495c0ee79757008f4b932cc10345daee920c8b7338a4bceee142cbbcf7",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/CRwCr4t-.js",
+   "path": "/_nuxt/CRwCr4t-.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "817"
+    },
+    {
+     "name": "Etag",
+     "value": "\"0a607efdcf41a68ea75e08f7c54edd70\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    }
+   ],
+   "body_file": "bodies/1f347ca3a325cd146270.js",
+   "size": 817,
+   "sha256": "1f347ca3a325cd1462707b79e62e35b3f250c3fa23860b69daa9bef67703716e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/C_DEe_a2.js",
+   "path": "/_nuxt/C_DEe_a2.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "619"
+    },
+    {
+     "name": "Etag",
+     "value": "\"ee54dca820cf731e725f966672581133\""
+    }
+   ],
+   "body_file": "bodies/9238cdf06f04e62b95af.js",
+   "size": 619,
+   "sha256": "9238cdf06f04e62b95af50e82bd7ccc0c7886e434cf0af5cac476a740f4493ee",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/Cc-3d7Pd.js",
+   "path": "/_nuxt/Cc-3d7Pd.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "8552"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Etag",
+     "value": "\"a327ec270213c37011a57b99bf4dc7ae\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/ec6718314760982305f6.js",
+   "size": 8552,
+   "sha256": "ec6718314760982305f6ad9b0e4a7d2489cd420f77bf06c711dfa7ade8bae906",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/Cdbmjda1.js",
+   "path": "/_nuxt/Cdbmjda1.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "4377"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Etag",
+     "value": "\"bcd2b6c1025e0cb66fa23ab95e5ab2c5\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/433f861c8ae39012d6d0.js",
+   "size": 4377,
+   "sha256": "433f861c8ae39012d6d0f3c24ee8b59655961c906caf5816642ed71fe39c66e7",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/CfF6J0Hq.js",
+   "path": "/_nuxt/CfF6J0Hq.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1282"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"97fee6a6cb9bdd9a92fd9e97eb94d8ca\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/9b1493e11803a461842e.js",
+   "size": 1282,
+   "sha256": "9b1493e11803a461842ef644770ab857c9464d7ceeb94744e25043bb41357fcb",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/CfOzFYh9.js",
+   "path": "/_nuxt/CfOzFYh9.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "269"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"ad818d9eb843a7d00738bf4d85a2074d\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    }
+   ],
+   "body_file": "bodies/d542ee9a4a4cca7a65e6.js",
+   "size": 269,
+   "sha256": "d542ee9a4a4cca7a65e6742faf39d35bb9e052aaa4ef9d58f79c134ee95dedc6"
+  },
+  {
+   "key": "/_nuxt/CibyO65O.js",
+   "path": "/_nuxt/CibyO65O.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2182"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"f2f11fe258871e7415f6e73007d55a0a\""
+    }
+   ],
+   "body_file": "bodies/ba25193077656c250eb1.js",
+   "size": 2182,
+   "sha256": "ba25193077656c250eb1b38d6e9b70e01c777e4ba2d8771fb494da8a0fc49c92",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/Cl9FzBYR.js",
+   "path": "/_nuxt/Cl9FzBYR.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "919"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"409a4387701409ca01725d6e3b0cc6e2\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/fe31d4d27691413d2e00.js",
+   "size": 919,
+   "sha256": "fe31d4d27691413d2e00f25ae3ea0c0f20b588bd71d3750670fb510d3b96b30d",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/CpEEYJvL.js",
+   "path": "/_nuxt/CpEEYJvL.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1284"
+    },
+    {
+     "name": "Etag",
+     "value": "\"786b29173f884ce916e740bcdf173383\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/316ab0f9e9d8c37a4517.js",
+   "size": 1284,
+   "sha256": "316ab0f9e9d8c37a4517ba528388d75d230095c8857cc8fbb8b87c50bf2b5403",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/D3K3meYK.js",
+   "path": "/_nuxt/D3K3meYK.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "565"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9871ee85459625ff8452ff4aea5f1714\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/0e74c7a76731ebf40945.js",
+   "size": 565,
+   "sha256": "0e74c7a76731ebf4094554a8e3e50a1300304fa41d1f143e9a0e69bedcde7cef"
+  },
+  {
+   "key": "/_nuxt/D5GO2xav.js",
+   "path": "/_nuxt/D5GO2xav.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "162"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"270cf79d6b9b1cc2d42f0eb67c45c60a\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/07617a88ff65f490a820.js",
+   "size": 162,
+   "sha256": "07617a88ff65f490a82037a5a716b4e64c0e606fdffe1ba7bbba8217af28c3f4"
+  },
+  {
+   "key": "/_nuxt/DHdJy5z9.js",
+   "path": "/_nuxt/DHdJy5z9.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "8895"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"123642c6cf3a74b0ec7b298778cdf121\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/11d1095139e9ef3b9762.js",
+   "size": 8895,
+   "sha256": "11d1095139e9ef3b9762fb566884ee251cf062400f46a3d49bcfd5c80cf315e3",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/DIFRDUrv.js",
+   "path": "/_nuxt/DIFRDUrv.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "888"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"5b7061bd53b0b26be7432c79414aae7e\""
+    }
+   ],
+   "body_file": "bodies/e1fc4fa78000f3295b15.js",
+   "size": 888,
+   "sha256": "e1fc4fa78000f3295b15b65def98ed74f6f59539b4342d476271c944b176acc8"
+  },
+  {
+   "key": "/_nuxt/DP_V3Db-.js",
+   "path": "/_nuxt/DP_V3Db-.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "189"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"69118299ddcdbad4742f3b522ec21e82\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/d2d60ffdc16ff5b66ef6.js",
+   "size": 189,
+   "sha256": "d2d60ffdc16ff5b66ef6231a7640b151deecc0bebee2d1fab1f1b135914ab79e"
+  },
+  {
+   "key": "/_nuxt/DQeNgNus.js",
+   "path": "/_nuxt/DQeNgNus.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"c8bbe533402d527560878e27fedd6a07\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    }
+   ],
+   "body_file": "bodies/2612dcf0ab5b35ace7b1.js",
+   "size": 42022,
+   "sha256": "2612dcf0ab5b35ace7b15d6d262873915cf9bc0589fe9fe820a4f071a755aecf",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_nuxt/DRWKkp_R.js",
+   "path": "/_nuxt/DRWKkp_R.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9ec2a74b645dc8a5ad1e3398191449bb\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3076"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/98dce57663d39d2f928c.js",
+   "size": 3076,
+   "sha256": "98dce57663d39d2f928c8ed75523488543f998583e7afa90f7f0c366be072493",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/DW0icEEb.js",
+   "path": "/_nuxt/DW0icEEb.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "11379"
+    },
+    {
+     "name": "Etag",
+     "value": "\"d20295162d99eb998d1ba95d6a981035\""
+    }
+   ],
+   "body_file": "bodies/89d3a96d610a0064aa68.js",
+   "size": 11379,
+   "sha256": "89d3a96d610a0064aa68cc94c8fdb78776dace470723d0a676074dfe03b6f854",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/DXCKpT_t.js",
+   "path": "/_nuxt/DXCKpT_t.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9b609637e2d6252a918322870333ef18\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "754"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/87e1e5b99a683c6cc4a6.js",
+   "size": 754,
+   "sha256": "87e1e5b99a683c6cc4a60b6471ff0f5e3f5488d839727128fb5c7b851d21c082",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/DZMYXHkU.js",
+   "path": "/_nuxt/DZMYXHkU.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4098"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"67bfdf763ae7c560a1f1405f679d7e16\""
+    }
+   ],
+   "body_file": "bodies/22f3d1e504449c49adb7.js",
+   "size": 4098,
+   "sha256": "22f3d1e504449c49adb7cdf7fab943635e67d5c08c9257438272925b2cf455b0",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/D_Dx9KG7.js",
+   "path": "/_nuxt/D_Dx9KG7.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "218"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"349289b915cd174f9c42b7612f8ec7d5\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    }
+   ],
+   "body_file": "bodies/c37365bcaa46415020b9.js",
+   "size": 218,
+   "sha256": "c37365bcaa46415020b97f6089a2ac9b22c16a24ce049d03f469afe73c047124"
+  },
+  {
+   "key": "/_nuxt/Di_915Bg.js",
+   "path": "/_nuxt/Di_915Bg.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"022ffd9190ee703f19938911d8d20faa\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1945"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/bca4ca2ba36c286d6c6a.js",
+   "size": 1945,
+   "sha256": "bca4ca2ba36c286d6c6a56a15cad612a549df7d8525788a5dfa2b43ac8287d44",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/DmBFcsfC.js",
+   "path": "/_nuxt/DmBFcsfC.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Etag",
+     "value": "\"3153b1402c628f27f5595a4d087296d4\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/4f48380eb18a22a9008d.js",
+   "size": 131971,
+   "sha256": "4f48380eb18a22a9008dab18c462f9214e1f852e8eaf0ed1e93ececb0fddab30",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_nuxt/DmDEx2x4.js",
+   "path": "/_nuxt/DmDEx2x4.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "4474"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Etag",
+     "value": "\"72b9807dcdd88593603d212437fad260\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/0f5165218766494afc51.js",
+   "size": 4474,
+   "sha256": "0f5165218766494afc51875e2746c26ec2994fb778f75ec45cc14a93b7f3cb53",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/DmpR4K73.js",
+   "path": "/_nuxt/DmpR4K73.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "153"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"50cf4623b4d4153343ed90b81ac8966a\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/d4e477f6f25f91a47d9f.js",
+   "size": 153,
+   "sha256": "d4e477f6f25f91a47d9fcb078c4f9d8b870c1a30c2ec574bf80e49882c266c4b"
+  },
+  {
+   "key": "/_nuxt/Do8fwuj4.js",
+   "path": "/_nuxt/Do8fwuj4.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "462"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"44705d290b26782828a407bcde279801\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/d6f07dbbdab296c1682b.js",
+   "size": 462,
+   "sha256": "d6f07dbbdab296c1682bdf7a413dd1210d8daa906fa8c94e97e6be8eb8f05ae5"
+  },
+  {
+   "key": "/_nuxt/DsE3h-K6.js",
+   "path": "/_nuxt/DsE3h-K6.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "\"1e9945d6f227ba77ca84ed286cec0e52\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/bc9bde8d61a807658cb2.js",
+   "size": 33792,
+   "sha256": "bc9bde8d61a807658cb2286f681e358c48d71c29f2efb794f65dd38829773941",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_nuxt/Dtp4DWeI.js",
+   "path": "/_nuxt/Dtp4DWeI.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"e77819a33b08711f7905199c49f78c39\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:42 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "490"
+    }
+   ],
+   "body_file": "bodies/ab2d6c5425aba15817f1.js",
+   "size": 490,
+   "sha256": "ab2d6c5425aba15817f13c7e639505952ab7f8095d47c7c64cd1f9b734897f21"
+  },
+  {
+   "key": "/_nuxt/Du8hqPTZ.js",
+   "path": "/_nuxt/Du8hqPTZ.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "559"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"487ec7a547d495f710216371c8c0ca5e\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/4249a4b7fe1e4a56e8a6.js",
+   "size": 559,
+   "sha256": "4249a4b7fe1e4a56e8a623bb0a7b9b6b984684f3207255306b17fcfcc95b3ece",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/Dzmg1yWg.js",
+   "path": "/_nuxt/Dzmg1yWg.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4823"
+    },
+    {
+     "name": "Etag",
+     "value": "\"75b99026e2fbded428f1f22139791628\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/38189e6a93a00d9d869b.js",
+   "size": 4823,
+   "sha256": "38189e6a93a00d9d869b67a94039016b10c2545af3fbb495c6a024fbf83ce3aa",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/HN_Wcbzw.js",
+   "path": "/_nuxt/HN_Wcbzw.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "176"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"5aa5dfd98f9bc1ee097a43cd634358b4\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/df472065e9469eb77073.js",
+   "size": 176,
+   "sha256": "df472065e9469eb77073517e33f1ae835f5bb1ef69cdccfd0db45b34329878da"
+  },
+  {
+   "key": "/_nuxt/N4drBgJ9.js",
+   "path": "/_nuxt/N4drBgJ9.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"ca34b2a053a7b680e5969a2e0a341b61\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "797"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/b2833e1d7eb3068ae50d.js",
+   "size": 797,
+   "sha256": "b2833e1d7eb3068ae50d4553dfe14f75f8b99b1cad2ac3fb64ac65e6b318e437",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/RecipeCardImage.DdyWljL5.css",
+   "path": "/_nuxt/RecipeCardImage.DdyWljL5.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "252"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"a027d89aec4faa6209e7357b77e0a5e6\""
+    }
+   ],
+   "body_file": "bodies/16a7b58b29695d3417d6.css",
+   "size": 252,
+   "sha256": "16a7b58b29695d3417d6a1b29e9ad7058dc1225475f7441771384aa614919ada"
+  },
+  {
+   "key": "/_nuxt/RecipeCardMobile.ByNiq4Gy.css",
+   "path": "/_nuxt/RecipeCardMobile.ByNiq4Gy.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "474"
+    },
+    {
+     "name": "Etag",
+     "value": "\"87b1d046aac837ab85a1adeaa9ff54f7\""
+    }
+   ],
+   "body_file": "bodies/c91ff9ce8cacb842172c.css",
+   "size": 474,
+   "sha256": "c91ff9ce8cacb842172cbb3cff63602063b2c4505131689c3cd9e490cdf2a1c4",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/SafeMarkdown.tD4J-1Zx.css",
+   "path": "/_nuxt/SafeMarkdown.tD4J-1Zx.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "296"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"7d277d03d73277341ebf8a7ed270c34d\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    }
+   ],
+   "body_file": "bodies/44803626bafcfca80457.css",
+   "size": 296,
+   "sha256": "44803626bafcfca8045728ab6ef9d09ce98d9c9569e76055fe5b130d533aef3d"
+  },
+  {
+   "key": "/_nuxt/U7MwtkSr.js",
+   "path": "/_nuxt/U7MwtkSr.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"e2579637482715268158a6cd449d337a\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "686"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/e276394848fccd61a923.js",
+   "size": 686,
+   "sha256": "e276394848fccd61a92302a0953a51114b9509ea524e39ff12dc51f1d76646d1",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VAlert.CdTjFCVN.css",
+   "path": "/_nuxt/VAlert.CdTjFCVN.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1389"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"e4123223d688ab2754c33fb05eb04815\""
+    }
+   ],
+   "body_file": "bodies/2ff0b540f99d994dbd5e.css",
+   "size": 1389,
+   "sha256": "2ff0b540f99d994dbd5eb47c0f7b14c59decf7694013bd30df917fc723bee1b5",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VAutocomplete.ZDY-9VoU.css",
+   "path": "/_nuxt/VAutocomplete.ZDY-9VoU.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "795"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"faa0d01a8b33512a195591c824e5e260\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/88ecf70b02a42a529661.css",
+   "size": 795,
+   "sha256": "88ecf70b02a42a529661f42a67051f59754093a13dac2bfb3ca9cdff89ed71b0",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VAvatar.BTekOZww.css",
+   "path": "/_nuxt/VAvatar.BTekOZww.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1492"
+    },
+    {
+     "name": "Etag",
+     "value": "\"5f65519c38e596aa2dc613453a71a080\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/7671030ebae903d93669.css",
+   "size": 1492,
+   "sha256": "7671030ebae903d93669771688493c6732eee4d941428a2b9ae9d6686841d542",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VBtn.C_2mLIQf.css",
+   "path": "/_nuxt/VBtn.C_2mLIQf.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5431"
+    },
+    {
+     "name": "Etag",
+     "value": "\"7c896846cf1e57e66df9ff8eb497acfb\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/d01b3c81c9e0e2660bf2.css",
+   "size": 5431,
+   "sha256": "d01b3c81c9e0e2660bf203f814aa037f1f00ee08e26b71860319400ed2d8ab19",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VCard.CdwNaXG-.css",
+   "path": "/_nuxt/VCard.CdwNaXG-.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1579"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"2a3d5771a09a2f881c3d8363bc89403b\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/c1a74bf138061ac4bbe5.css",
+   "size": 1579,
+   "sha256": "c1a74bf138061ac4bbe5654e5848cf8e024435f1e421b5307582eff0b807a31e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VCheckbox.ChRKi1kj.css",
+   "path": "/_nuxt/VCheckbox.ChRKi1kj.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"aed56535c9f1573cb57e5c2d318d5078\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "134"
+    }
+   ],
+   "body_file": "bodies/f1da6c3f874293a9c83c.css",
+   "size": 134,
+   "sha256": "f1da6c3f874293a9c83cda37037f9908dbf657be129c85abd2d4099c729ad2dd"
+  },
+  {
+   "key": "/_nuxt/VChip.C-9fEcel.css",
+   "path": "/_nuxt/VChip.C-9fEcel.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"dbefba911eaf0480a084117b13d1e1fc\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2193"
+    }
+   ],
+   "body_file": "bodies/91cd2c10856c61959fd0.css",
+   "size": 2193,
+   "sha256": "91cd2c10856c61959fd0ed9499c87d5dc49c36f15c16b425d8e2846b9d40fe65",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VContainer.ku9EbwM-.css",
+   "path": "/_nuxt/VContainer.ku9EbwM-.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "349"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"885af05531570cd47c37e66eca3665e5\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/b32e43668b6fbbe6d7ed.css",
+   "size": 349,
+   "sha256": "b32e43668b6fbbe6d7edeebc117efe8f61a35fd53384c121c985df480acc2a68"
+  },
+  {
+   "key": "/_nuxt/VDialog.CZWf1yfq.css",
+   "path": "/_nuxt/VDialog.CZWf1yfq.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "638"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"0209db067d5ff16d4605548414bcf85f\""
+    }
+   ],
+   "body_file": "bodies/c3210767d70fff46c234.css",
+   "size": 638,
+   "sha256": "c3210767d70fff46c2348db5dc2901b413aeef901154d19443b9571799f33b7e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VDivider.DvkP_iX7.css",
+   "path": "/_nuxt/VDivider.DvkP_iX7.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "464"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"d3b79b513cdcd6c7066eb80019c62336\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/26f8d0a8754711446ade.css",
+   "size": 464,
+   "sha256": "26f8d0a8754711446ade59ccbf762a4897576e77783ea46ea04a2e46ccb7f668",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VField.BuO7__mq.css",
+   "path": "/_nuxt/VField.BuO7__mq.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3587"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"90e422c6b502c97ceaeb0578cb7fbee0\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/6973f73b2365661e4366.css",
+   "size": 3587,
+   "sha256": "6973f73b2365661e436690956b7bd7a03f274ba3347ac99e72ab45b172c1a7ea",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VList.D-vP19XD.css",
+   "path": "/_nuxt/VList.D-vP19XD.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"95720e02f4349c7520fd5dc44a959458\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "747"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/c23fd90785cefacd61f1.css",
+   "size": 747,
+   "sha256": "c23fd90785cefacd61f196c231e4c1860d445894e2ec5a62d3206aab730a3d6e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VListItem.D7iTPReb.css",
+   "path": "/_nuxt/VListItem.D7iTPReb.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2413"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"389b7ad3a3698dbb87e540f3fb486331\""
+    }
+   ],
+   "body_file": "bodies/18eae98671ca974e8725.css",
+   "size": 2413,
+   "sha256": "18eae98671ca974e8725000e70d48f659240dc37413dccfe44ab2f8094761d8e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VMain.C1uF5Nxg.css",
+   "path": "/_nuxt/VMain.C1uF5Nxg.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1555"
+    },
+    {
+     "name": "Etag",
+     "value": "\"f9ba333d1a60cf422d6ac5019897c08c\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/9a2f6550e3527403e130.css",
+   "size": 1555,
+   "sha256": "9a2f6550e3527403e1303933d9d4952025f70237ad8d5a0dce395fe32e742cdf",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VMenu.DCy1EQlK.css",
+   "path": "/_nuxt/VMenu.DCy1EQlK.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"b281ec7456257232e2ea9ad74bde6a91\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "556"
+    }
+   ],
+   "body_file": "bodies/749de08877b00d7101b7.css",
+   "size": 556,
+   "sha256": "749de08877b00d7101b7d9150c8f9bfe5c6b73bcd25cfe35a4d7f40c4c1da5a1"
+  },
+  {
+   "key": "/_nuxt/VNavigationDrawer.BR2VTkKW.css",
+   "path": "/_nuxt/VNavigationDrawer.BR2VTkKW.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"73e47017ecaa2576fe10bc6d50d89fb5\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "790"
+    }
+   ],
+   "body_file": "bodies/e0678a2407c1a518908d.css",
+   "size": 790,
+   "sha256": "e0678a2407c1a518908d319ebc87a752bbb1079bfb9daa591e2df5a390f6d603",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VOverlay.DObTzQ9r.css",
+   "path": "/_nuxt/VOverlay.DObTzQ9r.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"a9c428c587cbcad82fad18210782e28f\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "473"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/ab8df22a2ae3d5d3575c.css",
+   "size": 473,
+   "sha256": "ab8df22a2ae3d5d3575cc0419f0e648ba5a739446a2591914655eb4819257bdc",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VSelect.k5rAiazX.css",
+   "path": "/_nuxt/VSelect.k5rAiazX.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "796"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9eb6406b1137f2a337f180ab99f6b797\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/544e687cb45e96524c5b.css",
+   "size": 796,
+   "sha256": "544e687cb45e96524c5b91b4748ac545d5c2ee29d59ea9fc2b0fb8991c1db0a3",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VSelectionControl.B4WFlrqD.css",
+   "path": "/_nuxt/VSelectionControl.B4WFlrqD.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "788"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"ed11a5e61c301a7def56e5d3ecfb4287\""
+    }
+   ],
+   "body_file": "bodies/b64e7a93ac6a786ef7af.css",
+   "size": 788,
+   "sha256": "b64e7a93ac6a786ef7af0118b56e229921f6e4879d9cd93c1363a46c955a975a",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VSheet.DJrVFpaq.css",
+   "path": "/_nuxt/VSheet.DJrVFpaq.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "792"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9ddfd2ea8f42c0237d68285b8d6fc023\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/6bfa47ae0c12fa30fd4b.css",
+   "size": 792,
+   "sha256": "6bfa47ae0c12fa30fd4b801c57bef2ba63d28d8006ba7bd9efa91314b468436b"
+  },
+  {
+   "key": "/_nuxt/VTextField.DIZiTJ7o.css",
+   "path": "/_nuxt/VTextField.DIZiTJ7o.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:43 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"cbd9ac21ce0ca0a3f7ee8d5d675265c1\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "598"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/af2d74712cf729d2db8d.css",
+   "size": 598,
+   "sha256": "af2d74712cf729d2db8da957142ff1c1ce09e1ed2c904e89fb1a47b81bc29720",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VToolbar.CLLulpOl.css",
+   "path": "/_nuxt/VToolbar.CLLulpOl.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "938"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"e051abf210d135f966706062f1139769\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/c3a5d33b8afec5918876.css",
+   "size": 938,
+   "sha256": "c3a5d33b8afec59188768e72734d9e20bda6b92f8646ba1fb295d56b2927cf71",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/VTooltip.BJE5Gwua.css",
+   "path": "/_nuxt/VTooltip.BJE5Gwua.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "705"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"5583197f8186dbe53f387e7efbcc76c9\""
+    }
+   ],
+   "body_file": "bodies/e2d31cfba2f10eedee82.css",
+   "size": 705,
+   "sha256": "e2d31cfba2f10eedee82c6ef7ddb96ef3b0dddb9d7f7d87545465261520790f6"
+  },
+  {
+   "key": "/_nuxt/VVirtualScroll.Bou2pvaJ.css",
+   "path": "/_nuxt/VVirtualScroll.Bou2pvaJ.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "160"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"f3fc21febd4f8168e9d9c65ab02f57a7\""
+    }
+   ],
+   "body_file": "bodies/77cdaa4d9d655d31bb2a.css",
+   "size": 160,
+   "sha256": "77cdaa4d9d655d31bb2ac1cc8aa157bec2c3af1ee631e6d7fbf82a680fae0b2d"
+  },
+  {
+   "key": "/_nuxt/XKyaHtl9.js",
+   "path": "/_nuxt/XKyaHtl9.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "726"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"5617f39f7adf658094dc7d2b73305f06\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/548d1dbf321e7d2ae804.js",
+   "size": 726,
+   "sha256": "548d1dbf321e7d2ae804fcc158b588706a7c52f8ca175de1490c6ccb4dbe55b7"
+  },
+  {
+   "key": "/_nuxt/blank.BWu0rl_J.css",
+   "path": "/_nuxt/blank.BWu0rl_J.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"22d894fbb33e21ae71806ebcdc4ff7e5\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "882"
+    }
+   ],
+   "body_file": "bodies/38f89a255b6ed94e10ba.css",
+   "size": 882,
+   "sha256": "38f89a255b6ed94e10babd77e20c8761d5e53d5e11761a0b1899391b94b4fc78",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/csgWgQhm.js",
+   "path": "/_nuxt/csgWgQhm.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1600"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"31d9fe9344e74280c2c258df0b0102e0\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/da283fb86b53260d2c65.js",
+   "size": 1600,
+   "sha256": "da283fb86b53260d2c6522e48eb3887d8e734c42dc42268ff545e85ad77d87be",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/entry.D_LYRVNs.css",
+   "path": "/_nuxt/entry.D_LYRVNs.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"b544bf3a96f0a1846471a6c9a9366c8b\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/d9179957f2d6c29de453.css",
+   "size": 26790,
+   "sha256": "d9179957f2d6c29de45383af12f947d2cd8bed2ebf7b75077e26644358dd9d3b",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_nuxt/fM16Bw3I.js",
+   "path": "/_nuxt/fM16Bw3I.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "8476"
+    },
+    {
+     "name": "Etag",
+     "value": "\"2727dff1868d0cb8ccb275c453a04a09\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/1b4ec46e769b3970be7d.js",
+   "size": 8476,
+   "sha256": "1b4ec46e769b3970be7d519fc8e66017b002b84297327fd6becb43b0d32d9284",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/ftEyLS8V.js",
+   "path": "/_nuxt/ftEyLS8V.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2478"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"622bd2af20f2dd3a88202d62017f30bb\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/78f69e19eaf07421390a.js",
+   "size": 2478,
+   "sha256": "78f69e19eaf07421390a7c62cda953d2cd855ef24eccabfc094da1f68491f131",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/hgOuWliR.js",
+   "path": "/_nuxt/hgOuWliR.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "49"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"85752bba0cf13adec865a96a7faafd08\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    }
+   ],
+   "body_file": "bodies/a03ef6b022e7a2c3c63f.js",
+   "size": 49,
+   "sha256": "a03ef6b022e7a2c3c63f7380e61401ff0a619ae1cdeff3047607bc47094cf824"
+  },
+  {
+   "key": "/_nuxt/hu_KpXFh.js",
+   "path": "/_nuxt/hu_KpXFh.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"8cb03c948ed3d390426c568961f90f45\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3853"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    }
+   ],
+   "body_file": "bodies/4532e94f9b056ddab936.js",
+   "size": 3853,
+   "sha256": "4532e94f9b056ddab936a6e4d7a44f67ffc87b2042448a75decd763b5a882967",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/l4hZ_nyL.js",
+   "path": "/_nuxt/l4hZ_nyL.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9346f20ec8c5678d175ffda5e7fbe100\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1747"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/7e40f015e4479ea13953.js",
+   "size": 1747,
+   "sha256": "7e40f015e4479ea13953b76b89609bc338c866f0721e7648ec8bd23620a8f7da",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/lHIHKkQE.js",
+   "path": "/_nuxt/lHIHKkQE.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "12923"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"5e46a6e75798d3b0368c0f4ce49bcca9\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/be637dff949b8eb62526.js",
+   "size": 12923,
+   "sha256": "be637dff949b8eb62526abd75ebdabc34336e46ec36d6f750516ccf2f643e9a9",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/login.BQxzL1Jc.css",
+   "path": "/_nuxt/login.BQxzL1Jc.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "407"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"5c46f64b24fc6a5c5396ecde8ec91cc5\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/92398c0bd87fad6bf871.css",
+   "size": 407,
+   "sha256": "92398c0bd87fad6bf871aaf353d341f8ed610e3b6ccc0c671df711d113d3b1b2"
+  },
+  {
+   "key": "/_nuxt/n3pE4Ght.js",
+   "path": "/_nuxt/n3pE4Ght.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"c7a0c74c53de716e6eeba5ea55317945\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2259"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/9fbd43a50c95b9b29c79.js",
+   "size": 2259,
+   "sha256": "9fbd43a50c95b9b29c794ac153e88157f470daabd1a9db1a9572405e2dd93cda",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/n7kaWxDX.js",
+   "path": "/_nuxt/n7kaWxDX.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "609"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"aaad2f69850ae37a7d47130f99776f6b\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    }
+   ],
+   "body_file": "bodies/9215ec2863a81c782d87.js",
+   "size": 609,
+   "sha256": "9215ec2863a81c782d87c027b0e6dc15170f77d70c27fef3f9e2d31d5ef6d32a",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/ndZOCqH7.js",
+   "path": "/_nuxt/ndZOCqH7.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "781"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"dfddf9139cc74c5d6deac2ca5da1f774\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    }
+   ],
+   "body_file": "bodies/c436924c40b106fba790.js",
+   "size": 781,
+   "sha256": "c436924c40b106fba7902d1b2eacb62a7e843f66b1717b1b69fd54840117ae80"
+  },
+  {
+   "key": "/_nuxt/pr7wQtdc.js",
+   "path": "/_nuxt/pr7wQtdc.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"dc0b9cdc1e67f8459866fc2957d9baa1\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2111"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/98a2d1ca271631336c63.js",
+   "size": 2111,
+   "sha256": "98a2d1ca271631336c63361fa7abc060804881558ecc9c7c08bbb17c193d183d",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_nuxt/r-casEFQ.js",
+   "path": "/_nuxt/r-casEFQ.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "516"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"c495149e86d97c3ade8243c9f00fc0a9\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    }
+   ],
+   "body_file": "bodies/dbd473e5a9a9d5c12866.js",
+   "size": 516,
+   "sha256": "dbd473e5a9a9d5c128660bbce24e0b672b3943f3d599f94df318853c62ed5f03"
+  },
+  {
+   "key": "/_nuxt/uC9CGJEy.js",
+   "path": "/_nuxt/uC9CGJEy.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"916f335f764ba738dc7de0ada9fdbb87\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "10285"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/e7c93b0b82a259c48b01.js",
+   "size": 10285,
+   "sha256": "e7c93b0b82a259c48b01994014ac7c9962b7ba9c6e3a0e4aca382f1549401780",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/account.png",
+   "path": "/account.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "675"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"659a81341308333ec90e04829ac26289\""
+    }
+   ],
+   "body_file": "bodies/4dbf437c1969c8ba4cfb.png",
+   "size": 675,
+   "sha256": "4dbf437c1969c8ba4cfbab0321bd4f8f2a6bf0c6e9916774379cc909adae6597"
+  },
+  {
+   "key": "/api/app/about",
+   "path": "/api/app/about",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "407"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    }
+   ],
+   "body_file": "bodies/b61a3e5ee78dbcc9eb38.bin",
+   "size": 407,
+   "sha256": "b61a3e5ee78dbcc9eb38649a7ad67e80f75e905880c6f42b7d0d783114166ab7"
+  },
+  {
+   "key": "/api/app/about/startup-info",
+   "path": "/api/app/about/startup-info",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "36"
+    }
+   ],
+   "body_file": "bodies/70ab610feb709afa797a.bin",
+   "size": 36,
+   "sha256": "70ab610feb709afa797a872fc4344d1d361c7698d59c0f3086e0933c00837425"
+  },
+  {
+   "key": "/api/app/about/theme",
+   "path": "/api/app/about/theme",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "336"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=604800"
+    }
+   ],
+   "body_file": "bodies/e12d4730d97b2be8306d.bin",
+   "size": 336,
+   "sha256": "e12d4730d97b2be8306d51075ee9c33ff36e084f6412c8991a6875f4c085f604"
+  },
+  {
+   "key": "/discord.svg",
+   "path": "/discord.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Length",
+     "value": "564"
+    },
+    {
+     "name": "Etag",
+     "value": "\"1bf32f6e1fe54e52f84b7a72d2fb9398\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/3db5f8cda4dd8fe5cc9c.svg",
+   "size": 564,
+   "sha256": "3db5f8cda4dd8fe5cc9c8c3b4f857f9be2446c1c8c340453b64c57f88a2d2da4",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6d65365b6c3502d0eadb3fbe2b2e4739\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/vnd.microsoft.icon"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2190"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/6b7c363cbfb266ed1c06.ico",
+   "size": 2190,
+   "sha256": "6b7c363cbfb266ed1c06c335a30463e4a407a8cb3be4585268425c6769b39865",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/gotify.png",
+   "path": "/gotify.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "50193"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"91311ca6b0d61c3cd0b50dce43191c6c\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/a555e5a39b97328bcd37.png",
+   "size": 50193,
+   "sha256": "a555e5a39b97328bcd37d2fa05f6343c7e919dd6be96057ae1b3d42ba09a2a38"
+  },
+  {
+   "key": "/home-assistant.png",
+   "path": "/home-assistant.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "17147"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"be942c34a78dfc01d6b9b149ed563b95\""
+    }
+   ],
+   "body_file": "bodies/14873a8b11f8fa189e51.png",
+   "size": 17147,
+   "sha256": "14873a8b11f8fa189e5189ef596f21be79add6eb54bb6623623d8167e6546c4d"
+  },
+  {
+   "key": "/icon.png",
+   "path": "/icon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"8e76fde8c9858b15430a97c35fa63425\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "26836"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/ef9abf23f46111678df0.png",
+   "size": 26836,
+   "sha256": "ef9abf23f46111678df01ca0b099fde0372c0394f2c0a47befec35485340c46d"
+  },
+  {
+   "key": "/icons/android-chrome-192x192.png",
+   "path": "/icons/android-chrome-192x192.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5333"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"fbe3421a2e33407653be501b9eddf7ea\""
+    }
+   ],
+   "body_file": "bodies/c199899f2d278fe98a69.png",
+   "size": 5333,
+   "sha256": "c199899f2d278fe98a69467f6ed29ca375960a4d1eebd61500524e68fb8e20a4"
+  },
+  {
+   "key": "/icons/apple-touch-icon.png",
+   "path": "/icons/apple-touch-icon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2642"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"573deeda04a7bcbc51de57f83b3c4be0\""
+    }
+   ],
+   "body_file": "bodies/ac8013d30b09c1837f2a.png",
+   "size": 2642,
+   "sha256": "ac8013d30b09c1837f2aa7c28938490f6594d40ebb4a3e1eab2c75177b163779"
+  },
+  {
+   "key": "/icons/icon-x64.png",
+   "path": "/icons/icon-x64.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "10833"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"a5a0954846ccfbbc2d686700a4e47887\""
+    }
+   ],
+   "body_file": "bodies/aa2f25b00a70d5d75a98.png",
+   "size": 10833,
+   "sha256": "aa2f25b00a70d5d75a9826149bbc98b0df0c4f9c4a0096391e6f13ea8c35ef22"
+  },
+  {
+   "key": "/icons/safari-pinned-tab.svg",
+   "path": "/icons/safari-pinned-tab.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"6287ffcb5356a242da99a279687ccd5a\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Length",
+     "value": "872"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/6ff5444aff556ade80e1.svg",
+   "size": 872,
+   "sha256": "6ff5444aff556ade80e1ca6b67265d0f1dae013dfc4b2dbc2eb05c7ca49b1d00",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/login",
+   "path": "/login",
+   "method": "GET",
+   "status": 307,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:41 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Location",
+     "value": "/login/"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.bin",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/login/",
+   "path": "/login/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"dd9bcc17061dc8cf92dae7fd572faaaa\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2940"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/bd7de5c9e680b2e6cb98.bin",
+   "size": 2940,
+   "sha256": "bd7de5c9e680b2e6cb98540c9aa55b9f2deab2b9d94e816c26df87d34a3460fc",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/manifest.webmanifest",
+   "path": "/manifest.webmanifest",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Length",
+     "value": "788"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/manifest+json"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/092305c1118750803a35.bin",
+   "size": 788,
+   "sha256": "092305c1118750803a35091a7d8aa1912a7152153f0916c356aea335394c119c",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/matrix.png",
+   "path": "/matrix.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3462"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"1999617faa65e9d8c335c15074de8326\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    }
+   ],
+   "body_file": "bodies/c419560f23aa5573e8e6.png",
+   "size": 3462,
+   "sha256": "c419560f23aa5573e8e6a5ddb418bdb09c14a1cdea3531efe119d732fc949c15"
+  },
+  {
+   "key": "/mealie-email-banner.png",
+   "path": "/mealie-email-banner.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "66579"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"863cd4616e516386e31a7e673f044e3b\""
+    }
+   ],
+   "body_file": "bodies/bb6495303a7b82a8c15f.png",
+   "size": 66579,
+   "sha256": "bb6495303a7b82a8c15f962b1c0b49aa10958b0018116ca217bdf3ba835604e9"
+  },
+  {
+   "key": "/pushover.svg",
+   "path": "/pushover.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1325"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6d892033c1ac061ac24795f4efb498f5\""
+    }
+   ],
+   "body_file": "bodies/f97167f10910d70460a2.svg",
+   "size": 1325,
+   "sha256": "f97167f10910d70460a2f55fdf7d43321901d596d10d81686a5ace183b58c983",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "24"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"850b553ce9052e7cd39ca0cca3b460d3\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/e5c4b84484ee4216e937.txt",
+   "size": 24,
+   "sha256": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
+  },
+  {
+   "key": "/svgs/manage-data-migrations.svg",
+   "path": "/svgs/manage-data-migrations.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "6020"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"79283a1dc26708e3c0a377337a9dd4b5\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/889d47876d45eb194165.svg",
+   "size": 6020,
+   "sha256": "889d47876d45eb19416568785684de9839fb7a0b72b2119d90adbf717780d9a1",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/svgs/manage-group-settings.svg",
+   "path": "/svgs/manage-group-settings.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3862"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"bb47d6c0d4ffc0a288729e56cc5161bb\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/a3d6c5319709e99efd2c.svg",
+   "size": 3862,
+   "sha256": "a3d6c5319709e99efd2c5db09ad68e0deab9d151507e531a7216ba54f9e17f0e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/svgs/manage-members.svg",
+   "path": "/svgs/manage-members.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "11550"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"0bd477bc29de4f8e0484809eb5f053d7\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/d20a5d077efc732ce2ed.svg",
+   "size": 11550,
+   "sha256": "d20a5d077efc732ce2ed08d096c2c44ff307606d2b1dff0d513e267f57994c5f",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/svgs/manage-notifiers.svg",
+   "path": "/svgs/manage-notifiers.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6b4826ecc6cf151b804ce020246b80ad\""
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3317"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/8b186323decb2068db59.svg",
+   "size": 3317,
+   "sha256": "8b186323decb2068db59e4bbbb1ba8305b12f072d3d205a5727f3ba89f5bc764",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/svgs/manage-profile.svg",
+   "path": "/svgs/manage-profile.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"b2aaf4bbf297f159692cd68277fc88fb\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:44 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5016"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    }
+   ],
+   "body_file": "bodies/09a073f7969c66757d09.svg",
+   "size": 5016,
+   "sha256": "09a073f7969c66757d090f236aa59a75f88c769c6ba3e05b7aa8f16badbcd8f7",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/svgs/manage-recipes.svg",
+   "path": "/svgs/manage-recipes.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2777"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"ee58019610946a358333ed93ce2e6251\""
+    }
+   ],
+   "body_file": "bodies/35013211d0a6176be707.svg",
+   "size": 2777,
+   "sha256": "35013211d0a6176be707b840681493a77bba30b4052323b7cff0d09da6dfb62e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/svgs/manage-tasks.svg",
+   "path": "/svgs/manage-tasks.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"8af5c7b99e0b29357fcfceaf9405fae8\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3116"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/ae9c5b2885e3f164bb06.svg",
+   "size": 3116,
+   "sha256": "ae9c5b2885e3f164bb06d8ef6538fbe4c00718239ad1dbd995a5745d7ed93d57",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/svgs/manage-webhooks.svg",
+   "path": "/svgs/manage-webhooks.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1750"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Etag",
+     "value": "\"5309222f7bbff50b5973cdc5669a54a4\""
+    }
+   ],
+   "body_file": "bodies/3e667d6ad782d108d228.svg",
+   "size": 1750,
+   "sha256": "3e667d6ad782d108d22880522a2cdcb52152c9f6b2eb5bdea6e385bcf18fc661",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/svgs/recipes-create.svg",
+   "path": "/svgs/recipes-create.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2816"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6445f08acb62cb03811f5e0f492e0df9\""
+    }
+   ],
+   "body_file": "bodies/0e8077aa82fa83df68a3.svg",
+   "size": 2816,
+   "sha256": "0e8077aa82fa83df68a39c49f94bd9a1f5238f183d0a152cc0d94c02abe9f934",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/svgs/shopping-cart.svg",
+   "path": "/svgs/shopping-cart.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"cf170d285204129cf2b4cbd0484efcad\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2699"
+    }
+   ],
+   "body_file": "bodies/45f4a138fa2e99927e43.svg",
+   "size": 2699,
+   "sha256": "45f4a138fa2e99927e4304f75416348172cbfa13cd2a9f0c4d31dc68152077fd",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/sw.js",
+   "path": "/sw.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"f5605acca2bd8ee805b9855427f8c935\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "6898"
+    }
+   ],
+   "body_file": "bodies/8872e153de6f451a550c.js",
+   "size": 6898,
+   "sha256": "8872e153de6f451a550c3e42f8bebc9ddc760ecf070153c2d97ed1cec2fe7e65",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/user/profile",
+   "path": "/user/profile",
+   "method": "GET",
+   "status": 307,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Location",
+     "value": "/user/profile/"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.bin",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/user/profile/",
+   "path": "/user/profile/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2940"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"dd9bcc17061dc8cf92dae7fd572faaaa\""
+    }
+   ],
+   "body_file": "bodies/9e586d038b9cc63caad0.bin",
+   "size": 2940,
+   "sha256": "9e586d038b9cc63caad02f86011ac1a19a194dbe288bd95303efa048f71546a9",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/user/profile/api-tokens",
+   "path": "/user/profile/api-tokens",
+   "method": "GET",
+   "status": 307,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Location",
+     "value": "/user/profile/api-tokens/"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.bin",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/user/profile/api-tokens/",
+   "path": "/user/profile/api-tokens/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2940"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"dd9bcc17061dc8cf92dae7fd572faaaa\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/f1ef2ee0037936ebf6e2.bin",
+   "size": 2940,
+   "sha256": "f1ef2ee0037936ebf6e24b7a38b0c9693bf2dac8c95cde295529fc9a7a04a75a",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/user/profile/edit",
+   "path": "/user/profile/edit",
+   "method": "GET",
+   "status": 307,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Location",
+     "value": "/user/profile/edit/"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.bin",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/user/profile/edit/",
+   "path": "/user/profile/edit/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "2940"
+    },
+    {
+     "name": "Etag",
+     "value": "\"dd9bcc17061dc8cf92dae7fd572faaaa\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/f1ef2ee0037936ebf6e2.bin",
+   "size": 2940,
+   "sha256": "f1ef2ee0037936ebf6e24b7a38b0c9693bf2dac8c95cde295529fc9a7a04a75a",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/workbox-9c191d2f.js",
+   "path": "/workbox-9c191d2f.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"02904b2dc14c9719ae1f6ea0390479d8\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5208"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/52c80480364f776ed27d.js",
+   "size": 5208,
+   "sha256": "52c80480364f776ed27d61bdb5df4dd784a98d63b3deaf739be800c20356a4db",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "POST /api/auth/token :: application/x-www-form-urlencoded",
+   "path": "/api/auth/token",
+   "method": "POST",
+   "req_content_type": "application/x-www-form-urlencoded",
+   "req_body": "username=admin%40example.com\u0026password=definitely-wrong\u0026remember_me=false",
+   "status": 401,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "25"
+    }
+   ],
+   "body_file": "bodies/8f399debe52f271e5691.bin",
+   "size": 25,
+   "sha256": "8f399debe52f271e56918a3ef03cd90d60776f7c972e6807b1ef2a7437c1040c"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-cbc484c5ee6a",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:52:45 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 01 Nov 2026 00:02:24 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"dd9bcc17061dc8cf92dae7fd572faaaa\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2940"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/d0c6c51dec4911a3aba7.bin",
+   "size": 2940,
+   "sha256": "d0c6c51dec4911a3aba73abc474e2dfdf786fae688b80afd7d635d1b4901853f",
+   "content_encoding": "gzip"
+  }
+ ]
+}

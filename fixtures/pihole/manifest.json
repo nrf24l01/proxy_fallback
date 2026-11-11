@@ -1,0 +1,3848 @@
+{
+ "service": "pihole",
+ "title": "Pi-hole",
+ "category": "network",
+ "login_path": "/admin/login",
+ "default_port": 8211,
+ "upstream": "http://127.0.0.1:8211",
+ "public_url": "https://pihole.example.com",
+ "recorded_at": "2026-11-10T19:54:26.259315358Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate, private, max-age=0"
+    },
+    {
+     "name": "Expires",
+     "value": "0"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Pragma",
+     "value": "no-cache"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    }
+   ],
+   "body_file": "bodies/9948d8b50185f6491921.bin",
+   "size": 3428,
+   "sha256": "9948d8b50185f649192100101d96059849c108aff34e109c2e7619e172e19e8a"
+  },
+  {
+   "key": "/admin/img/boxed-bg-dark.png",
+   "path": "/admin/img/boxed-bg-dark.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Content-Length",
+     "value": "11633"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.11633\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    }
+   ],
+   "body_file": "bodies/b8d4ec76c4b2019c1bba.png",
+   "size": 11633,
+   "sha256": "b8d4ec76c4b2019c1bbaad2852eae1f7ff78bfad557258c1ecf9bef13228c265"
+  },
+  {
+   "key": "/admin/img/boxed-bg.png",
+   "path": "/admin/img/boxed-bg.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.11633\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Content-Length",
+     "value": "11633"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    }
+   ],
+   "body_file": "bodies/2c4c08a79bbd969971c5.png",
+   "size": 11633,
+   "sha256": "2c4c08a79bbd969971c5fef9358a1169dcd4d00c2ec2550ee235bab7bc5f853f"
+  },
+  {
+   "key": "/admin/img/favicons/apple-touch-icon.png",
+   "path": "/admin/img/favicons/apple-touch-icon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3027"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.3027\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/fbcd49e53d7e6dcfeda0.png",
+   "size": 3027,
+   "sha256": "fbcd49e53d7e6dcfeda0d0bcae68846d44d29cf54c5fd8a4c16d9911dded4802"
+  },
+  {
+   "key": "/admin/img/favicons/favicon-16x16.png",
+   "path": "/admin/img/favicons/favicon-16x16.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.474\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "474"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    }
+   ],
+   "body_file": "bodies/b8b3595f3c3004aaf814.png",
+   "size": 474,
+   "sha256": "b8b3595f3c3004aaf814937f3137fc21b3c227cad92cafbc12d6db3cd85b8e79"
+  },
+  {
+   "key": "/admin/img/favicons/favicon-32x32.png",
+   "path": "/admin/img/favicons/favicon-32x32.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.936\""
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Content-Length",
+     "value": "936"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/a6bc75881f567b1d0fc5.png",
+   "size": 936,
+   "sha256": "a6bc75881f567b1d0fc547be21ec42abbac9d14a91f94890c5d47c6308b4ec1a"
+  },
+  {
+   "key": "/admin/img/favicons/favicon.ico",
+   "path": "/admin/img/favicons/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15086"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/x-icon"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.15086\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    }
+   ],
+   "body_file": "bodies/c17282da475df826dac4.ico",
+   "size": 15086,
+   "sha256": "c17282da475df826dac40d647f1fd8aa64da627025a3c975b6b99db2e11f05c4"
+  },
+  {
+   "key": "/admin/img/favicons/manifest.json",
+   "path": "/admin/img/favicons/manifest.json",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.452\""
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Content-Length",
+     "value": "452"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    }
+   ],
+   "body_file": "bodies/61dc138f25020523aac9.json",
+   "size": 452,
+   "sha256": "61dc138f25020523aac9268b1ae82e7ac3e561b236a5ef537e49b45d34557422"
+  },
+  {
+   "key": "/admin/img/favicons/safari-pinned-tab.svg",
+   "path": "/admin/img/favicons/safari-pinned-tab.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.972\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Length",
+     "value": "972"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/5c7206a6566b49cc6408.svg",
+   "size": 972,
+   "sha256": "5c7206a6566b49cc6408e059c16c330abbb84b7779d0e2df60cf836fa5f77848"
+  },
+  {
+   "key": "/admin/img/logo.svg",
+   "path": "/admin/img/logo.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1026"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.1026\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/c58432fbf5ee39d5afd8.svg",
+   "size": 1026,
+   "sha256": "c58432fbf5ee39d5afd8db60ffbbd44610581e71793d408f6cc15fcf9004629c"
+  },
+  {
+   "key": "/admin/login",
+   "path": "/admin/login",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate, private, max-age=0"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Expires",
+     "value": "0"
+    },
+    {
+     "name": "Pragma",
+     "value": "no-cache"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    }
+   ],
+   "body_file": "bodies/7c0fbb6731ae5c2a783d.bin",
+   "size": 10455,
+   "sha256": "7c0fbb6731ae5c2a783d4f16dd8e9e3ff1debdacbe6f789c05a1631ae9eeef9f"
+  },
+  {
+   "key": "/admin/scripts/js/footer.js?v=1793404958",
+   "path": "/admin/scripts/js/footer.js",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.24269\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Length",
+     "value": "24269"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/bf0b0a7b7f74c18b80b2.js",
+   "size": 24269,
+   "sha256": "bf0b0a7b7f74c18b80b2ceccda754ff20209b23c7e58b49b2156bf4545f4b4c8"
+  },
+  {
+   "key": "/admin/scripts/js/login.js?v=1793404958",
+   "path": "/admin/scripts/js/login.js",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.6614\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Length",
+     "value": "6614"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    }
+   ],
+   "body_file": "bodies/8e0c288c66367e39ca24.js",
+   "size": 6614,
+   "sha256": "8e0c288c66367e39ca2405180427ec9a6fc4fb8a34905e54869758258b92448c"
+  },
+  {
+   "key": "/admin/scripts/js/utils.js?v=1793404958",
+   "path": "/admin/scripts/js/utils.js",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.26367\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "26367"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    }
+   ],
+   "body_file": "bodies/f5280dff660d2ba550ae.js",
+   "size": 26367,
+   "sha256": "f5280dff660d2ba550ae19ad98425655c23c14912fa4400f77bf6ac916a8f683"
+  },
+  {
+   "key": "/admin/style/pi-hole.css?v=1793404958",
+   "path": "/admin/style/pi-hole.css",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.33336\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "33336"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    }
+   ],
+   "body_file": "bodies/b696657b28eef9c310b7.css",
+   "size": 33336,
+   "sha256": "b696657b28eef9c310b76697129293472491d84f52426957f28c4bc9807284c9"
+  },
+  {
+   "key": "/admin/style/themes/default-dark.css?v=1793404958",
+   "path": "/admin/style/themes/default-dark.css",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.14397\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Content-Length",
+     "value": "14397"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    }
+   ],
+   "body_file": "bodies/2c8885d4c079daac45a0.css",
+   "size": 14397,
+   "sha256": "2c8885d4c079daac45a060ad2eda805b50256b08acb2c075d39caf38e1162cd9"
+  },
+  {
+   "key": "/admin/style/themes/default-light.css?v=1793404958",
+   "path": "/admin/style/themes/default-light.css",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "6326"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.6326\""
+    }
+   ],
+   "body_file": "bodies/01afc19f73486f76ee4b.css",
+   "size": 6326,
+   "sha256": "01afc19f73486f76ee4bc46431baa5caeb4b52e2a4934cb2957a1698e9f06ef2"
+  },
+  {
+   "key": "/admin/vendor/adminLTE/AdminLTE.min.css?v=1793404958",
+   "path": "/admin/vendor/adminLTE/AdminLTE.min.css",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.106547\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Content-Length",
+     "value": "106547"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/e61aab24c8365aaedaa9.css",
+   "size": 106547,
+   "sha256": "e61aab24c8365aaedaa9d2671dcfc5afa66466843c055102e82cd6f532376ef3"
+  },
+  {
+   "key": "/admin/vendor/adminLTE/adminlte.min.js?v=1793404958",
+   "path": "/admin/vendor/adminLTE/adminlte.min.js",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.13611\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "13611"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/b42729f850b123c0530d.js",
+   "size": 13611,
+   "sha256": "b42729f850b123c0530dae9595e1e520d8e2d2db9ffb1ad8efa817e59fdeaa9b"
+  },
+  {
+   "key": "/admin/vendor/animate/animate.min.css?v=1793404958",
+   "path": "/admin/vendor/animate/animate.min.css",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "71727"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.71727\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    }
+   ],
+   "body_file": "bodies/b8553231fc5860afd64d.css",
+   "size": 71727,
+   "sha256": "b8553231fc5860afd64dbee2485c92e82d21f7fa8e4edac9338b4090227378df"
+  },
+  {
+   "key": "/admin/vendor/bootstrap/css/bootstrap.min.css?v=1793404958",
+   "path": "/admin/vendor/bootstrap/css/bootstrap.min.css",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "121457"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.121457\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/6d92dfc1700fd38cd130.css",
+   "size": 121457,
+   "sha256": "6d92dfc1700fd38cd130ad818e23bc8aef697f815b2ea5face2b5dfad22f2e11"
+  },
+  {
+   "key": "/admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot",
+   "path": "/admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.20127\""
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "20127"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    }
+   ],
+   "body_file": "bodies/13634da87d9e23f8c3ed.eot",
+   "size": 20127,
+   "sha256": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407"
+  },
+  {
+   "key": "/admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg",
+   "path": "/admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.108738\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "108738"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/42f60659d265c1a3c30f.svg",
+   "size": 108738,
+   "sha256": "42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5"
+  },
+  {
+   "key": "/admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf",
+   "path": "/admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.45404\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-sfnt"
+    },
+    {
+     "name": "Content-Length",
+     "value": "45404"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/e395044093757d82afcb.ttf",
+   "size": 45404,
+   "sha256": "e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456"
+  },
+  {
+   "key": "/admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff",
+   "path": "/admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Length",
+     "value": "23424"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.23424\""
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/a26394f7ede100ca118e.woff",
+   "size": 23424,
+   "sha256": "a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742"
+  },
+  {
+   "key": "/admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2",
+   "path": "/admin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "18028"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff2"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.18028\""
+    }
+   ],
+   "body_file": "bodies/fe185d11a49676890d47.woff2",
+   "size": 18028,
+   "sha256": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c"
+  },
+  {
+   "key": "/admin/vendor/bootstrap/js/bootstrap.min.js?v=1793404958",
+   "path": "/admin/vendor/bootstrap/js/bootstrap.min.js",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Length",
+     "value": "39680"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.39680\""
+    }
+   ],
+   "body_file": "bodies/9ee2fcff6709e4d0d24b.js",
+   "size": 39680,
+   "sha256": "9ee2fcff6709e4d0d24b09ca0fc56aade12b4961ed9c43fd13b03248bfb57afe"
+  },
+  {
+   "key": "/admin/vendor/font-awesome/css/all.min.css?v=1793404958",
+   "path": "/admin/vendor/font-awesome/css/all.min.css",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.73890\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "73890"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    }
+   ],
+   "body_file": "bodies/74005d7c17d4a02f2f25.css",
+   "size": 73890,
+   "sha256": "74005d7c17d4a02f2f25404ec0655d9bc2fdaa53166874c87d7b7eec69d9088a"
+  },
+  {
+   "key": "/admin/vendor/font-awesome/webfonts/fa-brands-400.ttf",
+   "path": "/admin/vendor/font-awesome/webfonts/fa-brands-400.ttf",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-sfnt"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.210792\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Length",
+     "value": "210792"
+    }
+   ],
+   "body_file": "bodies/808443ae6c8204395add.ttf",
+   "size": 210792,
+   "sha256": "808443ae6c8204395add8543da8a90a60b9376fb0f87ed8e8ea37d109596d805"
+  },
+  {
+   "key": "/admin/vendor/font-awesome/webfonts/fa-brands-400.woff2",
+   "path": "/admin/vendor/font-awesome/webfonts/fa-brands-400.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.118684\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff2"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "118684"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/d7236a19bf23cbb20272.woff2",
+   "size": 118684,
+   "sha256": "d7236a19bf23cbb2027280e8f51dc99d6c45976a2ed60de73382b034b18a2b68"
+  },
+  {
+   "key": "/admin/vendor/font-awesome/webfonts/fa-regular-400.ttf",
+   "path": "/admin/vendor/font-awesome/webfonts/fa-regular-400.ttf",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.68064\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Length",
+     "value": "68064"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-sfnt"
+    }
+   ],
+   "body_file": "bodies/54cf6086f7bb21f9d072.ttf",
+   "size": 68064,
+   "sha256": "54cf6086f7bb21f9d072ad494a19b4681fa516dd0a14cee52da01d3651a913a3"
+  },
+  {
+   "key": "/admin/vendor/font-awesome/webfonts/fa-regular-400.woff2",
+   "path": "/admin/vendor/font-awesome/webfonts/fa-regular-400.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff2"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.25472\""
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Length",
+     "value": "25472"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/e3456d1283b9d75337a7.woff2",
+   "size": 25472,
+   "sha256": "e3456d1283b9d75337a773dfd147bf908fd02c01b4bf48576d8603a69b13cbe5"
+  },
+  {
+   "key": "/admin/vendor/font-awesome/webfonts/fa-solid-900.ttf",
+   "path": "/admin/vendor/font-awesome/webfonts/fa-solid-900.ttf",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.426112\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "426112"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-sfnt"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/d2f0593540b0e33ba6de.ttf",
+   "size": 426112,
+   "sha256": "d2f0593540b0e33ba6de255a54f272d466e31144806956bea8cfdbf7edffc9bd"
+  },
+  {
+   "key": "/admin/vendor/font-awesome/webfonts/fa-solid-900.woff2",
+   "path": "/admin/vendor/font-awesome/webfonts/fa-solid-900.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff2"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.158220\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "158220"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    }
+   ],
+   "body_file": "bodies/aa75998623a391e61c69.woff2",
+   "size": 158220,
+   "sha256": "aa75998623a391e61c6901794ace832e3ecdd288b56d608f21bea0411acc0b8e"
+  },
+  {
+   "key": "/admin/vendor/font-awesome/webfonts/fa-v4compatibility.ttf",
+   "path": "/admin/vendor/font-awesome/webfonts/fa-v4compatibility.ttf",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-sfnt"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.10836\""
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "10836"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    }
+   ],
+   "body_file": "bodies/30f6abf6baa425825828.ttf",
+   "size": 10836,
+   "sha256": "30f6abf6baa425825828793d6dfad1fb63765d0e5abaa7af6feafb9bfcece5a0"
+  },
+  {
+   "key": "/admin/vendor/font-awesome/webfonts/fa-v4compatibility.woff2",
+   "path": "/admin/vendor/font-awesome/webfonts/fa-v4compatibility.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.4796\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4796"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff2"
+    }
+   ],
+   "body_file": "bodies/0ce9033c69dc714f5f45.woff2",
+   "size": 4796,
+   "sha256": "0ce9033c69dc714f5f45ef9bf17d55e4c46bcdfad6799a4e92b38e7781bf86bd"
+  },
+  {
+   "key": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-300.woff2",
+   "path": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-300.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff2"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Length",
+     "value": "16064"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.16064\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    }
+   ],
+   "body_file": "bodies/f3d7092e6eb6f3aa0c57.woff2",
+   "size": 16064,
+   "sha256": "f3d7092e6eb6f3aa0c572e52e061a59cc88a3e9eff581c95c4bd7456800904d0"
+  },
+  {
+   "key": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-300italic.woff2",
+   "path": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-300italic.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.15316\""
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff2"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15316"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    }
+   ],
+   "body_file": "bodies/d3559c816af640e8382b.woff2",
+   "size": 15316,
+   "sha256": "d3559c816af640e8382b29d02d4fbd8c7225fcf0302cf244d8b2d7cf5db2fdd1"
+  },
+  {
+   "key": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-600.woff2",
+   "path": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-600.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15948"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.15948\""
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff2"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    }
+   ],
+   "body_file": "bodies/efb3cdc5e4582fd67dff.woff2",
+   "size": 15948,
+   "sha256": "efb3cdc5e4582fd67dffab6fc6e5062074ce3f8c51747346af944e97749dc309"
+  },
+  {
+   "key": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-600italic.woff2",
+   "path": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-600italic.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff2"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15296"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.15296\""
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/553f5fabc75321590278.woff2",
+   "size": 15296,
+   "sha256": "553f5fabc75321590278e798830472879642e5baaaea952dd109e8a1f4b63a72"
+  },
+  {
+   "key": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-700.woff2",
+   "path": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-700.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15764"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff2"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.15764\""
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    }
+   ],
+   "body_file": "bodies/24f7e397faec79e62c37.woff2",
+   "size": 15764,
+   "sha256": "24f7e397faec79e62c37ff2f00b170f6dc1557fb46ac169f9f1897a9d641dd03"
+  },
+  {
+   "key": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-italic.woff2",
+   "path": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-italic.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15280"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff2"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.15280\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    }
+   ],
+   "body_file": "bodies/29b561a8a01edc4acf52.woff2",
+   "size": 15280,
+   "sha256": "29b561a8a01edc4acf52d1c4c763aa21a1b540bc020b92f8bbfaf656b53a02b0"
+  },
+  {
+   "key": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-regular.woff2",
+   "path": "/admin/vendor/fonts/source-sans-pro/source-sans-pro-v13-latin-regular.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/font-woff2"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.16112\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Content-Length",
+     "value": "16112"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    }
+   ],
+   "body_file": "bodies/a9950fa5ca9cf4707277.woff2",
+   "size": 16112,
+   "sha256": "a9950fa5ca9cf47072770900d259bcf6778aa1119652d2e706d5eb92df254199"
+  },
+  {
+   "key": "/admin/vendor/fonts/source-sans-pro/source-sans-pro.css?v=1793404958",
+   "path": "/admin/vendor/fonts/source-sans-pro/source-sans-pro.css",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.3516\""
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3516"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/1276344244fcc0535c1a.css",
+   "size": 3516,
+   "sha256": "1276344244fcc0535c1a62146002bba0582dd07bf05b74b86c555b274de5616f"
+  },
+  {
+   "key": "/admin/vendor/jquery/jquery.min.js?v=1793404958",
+   "path": "/admin/vendor/jquery/jquery.min.js",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.87533\""
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Length",
+     "value": "87533"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    }
+   ],
+   "body_file": "bodies/fc9a93dd241f6b045cbf.js",
+   "size": 87533,
+   "sha256": "fc9a93dd241f6b045cbff0481cf4e1901becd0e12fb45166a8f17f95823f0b1a"
+  },
+  {
+   "key": "/admin/vendor/js-warn/js-warn.css?v=1793404958",
+   "path": "/admin/vendor/js-warn/js-warn.css",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.1236\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "1236"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    }
+   ],
+   "body_file": "bodies/9117ca54136589e1e42f.css",
+   "size": 1236,
+   "sha256": "9117ca54136589e1e42fd75684e195ef299c21869fba5d7842f79f08fd2f4ac3"
+  },
+  {
+   "key": "/admin/vendor/nprogress/nprogress.min.css?v=1793404958",
+   "path": "/admin/vendor/nprogress/nprogress.min.css",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.1090\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1090"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/4400c1e6b434bc414f38.css",
+   "size": 1090,
+   "sha256": "4400c1e6b434bc414f3870cc8d155b3335f1f32d1a07381e06cc8a8bd869de73"
+  },
+  {
+   "key": "/admin/vendor/nprogress/nprogress.min.js?v=1793404958",
+   "path": "/admin/vendor/nprogress/nprogress.min.js",
+   "query": "v=1793404958",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=3600"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sat, 31 Oct 2026 00:02:38 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ae5301e.7445\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Content-Length",
+     "value": "7445"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/9cb231c24f3903afccc2.js",
+   "size": 7445,
+   "sha256": "9cb231c24f3903afccc28623e86e35f37e18750f49f5508461afc42dad708544"
+  },
+  {
+   "key": "/api/auth",
+   "path": "/api/auth",
+   "method": "GET",
+   "status": 401,
+   "headers": [
+    {
+     "name": "Pragma",
+     "value": "no-cache"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Expires",
+     "value": "0"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "sid=deleted; SameSite=Lax; Path=/; Max-Age=-1; Expires=Thu, 01 Jan 1970 00:00:00 GMT;"
+    },
+    {
+     "name": "Content-Length",
+     "value": "123"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate, private, max-age=0"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    }
+   ],
+   "body_file": "bodies/8ebc83f91a9c5cf625a2.bin",
+   "size": 123,
+   "sha256": "8ebc83f91a9c5cf625a210c8e999546ec6135fa633677fe42bff5b8efe2fd698"
+  },
+  {
+   "key": "/api/info/login",
+   "path": "/api/info/login",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "Pragma",
+     "value": "no-cache"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "Access-Control-Allow-Headers",
+     "value": "*"
+    },
+    {
+     "name": "Access-Control-Allow-Methods",
+     "value": "*"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate, private, max-age=0"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Length",
+     "value": "59"
+    },
+    {
+     "name": "Expires",
+     "value": "0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    }
+   ],
+   "body_file": "bodies/f98c50e18a3fef7623ff.bin",
+   "size": 59,
+   "sha256": "f98c50e18a3fef7623ff9aa9767a13c5127515d52a94ac26c40bf5730d8f01ce"
+  },
+  {
+   "key": "POST /admin/index.php?login :: application/x-www-form-urlencoded",
+   "path": "/admin/index.php",
+   "query": "login",
+   "method": "POST",
+   "req_content_type": "application/x-www-form-urlencoded",
+   "req_body": "pw=definitely-wrong",
+   "status": 404,
+   "headers": [
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Pragma",
+     "value": "no-cache"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate, private, max-age=0"
+    },
+    {
+     "name": "Expires",
+     "value": "0"
+    }
+   ],
+   "body_file": "bodies/9948d8b50185f6491921.php",
+   "size": 3428,
+   "sha256": "9948d8b50185f649192100101d96059849c108aff34e109c2e7619e172e19e8a"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-c7f057acbb3b",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:26 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate, private, max-age=0"
+    },
+    {
+     "name": "Expires",
+     "value": "0"
+    },
+    {
+     "name": "Pragma",
+     "value": "no-cache"
+    },
+    {
+     "name": "X-Dns-Prefetch-Control",
+     "value": "off"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "0"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "strict-origin-when-cross-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/9948d8b50185f6491921.bin",
+   "size": 3428,
+   "sha256": "9948d8b50185f649192100101d96059849c108aff34e109c2e7619e172e19e8a"
+  }
+ ]
+}

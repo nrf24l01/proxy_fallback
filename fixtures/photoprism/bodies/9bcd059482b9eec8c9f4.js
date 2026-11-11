@@ -1,0 +1,1 @@
+var e={Next:`Next`},t={en:e};export{t as default,e as en};

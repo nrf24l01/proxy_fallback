@@ -1,0 +1,5553 @@
+{
+ "service": "open-webui",
+ "title": "Open WebUI",
+ "category": "ai",
+ "login_path": "/auth",
+ "default_port": 8220,
+ "upstream": "http://127.0.0.1:8220",
+ "public_url": "https://open-webui.example.com",
+ "recorded_at": "2026-11-10T20:02:47.156649632Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3511"
+    },
+    {
+     "name": "Etag",
+     "value": "\"c1006a315e5688456b59357a3ffbe84e\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:14 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001898"
+    }
+   ],
+   "body_file": "bodies/d1fb3ce8b870d7d07f0a.bin",
+   "size": 3511,
+   "sha256": "d1fb3ce8b870d7d07f0a2e206d33e9bae66192d58136e88b7a6f4d2189a879a7",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/assets/0.D0XZOJu4.css",
+   "path": "/_app/immutable/assets/0.D0XZOJu4.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001614"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "\"026be6ef45383eccac371018e76a1585\""
+    }
+   ],
+   "body_file": "bodies/8801649e1f17496a0325.css",
+   "size": 48897,
+   "sha256": "8801649e1f17496a0325d1a8e0e03ed5730f70f3ba7e7a73f30879425595d4be",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_app/immutable/assets/ConfirmDialog.DaQE45yT.css",
+   "path": "/_app/immutable/assets/ConfirmDialog.DaQE45yT.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"8e42284dbbb598fbb29ed94b0ea490da\""
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "102"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001892"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/35070bc42bc10dd0c251.css",
+   "size": 102,
+   "sha256": "35070bc42bc10dd0c2511de8e1431d4ab55c553be86ea81668a243b44ef15c4c"
+  },
+  {
+   "key": "/_app/immutable/assets/Modal.CSlFhZkq.css",
+   "path": "/_app/immutable/assets/Modal.CSlFhZkq.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "188"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001725"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "\"be0c7779223d6f7422fe1f68c1b07939\""
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    }
+   ],
+   "body_file": "bodies/4949a4a48ceb842a6c1f.css",
+   "size": 188,
+   "sha256": "4949a4a48ceb842a6c1f73574d08ece374e213418852e0c94b8bd7f86b49722a"
+  },
+  {
+   "key": "/_app/immutable/assets/Toaster.BWY6fThA.css",
+   "path": "/_app/immutable/assets/Toaster.BWY6fThA.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "2912"
+    },
+    {
+     "name": "Etag",
+     "value": "\"d9aa6f05aa0a060d95e81d8183adb4e6\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001810"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/72380a541777349dac42.css",
+   "size": 2912,
+   "sha256": "72380a541777349dac42d58ff6b8e1d9fc8b3857d7d510c7b821b31d5f4c9016",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/assets/structuredOutput.CU9ylorX.css",
+   "path": "/_app/immutable/assets/structuredOutput.CU9ylorX.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3642"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"ce219a10f0b25e2602b5e30db2259b91\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001700"
+    }
+   ],
+   "body_file": "bodies/5472e41125fdd7c280d8.css",
+   "size": 3642,
+   "sha256": "5472e41125fdd7c280d80f9b3a58e4c284988f2e6c7960f339e5c5692447cee0",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/1t3Ly2kg.js",
+   "path": "/_app/immutable/chunks/1t3Ly2kg.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"dfbc2670c5f29379a24e6329e1d10e68\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4615"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001807"
+    }
+   ],
+   "body_file": "bodies/653ce9f3e1ec387dba5c.js",
+   "size": 4615,
+   "sha256": "653ce9f3e1ec387dba5c439735db4df7bdddbf36b0cd6f3aef6482fa2bffd867",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/23SxV4kb.js",
+   "path": "/_app/immutable/chunks/23SxV4kb.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "409"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6d9f31e4afdbd800ac07da8d57a72713\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001561"
+    }
+   ],
+   "body_file": "bodies/1ed4ba826eea8d841c5b.js",
+   "size": 409,
+   "sha256": "1ed4ba826eea8d841c5b2d4412c8dc39a591974a1edfdfda2340f6da1bad0a0c"
+  },
+  {
+   "key": "/_app/immutable/chunks/5bMWmsH8.js",
+   "path": "/_app/immutable/chunks/5bMWmsH8.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6786c61265c58fb2b3ecdf1a044e0bf4\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001564"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "264"
+    }
+   ],
+   "body_file": "bodies/e01d8cef235a6527d44c.js",
+   "size": 264,
+   "sha256": "e01d8cef235a6527d44c9fe2abab24775d50f2eed3e57acd39f01c08fd7b2860"
+  },
+  {
+   "key": "/_app/immutable/chunks/69_IOA4Y.js",
+   "path": "/_app/immutable/chunks/69_IOA4Y.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "71"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001570"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"7bf7eae517bcfa96f653fadbcccfc763\""
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    }
+   ],
+   "body_file": "bodies/1e3d9620df760c8d925d.js",
+   "size": 71,
+   "sha256": "1e3d9620df760c8d925d77514ba8704da7c225290914f5efb6b2c79c855b2a7d"
+  },
+  {
+   "key": "/_app/immutable/chunks/6gLxm5zC.js",
+   "path": "/_app/immutable/chunks/6gLxm5zC.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2190"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"dbc194511d89efb709db67d67eb094f3\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001763"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/1dd87c464cfd2838c838.js",
+   "size": 2190,
+   "sha256": "1dd87c464cfd2838c838245cd33c1f08f33a0e3c60a7ed37f3154bbbf65e1814",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/B-RwnNMZ.js",
+   "path": "/_app/immutable/chunks/B-RwnNMZ.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Process-Time",
+     "value": "0.001751"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1749"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9aed775fe921ca8dc04d5739d0286008\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    }
+   ],
+   "body_file": "bodies/5becd98e9287d22e07e8.js",
+   "size": 1749,
+   "sha256": "5becd98e9287d22e07e8aedaf7e5779d3c6e2188943c79b7215f3d5cce75e6b3",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/B0IkfqQr.js",
+   "path": "/_app/immutable/chunks/B0IkfqQr.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001832"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3843"
+    },
+    {
+     "name": "Etag",
+     "value": "\"d359fcf678893a9dc3ae3098ee6b8a4c\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/18375511780360337aa7.js",
+   "size": 3843,
+   "sha256": "18375511780360337aa79167c43f441c6c952324e8bffe5ac39b4c8f1a15c582",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/B0xt6c5q.js",
+   "path": "/_app/immutable/chunks/B0xt6c5q.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1348"
+    },
+    {
+     "name": "Etag",
+     "value": "\"b0890447a279dcc046c42e394dc5e7eb\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001602"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/482bc228f6cf44a4610d.js",
+   "size": 1348,
+   "sha256": "482bc228f6cf44a4610d07dd66edfb9d250109213fc01ed4216426fec9e70a45",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/B2185GOa.js",
+   "path": "/_app/immutable/chunks/B2185GOa.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15323"
+    },
+    {
+     "name": "Etag",
+     "value": "\"725f1e18b76505fdf00d601477b04ab6\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.002472"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    }
+   ],
+   "body_file": "bodies/a5781fcfd7d3e1b48baa.js",
+   "size": 15323,
+   "sha256": "a5781fcfd7d3e1b48baaf58bda0bacebf784f5c17dd18b15c7503ab6a5fc3f1f",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/B7wz4GFH.js",
+   "path": "/_app/immutable/chunks/B7wz4GFH.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"b8aecc4d323129a188fd331ffddf1ec3\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001529"
+    }
+   ],
+   "body_file": "bodies/a601738ae0449fad7747.js",
+   "size": 659384,
+   "sha256": "a601738ae0449fad7747ddd0bc7cddfa70ed25d9a214196f77c8209a85e06726",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_app/immutable/chunks/BAl7qwe5.js",
+   "path": "/_app/immutable/chunks/BAl7qwe5.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.002004"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1554"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9c972fb8145770355315cc13a6da3fb3\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    }
+   ],
+   "body_file": "bodies/0683739ddeea988f8b41.js",
+   "size": 1554,
+   "sha256": "0683739ddeea988f8b41ef5b4ed1abc1670a8478677b3f75b1b782b27f7db9cf",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/BDqEpip9.js",
+   "path": "/_app/immutable/chunks/BDqEpip9.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "11500"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.002121"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"f6e36f0fb96688cff2c5237f68495b70\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/b270e189cfebd629b399.js",
+   "size": 11500,
+   "sha256": "b270e189cfebd629b399a1ae0899972d9914118e5a4565e2c11a0b6e66b1fe5e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/BNZMCrrg.js",
+   "path": "/_app/immutable/chunks/BNZMCrrg.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "188"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"be0c7779223d6f7422fe1f68c1b07939\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001657"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/d0b456eaef28c45c3796.js",
+   "size": 188,
+   "sha256": "d0b456eaef28c45c3796b83c8e817038cd5be5be4bde7daa127d698a715a6aa6"
+  },
+  {
+   "key": "/_app/immutable/chunks/BSBCOuT6.js",
+   "path": "/_app/immutable/chunks/BSBCOuT6.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Content-Length",
+     "value": "394"
+    },
+    {
+     "name": "Etag",
+     "value": "\"53dc9c79ffd7d2fbd21da57b8d55f995\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001511"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/7279285904253da2e7cd.js",
+   "size": 394,
+   "sha256": "7279285904253da2e7cdcd7778e7745db232dad694d2ac148b9e618d262f9f40",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/BT28bLwl.js",
+   "path": "/_app/immutable/chunks/BT28bLwl.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001629"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "370"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"527466f48dd4d80be8eeb266644ff431\""
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    }
+   ],
+   "body_file": "bodies/f9451750b4510d9425d7.js",
+   "size": 370,
+   "sha256": "f9451750b4510d9425d753c964fd5e1e6679a45b4a5ba520aeea6627815d7605"
+  },
+  {
+   "key": "/_app/immutable/chunks/BXri90qJ.js",
+   "path": "/_app/immutable/chunks/BXri90qJ.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "\"f5e324c980537b5eede70a3eb1f60fcb\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001573"
+    }
+   ],
+   "body_file": "bodies/80f7674bcef3c46bdd90.js",
+   "size": 149864,
+   "sha256": "80f7674bcef3c46bdd90221e8caf8ea4542f6926382783618347837a49bd9916",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_app/immutable/chunks/BYU2UlgT.js",
+   "path": "/_app/immutable/chunks/BYU2UlgT.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4410"
+    },
+    {
+     "name": "Etag",
+     "value": "\"2102ee0a1bd0154c507fddef85f01e42\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001753"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    }
+   ],
+   "body_file": "bodies/66d4824b01a4a3c47d46.js",
+   "size": 4410,
+   "sha256": "66d4824b01a4a3c47d46f67eaa511dffb1fdcba7c924b84b2b3825f30e800501",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/BaJ5g6xD.js",
+   "path": "/_app/immutable/chunks/BaJ5g6xD.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "591"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001523"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"d6fce23d3e650ef3a867d626525cc0c6\""
+    }
+   ],
+   "body_file": "bodies/fd438e71ca6d92b2bc12.js",
+   "size": 591,
+   "sha256": "fd438e71ca6d92b2bc12e8593448599cfdba4560e3de0ce3f766fb282f90e6c9",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/Bb-x2tTM.js",
+   "path": "/_app/immutable/chunks/Bb-x2tTM.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9862c4bc05659b0fa9ed335619b9e890\""
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Content-Length",
+     "value": "322"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001524"
+    }
+   ],
+   "body_file": "bodies/e7ccb5481aab2d10b860.js",
+   "size": 322,
+   "sha256": "e7ccb5481aab2d10b860ef12576d7a3d137a76739a4c6d48bd4c1bd85c5ae2f3"
+  },
+  {
+   "key": "/_app/immutable/chunks/Bf83M7nQ.js",
+   "path": "/_app/immutable/chunks/Bf83M7nQ.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"30d6aab78922115288f19ac24531a1ba\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001666"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "891"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    }
+   ],
+   "body_file": "bodies/94ee611980d2dec4824c.js",
+   "size": 891,
+   "sha256": "94ee611980d2dec4824c32787e0112aac2e61444dde6a06d5c98b9ee67037edf",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/BylLhv5v.js",
+   "path": "/_app/immutable/chunks/BylLhv5v.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "436"
+    },
+    {
+     "name": "Etag",
+     "value": "\"ad0daf1e5dd4cf66215208a6ab474441\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001520"
+    }
+   ],
+   "body_file": "bodies/ea58d8ba4f9b70689849.js",
+   "size": 436,
+   "sha256": "ea58d8ba4f9b706898494b9fe9feb8664afb5011446bec7d0d212a0f7c7fbc24"
+  },
+  {
+   "key": "/_app/immutable/chunks/C09Eugg1.js",
+   "path": "/_app/immutable/chunks/C09Eugg1.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "198"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9c6fa3e9f566ca0c16e0d3f659855a47\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001559"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/72ae4317767a82050b8e.js",
+   "size": 198,
+   "sha256": "72ae4317767a82050b8e6721634145e1c24e94e50e6ce3f8a9e5bb983d2e72d5"
+  },
+  {
+   "key": "/_app/immutable/chunks/C8_USHY2.js",
+   "path": "/_app/immutable/chunks/C8_USHY2.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "440"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001626"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "\"d8d73e41aefefd51980298b65b18e19a\""
+    }
+   ],
+   "body_file": "bodies/bc2a39ee7d20ebbd5cde.js",
+   "size": 440,
+   "sha256": "bc2a39ee7d20ebbd5cde5046182f3534f3fad7e87e58dbd7eb82cbda4ed3a254",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/CLNzSJtW.js",
+   "path": "/_app/immutable/chunks/CLNzSJtW.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2039"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001585"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"c2062e9986c31144575f81b940302518\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    }
+   ],
+   "body_file": "bodies/872a337a327dcf4e10a4.js",
+   "size": 2039,
+   "sha256": "872a337a327dcf4e10a40b554dcdcaa117e2006cd528fa152fedc70b2f9564ab",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/CMLqTVEF.js",
+   "path": "/_app/immutable/chunks/CMLqTVEF.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"cc60dbb43543cd8a0ad9fb9a946d1928\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001800"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1987"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/2240194f5d77d1219eb3.js",
+   "size": 1987,
+   "sha256": "2240194f5d77d1219eb3eb4522f0218895bb5bd53e7add2b0ffb39e3eec8e16c",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/CNTNSsVr.js",
+   "path": "/_app/immutable/chunks/CNTNSsVr.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001726"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "432"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"225ce56bde32bc0f9897c458d43fb929\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/d6c45c846db46f36d8d1.js",
+   "size": 432,
+   "sha256": "d6c45c846db46f36d8d18bfbd5dabcc29e7707adb45eb200ec5b9fe7d6ea3ba3",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/CPBJjhJe.js",
+   "path": "/_app/immutable/chunks/CPBJjhJe.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"0e01057fe43130e9114872b494cb8531\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.002272"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "11046"
+    }
+   ],
+   "body_file": "bodies/dec7c801e58ba7e55532.js",
+   "size": 11046,
+   "sha256": "dec7c801e58ba7e555322529817ef92ab7937db7eacd51fbb47dec66b6ffbf58",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/CR48sGZN.js",
+   "path": "/_app/immutable/chunks/CR48sGZN.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "416"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9aac4634e8f4867b5c08233dad41f216\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001884"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    }
+   ],
+   "body_file": "bodies/a455d0244fe3dfd949f4.js",
+   "size": 416,
+   "sha256": "a455d0244fe3dfd949f40a57eb9580afd20e48ef7085e876a0a58ab86093a103",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/CSon5J1v.js",
+   "path": "/_app/immutable/chunks/CSon5J1v.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"e8f073f173abd682d83c6cf72427546c\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001600"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "626"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/043721861016a4b710fe.js",
+   "size": 626,
+   "sha256": "043721861016a4b710fe748571c1748f4cbed43c0649954ae9317f00046a981c",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/CSyijIcL.js",
+   "path": "/_app/immutable/chunks/CSyijIcL.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4800"
+    },
+    {
+     "name": "Etag",
+     "value": "\"a69d2faf42daa244cde434e812d4ce04\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001687"
+    }
+   ],
+   "body_file": "bodies/f67e6de69b42359ea901.js",
+   "size": 4800,
+   "sha256": "f67e6de69b42359ea901a46f6ab341d4cb8b2cb20083d13c459cf7f97c6e3bc2",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/CUbKesLg.js",
+   "path": "/_app/immutable/chunks/CUbKesLg.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1119"
+    },
+    {
+     "name": "Etag",
+     "value": "\"cf232998c758578585187f3e1a06f7f2\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001555"
+    }
+   ],
+   "body_file": "bodies/34d9ef8448927bf7dfee.js",
+   "size": 1119,
+   "sha256": "34d9ef8448927bf7dfeed24155fc7467356a15f21b751220c88660a11b5cf0aa",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/CZgeN-lq.js",
+   "path": "/_app/immutable/chunks/CZgeN-lq.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Process-Time",
+     "value": "0.001651"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1322"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"adf9f6ffb49cece48f3fd4941b52c579\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    }
+   ],
+   "body_file": "bodies/dba029543b459638d1bb.js",
+   "size": 1322,
+   "sha256": "dba029543b459638d1bb40a4313846e1cea7bd0dc9885704fbc63e164764ffdd",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/CabDivkX.js",
+   "path": "/_app/immutable/chunks/CabDivkX.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "484"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"464b41714e49adc92604f6a62c645cc4\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001463"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/ada5927e0b99d732879d.js",
+   "size": 484,
+   "sha256": "ada5927e0b99d732879df57912ae47bb53f02b723e677fb8500923c557135f6b"
+  },
+  {
+   "key": "/_app/immutable/chunks/CdEA5IGF.js",
+   "path": "/_app/immutable/chunks/CdEA5IGF.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "238"
+    },
+    {
+     "name": "Etag",
+     "value": "\"91c43227afda7ce48e844f03f67df3e6\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001639"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/28e9f3519e5cf5a942e2.js",
+   "size": 238,
+   "sha256": "28e9f3519e5cf5a942e22e86b26dcfc15c24c0beaf6498ea99c233f438c0750c"
+  },
+  {
+   "key": "/_app/immutable/chunks/CeIyicnx.js",
+   "path": "/_app/immutable/chunks/CeIyicnx.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1230"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001790"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"f4e97f80bf209a32acfb959c146bd607\""
+    }
+   ],
+   "body_file": "bodies/01214816bd3d95a5c504.js",
+   "size": 1230,
+   "sha256": "01214816bd3d95a5c504df7984b9e1dbec85fd47d3c889db9454084105cebcbd",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/CgApQpf6.js",
+   "path": "/_app/immutable/chunks/CgApQpf6.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001877"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"0a2ef7f06660d84ef559e7d5a1444c30\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    }
+   ],
+   "body_file": "bodies/e49b5004181c1a9fc3c2.js",
+   "size": 61050,
+   "sha256": "e49b5004181c1a9fc3c24390b7a8687478881cd0e7ff2550f217c5d4b88cce4f",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_app/immutable/chunks/ClHhO_du.js",
+   "path": "/_app/immutable/chunks/ClHhO_du.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"cccf71c02eec0319891076e647212cb1\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001675"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3628"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    }
+   ],
+   "body_file": "bodies/0038af28220428f27cf3.js",
+   "size": 3628,
+   "sha256": "0038af28220428f27cf39378e8be34414b0392b1d9fa9bd317716db188954d1d",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/CmsKOCeN.js",
+   "path": "/_app/immutable/chunks/CmsKOCeN.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "701"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"ef6a1c6a37be38c5c9c33d16c473a06a\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001565"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/421b7c3cb82ed4c4858a.js",
+   "size": 701,
+   "sha256": "421b7c3cb82ed4c4858af4c2bb318a91d9b94ab5397cd55b8e9e5b1e578efe2d",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/Cn-ywb51.js",
+   "path": "/_app/immutable/chunks/Cn-ywb51.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:10 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001516"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "\"e036e70d206ee8704b687e4000639c6e\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    }
+   ],
+   "body_file": "bodies/35242c4756ae235c8956.js",
+   "size": 35299,
+   "sha256": "35242c4756ae235c8956afdc39ececfd64f783516a7b7d23f34fcc62ab0a9021",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_app/immutable/chunks/CnzlJm57.js",
+   "path": "/_app/immutable/chunks/CnzlJm57.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "713"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"e22aa30abd6c91706128e2ee049e9916\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001873"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/9611dff7d3bfbee7be66.js",
+   "size": 713,
+   "sha256": "9611dff7d3bfbee7be66de0f9740b0d9685e4594855cdbb74ef573f14a94d75a",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/CqkuNvOj.js",
+   "path": "/_app/immutable/chunks/CqkuNvOj.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "352"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"936f1fa3c1f1ed660e7b2337c47ea116\""
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001448"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/f03cfbea0efde49b09eb.js",
+   "size": 352,
+   "sha256": "f03cfbea0efde49b09eb7f0e9170a294cd79302ec9a150ab57d1768a807e1f47"
+  },
+  {
+   "key": "/_app/immutable/chunks/CuB7c_td.js",
+   "path": "/_app/immutable/chunks/CuB7c_td.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"b57c08de64f488b98fee489fd81e3dc7\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001560"
+    }
+   ],
+   "body_file": "bodies/4e605745c1dcf350df56.js",
+   "size": 146073,
+   "sha256": "4e605745c1dcf350df564a2865f14ee3d69d6219f455177c257f692fe4054087",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_app/immutable/chunks/Cv6W7n78.js",
+   "path": "/_app/immutable/chunks/Cv6W7n78.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"ce467551064a2777ceac740d8921e67c\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "338"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001886"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    }
+   ],
+   "body_file": "bodies/7e6ca909df8ade68d8df.js",
+   "size": 338,
+   "sha256": "7e6ca909df8ade68d8df6569b184690f4d6d0461781cab9d0c1a09fd6aa366ff"
+  },
+  {
+   "key": "/_app/immutable/chunks/CyWbtvRI.js",
+   "path": "/_app/immutable/chunks/CyWbtvRI.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "14331"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"ff0efdbb5c0d2c6df73c2f050c7807af\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.002386"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/aa857ca5336b6a4a5947.js",
+   "size": 14331,
+   "sha256": "aa857ca5336b6a4a594702f121af4c49f04e6b10e0a3cb0ccbf0e31cc8c9b6a3",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/D85GwBHd.js",
+   "path": "/_app/immutable/chunks/D85GwBHd.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001780"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3381"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"96d90b2e82ef1fbc3e050306a90ee88d\""
+    }
+   ],
+   "body_file": "bodies/046b2c5443e7c7ad6afa.js",
+   "size": 3381,
+   "sha256": "046b2c5443e7c7ad6afa06518e3a9f56afe451d9858149750361f022a159ece0",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/D9H0sUsV.js",
+   "path": "/_app/immutable/chunks/D9H0sUsV.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001598"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2870"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"7c655aa54b9aa7560fad3df697ca704d\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/24e4e56a1f95f01cf02d.js",
+   "size": 2870,
+   "sha256": "24e4e56a1f95f01cf02dcb6f2f47af8b398407086fa9c295a3c1b56610b5e28d",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/DBeW-S2O.js",
+   "path": "/_app/immutable/chunks/DBeW-S2O.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "660"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"d5751f982758356b2bf28de3e2c6a42b\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001742"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/162afffc6acb40a5ef3c.js",
+   "size": 660,
+   "sha256": "162afffc6acb40a5ef3c0fc5400494b239f1355749a03b6e85ef474098b2c6eb",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/DCbpYtr4.js",
+   "path": "/_app/immutable/chunks/DCbpYtr4.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "10104"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"8b21c1cabba98da343539793890bbd0f\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.002106"
+    }
+   ],
+   "body_file": "bodies/59fa4e660335bbccc6a5.js",
+   "size": 10104,
+   "sha256": "59fa4e660335bbccc6a52ed3d58e8d455e2489a35cf29b5d30c26842d139ca6d",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/DIeogL5L.js",
+   "path": "/_app/immutable/chunks/DIeogL5L.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Process-Time",
+     "value": "0.001437"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "99"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Etag",
+     "value": "\"00df64f9435535424f980a22ed3fc4bf\""
+    }
+   ],
+   "body_file": "bodies/2a71177d2f3c694a422e.js",
+   "size": 99,
+   "sha256": "2a71177d2f3c694a422e80c1bb6ba650269311e719e15f3d3ca0fd9b07c83f07"
+  },
+  {
+   "key": "/_app/immutable/chunks/DKRedDly.js",
+   "path": "/_app/immutable/chunks/DKRedDly.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1561"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"42b22fffd06bf8540f901bed89595359\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001679"
+    }
+   ],
+   "body_file": "bodies/0b742a6813ee1f93347f.js",
+   "size": 1561,
+   "sha256": "0b742a6813ee1f93347ff0b562b55736f12be780d94f1af7371e0f43e43645f5",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/DOZH_Qlg.js",
+   "path": "/_app/immutable/chunks/DOZH_Qlg.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3776"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001764"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "\"54b0bcfd861add8e5d180ab93aae4cc7\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    }
+   ],
+   "body_file": "bodies/0760d9717f03a161fa11.js",
+   "size": 3776,
+   "sha256": "0760d9717f03a161fa11329f812fe8f97b2ae4fde9720d2fc5bc5867b879fe9f",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/DQSHAlqE.js",
+   "path": "/_app/immutable/chunks/DQSHAlqE.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.002350"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15944"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"58c05a23557038e51f7e57bd81a81190\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/05f1c5cd629eb1e23ac6.js",
+   "size": 15944,
+   "sha256": "05f1c5cd629eb1e23ac6af7f617f98f7de299b760ea88266022ec034ddee6f4c",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/DRJVgto3.js",
+   "path": "/_app/immutable/chunks/DRJVgto3.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1817"
+    },
+    {
+     "name": "Etag",
+     "value": "\"dfe46facb13a0f1a2da8aba7104e068f\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001558"
+    }
+   ],
+   "body_file": "bodies/7b39536670b414057a6e.js",
+   "size": 1817,
+   "sha256": "7b39536670b414057a6e66e961a90631acf72430b0542eaf1798b3f3a7d76d1f",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/DcGB7YFf.js",
+   "path": "/_app/immutable/chunks/DcGB7YFf.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"7a638ec5f7fd732c62479c37ff32a35a\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1473"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001686"
+    }
+   ],
+   "body_file": "bodies/91a07e161673e5923ed9.js",
+   "size": 1473,
+   "sha256": "91a07e161673e5923ed9e1d0b6a851d5fb911534581267967eb7150d662def8c",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/DlxrAHog.js",
+   "path": "/_app/immutable/chunks/DlxrAHog.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001846"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "734"
+    },
+    {
+     "name": "Etag",
+     "value": "\"2300bb437da9bd67f52e249c1ff21428\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    }
+   ],
+   "body_file": "bodies/3cfcd8a4036f9b10390c.js",
+   "size": 734,
+   "sha256": "3cfcd8a4036f9b10390cddceef5ae33f59d4ba81636ce3bfc602acfc7b16e718",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/DpQYrpl6.js",
+   "path": "/_app/immutable/chunks/DpQYrpl6.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1383"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001545"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"beaa57c117bca9bf1b7f1c867d61c90f\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    }
+   ],
+   "body_file": "bodies/27c463cbf83b666d211f.js",
+   "size": 1383,
+   "sha256": "27c463cbf83b666d211f4ea8bfafa56726cc4c28ea850fb05bdff3fec3210b9e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/DqQ5fZj3.js",
+   "path": "/_app/immutable/chunks/DqQ5fZj3.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001563"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "416"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"a78da5f00c7c04d17ea55ec67130d6ad\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/85245c9b7b331fa4a3ac.js",
+   "size": 416,
+   "sha256": "85245c9b7b331fa4a3ac7f575e6b1285661ce8e2288e3d2231477586e99782e9",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/Duanc2H8.js",
+   "path": "/_app/immutable/chunks/Duanc2H8.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"cfed01482b9b7c6c46b2bfbb97a5c80b\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001624"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "498"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/d5ef7800dec1ad1d4247.js",
+   "size": 498,
+   "sha256": "d5ef7800dec1ad1d4247257acf7b987aab9c0093ee2d8f95b158d0787b9a8308",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/DyMHSEP6.js",
+   "path": "/_app/immutable/chunks/DyMHSEP6.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"94642992e687f2458de2498a0bdabd40\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001619"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "936"
+    }
+   ],
+   "body_file": "bodies/7647e7490962db0b1b61.js",
+   "size": 936,
+   "sha256": "7647e7490962db0b1b612b7098d0171cf2a7b66adaf56bd5131230b353df9ba6",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/Dzgz-D9k.js",
+   "path": "/_app/immutable/chunks/Dzgz-D9k.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001688"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3100"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"71033f3f32c93fbafaa999fe4cbdac86\""
+    }
+   ],
+   "body_file": "bodies/bda7249a2001f3d442eb.js",
+   "size": 3100,
+   "sha256": "bda7249a2001f3d442eb41035280ab0f4ed2e3883d9706708613aaf0e32408b8",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/Fi8gjdrw.js",
+   "path": "/_app/immutable/chunks/Fi8gjdrw.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1765"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001515"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"747ae96ccbab41e9b8009abde61958da\""
+    }
+   ],
+   "body_file": "bodies/d7c57763b31937e5e135.js",
+   "size": 1765,
+   "sha256": "d7c57763b31937e5e1359069300983aeecb4b0917f3d6c554a7460c1a5172d10",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/ITuxvSQN.js",
+   "path": "/_app/immutable/chunks/ITuxvSQN.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9eff233ff11d9bf5a05c84a077905314\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001475"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "368"
+    }
+   ],
+   "body_file": "bodies/8e878cc674398fda6de3.js",
+   "size": 368,
+   "sha256": "8e878cc674398fda6de3ab5876a342116476a3aebd7353801b4bd40d844de93e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/NLrukk7C.js",
+   "path": "/_app/immutable/chunks/NLrukk7C.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "435"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001636"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"14c0729a9996107279805d91d481cf46\""
+    }
+   ],
+   "body_file": "bodies/ef2af6e692aea7e7eb82.js",
+   "size": 435,
+   "sha256": "ef2af6e692aea7e7eb82a3176214a23b1d5ce122946e1b99d34528f7f2b1e111",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/NZTpNUN0.js",
+   "path": "/_app/immutable/chunks/NZTpNUN0.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "113"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"50f22c9d2b56c2c38478f4b6490dbc64\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001543"
+    }
+   ],
+   "body_file": "bodies/9d82dc9fbfe7a88cfebb.js",
+   "size": 113,
+   "sha256": "9d82dc9fbfe7a88cfebb1789d741d9e617088e3cca86dbeaa0bf54682dc11ed7"
+  },
+  {
+   "key": "/_app/immutable/chunks/QjJsDpFa.js",
+   "path": "/_app/immutable/chunks/QjJsDpFa.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "309"
+    },
+    {
+     "name": "Etag",
+     "value": "\"b0f0ecaa1b36a0061b9c14ef0b13f67a\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001871"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    }
+   ],
+   "body_file": "bodies/4346b568b9afefcceaec.js",
+   "size": 309,
+   "sha256": "4346b568b9afefcceaec4e062782dea7a5d32c47647d68cb46683d70d6e538b3"
+  },
+  {
+   "key": "/_app/immutable/chunks/SGmqRJ1v.js",
+   "path": "/_app/immutable/chunks/SGmqRJ1v.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1645"
+    },
+    {
+     "name": "Etag",
+     "value": "\"55dd5f73c9421f3ab5d0b80f02244b20\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001794"
+    }
+   ],
+   "body_file": "bodies/d02dceaba5717a59beae.js",
+   "size": 1645,
+   "sha256": "d02dceaba5717a59beae05a40a6fca27a9fa9dbcc51778a76850546d1bcbc83b",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/SYmKJpIj.js",
+   "path": "/_app/immutable/chunks/SYmKJpIj.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.002281"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"3393bb389b1be505cf57f0a5e840b4fc\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "13567"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    }
+   ],
+   "body_file": "bodies/9f1e0f70693e2a1dff0c.js",
+   "size": 13567,
+   "sha256": "9f1e0f70693e2a1dff0c5276f41404a8eb015e312882ec46ebb5cd56e6ad0daf",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/a3KLeqwZ.js",
+   "path": "/_app/immutable/chunks/a3KLeqwZ.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "555"
+    },
+    {
+     "name": "Etag",
+     "value": "\"bf27e1a0daf220fcb5242e60f1c99eea\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001589"
+    }
+   ],
+   "body_file": "bodies/4a39c219bdb5520d66b8.js",
+   "size": 555,
+   "sha256": "4a39c219bdb5520d66b8bb4a18c321218818043b07fe84ffb299c857d80515eb",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/dxOduhGn.js",
+   "path": "/_app/immutable/chunks/dxOduhGn.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001732"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4594"
+    },
+    {
+     "name": "Etag",
+     "value": "\"ba06ebaf2b1993f80324f01f4a74c1f8\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/4fbb9112445efef25807.js",
+   "size": 4594,
+   "sha256": "4fbb9112445efef258079ffe9e7369becfd8364f36413fbdd6478234bbce7e36",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/eM5ca-VM.js",
+   "path": "/_app/immutable/chunks/eM5ca-VM.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"0dabcf66f01581c4615647eb7ab55ec5\""
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001765"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "298"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    }
+   ],
+   "body_file": "bodies/c3eb1a7917517211d6b9.js",
+   "size": 298,
+   "sha256": "c3eb1a7917517211d6b938724b4cfff0e61942846de1d74bf0792cf2f3c71c9f"
+  },
+  {
+   "key": "/_app/immutable/chunks/fojqad8L.js",
+   "path": "/_app/immutable/chunks/fojqad8L.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "505"
+    },
+    {
+     "name": "Etag",
+     "value": "\"12aa00b65443efc5710daade91c509d8\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001618"
+    }
+   ],
+   "body_file": "bodies/c6144c31d27feeecd537.js",
+   "size": 505,
+   "sha256": "c6144c31d27feeecd537510e24a5264aca7b050fb37cf6baa7593a0bc2eb0c01",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/iWxkT93I.js",
+   "path": "/_app/immutable/chunks/iWxkT93I.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"53aca8ddadf28a6733519337b6b3fedd\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001574"
+    }
+   ],
+   "body_file": "bodies/4b54bf3ca211d1605049.js",
+   "size": 31228,
+   "sha256": "4b54bf3ca211d16050490d98385dedd3881ed6caf9707e4b13a17508fb058794",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_app/immutable/chunks/jia7Cfyo.js",
+   "path": "/_app/immutable/chunks/jia7Cfyo.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"5063a5f5d9857837fce05c7f240f4f9f\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001463"
+    }
+   ],
+   "body_file": "bodies/74425a1177467377edc3.js",
+   "size": 114030,
+   "sha256": "74425a1177467377edc31bd47d4866021561cff0a2e2e4f9b1a1dca255b5c063",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_app/immutable/chunks/oDhkuWbX.js",
+   "path": "/_app/immutable/chunks/oDhkuWbX.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001526"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"db5b564428eeeab174a72383bc3915a9\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/d024b2dceb3a4ee4a5ca.js",
+   "size": 28883,
+   "sha256": "d024b2dceb3a4ee4a5ca55015179a3a9b310c0bd278c0cc52cdcc6b75519aa2a",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_app/immutable/chunks/oRmFhkmk.js",
+   "path": "/_app/immutable/chunks/oRmFhkmk.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"f59dd2d4f15ae37970e42eed6403d1fd\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001803"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "436"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/dfb1184309e294a03808.js",
+   "size": 436,
+   "sha256": "dfb1184309e294a03808349470e59a1c649e6381eba2d86e29711a26e15a2ed9",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/qSN1SD_g.js",
+   "path": "/_app/immutable/chunks/qSN1SD_g.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"04c7e21c08a7739b43223bfb54e09e23\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.002043"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2874"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    }
+   ],
+   "body_file": "bodies/c4d10322414839f463ca.js",
+   "size": 2874,
+   "sha256": "c4d10322414839f463ca6bac7ef6534d526e854a0815f66a0eba9457d606f709",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/rcjk_Fi1.js",
+   "path": "/_app/immutable/chunks/rcjk_Fi1.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "996"
+    },
+    {
+     "name": "Etag",
+     "value": "\"3e973d7ffedcc8ad0695e38adb5cfe84\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001588"
+    }
+   ],
+   "body_file": "bodies/a1beb653a06ff5e3ba8f.js",
+   "size": 996,
+   "sha256": "a1beb653a06ff5e3ba8f8ae023b48bd15697e4bdd5d92b66ed6732707030fde4",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/uAdZnxPj.js",
+   "path": "/_app/immutable/chunks/uAdZnxPj.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"69cf38c9dbb311db3ecb57992e24fe05\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "577"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001488"
+    }
+   ],
+   "body_file": "bodies/7f9d7402458e8e9a2c33.js",
+   "size": 577,
+   "sha256": "7f9d7402458e8e9a2c33ad4f705c393538f27083931daab01a559cb298ac9107",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/chunks/vihAFOTj.js",
+   "path": "/_app/immutable/chunks/vihAFOTj.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"1c65a9bcae4c15a4c7cb64ca5021cedb\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001669"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1264"
+    }
+   ],
+   "body_file": "bodies/389b170038de626969f3.js",
+   "size": 1264,
+   "sha256": "389b170038de626969f3d838220a2f68755bb8406549d18197ee90598f2740ad",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/entry/app.Db31A0Dq.js",
+   "path": "/_app/immutable/entry/app.Db31A0Dq.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Process-Time",
+     "value": "0.001956"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "7526"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"13d0ed6748cf19d71ecf51a658783d57\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/daa9db50fca8f41507f5.js",
+   "size": 7526,
+   "sha256": "daa9db50fca8f41507f539ee887d0204e7771aea432eb643f28e2141ceb08e24",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/entry/start.oikFGM3s.js",
+   "path": "/_app/immutable/entry/start.oikFGM3s.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Etag",
+     "value": "\"f8c8a2586561a15965b7ffceefaf84a8\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "126"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001411"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    }
+   ],
+   "body_file": "bodies/08eaac050e92f6493941.js",
+   "size": 126,
+   "sha256": "08eaac050e92f64939415d8d79d5266982b792bad0b8c89a847179e00ab964a6"
+  },
+  {
+   "key": "/_app/immutable/nodes/0.D2dVsOLW.js",
+   "path": "/_app/immutable/nodes/0.D2dVsOLW.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001555"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"8e13a025899b3a31eb88a53a3032a711\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/c0bcf101556163e592d0.js",
+   "size": 26708,
+   "sha256": "c0bcf101556163e592d016da087ff6a14d18e2154a0cd3f8d1de70a852b85939",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/_app/immutable/nodes/1.DjPz8FsC.js",
+   "path": "/_app/immutable/nodes/1.DjPz8FsC.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "445"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"d090d788873789cf32c9309d42eb5596\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001544"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/880a5f83f82fb2bb96b9.js",
+   "size": 445,
+   "sha256": "880a5f83f82fb2bb96b9170b2fea3959777c623c34b47807b27d14266c96376f",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/_app/immutable/nodes/53.D_OC8Apn.js",
+   "path": "/_app/immutable/nodes/53.D_OC8Apn.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Process-Time",
+     "value": "0.002587"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "7845"
+    },
+    {
+     "name": "Etag",
+     "value": "\"edb565c4b03d57d6c064422f6e837a15\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:11 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    }
+   ],
+   "body_file": "bodies/37fef86f41b8099d1bfd.js",
+   "size": 7845,
+   "sha256": "37fef86f41b8099d1bfdfd5cb12e85be46205b7481bea8793714b579b488bf18",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/api/config",
+   "path": "/api/config",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.005298"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "384"
+    }
+   ],
+   "body_file": "bodies/09564092fa6dde14bc51.bin",
+   "size": 384,
+   "sha256": "09564092fa6dde14bc5173edc8d285f8953bb89ced2f568479f8ab7270613682"
+  },
+  {
+   "key": "/api/version",
+   "path": "/api/version",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "39"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.000823"
+    }
+   ],
+   "body_file": "bodies/fa23fbdf0d7f89ab24b2.bin",
+   "size": 39,
+   "sha256": "fa23fbdf0d7f89ab24b2c41992a286cff28a117dd8fa27d742c055a8e5ba63ff"
+  },
+  {
+   "key": "/assets/fonts/Inter-Variable.ttf",
+   "path": "/assets/fonts/Inter-Variable.ttf",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"7557e83f238a56f560a6116ffa3bdda6\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001236"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Content-Length",
+     "value": "804612"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:14 GMT"
+    }
+   ],
+   "body_file": "bodies/cf3cb43b0366e2dc6df6.ttf",
+   "size": 804612,
+   "sha256": "cf3cb43b0366e2dc6df60e1132b1c9a4c15777f0cd8e5a53e0c15124003e9ed4"
+  },
+  {
+   "key": "/assets/fonts/Vazirmatn-Variable.ttf",
+   "path": "/assets/fonts/Vazirmatn-Variable.ttf",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:47 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Content-Length",
+     "value": "241328"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:14 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"32869ebd640204e4f514477092492b11\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001214"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    }
+   ],
+   "body_file": "bodies/696249a2c74b39ffdef5.ttf",
+   "size": 241328,
+   "sha256": "696249a2c74b39ffdef55de4df2809c5b639d3ff80d618d8160a095d2fd49dca"
+  },
+  {
+   "key": "/assets/welcome.mp4",
+   "path": "/assets/welcome.mp4",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "video/mp4"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:14 GMT"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001367"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1926421"
+    },
+    {
+     "name": "Etag",
+     "value": "\"01609529c39f3aea14a47fd91ce11a56\""
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    }
+   ],
+   "body_file": "bodies/096d7d57dcc61b94ec0e.mp4",
+   "size": 1926421,
+   "sha256": "096d7d57dcc61b94ec0edee3caa88fd390ff2d239bac73277621fcc0fd2a314d"
+  },
+  {
+   "key": "/assets/welcome.webp",
+   "path": "/assets/welcome.webp",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/webp"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "244512"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:14 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"ac5b1852553755f17791aa82cf103ea5\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001598"
+    }
+   ],
+   "body_file": "bodies/20fa33b63376de4434a0.webp",
+   "size": 244512,
+   "sha256": "20fa33b63376de4434a05ec575656d47539c6e237f534217a48102c6ec851a7d"
+  },
+  {
+   "key": "/auth",
+   "path": "/auth",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:14 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.003130"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3511"
+    },
+    {
+     "name": "Etag",
+     "value": "\"c1006a315e5688456b59357a3ffbe84e\""
+    }
+   ],
+   "body_file": "bodies/d1fb3ce8b870d7d07f0a.bin",
+   "size": 3511,
+   "sha256": "d1fb3ce8b870d7d07f0a2e206d33e9bae66192d58136e88b7a6f4d2189a879a7",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:14 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"c1006a315e5688456b59357a3ffbe84e\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.002445"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:47 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3511"
+    }
+   ],
+   "body_file": "bodies/d1fb3ce8b870d7d07f0a.ico",
+   "size": 3511,
+   "sha256": "d1fb3ce8b870d7d07f0a2e206d33e9bae66192d58136e88b7a6f4d2189a879a7",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/manifest.json",
+   "path": "/manifest.json",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Process-Time",
+     "value": "0.000958"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "474"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    }
+   ],
+   "body_file": "bodies/5c6c1fd57d3e5da24936.json",
+   "size": 474,
+   "sha256": "5c6c1fd57d3e5da24936e26ecf8422e1d4c4e96c3fc36a4dcfb6c0d162d2c8cb"
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:47 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:14 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"0d93579cb1f6644add6100158d55a0f9\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001547"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "26"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    }
+   ],
+   "body_file": "bodies/331ea9090db0c9f6f597.txt",
+   "size": 26,
+   "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+  },
+  {
+   "key": "/static/apple-touch-icon.png",
+   "path": "/static/apple-touch-icon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:02:04 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"5bef1f84cc45507e56f46d84bd9bbb9b\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001328"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:47 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "6942"
+    }
+   ],
+   "body_file": "bodies/eb167855124c68083774.png",
+   "size": 6942,
+   "sha256": "eb167855124c68083774d897355be1385c41e8b92963d57010518d822035fb39"
+  },
+  {
+   "key": "/static/custom.css",
+   "path": "/static/custom.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:46 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:02:04 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"35b69d7f22ff52beef126e86c7c2c406\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001530"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.css",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/static/favicon-96x96.png",
+   "path": "/static/favicon-96x96.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3310"
+    },
+    {
+     "name": "Etag",
+     "value": "\"5ecc58be0e383f6eac9ea0d73432459f\""
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.002164"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:47 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:02:04 GMT"
+    }
+   ],
+   "body_file": "bodies/c92e3b0db04b8851fb7d.png",
+   "size": 3310,
+   "sha256": "c92e3b0db04b8851fb7d17eef5d50114f381ceffe0f85e05647aab77881fc880"
+  },
+  {
+   "key": "/static/favicon.ico",
+   "path": "/static/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1098"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:02:04 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001735"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:47 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/vnd.microsoft.icon"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "\"190d39f1680571842720f2f7114c2456\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/c3fc1503f615bd5f97bd.ico",
+   "size": 1098,
+   "sha256": "c3fc1503f615bd5f97bd9485cc1e754e0728cdbe47a253a9fd6c2ad04d28ed8e",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/static/favicon.png",
+   "path": "/static/favicon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "21666"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:02:04 GMT"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001120"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:47 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"650c6e78a61556d71ce3303612413b91\""
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    }
+   ],
+   "body_file": "bodies/5698a3e39513e7b6304e.png",
+   "size": 21666,
+   "sha256": "5698a3e39513e7b6304ec96c309373ab3af0f70fe794293461de395a94deaa65"
+  },
+  {
+   "key": "/static/favicon.svg",
+   "path": "/static/favicon.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:47 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "21624"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:02:04 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"8fdf4d7bbd97ca224134c9ce668162bd\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.002325"
+    }
+   ],
+   "body_file": "bodies/23066452b9b004e04d22.svg",
+   "size": 21624,
+   "sha256": "23066452b9b004e04d227a30563de7558f9dfdd0e2026416a2d8a8f649271b4a",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/static/loader.js",
+   "path": "/static/loader.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001415"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:47 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:02:04 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6eca3ca4dc827acd4632c730c625fb9d\""
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.js",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/static/logo.png",
+   "path": "/static/logo.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Process-Time",
+     "value": "0.001221"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "29390"
+    },
+    {
+     "name": "Etag",
+     "value": "\"9d3bc71fe82801ccadde4a41108e8687\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:47 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:02:04 GMT"
+    }
+   ],
+   "body_file": "bodies/0943914abd3a68644849.png",
+   "size": 29390,
+   "sha256": "0943914abd3a68644849f4bc6a54ad3a4b9ad2078bbc6cb7f131f4d6351ec9ce"
+  },
+  {
+   "key": "/static/splash.png",
+   "path": "/static/splash.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:02:04 GMT"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.001161"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:47 GMT"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5239"
+    },
+    {
+     "name": "Etag",
+     "value": "\"36846632bb50d6c732f9d710f105c7f3\""
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    }
+   ],
+   "body_file": "bodies/2c16a7bb24b082ba4c1e.png",
+   "size": 5239,
+   "sha256": "2c16a7bb24b082ba4c1e977274d7115e7debf988895624f40b66a906004d58e5"
+  },
+  {
+   "key": "POST /api/v1/auths/signin :: application/json",
+   "path": "/api/v1/auths/signin",
+   "method": "POST",
+   "req_content_type": "application/json",
+   "req_body": "{\"email\":\"admin@example.com\",\"password\":\"definitely-wrong\"}",
+   "status": 400,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Content-Length",
+     "value": "106"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-store"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.285023"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:47 GMT"
+    }
+   ],
+   "body_file": "bodies/0f894d8d6b62dd2ffa6a.bin",
+   "size": 106,
+   "sha256": "0f894d8d6b62dd2ffa6a8c42349f41d6dd85650ee0f86de869e9b627b447c3d4"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-11f8cddd6ccf",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Sun, 08 Nov 2026 23:52:14 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"c1006a315e5688456b59357a3ffbe84e\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding, Origin"
+    },
+    {
+     "name": "X-Process-Time",
+     "value": "0.002919"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:02:47 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "uvicorn"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3511"
+    }
+   ],
+   "body_file": "bodies/d1fb3ce8b870d7d07f0a.bin",
+   "size": 3511,
+   "sha256": "d1fb3ce8b870d7d07f0a2e206d33e9bae66192d58136e88b7a6f4d2189a879a7",
+   "content_encoding": "gzip"
+  }
+ ]
+}

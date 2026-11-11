@@ -1,0 +1,2801 @@
+{
+ "service": "jenkins",
+ "title": "Jenkins",
+ "category": "dev",
+ "login_path": "/login",
+ "default_port": 8233,
+ "upstream": "http://127.0.0.1:8233",
+ "public_url": "https://jenkins.example.com",
+ "recorded_at": "2026-11-10T20:09:05.001313468Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Hudson",
+     "value": "1.395"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "sameorigin"
+    },
+    {
+     "name": "X-Hudson-Theme",
+     "value": "default"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Jenkins",
+     "value": "2.541.3"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:05 GMT"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline'; report-to content-security-policy; report-uri http://jenkins.example.com/content-security-policy-reporting-endpoint/kzEsw468v5uLi1AlnszlchryzCCHeaBmkNicnZk1Bro=:YW5vbnltb3Vz:aHVkc29uLm1vZGVsLkFsbFZpZXc=:"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html;charset=utf-8"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache,no-store,must-revalidate"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Reporting-Endpoints",
+     "value": "content-security-policy: http://jenkins.example.com/content-security-policy-reporting-endpoint/kzEsw468v5uLi1AlnszlchryzCCHeaBmkNicnZk1Bro=:YW5vbnltb3Vz:aHVkc29uLm1vZGVsLkFsbFZpZXc=:"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Jenkins-Session",
+     "value": "523847c1"
+    },
+    {
+     "name": "Expires",
+     "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "JSESSIONID.cf191e8d=node0xx5i73xsouzb1bct5lj39r8r3.node0; Path=/; HttpOnly; SameSite=Lax"
+    }
+   ],
+   "body_file": "bodies/b070d53414cdf54d7631.bin",
+   "size": 30048,
+   "sha256": "b070d53414cdf54d7631cbaba954396b0f17fd8d260549ce7ecd691bf2d25528",
+   "content_encoding": "gzip",
+   "expires_in": -1794341345,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "/adjuncts/523847c1/hudson/model/UsageStatistics/footer-resources.js",
+   "path": "/adjuncts/523847c1/hudson/model/UsageStatistics/footer-resources.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "193"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    }
+   ],
+   "body_file": "bodies/2cff7a9d5e47c471f877.js",
+   "size": 193,
+   "sha256": "2cff7a9d5e47c471f8775658b89fb11c207ee0dca6240a959c4d72d3ceb1c80b",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/adjuncts/523847c1/hudson/model/View/screen-resolution.js",
+   "path": "/adjuncts/523847c1/hudson/model/View/screen-resolution.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "227"
+    }
+   ],
+   "body_file": "bodies/fd50b9542e4b09c49451.js",
+   "size": 227,
+   "sha256": "fd50b9542e4b09c49451c521fc33a5ffe03ab81b12202236643a41fdc19a7f9f",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/adjuncts/523847c1/lib/form/link/link.js",
+   "path": "/adjuncts/523847c1/lib/form/link/link.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Length",
+     "value": "279"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    }
+   ],
+   "body_file": "bodies/21972e60ead0301d2a59.js",
+   "size": 279,
+   "sha256": "21972e60ead0301d2a59f318b7fd0d3f35f37a27ad73356f4474d3653165607f",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/adjuncts/523847c1/lib/hudson/editable-description.js",
+   "path": "/adjuncts/523847c1/lib/hudson/editable-description.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "429"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/c4776c25e86a401ac746.js",
+   "size": 429,
+   "sha256": "c4776c25e86a401ac74664fcf8098ec7fd250b56a22e8906932ab5972f892674",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/adjuncts/523847c1/lib/hudson/widget-refresh.js",
+   "path": "/adjuncts/523847c1/lib/hudson/widget-refresh.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "327"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/d3e60727878d17586c64.js",
+   "size": 327,
+   "sha256": "d3e60727878d17586c6465a48995b36a45500103d82aa37a3179326dc8aca480",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/adjuncts/523847c1/lib/layout/task/task.js",
+   "path": "/adjuncts/523847c1/lib/layout/task/task.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "377"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/4989793ba1c093ea490d.js",
+   "size": 377,
+   "sha256": "4989793ba1c093ea490df3ac09582be455f56196e34dc8cab898cdb6c2cec9c7",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/adjuncts/523847c1/org/kohsuke/stapler/bind.js",
+   "path": "/adjuncts/523847c1/org/kohsuke/stapler/bind.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Content-Length",
+     "value": "841"
+    }
+   ],
+   "body_file": "bodies/40dcad37e0d48e7534ab.js",
+   "size": 841,
+   "sha256": "40dcad37e0d48e7534ab1cf486ba42f029d1c3306bd1f75e1b762d6aa2ec61a0",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Expires",
+     "value": "Wed, 11 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "17542"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/vnd.microsoft.icon"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    }
+   ],
+   "body_file": "bodies/4fec1ee82f0dc4a8e4e9.ico",
+   "size": 17542,
+   "sha256": "4fec1ee82f0dc4a8e4e9bb26954cf54cf9bf1e6a009516cb6c49ff16924e8caa",
+   "expires_in": 86400,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/login",
+   "path": "/login",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline'; report-to content-security-policy; report-uri http://jenkins.example.com/content-security-policy-reporting-endpoint/uP11sx-Aw6-3-SsSfJPF7iU-FCDmxdkZEsg6_wUYP_0=:YW5vbnltb3Vz:aHVkc29uLm1vZGVsLkh1ZHNvbg==:bG9naW4="
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html;charset=utf-8"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache,no-store,must-revalidate"
+    },
+    {
+     "name": "X-Hudson",
+     "value": "1.395"
+    },
+    {
+     "name": "X-Jenkins",
+     "value": "2.541.3"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "sameorigin"
+    },
+    {
+     "name": "Reporting-Endpoints",
+     "value": "content-security-policy: http://jenkins.example.com/content-security-policy-reporting-endpoint/uP11sx-Aw6-3-SsSfJPF7iU-FCDmxdkZEsg6_wUYP_0=:YW5vbnltb3Vz:aHVkc29uLm1vZGVsLkh1ZHNvbg==:bG9naW4="
+    },
+    {
+     "name": "Expires",
+     "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "JSESSIONID.cf191e8d=node06g7ed46xerddwetc5eq6ws372.node0; Path=/; HttpOnly; SameSite=Lax"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:05 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Jenkins-Session",
+     "value": "523847c1"
+    }
+   ],
+   "body_file": "bodies/aafcdb545acb7c0f9edd.bin",
+   "size": 743,
+   "sha256": "aafcdb545acb7c0f9eddfa0cade6cddc7665e9af05a16684a937f1ce88582f68",
+   "content_encoding": "gzip",
+   "expires_in": -1794341345,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "/opensearch.xml",
+   "path": "/opensearch.xml",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/xml;charset=UTF-8"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    }
+   ],
+   "body_file": "bodies/3daba5bab89966e9c8fd.xml",
+   "size": 243,
+   "sha256": "3daba5bab89966e9c8fdf4ec662898b2ab3ba68374c5781469f170227fbc42b4",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain"
+    },
+    {
+     "name": "Content-Length",
+     "value": "90"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 11 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/3acde805acd9f436dee4.txt",
+   "size": 90,
+   "sha256": "3acde805acd9f436dee44a803f0d9d94b539c4343a7c9042a957fe267417a2ae",
+   "content_encoding": "gzip",
+   "expires_in": 86400,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/rssAll",
+   "path": "/rssAll",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/atom+xml;charset=UTF-8"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    }
+   ],
+   "body_file": "bodies/66c3a28b8bd767b9a71e.bin",
+   "size": 272,
+   "sha256": "66c3a28b8bd767b9a71eafe938b2dd016941873d844375723c2629b884d39926",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/rssAll?flavor=rss20",
+   "path": "/rssAll",
+   "query": "flavor=rss20",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/xml;charset=utf-8"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/e0ee77d61193f7cfe9ef.bin",
+   "size": 166,
+   "sha256": "e0ee77d61193f7cfe9ef51543f07c8a9eec497d37b4dd69314f4c3ed06f9c5c7",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/rssFailed",
+   "path": "/rssFailed",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/atom+xml;charset=UTF-8"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/651a44e98d324ddbdf5e.bin",
+   "size": 274,
+   "sha256": "651a44e98d324ddbdf5e126facc36471f473f666cac055ff34c391dcdc9228a5",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/rssFailed?flavor=rss20",
+   "path": "/rssFailed",
+   "query": "flavor=rss20",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/xml;charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/0634ddbd0abb6013a60e.bin",
+   "size": 168,
+   "sha256": "0634ddbd0abb6013a60ec46e89d6889832ed7b82bd637a0d37d521e7d3b937c2",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/523847c1/apple-touch-icon.png",
+   "path": "/static/523847c1/apple-touch-icon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "20643"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    }
+   ],
+   "body_file": "bodies/04369188f4b5c43c38b2.png",
+   "size": 20643,
+   "sha256": "04369188f4b5c43c38b25c355565976c488aa8b13b12ab4e8ba10360ad12d92d",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/css/responsive-grid.css",
+   "path": "/static/523847c1/css/responsive-grid.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3610"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    }
+   ],
+   "body_file": "bodies/b79b16f982911aabc1ac.css",
+   "size": 3610,
+   "sha256": "b79b16f982911aabc1ac6eb2cb21ec4bfca3549af489e509337c3c73e2eeb287",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/favicon.ico",
+   "path": "/static/523847c1/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/vnd.microsoft.icon"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Length",
+     "value": "17542"
+    }
+   ],
+   "body_file": "bodies/4fec1ee82f0dc4a8e4e9.ico",
+   "size": 17542,
+   "sha256": "4fec1ee82f0dc4a8e4e9bb26954cf54cf9bf1e6a009516cb6c49ff16924e8caa",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/favicon.svg",
+   "path": "/static/523847c1/favicon.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    }
+   ],
+   "body_file": "bodies/8e2c06912fe8048148db.svg",
+   "size": 13102,
+   "sha256": "8e2c06912fe8048148dbff017e7b18f5d4408e94af97ee3d703150f9eba11174",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "/static/523847c1/images/progress-unknown-red.gif",
+   "path": "/static/523847c1/images/progress-unknown-red.gif",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/gif"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2239"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/7d871723c1f29a82717a.gif",
+   "size": 2239,
+   "sha256": "7d871723c1f29a82717acb31073971249730c666c64f95860bbe1160f602f260",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/progress-unknown.gif",
+   "path": "/static/523847c1/images/progress-unknown.gif",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/gif"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2239"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/b1a3b6f107c576d1ed2e.gif",
+   "size": 2239,
+   "sha256": "b1a3b6f107c576d1ed2ea37893441ae36030b5927390c9cecdaa4256c445c985",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/spinner.gif",
+   "path": "/static/523847c1/images/spinner.gif",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/gif"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1659"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    }
+   ],
+   "body_file": "bodies/4ee2fbd747a62f1cc2db.gif",
+   "size": 1659,
+   "sha256": "4ee2fbd747a62f1cc2dbc2f354d32064da0d2f3f0c25da958d9d1a8d399a27a0",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/logo.svg",
+   "path": "/static/523847c1/images/svgs/logo.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "9593"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/d9a6602e40eb3f0551ee.svg",
+   "size": 9593,
+   "sha256": "d9a6602e40eb3f0551ee4bf0a311d271624f9a6216207c316cb1ac372973ae7b",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/mask-breadcrumbs__after.svg",
+   "path": "/static/523847c1/images/svgs/mask-breadcrumbs__after.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "191"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/088e0e328265cea258ed.svg",
+   "size": 191,
+   "sha256": "088e0e328265cea258ed55eb5335ca108447a8d47a707ec3b0db10f1665f596a",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/mask-checkbox-label.svg",
+   "path": "/static/523847c1/images/svgs/mask-checkbox-label.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "522"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/3b88bf18536bc072b154.svg",
+   "size": 522,
+   "sha256": "3b88bf18536bc072b15499ea3e8688f15b3ee5cf985ab62507cec5299891e102",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/mask-codemirror.svg",
+   "path": "/static/523847c1/images/svgs/mask-codemirror.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "254"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/37cb58fa87ca6f5364c1.svg",
+   "size": 254,
+   "sha256": "37cb58fa87ca6f5364c11fe9853015e852f167a8bab6b8e731501419a97a1352",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/mask-dropdowns__chevron.svg",
+   "path": "/static/523847c1/images/svgs/mask-dropdowns__chevron.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Length",
+     "value": "196"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/b8703bddfeef0a98d473.svg",
+   "size": 196,
+   "sha256": "b8703bddfeef0a98d4732000ead236d6c939f4a4d44176a47667160d513edfc8",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/mask-file-upload.svg",
+   "path": "/static/523847c1/images/svgs/mask-file-upload.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "285"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    }
+   ],
+   "body_file": "bodies/216a5b186f6b3b429e03.svg",
+   "size": 285,
+   "sha256": "216a5b186f6b3b429e032c470ff44c2630ff37a37c5a41e10b393cb0eb3e30bf",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/mask-layout__help-button.svg",
+   "path": "/static/523847c1/images/svgs/mask-layout__help-button.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2426"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/809e9075b52d535d3b40.svg",
+   "size": 2426,
+   "sha256": "809e9075b52d535d3b404ceddbcc210106b00e712c7092f9445daa8a29e7abc2",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/mask-reorderable-list__handle.svg",
+   "path": "/static/523847c1/images/svgs/mask-reorderable-list__handle.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "229"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    }
+   ],
+   "body_file": "bodies/249d20813bdd6291f484.svg",
+   "size": 229,
+   "sha256": "249d20813bdd6291f484e6dea3afbe604304aa0d82afb0097d47ac1b3be30905",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/mask-search-bar__webkit-search-cancel-button.svg",
+   "path": "/static/523847c1/images/svgs/mask-search-bar__webkit-search-cancel-button.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "213"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    }
+   ],
+   "body_file": "bodies/68fbf52dee94849945ea.svg",
+   "size": 213,
+   "sha256": "68fbf52dee94849945ea04adff0c94b4cc4cc2f3986d134498612f7d52279995",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/mask-select.svg",
+   "path": "/static/523847c1/images/svgs/mask-select.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "496"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    }
+   ],
+   "body_file": "bodies/f5897b6cb25c3147498d.svg",
+   "size": 496,
+   "sha256": "f5897b6cb25c3147498dd8698378da11f52e5aca486ffcb3632b73bb693daf28",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/mask-toggle-switch__checked.svg",
+   "path": "/static/523847c1/images/svgs/mask-toggle-switch__checked.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "493"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    }
+   ],
+   "body_file": "bodies/98253b2d6b060c88b049.svg",
+   "size": 493,
+   "sha256": "98253b2d6b060c88b049deb70c8dcdf439ec59cb05122279936d8a8f940ee547",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/mask-validation__error.svg",
+   "path": "/static/523847c1/images/svgs/mask-validation__error.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "250"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    }
+   ],
+   "body_file": "bodies/2289e85213bf4227b01b.svg",
+   "size": 250,
+   "sha256": "2289e85213bf4227b01b41b306343df73cff7868b51b46b0c27709c8c649c029",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/mask-validation__info.svg",
+   "path": "/static/523847c1/images/svgs/mask-validation__info.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Content-Length",
+     "value": "206"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    }
+   ],
+   "body_file": "bodies/6bf5738d1af9082ffdac.svg",
+   "size": 206,
+   "sha256": "6bf5738d1af9082ffdac0eb0c2ff4cdebe1e3981846907510372c6228a9ef073",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/images/svgs/mask-validation__warning.svg",
+   "path": "/static/523847c1/images/svgs/mask-validation__warning.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "293"
+    }
+   ],
+   "body_file": "bodies/cf9f4c20869d6578fd01.svg",
+   "size": 293,
+   "sha256": "cf9f4c20869d6578fd01521d90d6c8150f9bb988ecbdadd059651378a5906b2e",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/jsbundles/app.js",
+   "path": "/static/523847c1/jsbundles/app.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    }
+   ],
+   "body_file": "bodies/697084bbd266005e0a59.js",
+   "size": 20426,
+   "sha256": "697084bbd266005e0a59401a7e0d668681442ee97bbe25e53f48c435cd10dc3d",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "/static/523847c1/jsbundles/header.js",
+   "path": "/static/523847c1/jsbundles/header.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "7288"
+    }
+   ],
+   "body_file": "bodies/05eec1404645fe3ecb73.js",
+   "size": 7288,
+   "sha256": "05eec1404645fe3ecb7366b4aeacf9d30c9a4efc69edb3e126da5460c0c21d2a",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/jsbundles/keyboard-shortcuts.js",
+   "path": "/static/523847c1/jsbundles/keyboard-shortcuts.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2392"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/8eaa0b72d401c630214e.js",
+   "size": 2392,
+   "sha256": "8eaa0b72d401c630214e4100d1686368dbfa85f0f2d2904bfba77e687a276b8f",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/jsbundles/simple-page.css",
+   "path": "/static/523847c1/jsbundles/simple-page.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    }
+   ],
+   "body_file": "bodies/b5de93ce2d6f6aa7e370.css",
+   "size": 6455,
+   "sha256": "b5de93ce2d6f6aa7e3701fa8cd41a86706288591de11773e406b0c0427a8984f",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "/static/523847c1/jsbundles/sortable-drag-drop.js",
+   "path": "/static/523847c1/jsbundles/sortable-drag-drop.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2865"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    }
+   ],
+   "body_file": "bodies/5853ebccfe2fcf28554b.js",
+   "size": 2865,
+   "sha256": "5853ebccfe2fcf28554b3ef41cbb11e9b1bd9e1741b0d7d0fc4d0f92c0ddd453",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/jsbundles/styles.css",
+   "path": "/static/523847c1/jsbundles/styles.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    }
+   ],
+   "body_file": "bodies/89a4f48a34305b3b6071.css",
+   "size": 29035,
+   "sha256": "89a4f48a34305b3b60712ecbc9c975f150e09d41e9d136dd2289ed3377615fc3",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "/static/523847c1/jsbundles/vendors.js",
+   "path": "/static/523847c1/jsbundles/vendors.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    }
+   ],
+   "body_file": "bodies/49e9d81d9e64225f36a5.js",
+   "size": 204652,
+   "sha256": "49e9d81d9e64225f36a5a0193b6285dc4b4320f02211280673e9a6b7abc41030",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "/static/523847c1/mask-icon.svg",
+   "path": "/static/523847c1/mask-icon.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    }
+   ],
+   "body_file": "bodies/db47a1c0cf1490f700b0.svg",
+   "size": 21141,
+   "sha256": "db47a1c0cf1490f700b079449213734ccd9e20aebbf7f5e59aeb05321ad5bc83",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "/static/523847c1/scripts/behavior.js",
+   "path": "/static/523847c1/scripts/behavior.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2284"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/cbe3751f8b708cc387c1.js",
+   "size": 2284,
+   "sha256": "cbe3751f8b708cc387c1fd6f068e221c45028bec13cb01af285439e2e694243d",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/static/523847c1/scripts/hudson-behavior.js",
+   "path": "/static/523847c1/scripts/hudson-behavior.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/a586bc27b149c2f3da86.js",
+   "size": 22577,
+   "sha256": "a586bc27b149c2f3da862da7f5f67018f96d746b947fb78d22a94b9622f3aeac",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "/static/523847c1/scripts/sortable.js",
+   "path": "/static/523847c1/scripts/sortable.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 10 Nov 2026 20:08:56 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Wed, 10 Nov 2027 20:09:06 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4428"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    }
+   ],
+   "body_file": "bodies/0ac7e893dd4c1bac8903.js",
+   "size": 4428,
+   "sha256": "0ac7e893dd4c1bac8903a81dde4c0c2acff237dba4940f71aac534825d0a19d5",
+   "content_encoding": "gzip",
+   "expires_in": 31536000,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "POST /j_spring_security_check :: application/x-www-form-urlencoded",
+   "path": "/j_spring_security_check",
+   "method": "POST",
+   "req_content_type": "application/x-www-form-urlencoded",
+   "req_body": "j_username=admin\u0026j_password=definitely-wrong\u0026from=\u0026Submit=Sign+in",
+   "status": 403,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline';"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "must-revalidate,no-cache,no-store"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html;charset=iso-8859-1"
+    },
+    {
+     "name": "Content-Length",
+     "value": "555"
+    }
+   ],
+   "body_file": "bodies/2dceb56bd780226f6f3d.bin",
+   "size": 555,
+   "sha256": "2dceb56bd780226f6f3d5af56f608b4c18f1cbedaa531f9656862c5cff7731d1"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-b49e2213474a",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "X-Hudson",
+     "value": "1.395"
+    },
+    {
+     "name": "X-Jenkins-Session",
+     "value": "523847c1"
+    },
+    {
+     "name": "Reporting-Endpoints",
+     "value": "content-security-policy: http://jenkins.example.com/content-security-policy-reporting-endpoint/tFuQef4FhkBl8vhIy7-FcWRYyCKUEIl7DhSZKN_ZSds=:YW5vbnltb3Vz:aHVkc29uLm1vZGVsLkh1ZHNvbg==:XzQwNA=="
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache,no-store,must-revalidate"
+    },
+    {
+     "name": "Expires",
+     "value": "0"
+    },
+    {
+     "name": "X-Hudson-Theme",
+     "value": "default"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Security-Policy-Report-Only",
+     "value": "base-uri 'none'; default-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; script-src 'report-sample' 'self' usage.jenkins.io; style-src 'report-sample' 'self' 'unsafe-inline'; report-to content-security-policy; report-uri http://jenkins.example.com/content-security-policy-reporting-endpoint/tFuQef4FhkBl8vhIy7-FcWRYyCKUEIl7DhSZKN_ZSds=:YW5vbnltb3Vz:aHVkc29uLm1vZGVsLkh1ZHNvbg==:XzQwNA=="
+    },
+    {
+     "name": "X-Jenkins",
+     "value": "2.541.3"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "sameorigin"
+    },
+    {
+     "name": "Server",
+     "value": "Jetty(12.1.5)"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:09:06 GMT"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "JSESSIONID.cf191e8d=node014u769mguipla1iphmfnmumnax4.node0; Path=/; HttpOnly; SameSite=Lax"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html;charset=utf-8"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    }
+   ],
+   "body_file": "bodies/9afa57bdaf9bc9402b9a.bin",
+   "size": 72198,
+   "sha256": "9afa57bdaf9bc9402b9a5e1cce3caa7114be5763cf92399a2030ca579e85ff78",
+   "chunked": true
+  }
+ ]
+}

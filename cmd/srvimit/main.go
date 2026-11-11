@@ -64,6 +64,8 @@ func main() {
 		err = cmdRecord(args, logger)
 	case "verify":
 		err = cmdVerify(args, logger)
+	case "compose":
+		err = cmdCompose(args)
 	case "help", "-h", "--help":
 		usage()
 	case "version", "-v", "--version":

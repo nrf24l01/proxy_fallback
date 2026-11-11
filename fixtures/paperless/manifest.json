@@ -1,0 +1,614 @@
+{
+ "service": "paperless",
+ "title": "Paperless-ngx",
+ "category": "documents",
+ "login_path": "/accounts/login/",
+ "default_port": 8225,
+ "upstream": "http://127.0.0.1:8225",
+ "public_url": "https://paperless.example.com",
+ "recorded_at": "2026-11-10T20:06:06.325562248Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Server",
+     "value": "granian"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:06:06 GMT"
+    },
+    {
+     "name": "Location",
+     "value": "/accounts/login/?next=/"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Language, origin, Cookie"
+    },
+    {
+     "name": "Content-Language",
+     "value": "en-us"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.bin",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/accounts/login/",
+   "path": "/accounts/login/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=0, no-cache, no-store, must-revalidate, private"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Vary",
+     "value": "Cookie, Accept-Language, origin, Accept-Encoding"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3073"
+    },
+    {
+     "name": "Content-Language",
+     "value": "en-us"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 10 Nov 2026 20:06:06 GMT"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "csrftoken=qfIfwxKjXxZhAMZM32y2HjkVuqpozWvx; expires=Tue, 09 Nov 2027 20:06:06 GMT; Max-Age=31449600; Path=/; SameSite=Lax"
+    },
+    {
+     "name": "Server",
+     "value": "granian"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:06:06 GMT"
+    }
+   ],
+   "body_file": "bodies/cd9165821b1c28f2d6a2.bin",
+   "size": 3073,
+   "sha256": "cd9165821b1c28f2d6a23937198116cdb574984462f7451ec8baaf37a38e5696",
+   "content_encoding": "gzip",
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/accounts/login/?next=/",
+   "path": "/accounts/login/",
+   "query": "next=/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Vary",
+     "value": "Cookie, Accept-Language, origin, Accept-Encoding"
+    },
+    {
+     "name": "Content-Language",
+     "value": "en-us"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "csrftoken=Df8i2fLPqSdY9I6VKxfAEPuDNtsQs0aj; expires=Tue, 09 Nov 2027 20:06:06 GMT; Max-Age=31449600; Path=/; SameSite=Lax"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:06:06 GMT"
+    },
+    {
+     "name": "Expires",
+     "value": "Tue, 10 Nov 2026 20:06:06 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=0, no-cache, no-store, must-revalidate, private"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3073"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "granian"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/287a8dc56987ccf4257a.bin",
+   "size": 3073,
+   "sha256": "287a8dc56987ccf4257a6213407077b5ab6b029dd2007253af31cb294ef856f6",
+   "content_encoding": "gzip",
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/api/remote/version",
+   "path": "/api/remote/version",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Location",
+     "value": "/accounts/login/?next=/api/remote/version"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Server",
+     "value": "granian"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:06:06 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Language, origin, Cookie"
+    },
+    {
+     "name": "Content-Language",
+     "value": "en-us"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.bin",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Language",
+     "value": "en-us"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Server",
+     "value": "granian"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:06:06 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/x-icon"
+    },
+    {
+     "name": "Content-Disposition",
+     "value": "inline; filename=\"favicon.ico\""
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Language, origin, Cookie, Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/aec9d5495fcba8c59348.ico",
+   "size": 16293,
+   "sha256": "aec9d5495fcba8c5934813ffef93f51d8d9fca5937eb05cf70db63a8e69bbab7",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Server",
+     "value": "granian"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:06:06 GMT"
+    },
+    {
+     "name": "Location",
+     "value": "/accounts/login/?next=/robots.txt"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Language, origin, Cookie"
+    },
+    {
+     "name": "Content-Language",
+     "value": "en-us"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.txt",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/static/base.css",
+   "path": "/static/base.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=\"utf-8\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=60, public"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 03 Nov 2026 21:38:26 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6aea5452-719\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Server",
+     "value": "granian"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Length",
+     "value": "604"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:06:06 GMT"
+    }
+   ],
+   "body_file": "bodies/2886e10a9aea92fcd4fb.css",
+   "size": 604,
+   "sha256": "2886e10a9aea92fcd4fb638a021e2e5db1faf8b01733f957149f9fd7fe39f945",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/static/bootstrap.min.css",
+   "path": "/static/bootstrap.min.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 03 Nov 2026 21:38:26 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6aea5452-38aaf\""
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Server",
+     "value": "granian"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:06:06 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=60, public"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Content-Length",
+     "value": "30869"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=\"utf-8\""
+    }
+   ],
+   "body_file": "bodies/5c154804ffb1a33f4b99.css",
+   "size": 30869,
+   "sha256": "5c154804ffb1a33f4b994bf2b0c95746ca12d42f672ad0e3ba4d58b9eb6a922a",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "POST /accounts/login/ :: application/x-www-form-urlencoded",
+   "path": "/accounts/login/",
+   "method": "POST",
+   "req_content_type": "application/x-www-form-urlencoded",
+   "req_body": "username=admin\u0026password=definitely-wrong\u0026csrfmiddlewaretoken=veil",
+   "status": 403,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Language, origin, Cookie, Accept-Encoding"
+    },
+    {
+     "name": "Content-Language",
+     "value": "en-us"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:06:06 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "742"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Server",
+     "value": "granian"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/eb1f87ca1719ae8c512c.bin",
+   "size": 742,
+   "sha256": "eb1f87ca1719ae8c512c2f75ee1fa430cd0c0f56a4082cc74adef8f1b3257bf2",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-35f40b347f3b",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Server",
+     "value": "granian"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Language",
+     "value": "en-us"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:06:06 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Location",
+     "value": "/accounts/login/?next=/veil-fallback-404-probe-35f40b347f3b"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Language, origin, Cookie"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.bin",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+{"code":12,"message":"API v1 has been removed. Use /api/... for REST and /memos.api.\u003cService\u003e/\u003cMethod\u003e for Connect. See https://github.com/usememos/memos/blob/main/proto/api/CHANGELOG.md"}

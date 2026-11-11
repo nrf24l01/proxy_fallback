@@ -1,0 +1,7 @@
+/
+/assets/favicon.png
+/control/install/get_addresses
+/install.7c9221729fcc590e9f22.js
+/install.d078c985d34c30798aad.css
+/install.html
+/login.html

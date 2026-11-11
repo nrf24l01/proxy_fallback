@@ -4,8 +4,6 @@ dist/
 *.tar.gz
 *.log
 
-# snapshots are recorded locally (see README: Recording snapshots)
-fixtures/
 
 .env
 

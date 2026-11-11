@@ -1,0 +1,1 @@
+import{ft as e}from"./B1PMnUQd.js";var t=function(t,n){var r=e({},t);return Object.keys(n).forEach(function(e){var t=r[e];if(t)t.type||t.default?t.default=n[e]:t.def?t.def(n[e]):r[e]={type:t,default:n[e]};else throw Error(`not have ${e} prop`)}),r};export{t};

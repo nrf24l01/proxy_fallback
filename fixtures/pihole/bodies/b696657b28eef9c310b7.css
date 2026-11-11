@@ -1,0 +1,1804 @@
+/* Pi-hole: A black hole for Internet advertisements
+*  (c) 2017 Pi-hole, LLC (https://pi-hole.net)
+*  Network-wide ad blocking via your own hardware.
+*
+*  This file is copyright under the latest version of the EUPL.
+*  Please see LICENSE file for your rights under this license. */
+
+:root {
+  /* Datatables Select - bgcolor */
+  --datatable-bgcolor: #e0e8ee;
+
+  /* Used in settings save button */
+  --overlay-bgcolor: rgba(212, 220, 232, 0.55);
+
+  /* Dashboard graphic bars colors */
+  --allowed-color: #00a65a;
+  --blocked-color: #b00000;
+  --cached-color: #9be;
+  --other-color: #908878;
+}
+
+/* Dashboard graphic bars */
+.queries-permitted {
+  background-color: var(--allowed-color);
+}
+.queries-blocked {
+  background-color: var(--blocked-color);
+}
+.queries-cached {
+  background-color: var(--cached-color);
+}
+.queries-other {
+  background-color: var(--other-color);
+}
+
+.layout-boxed {
+  background: url("../img/boxed-bg.png") repeat fixed;
+}
+
+@keyframes Pulse {
+  from {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+p#dhcpnotice[hidden] {
+  display: none;
+}
+
+.lookatme #dhcpnotice {
+  display: block;
+}
+
+td.lookatme {
+  display: table-cell;
+}
+
+.lookatme {
+  color: #630030;
+  opacity: 1;
+  position: relative;
+  display: inline-block;
+}
+
+/* this pseudo element will be faded in and out in front /*
+/* of the lookatme element to create an efficient animation. */
+.lookatme:after {
+  color: #e33100;
+  text-shadow: 0 0 5px #e33100;
+  /* in the html, the data-lookatme-text attribute must */
+  /* contain the same text as the .lookatme element */
+  content: attr(data-lookatme-text);
+  padding: inherit;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  /* 20 steps / 2 seconds = 10fps */
+  animation: 2s infinite Pulse steps(20);
+}
+
+.table-responsive {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Optimize Queries-Table for small screens */
+/* Time column */
+#all-queries td:nth-of-type(1),
+/* Reply time column */
+#all-queries td:nth-of-type(6) {
+  white-space: nowrap;
+}
+
+/* Domain column */
+#all-queries td:nth-of-type(4) {
+  min-width: 200px;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+/* Client column */
+#all-queries td:nth-of-type(5) {
+  word-break: break-all;
+}
+
+/* Allow Info String to wrap (useful while filtering entries on small screen) */
+#all-queries_info {
+  white-space: unset;
+}
+
+/* adjust the buttons width */
+#all-queries_wrapper .pagination > li > a {
+  padding-left: 6px;
+  padding-right: 6px;
+  min-width: 34px;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px), screen and (min-width: 767px) and (max-width: 1000px) {
+  /* Hide "Previous" & "Next"-Buttons in Pagination */
+  #all-queries_wrapper .pagination > li.previous,
+  #all-queries_wrapper .pagination > li.next {
+    display: none;
+  }
+
+  #all-queries_wrapper .pagination > li:nth-of-type(2) a {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  #all-queries_wrapper .pagination > li:nth-last-of-type(2) a {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+}
+
+#resetButton {
+  font-weight: 700;
+}
+
+.vertical-alignment-helper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.vertical-alignment-helper > .vertical-align-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.vertical-alignment-helper > .vertical-align-center > .modal-content {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
+  pointer-events: all;
+}
+
+.alSpinner {
+  top: 0.1em;
+  left: 0.1em;
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+  border: 4px solid #c0c0c0;
+  border-right-color: transparent;
+  animation: fa-spin 1s infinite linear;
+}
+
+.chartjs-tooltip {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 95%;
+  z-index: 900;
+}
+
+.chartjs-tooltip th {
+  padding-bottom: 3px;
+}
+
+.chartjs-tooltip,
+.chartjs-tooltip .arrow {
+  transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.chartjs-tooltip .arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.chartjs-tooltip.bottom .arrow {
+  top: 100%;
+  left: 50%;
+  margin: 0 -5px -5px;
+  border-width: 5px 5px 0;
+  border-top-color: rgba(0, 0, 0, 0.8);
+}
+
+.chartjs-tooltip.top .arrow {
+  top: 0;
+  left: 50%;
+  border-width: 0 5px 5px;
+  margin: -5px -5px 0;
+  border-bottom-color: rgba(0, 0, 0, 0.8);
+}
+
+.chartjs-tooltip.right.center .arrow {
+  top: 50%;
+  left: 100%;
+  margin: -5px -5px -5px 0;
+  border-width: 5px 0 5px 5px;
+  border-left-color: rgba(0, 0, 0, 0.8);
+}
+
+.chartjs-tooltip.left.center .arrow {
+  top: 50%;
+  left: 0;
+  margin: -5px 0 -5px -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: rgba(0, 0, 0, 0.8);
+}
+
+.chartjs-tooltip-key {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 3px;
+  vertical-align: text-top;
+}
+
+#query-types-pie .box-body,
+#forward-destinations-pie .box-body {
+  display: flex;
+}
+
+#query-types-pie .box-body,
+#forward-destinations-pie .box-body,
+#cache-metrics-chart {
+  display: flex;
+}
+
+.chart-legend {
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.chart-legend ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.chart-legend li {
+  cursor: default;
+  position: relative;
+  line-height: 1;
+  margin: 0 0 8px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.chart-legend li span {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.colorBoxWrapper {
+  font-size: 15px;
+}
+
+.colorBoxWrapper:hover {
+  transform: scale(1.15);
+}
+
+.chart-legend li .legend-label-text {
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  word-break: break-word;
+}
+
+.chart-legend li a.legend-label-text.clickable:hover {
+  text-decoration: underline;
+}
+
+.chart-legend li a.legend-label-text.clickable {
+  cursor: pointer; /* Pointer cursor only for clickable items */
+}
+
+/* These are needed because AdmintLTE 2.x doesn't support Font Awesome 5.x */
+.sidebar-menu > li > a > .fab,
+.sidebar-menu > li > a > .far,
+.sidebar-menu > li > a > .fas {
+  width: 20px;
+}
+
+/* Utilities */
+.text-underline {
+  text-decoration: underline;
+}
+
+.breakall {
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.no-user-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.bootstrap-select.bs-container.align-right {
+  left: unset !important;
+  right: 10px;
+}
+
+.input-group-addon {
+  padding: 0 12px;
+}
+
+.user-panel {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.user-panel .image {
+  flex: 1 0 25%;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.user-panel > .image > img {
+  max-width: 60px;
+  min-width: 30px;
+}
+
+.user-panel > .info {
+  padding: 0;
+  position: relative;
+  line-height: 1.05;
+  flex: 1 1 auto;
+  left: auto;
+  width: 138px;
+}
+
+.user-panel > .info > p {
+  margin-bottom: 6px;
+}
+
+.user-panel > .info > span {
+  display: inline-block;
+  padding: 0;
+  margin: 2px 0;
+  font-size: 11px;
+}
+
+.user-panel > .info i {
+  margin-right: 3px;
+}
+
+.row-centered > div[class^="col-"] {
+  display: inline-block;
+  float: none;
+}
+
+.version-info {
+  margin-top: 10px;
+}
+
+.daterangepicker {
+  font-family: inherit;
+}
+
+.form-inline .dataTable .form-control {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* Table footer row used to add new items, using inline input fields */
+tfoot.add-new-item > tr > th {
+  font-weight: normal;
+  vertical-align: inherit;
+}
+
+.select2-container--default .select2-results > .select2-results__options {
+  max-height: 400px;
+}
+
+/*Work around code that expects icon fonts rather than SVG.
+  Newer versions of AdminLTE have support for SVG icons,
+  https://github.com/ColorlibHQ/AdminLTE/pull/2920
+  so this code will only be needed temporarily. */
+
+.sidebar-menu li > a > .fa-angle-left,
+.sidebar-menu li > a > .pull-right-container > .fa-angle-left {
+  height: 1em;
+}
+
+.sidebar-toggle-svg {
+  position: relative;
+  color: #fff;
+  float: left;
+  background-color: transparent;
+  border: none;
+  padding: 15px;
+  width: 50px;
+  text-align: center;
+}
+
+.sidebar-toggle-svg:hover {
+  color: #f6f6f6;
+  background: #367fa9;
+}
+
+/* Hide the "Ph" and move the toggle to the left */
+.sidebar-mini.sidebar-collapse .main-header .logo {
+  width: 0;
+  position: absolute;
+}
+.sidebar-mini.sidebar-collapse .main-header .logo-mini {
+  visibility: hidden;
+}
+.sidebar-mini.sidebar-collapse .main-header .navbar {
+  margin-left: 0;
+}
+
+.sidebar-menu > li.header {
+  color: transparent;
+  padding: 5px;
+}
+
+.main-header .navbar .nav > li.user > a > .fa,
+.main-header .navbar .nav > li.user > a > .glyphicon,
+.main-header .navbar .nav > li.user > a > .ion {
+  margin-right: 0;
+}
+
+.box {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.small-box {
+  border-radius: 8px;
+  z-index: 0; /* fix the small-box z-index (related to '.small-box .icon') */
+  overflow: hidden;
+}
+
+.small-box-header {
+  padding: 4px 8px;
+}
+
+.small-box span {
+  transition-duration: 0.5s;
+}
+
+.small-box-footer span {
+  transition-duration: 0s;
+}
+
+.small-box p {
+  margin: 0 0 5px;
+}
+
+.small-box > .inner {
+  padding: 10px 10px 0;
+}
+
+.small-box > .small-box-footer {
+  color: rgba(255, 255, 255, 0.75);
+  transition: all 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+  .small-box > .small-box-footer {
+    text-align: right;
+    padding: 3px 7px;
+  }
+}
+
+.small-box-footer i {
+  margin: 0 5px;
+  font-size: 13px;
+}
+
+.small-box .icon {
+  font-size: 76px;
+  z-index: -1; /* sends the icon behind the text */
+}
+
+/*** Icons grow on hover, but remain centered ***/
+.small-box:hover .icon {
+  font-size: 80px; /* keep the same font-size, to avoid shifting the position */
+  transform: scale(1.06);
+}
+
+.list-status-0 {
+  color: #7d7d7d;
+}
+
+.list-status-1 {
+  color: #74c700;
+}
+
+.list-status-2 {
+  color: #98ca52;
+}
+
+.list-status-3 {
+  color: #ff8c00;
+}
+
+.list-status-4 {
+  color: #cc0000;
+}
+
+.list-icon-legend-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 60px;
+}
+
+td.details-control {
+  cursor: pointer;
+  text-align: center;
+}
+
+.dataTables-child td {
+  padding: 2px 5px;
+}
+
+.blocked-row td {
+  background-color: rgb(229, 83, 75, 0.1);
+}
+
+.allowed-row td {
+  background-color: rgb(70, 149, 74, 0.1);
+}
+
+.reload-box {
+  display: none;
+}
+.reload-box div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reload-box span {
+  padding-right: 20px;
+}
+
+/*** Login page ***/
+.login-page {
+  padding: 15px;
+  min-height: 100vh !important;
+  height: auto !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-box {
+  position: relative;
+  margin: 0 auto;
+  padding: 5px;
+  width: 480px;
+  max-width: 100%;
+  flex: 0 1 auto;
+  align-self: center;
+  border: none;
+}
+
+.loginpage-logo {
+  margin: 0 0 10px;
+}
+
+.login-options {
+  display: flex;
+  margin: 0 0 15px -15px;
+  flex-wrap: wrap;
+}
+
+.login-options div {
+  position: relative;
+  margin-left: 15px;
+}
+
+.login-options div:last-child {
+  margin-right: 2px;
+  margin-bottom: 0 !important;
+  font-size: 95%;
+}
+
+.pwd-field {
+  flex: 1 0 auto;
+}
+
+.login-footer a {
+  text-align: center;
+  min-width: 28%;
+}
+@media screen and (max-width: 420px) {
+  .login-footer a {
+    min-width: auto;
+    padding: 5px;
+  }
+}
+
+.login-donate {
+  padding: 15px;
+}
+
+/*** Warning icon and count ***/
+.warning-count {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  background: #e08e0b;
+  color: #fff;
+  line-height: 1;
+  padding: 0.25em 0.5em;
+  margin: -0.7em 4px;
+  border-radius: 2em;
+  right: 3em;
+  top: 50%;
+  font-size: 12px;
+}
+
+#top-warning-count {
+  top: 55%;
+  left: 50%;
+  right: unset;
+  margin: 0;
+}
+
+.treeview-menu .warning-count {
+  margin-right: 0;
+  font-size: 10px;
+}
+
+.menu-open > a > span.warning-count {
+  display: none;
+}
+
+/* hide submenu warning count during animation */
+li:not(.menu-open) .treeview-menu .warning-count {
+  display: none;
+}
+
+/* hide warning count when hover a collapsed sidebar */
+.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse
+  .sidebar-menu
+  > li:hover
+  > a
+  > span.warning-count {
+  display: none !important;
+}
+
+/*** Accessibility - Add focus for checkboxes and radio buttons (icheck) ***/
+[class*="icheck-"] > input:first-child:focus + label::before {
+  outline: 1px #3c8dbc solid;
+  border-color: #3c8dbc;
+}
+
+/* Fix indentation of <p> elements inside icheck elements */
+[class*="icheck-"] > label + p {
+  padding-left: 29px;
+}
+
+/* Fix some datatables layout on small screens */
+@media screen and (max-width: 660px), screen and (min-width: 767px) and (max-width: 960px) {
+  #domainsTable_wrapper .table-responsive {
+    border: none;
+    overflow: unset;
+  }
+  #domainsTable {
+    border: 0;
+    box-sizing: border-box;
+  }
+  #domainsTable thead {
+    display: none;
+  }
+  #domainsTable tr {
+    display: flex;
+    padding: 5px 0;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: end;
+    border: 1px solid rgba(127, 127, 127, 0.4);
+    margin: 15px 0;
+    border-radius: 6px;
+  }
+  #domainsTable td {
+    flex: 1 1 auto;
+    width: 100px;
+    display: block;
+    border: none;
+    box-sizing: border-box;
+    order: 3;
+    text-align: right;
+    padding: 4px 8px;
+  }
+  #domainsTable td:nth-child(2n + 1) {
+    width: calc(100% - 120px);
+  }
+  #domainsTable td:nth-child(1) {
+    width: 40px;
+    order: 0;
+    text-align: left;
+    padding: 5px 0 30px;
+    border-bottom: 1px solid rgba(127, 127, 127, 0.25);
+    margin-bottom: 5px;
+    flex: 0 0 auto;
+  }
+  #domainsTable td:nth-child(2) {
+    width: calc(100% - 40px);
+    order: 1;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(127, 127, 127, 0.25);
+    margin-bottom: 5px;
+  }
+  #domainsTable td:last-child {
+    width: 40px;
+    order: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(127, 127, 127, 0.25);
+    margin-bottom: 5px;
+  }
+  #domainsTable td:nth-child(3),
+  #domainsTable td:nth-child(5) {
+    text-align: left;
+  }
+  #domainsTable td::before {
+    display: block;
+    font-weight: bold;
+    font-size: smaller;
+  }
+  #domainsTable td:nth-child(3)::before {
+    content: "Type:";
+  }
+  #domainsTable td:nth-child(5)::before {
+    content: "Comment:";
+  }
+  #domainsTable tr.selected td.select-checkbox::after,
+  #domainsTable tr.selected th.select-checkbox::after {
+    transform: rotate(45deg) translate(5px, 1px);
+  }
+}
+@media screen and (min-width: 767px) {
+  #domainsTable select.form-control {
+    padding: 0 0 0 5px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  #domainsTable th {
+    white-space: normal;
+  }
+}
+
+/* Domains table: filter by type */
+#domains-list .box-header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+}
+#domains-list .box-header h3 {
+  flex: 1 1 auto;
+  margin: 5px 0;
+  width: auto;
+  min-width: 130px;
+}
+.filter_types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px auto;
+}
+.filter_types div {
+  flex: 0 0 auto;
+  margin: 2px 0 0;
+}
+.filter_types span {
+  display: inline-block;
+  margin: 0 0 2px 10px !important;
+  width: 120px;
+  min-height: 1.2em;
+}
+
+/* Domains table: filter by type - smaller icheck */
+body:not([class*="lcars"]) .filter_types [class*="icheck-"] > label {
+  padding-left: 1.5em !important;
+  line-height: 1.2em;
+  min-height: 1.2em;
+}
+body:not([class*="lcars"])
+  .filter_types
+  [class*="icheck-"]
+  > input:first-child
+  + input[type="hidden"]
+  + label::before,
+body:not([class*="lcars"]) .filter_types [class*="icheck-"] > input:first-child + label::before {
+  width: 1.2em;
+  height: 1.2em;
+  margin-left: -1.55em;
+}
+body:not([class*="lcars"])
+  .filter_types
+  [class*="icheck-"]
+  > input:first-child:checked
+  + input[type="hidden"]
+  + label::after,
+body:not([class*="lcars"])
+  .filter_types
+  [class*="icheck-"]
+  > input:first-child:checked
+  + label::after {
+  width: 0.35em;
+  height: 0.7em;
+  top: -0.2em;
+  left: -0.18em;
+}
+
+/* reverse side menu collapse arrows when menu is closed */
+.sidebar-collapse .sidebar-toggle-svg i {
+  transform: scaleX(-1);
+}
+
+/* reverse side menu collapse arrows on mobile screens */
+@media (max-width: 767px) {
+  .sidebar-toggle-svg i {
+    transform: scaleX(-1);
+  }
+  .sidebar-open .sidebar-toggle-svg i {
+    transform: scaleX(1);
+  }
+}
+
+.icon-bounce {
+  display: inline-block;
+  position: relative;
+  animation: icon-bounce 2.4s 3 ease-in-out;
+  font-size: 1.6em;
+}
+
+@keyframes icon-bounce {
+  0%,
+  15%,
+  50%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  30% {
+    transform: translateY(4px);
+  }
+  35% {
+    transform: translateY(-3px);
+  }
+  40% {
+    transform: translateY(2px);
+  }
+  45% {
+    transform: translateY(-1px);
+  }
+}
+
+/* Page title container (flex) */
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.flex-header h1 {
+  margin: 10px 30px 10px 0;
+  flex: 1 0 auto;
+}
+
+.navbar-nav {
+  height: 50px;
+}
+
+.navbar-nav > .user-menu {
+  margin-left: 15px;
+  width: 50px;
+  text-align: center;
+}
+@media screen and (min-width: 767px) {
+  .navbar-nav > .user-menu {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header {
+  height: auto;
+  padding: 15px 15px 5px;
+  font-weight: 600;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > img {
+  height: 50px;
+  width: 50px;
+  border: none;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > .user-body {
+  border-radius: 0;
+  border-color: #fff;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > .user-footer {
+  padding: 10px 15px;
+  background: #fff;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > .user-footer a {
+  background: transparent !important;
+  padding: 6px 0;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu {
+  width: 240px;
+  border: none;
+  overflow: hidden;
+  padding: 0;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  margin: 1px;
+}
+
+.dropdown-menu > li > a {
+  color: inherit;
+}
+
+.user-menu hr {
+  margin: 5px 0;
+  opacity: 0.5;
+}
+
+#apiTokenIframe {
+  width: 100%;
+  border: 0;
+  height: 500px;
+}
+
+#apiTokenModal pre {
+  background: #fff;
+}
+
+.no-danger-area {
+  margin: 0.5em 0 1em;
+  border-left: 2px solid green;
+  border-right: 2px solid green;
+  padding: 1px 1em 0.5em;
+  box-shadow: 0 0 2px -1px #bbb;
+  border-radius: 6px;
+}
+
+.danger-area {
+  margin: 0.5em 0 1em;
+  border-left: 2px solid red;
+  border-right: 2px solid red;
+  padding: 1px 1em 0.5em;
+  box-shadow: 0 0 2px -1px #bbb;
+  border-radius: 6px;
+}
+
+.menu-icon {
+  margin-right: 0.5em;
+}
+
+.user-footer .menu-icon {
+  max-height: 1.75rem;
+  vertical-align: middle;
+}
+
+div.dt-buttons {
+  margin: 2px 0 5px;
+}
+@media screen and (max-width: 767px) {
+  div.dt-buttons {
+    margin-bottom: 5px;
+    float: none;
+    text-align: center;
+  }
+}
+
+/* Datatables Select - checkbox outline */
+table.dataTable tbody td.select-checkbox::before,
+table.dataTable tbody th.select-checkbox::before {
+  border-color: currentColor;
+  border-radius: 2px;
+  border-width: 2px;
+  width: 13px;
+  height: 13px;
+}
+
+table.dataTable tr.selected td.select-checkbox::after,
+table.dataTable tr.selected th.select-checkbox::after {
+  color: currentColor;
+  content: "";
+  text-shadow: none;
+  border-bottom: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  width: 4px;
+  height: 8px;
+  transform: rotate(45deg) translate(7px, 3px);
+}
+
+.datatable-bt {
+  padding: 3px 8px;
+}
+
+.datatable-bt span {
+  font-size: 17px;
+}
+
+/* Datatables Select - selected row bgcolor */
+table.dataTable tbody > tr.selected,
+table.dataTable tbody > tr > .selected {
+  background: none;
+  background-image: linear-gradient(var(--datatable-bgcolor), var(--datatable-bgcolor));
+}
+
+#messagesTable pre {
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+#output {
+  position: relative;
+  margin: 5px 0;
+  min-height: 36px;
+  padding: 4px 8px;
+  width: 100%;
+  height: 100%;
+}
+
+#output.pre-taillog {
+  display: grid;
+}
+
+.loading::before {
+  content: " ";
+  position: absolute;
+  padding: 1em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  line-height: 1;
+  background: rgba(35, 60, 85, 0.8);
+  box-shadow: 0 0 6px -3px rgba(0, 0, 0, 0.5);
+}
+.loading::after {
+  content: "\1F553\FE0E  Loading...";
+  position: absolute;
+  padding: 1em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  line-height: 1;
+  animation: 2s infinite Pulse steps(20);
+}
+
+/* Loading spinner (Dashboard and Long-term data) */
+.overlay .fa-spin {
+  position: relative;
+  opacity: 0.5;
+  font-size: 2.5em;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+.pull-nav-right {
+  float: right !important;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.pre-scrollable {
+  /* use dynamic unit to account for mobile browser interface height */
+  max-height: max(195px, 100dvh - 170px);
+  overflow-y: scroll;
+}
+@media screen and (max-width: 767px) {
+  .pre-scrollable {
+    /* reduce max-height on mobile (higher header) */
+    max-height: max(195px, 100dvh - 220px);
+  }
+}
+@media screen and (max-width: 546px) {
+  .pre-scrollable {
+    /* reduce max-height even more (box-header text wraps, increasing the height) */
+    max-height: max(195px, 100dvh - 240px);
+  }
+}
+
+.hr-small {
+  width: 100%;
+  margin: 0 0 -1px;
+  border-top: 1px solid #ff0000aa;
+}
+
+.qrcode {
+  width: 50%;
+}
+
+.totp_token {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  font-family: monospace;
+  letter-spacing: 0.5em;
+}
+
+.totp_token::-moz-placeholder {
+  opacity: 0.1;
+}
+
+.totp_token::placeholder {
+  opacity: 0.1;
+}
+
+.save-button-container {
+  position: fixed;
+  bottom: 1.2em;
+  right: 0.6em;
+  z-index: 10;
+  background: var(--overlay-bgcolor);
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 0.5em;
+  padding: 0;
+}
+.save-button {
+  margin: 1.2em;
+}
+@media (min-width: 1250px) {
+  .layout-boxed .save-button-container {
+    right: calc((100% - 1250px) / 2 + 1.2em);
+  }
+}
+
+.settings-container {
+  --columns: 2;
+  --gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+.settings-container > .box {
+  margin: 0;
+  width: calc((100% - (var(--gap) * (var(--columns) - 1))) / var(--columns));
+  border: none;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.settings-box .control-label small {
+  font-weight: normal;
+  display: block;
+}
+
+/* Settings containers without modified items and with hidden boxes will display this text */
+.settings-container:not(:has(h3[data-modified="true"])):has(.box[style*="display: none;"])::before {
+  content: "No modified settings to display";
+  opacity: 0.7;
+  font-style: italic;
+}
+
+#advanced-settings-menu {
+  margin-bottom: 1.5em;
+}
+
+#advanced-settings-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.5em;
+}
+#advanced-settings-menu ul:before,
+#advanced-settings-menu ul:after {
+  content: none;
+}
+
+#advanced-settings-menu ul > li {
+  margin: 0;
+  min-width: 112px;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+#advanced-settings-menu ul > li a {
+  border: 1px solid rgba(127, 127, 127, 0.2);
+  border-radius: 3px;
+}
+#advanced-settings-menu ul > li:not(.active) a {
+  color: inherit;
+}
+#advanced-settings-menu ul > li:not(.active) a:hover,
+#advanced-settings-menu ul > li:not(.active) a:focus {
+  background: rgba(127, 127, 127, 0.1);
+}
+
+#advanced-settings-tabs > .tab-pane {
+  margin-bottom: 2em;
+}
+
+@media screen and (min-width: 2250px) {
+  /* show 3 columns in larger screens, expect when using boxed layout */
+  body:not(.layout-boxed) .settings-container {
+    --columns: 3;
+  }
+}
+@media screen and (max-width: 1150px) {
+  /* avoid narrow columns in medium screens with sidebar expanded */
+  body:not(.sidebar-collapse) .settings-container {
+    --columns: 1;
+  }
+}
+@media screen and (max-width: 940px) {
+  /* show 1 columns in smaller screens */
+  .settings-container {
+    --columns: 1;
+  }
+}
+
+/* Global settings level selector container */
+.settings-selector {
+  padding: 14px 0 0;
+  order: 2;
+  font-size: 18px;
+}
+
+/* Hide the checkbox used for settings level selector */
+#expert-settings,
+#only-changed {
+  display: none;
+}
+
+.main-footer {
+  padding-bottom: 0px;
+}
+
+@keyframes error-border {
+  0%,
+  100% {
+    border-color: rgba(255, 0, 0, 0.5);
+  }
+  50% {
+    border-color: rgba(255, 0, 0, 0.2);
+  }
+}
+
+.error-box {
+  border-width: 2px;
+  border-style: solid;
+  animation: error-border 1s infinite;
+}
+
+.button-pad {
+  margin: 2px;
+}
+
+.error-headline {
+  float: none;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+.m-1 {
+  margin: 0.25rem !important;
+}
+.m-2 {
+  margin: 0.5rem !important;
+}
+.m-3 {
+  margin: 1rem !important;
+}
+.m-4 {
+  margin: 1.5rem !important;
+}
+.m-5 {
+  margin: 3rem !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+.mr-0 {
+  margin-right: 0 !important;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.ml-0 {
+  margin-left: 0 !important;
+}
+.mx-0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.mt-1 {
+  margin-top: 0.25rem !important;
+}
+.mr-1 {
+  margin-right: 0.25rem !important;
+}
+.mb-1 {
+  margin-bottom: 0.25rem !important;
+}
+.ml-1 {
+  margin-left: 0.25rem !important;
+}
+.mx-1 {
+  margin-left: 0.25rem !important;
+  margin-right: 0.25rem !important;
+}
+.my-1 {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+.mr-2 {
+  margin-right: 0.5rem !important;
+}
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+.ml-2 {
+  margin-left: 0.5rem !important;
+}
+.mx-2 {
+  margin-right: 0.5rem !important;
+  margin-left: 0.5rem !important;
+}
+.my-2 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+.mr-3 {
+  margin-right: 1rem !important;
+}
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+.mb-4 {
+  margin-bottom: 2rem !important;
+}
+.ml-3 {
+  margin-left: 1rem !important;
+}
+.mx-3 {
+  margin-right: 1rem !important;
+  margin-left: 1rem !important;
+}
+.my-3 {
+  margin-bottom: 1rem !important;
+  margin-top: 1rem !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+.p-1 {
+  padding: 0.25rem !important;
+}
+.p-2 {
+  padding: 0.5rem !important;
+}
+.p-3 {
+  padding: 1rem !important;
+}
+.p-4 {
+  padding: 1.5rem !important;
+}
+.p-5 {
+  padding: 3rem !important;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+.pr-0 {
+  padding-right: 0 !important;
+}
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+.pl-0 {
+  padding-left: 0 !important;
+}
+.px-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.py-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.pt-1 {
+  padding-top: 0.25rem !important;
+}
+.pr-1 {
+  padding-right: 0.25rem !important;
+}
+.pb-1 {
+  padding-bottom: 0.25rem !important;
+}
+.pl-1 {
+  padding-left: 0.25rem !important;
+}
+.px-1 {
+  padding-left: 0.25rem !important;
+  padding-right: 0.25rem !important;
+}
+.py-1 {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+.pt-2 {
+  padding-top: 0.5rem !important;
+}
+.pr-2 {
+  padding-right: 0.5rem !important;
+}
+.pb-2 {
+  padding-bottom: 0.5rem !important;
+}
+.pl-2 {
+  padding-left: 0.5rem !important;
+}
+.px-2 {
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+}
+.py-2 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.pt-3 {
+  padding-top: 1rem !important;
+}
+.pr-3 {
+  padding-right: 1rem !important;
+}
+.pb-3 {
+  padding-bottom: 1rem !important;
+}
+.pl-3 {
+  padding-left: 1rem !important;
+}
+.px-3 {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+.py-3 {
+  padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.password_background {
+  background-image: repeating-linear-gradient(
+    45deg,
+    white 0%,
+    white 2%,
+    rgb(0, 0, 0) 2%,
+    rgb(0, 0, 0) 4%,
+    white 4%
+  );
+}
+
+/* Dashboard graphics: reset zoom button and info tooltip */
+.zoom-reset {
+  display: none;
+  margin-top: -1px;
+}
+
+/* General layout - Row containing flex elements */
+.row-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  margin: 0.5em 0;
+  align-items: start;
+}
+.row-flex .form-control {
+  width: auto;
+}
+
+.log-entry {
+  padding-left: 0.5em;
+}
+
+.align-click-options {
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 15px;
+}
+
+.overflow-wrap {
+  overflow-wrap: break-word;
+  inline-size: auto;
+}
+
+/* Search page options */
+#domain-limitbox-block {
+  /* Add margin to match the other component (icheck) height */
+  margin: 3px 0;
+}
+@media (min-width: 992px) {
+  #domain-limitbox-block {
+    text-align: right;
+  }
+}
+
+.box-icons {
+  margin: 0 5px;
+}
+
+.box-icons i {
+  margin: 0 4px;
+}
+
+/* Used in Settings DNS page */
+.revServers {
+  display: none;
+  resize: vertical;
+}
+
+.actions {
+  text-align: right;
+}
+
+/* Initially hide Save and Cancel buttons */
+:not(#btnAddRevServers).saveRevServers,
+.cancelRevServers {
+  display: none;
+}
+
+/* Show Save and Cancel buttons, when the row is being edited */
+.editing :not(#btnAddRevServers).saveRevServers,
+.editing .cancelRevServers {
+  display: unset;
+}
+
+#revServers-table {
+  table-layout: fixed; /* Ensures that column widths remain the same when the content is edited */
+}
+
+#revServers-table tbody td {
+  vertical-align: middle;
+}
+
+#revServers-table th {
+  white-space: normal;
+}
+
+#revServers-table tfoot ol {
+  padding: 0.5em 0 0 1em;
+}
+
+/* Add placeholder text to the footer cells, when empty */
+#revServers-table :is(td, tfoot th):empty::before {
+  color: rgba(127, 127, 127, 0.5);
+  pointer-events: none; /* Allow clicks on the parent element (cell) */
+  display: block;
+}
+#network-revServers:empty::before {
+  content: "Enter a network range (CIDR notation)";
+}
+#ip-revServers:empty::before {
+  content: "Enter the server IP";
+}
+#domain-revServers:empty::before {
+  content: "Domain name (optional)";
+}
+
+/* Used in interfaces page */
+.list-group-item {
+  background: transparent;
+  border-color: rgba(127, 127, 127, 0.27);
+}
+.bstreeview .list-group-item:hover {
+  background-color: rgba(127, 127, 127, 0.18);
+}
+.child-interface-icon {
+  line-height: 0.5em;
+  font-size: 1.7em;
+}
+
+.hidden-entry {
+  opacity: 0;
+}
+.fade-2s {
+  animation: fadeOut 2s forwards;
+}
+.fade-in-transition {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+#StaticDHCPTable,
+.table-responsive:has(#StaticDHCPTable) {
+  margin: 0;
+}
+
+#StaticDHCPTable th,
+#StaticDHCPTable td {
+  width: calc((100% - 122px) / 3);
+}
+
+#StaticDHCPTable th:last-of-type,
+#StaticDHCPTable td:last-of-type {
+  width: 122px;
+  text-align: right;
+}
+
+.table-danger {
+  background-color: #d337;
+}
+
+#revServers-table .btn-xs,
+#StaticDHCPTable .btn-xs {
+  width: 24px;
+  height: 24px;
+}
+.btn-xs .fa-fw {
+  width: 1em;
+}
+
+/* Show hint message on the static DHCP lease table, when at least one Save button exists */
+div:has(> .table-responsive #StaticDHCPTable) {
+  position: relative;
+  margin-bottom: 15px;
+}
+div:has(> .table-responsive #StaticDHCPTable .save-static-row)::after {
+  content: 'Please confirm changes using the green button, then click "Save & Apply" before leaving the page.';
+  position: relative;
+  margin: 2px 0 15px;
+  padding: 4px 12px;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 100%;
+  color: #000;
+  font-style: italic;
+  text-align: right;
+  background: #eedd88;
+  float: right;
+}
+
+textarea.field-sizing-content {
+  min-block-size: 3.5rlh;
+  max-block-size: 20rlh;
+  min-inline-size: 20ch;
+  field-sizing: content;
+}
+
+textarea.no-wrap {
+  white-space: pre;
+  overflow-x: auto;
+  overflow-y: auto;
+  resize: none;
+}
+
+/*
+Calculate the total height using the number of lines and line-height. Also account for borders and padding.
+Use the same values used by ".form-control" class:
+line-height=1.42857; font-size=14px;
+border-top=1px + padding-top=6px + padding-bottom=6px + border-bottom=1px
+
+(num-lines * line-height * font-size) + 14px
+*/
+.dhcp-hosts-wrapper {
+  --num-lines: 1;
+  --max-lines: 12;
+  --total-height: calc((min(var(--num-lines), var(--max-lines)) * 1.42857 * 14px) + 14px);
+  position: relative;
+  display: flex;
+  gap: 0;
+}
+
+/* Message displayed when the textarea is disabled because there are table rows being edited */
+.dhcp-hosts-wrapper:has(textarea[disabled]):hover::before {
+  content: "Please confirm all changes above before editing this field.";
+  display: block;
+  position: absolute;
+  width: 380px;
+  padding: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -50%);
+  text-align: center;
+  font-style: italic;
+  color: #000;
+  background: #ed8;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
+  cursor: not-allowed;
+  z-index: 10;
+}
+
+#dhcp-hosts {
+  height: var(--total-height);
+}
+
+.line-numbers {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  text-align: right;
+  color: #aaa;
+  border: 1px solid transparent;
+  border-right-color: #ddd;
+  padding: 8px 4px 8px 0;
+  font-size: 14px;
+  min-width: 2em;
+  overflow: hidden;
+  height: var(--total-height);
+  flex: 0 0 auto;
+}
+
+.advanced-help ul {
+  padding: 0 0 0 1em;
+}
+.advanced-help li {
+  margin: 0 0 1em;
+}
+
+.card {
+  border-radius: 6px;
+  margin: 0 0 1em;
+  padding: 0.5em;
+  border: 1px solid color-mix(currentColor 15%, transparent);
+}
+
+/* Used in query log page */
+td.dnssec {
+  padding-inline-start: 2.25em !important;
+  text-indent: -1.25em;
+}
+td.dnssec i {
+  text-indent: 0;
+  margin-left: -0.5rem;
+}

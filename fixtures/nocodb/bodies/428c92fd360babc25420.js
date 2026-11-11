@@ -1,0 +1,1 @@
+import"./BvLRQabh.js";var e=``+new URL(`256x256.DJId9Ub8.png`,import.meta.url).href;export{e as t};

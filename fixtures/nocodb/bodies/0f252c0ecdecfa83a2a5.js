@@ -1,0 +1,1 @@
+import{$h as e,Ih as t,Mm as n,Vm as r,gh as i,lh as a,qm as o}from"./jR-xmCvV.js";import{n as s}from"./CKyckmFH.js";t(),o();var c=Object.assign(r({__name:`Icon`,props:{icon:{}},setup(t){let r=t;return(t,o)=>(a(),n(i((`iconMap`in t?t.iconMap:e(s))[r.icon])))}}),{__name:`GeneralIcon`});export{c as t};

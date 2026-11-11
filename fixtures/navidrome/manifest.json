@@ -1,0 +1,1418 @@
+{
+ "service": "navidrome",
+ "title": "Navidrome",
+ "category": "media",
+ "login_path": "/app/",
+ "default_port": 8212,
+ "upstream": "http://127.0.0.1:8212",
+ "public_url": "https://navidrome.example.com",
+ "recorded_at": "2026-11-10T20:14:50.794974578Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "53"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Location",
+     "value": "/app/"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    }
+   ],
+   "body_file": "bodies/b097477126bd9a131154.bin",
+   "size": 53,
+   "sha256": "b097477126bd9a13115488e2bc8ed772830397465bd31750ca5e18209372c57c",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/app/",
+   "path": "/app/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-store, no-cache, must-revalidate"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1216"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/45c7c5546df30bf91a85.bin",
+   "size": 1216,
+   "sha256": "45c7c5546df30bf91a853a3d42389d10f947aed85d0db9ebcded378c5232fba0",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/app/3rdparty/workbox/workbox-core.prod.js",
+   "path": "/app/3rdparty/workbox/workbox-core.prod.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1469"
+    }
+   ],
+   "body_file": "bodies/2a0754c54ebe6a811ed6.js",
+   "size": 1469,
+   "sha256": "2a0754c54ebe6a811ed683b14848c2ad7bc655a772e6c43177803cd42b8057c4",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/app/3rdparty/workbox/workbox-navigation-preload.prod.js",
+   "path": "/app/3rdparty/workbox/workbox-navigation-preload.prod.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Length",
+     "value": "321"
+    }
+   ],
+   "body_file": "bodies/8668b5427c2acf2e85c2.js",
+   "size": 321,
+   "sha256": "8668b5427c2acf2e85c2abcbdd00d5a569db19d6e3ba1979695e92a115fb5851",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/app/3rdparty/workbox/workbox-precaching.prod.js",
+   "path": "/app/3rdparty/workbox/workbox-precaching.prod.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    }
+   ],
+   "body_file": "bodies/a25642ce1ae7fe688c48.js",
+   "size": 2622,
+   "sha256": "a25642ce1ae7fe688c48d9d408ba8e42715d5d35d857d2e022d7ba1d2eeaaf33",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/app/3rdparty/workbox/workbox-routing.prod.js",
+   "path": "/app/3rdparty/workbox/workbox-routing.prod.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1494"
+    }
+   ],
+   "body_file": "bodies/f95a71d36bd79d63a54c.js",
+   "size": 1494,
+   "sha256": "f95a71d36bd79d63a54c4d611fe35f4416f49985a109436c55c2baaa1aa1b9f4",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/app/3rdparty/workbox/workbox-strategies.prod.js",
+   "path": "/app/3rdparty/workbox/workbox-strategies.prod.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    }
+   ],
+   "body_file": "bodies/9ae0729f48714b4dad15.js",
+   "size": 2349,
+   "sha256": "9ae0729f48714b4dad153094f40ff456108fbbfd9052fc96b509a9b3aacf46e0",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/app/3rdparty/workbox/workbox-sw.js",
+   "path": "/app/3rdparty/workbox/workbox-sw.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Length",
+     "value": "748"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    }
+   ],
+   "body_file": "bodies/9c52494dabc7dbfccea6.js",
+   "size": 748,
+   "sha256": "9c52494dabc7dbfccea613fbadf42f46b2812a394dfa8b8ecd78098f7e3d6e6a",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/app/android-chrome-192x192.png",
+   "path": "/app/android-chrome-192x192.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "9876"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    }
+   ],
+   "body_file": "bodies/f4b626075a233b81db83.png",
+   "size": 9876,
+   "sha256": "f4b626075a233b81db83b90cc0da3b1a7b093485ec831160530607916c595658"
+  },
+  {
+   "key": "/app/android-chrome-512x512.png",
+   "path": "/app/android-chrome-512x512.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "30347"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    }
+   ],
+   "body_file": "bodies/0fbdccf6cb56ab9ba389.png",
+   "size": 30347,
+   "sha256": "0fbdccf6cb56ab9ba389471789a4aca4a296bcd5fbb50aa206d3bb69bba153de"
+  },
+  {
+   "key": "/app/api/keepalive",
+   "path": "/app/api/keepalive",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:51 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "44"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/3dcc7fc80abf5f1987ae.bin",
+   "size": 44,
+   "sha256": "3dcc7fc80abf5f1987ae26c7f4e5196954c72522a5722ceea350adf5ed3030c5",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/app/apple-touch-icon.png",
+   "path": "/app/apple-touch-icon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "8193"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:51 GMT"
+    }
+   ],
+   "body_file": "bodies/ca7e91a1b574a2c5cc4f.png",
+   "size": 8193,
+   "sha256": "ca7e91a1b574a2c5cc4f64386abaa18ae650c7986b93ec5c7af1ab1379d71841"
+  },
+  {
+   "key": "/app/assets/android-icon-192x192-D_ka5daf.png",
+   "path": "/app/assets/android-icon-192x192-D_ka5daf.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "9876"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    }
+   ],
+   "body_file": "bodies/f4b626075a233b81db83.png",
+   "size": 9876,
+   "sha256": "f4b626075a233b81db83b90cc0da3b1a7b093485ec831160530607916c595658"
+  },
+  {
+   "key": "/app/assets/index-7wbOXZOY.js",
+   "path": "/app/assets/index-7wbOXZOY.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/28c24ebc48958a0ee8dd.js",
+   "size": 814763,
+   "sha256": "28c24ebc48958a0ee8dd3827a6af3a1cc5eb7c2843a7f5d34bfce9b26b446b8c",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/app/assets/index-uCXnEN-G.css",
+   "path": "/app/assets/index-uCXnEN-G.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    }
+   ],
+   "body_file": "bodies/14afac833f33e663482f.css",
+   "size": 7785,
+   "sha256": "14afac833f33e663482fb75b6f13bf255386d18a0d50548cbb69e19f65800c5e",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/app/assets/workbox-window.prod.es5-BIl4cyR9.js",
+   "path": "/app/assets/workbox-window.prod.es5-BIl4cyR9.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    }
+   ],
+   "body_file": "bodies/115f736292ef735e381b.js",
+   "size": 2464,
+   "sha256": "115f736292ef735e381b5796cbac07ccd2b5bdef58dc4a87ce821079fc7d0e49",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/app/favicon-16x16.png",
+   "path": "/app/favicon-16x16.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "1002"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:51 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    }
+   ],
+   "body_file": "bodies/b2ec5c349f5eb0c4ebb7.png",
+   "size": 1002,
+   "sha256": "b2ec5c349f5eb0c4ebb79b997afb8699407ab4f07ef57f5ab766fd6d0d1e6d1f"
+  },
+  {
+   "key": "/app/favicon-32x32.png",
+   "path": "/app/favicon-32x32.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1827"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    }
+   ],
+   "body_file": "bodies/2b9382f6175b757bcc82.png",
+   "size": 1827,
+   "sha256": "2b9382f6175b757bcc82c1f02f4c231b36954fb8d989a7977d58f634bc14dddc"
+  },
+  {
+   "key": "/app/manifest.webmanifest",
+   "path": "/app/manifest.webmanifest",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "449"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/manifest+json"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    }
+   ],
+   "body_file": "bodies/e4f26c8e75e2025e96e8.bin",
+   "size": 449,
+   "sha256": "e4f26c8e75e2025e96e880c05f0264d9f8d5ed1889668876ab7f1540537bb298"
+  },
+  {
+   "key": "/app/offline.html",
+   "path": "/app/offline.html",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "267"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/e8a2f68c9ef4469ad3af.html",
+   "size": 267,
+   "sha256": "e8a2f68c9ef4469ad3aff5cf834e790847fbfb6a76dac8a3a9fa5fa8a9c0b63c",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/app/safari-pinned-tab.svg",
+   "path": "/app/safari-pinned-tab.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3703"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:51 GMT"
+    }
+   ],
+   "body_file": "bodies/eed2a7cb9c4c392634eb.svg",
+   "size": 3703,
+   "sha256": "eed2a7cb9c4c392634ebe66157501e7ef536fd859066bc49514f75ca60708481"
+  },
+  {
+   "key": "/app/sw.js",
+   "path": "/app/sw.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Length",
+     "value": "920"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:50 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/9a3fdb00198b4774256f.js",
+   "size": 920,
+   "sha256": "9a3fdb00198b4774256f8557886856b3f65cb3b0e9851eada409b53fbc159e2d",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/backgrounds",
+   "path": "/backgrounds",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/webp"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:51 GMT"
+    }
+   ],
+   "body_file": "bodies/550c4fa785844782967b.bin",
+   "size": 43418,
+   "sha256": "550c4fa785844782967b0ad53ae8050a458c085eeee14a9a8ca926d00e179ff9",
+   "chunked": true
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:51 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "53"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Location",
+     "value": "/app/"
+    }
+   ],
+   "body_file": "bodies/b097477126bd9a131154.ico",
+   "size": 53,
+   "sha256": "b097477126bd9a13115488e2bc8ed772830397465bd31750ca5e18209372c57c",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:51 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "25"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/efdb5938a9736727f5cc.txt",
+   "size": 25,
+   "sha256": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce"
+  },
+  {
+   "key": "POST /auth/login :: application/json",
+   "path": "/auth/login",
+   "method": "POST",
+   "req_content_type": "application/json",
+   "req_body": "{\"username\":\"admin\",\"password\":\"definitely-wrong\"}",
+   "status": 401,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Ratelimit-Limit",
+     "value": "5"
+    },
+    {
+     "name": "X-Ratelimit-Reset",
+     "value": "1794341708"
+    },
+    {
+     "name": "Content-Length",
+     "value": "65"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "X-Ratelimit-Remaining",
+     "value": "3"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:51 GMT"
+    }
+   ],
+   "body_file": "bodies/09dd4d1088633ab9410d.bin",
+   "size": 65,
+   "sha256": "09dd4d1088633ab9410daa60c0ecdcc8a7ebf287ceb4cd32512db0775f5401a1",
+   "content_encoding": "gzip"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-4637a5234d18",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Location",
+     "value": "/app/"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "DENY"
+    },
+    {
+     "name": "Content-Length",
+     "value": "53"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Permissions-Policy",
+     "value": "autoplay=(), camera=(), microphone=(), usb=()"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:14:51 GMT"
+    }
+   ],
+   "body_file": "bodies/b097477126bd9a131154.bin",
+   "size": 53,
+   "sha256": "b097477126bd9a13115488e2bc8ed772830397465bd31750ca5e18209372c57c",
+   "content_encoding": "gzip"
+  }
+ ]
+}

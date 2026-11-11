@@ -1,0 +1,2 @@
+import{N as a,ai as o,aj as i,U as l,T as n,ak as _,P as g,al as m,am as p,W as v,an as E}from"./DQSHAlqE.js";function b(r,d){let t=null,f=a;var s;if(a){t=v;for(var e=E(document.head);e!==null&&(e.nodeType!==o||e.data!==r);)e=i(e);if(e===null)l(!1);else{var y=i(e);e.remove(),n(y)}}a||(s=document.head.appendChild(_()));try{g(()=>{var u=m(()=>d(s));u.f|=p})}finally{f&&(l(!0),n(t))}}export{b as h};
+//# sourceMappingURL=BylLhv5v.js.map

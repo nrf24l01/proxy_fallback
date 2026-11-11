@@ -1,0 +1,3570 @@
+{
+ "service": "directus",
+ "title": "Directus",
+ "category": "data",
+ "login_path": "/admin/login",
+ "default_port": 8219,
+ "upstream": "http://127.0.0.1:8219",
+ "public_url": "https://directus.example.com",
+ "recorded_at": "2026-11-10T19:59:51.400142155Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Location",
+     "value": "./admin"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "36"
+    }
+   ],
+   "body_file": "bodies/7e7cd7ad34626cdf1c8f.bin",
+   "size": 36,
+   "sha256": "7e7cd7ad34626cdf1c8f7085aa2c322a3765e6485185f399935d36086ad2249b"
+  },
+  {
+   "key": "/admin",
+   "path": "/admin",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2825"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"b09-Ls7iEd4qWwj+RZXsjeOTmPxTpPQ\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    }
+   ],
+   "body_file": "bodies/45a8acc6ba6e46c2c25c.bin",
+   "size": 2825,
+   "sha256": "45a8acc6ba6e46c2c25c9f521137ef007469ed600ebbc7bca753e58779e73895"
+  },
+  {
+   "key": "/admin/",
+   "path": "/admin/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2825"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"b09-Ls7iEd4qWwj+RZXsjeOTmPxTpPQ\""
+    }
+   ],
+   "body_file": "bodies/45a8acc6ba6e46c2c25c.bin",
+   "size": 2825,
+   "sha256": "45a8acc6ba6e46c2c25c9f521137ef007469ed600ebbc7bca753e58779e73895"
+  },
+  {
+   "key": "/admin/assets/@tiptap_pm_commands.-YiJ3iAx.entry.js",
+   "path": "/admin/assets/@tiptap_pm_commands.-YiJ3iAx.entry.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "12566"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"3116-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/91927e3b5bcbd78ed038.js",
+   "size": 12566,
+   "sha256": "91927e3b5bcbd78ed038eb842d8be83ebefd5b5126fce3d2401210a04a030ff2"
+  },
+  {
+   "key": "/admin/assets/@tiptap_pm_dropcursor.BxwUvqG6.entry.js",
+   "path": "/admin/assets/@tiptap_pm_dropcursor.BxwUvqG6.entry.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"cf5-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "3317"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    }
+   ],
+   "body_file": "bodies/304db7e17357763c6755.js",
+   "size": 3317,
+   "sha256": "304db7e17357763c6755c3128a508a071e82e4b77a2a79ba0f4ac6e2646b7359"
+  },
+  {
+   "key": "/admin/assets/@tiptap_pm_gapcursor.DXN4b88W.entry.js",
+   "path": "/admin/assets/@tiptap_pm_gapcursor.DXN4b88W.entry.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"e9f-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "3743"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/6378683c320a2497a3ff.js",
+   "size": 3743,
+   "sha256": "6378683c320a2497a3ff6c73bc16f5779b4fb3444a8a4d0a2ac91f6626bc47af"
+  },
+  {
+   "key": "/admin/assets/@tiptap_pm_schema-list.DzTIZI-W.entry.js",
+   "path": "/admin/assets/@tiptap_pm_schema-list.DzTIZI-W.entry.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1287-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4743"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/8c51f255257b0a9b7ce8.js",
+   "size": 4743,
+   "sha256": "8c51f255257b0a9b7ce87039f2149896079587b97bec27a9ec87e3697543b913"
+  },
+  {
+   "key": "/admin/assets/@tiptap_pm_tables.DPCLPY3s.entry.js",
+   "path": "/admin/assets/@tiptap_pm_tables.DPCLPY3s.entry.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"a2bd-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "41661"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/8635e55e933a5a196931.js",
+   "size": 41661,
+   "sha256": "8635e55e933a5a196931e9702d3d914e24d957c98b3107ae0e36b5d934ea0a7b"
+  },
+  {
+   "key": "/admin/assets/@tiptap_vue-3.Xk8vvhdN.entry.js",
+   "path": "/admin/assets/@tiptap_vue-3.Xk8vvhdN.entry.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15144"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"3b28-1a1a8341cf0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/7677b14add22f77fed72.js",
+   "size": 15144,
+   "sha256": "7677b14add22f77fed72c6b4d9076b17108dc55aef5e7d14d7e5dcd3cac09eb3"
+  },
+  {
+   "key": "/admin/assets/FiraMono-Medium-CE-6Frqh.woff2",
+   "path": "/admin/assets/FiraMono-Medium-CE-6Frqh.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"3f14-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "16148"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/33e88fa9eaeeca45c43b.woff2",
+   "size": 16148,
+   "sha256": "33e88fa9eaeeca45c43bb6cd150ee65f6bda7669c24839e6115bf5c7578d272b"
+  },
+  {
+   "key": "/admin/assets/FiraMono-Medium-CjwgnWCQ.woff",
+   "path": "/admin/assets/FiraMono-Medium-CjwgnWCQ.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "21276"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"531c-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    }
+   ],
+   "body_file": "bodies/f2ff9941f9b3a94a3ffb.woff",
+   "size": 21276,
+   "sha256": "f2ff9941f9b3a94a3ffbd22ab560deb9199601a497331bc3aba8f9a906e034a2"
+  },
+  {
+   "key": "/admin/assets/Inter-Black-DQ32R15S.woff2",
+   "path": "/admin/assets/Inter-Black-DQ32R15S.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"16bfc-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Length",
+     "value": "93180"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    }
+   ],
+   "body_file": "bodies/5ab3de075055461d4664.woff2",
+   "size": 93180,
+   "sha256": "5ab3de075055461d46641fbdcd8f02b286c59e3296faaace7c39c8550e824bb7"
+  },
+  {
+   "key": "/admin/assets/Inter-Black-tY25MZ8m.woff",
+   "path": "/admin/assets/Inter-Black-tY25MZ8m.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"1e704-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Content-Length",
+     "value": "124676"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    }
+   ],
+   "body_file": "bodies/f11705b05dc2ae1090e8.woff",
+   "size": 124676,
+   "sha256": "f11705b05dc2ae1090e83cc2e786d04053d2acfde1c69861b51ff6147e860836"
+  },
+  {
+   "key": "/admin/assets/Inter-Bold-DebvEmVN.woff",
+   "path": "/admin/assets/Inter-Bold-DebvEmVN.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Content-Length",
+     "value": "128008"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1f408-1a1a8341cf0\""
+    }
+   ],
+   "body_file": "bodies/cd06b48a60088df70124.woff",
+   "size": 128008,
+   "sha256": "cd06b48a60088df701245b307dd894310b007981e5e5788fc8a3596078d86f76"
+  },
+  {
+   "key": "/admin/assets/Inter-Bold-d8J9BkrN.woff2",
+   "path": "/admin/assets/Inter-Bold-d8J9BkrN.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"176b8-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Content-Length",
+     "value": "95928"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    }
+   ],
+   "body_file": "bodies/f0f54a061e142b0d4162.woff2",
+   "size": 95928,
+   "sha256": "f0f54a061e142b0d4162535b6bae6c101e564a4425311c84e03c81ecf75182ac"
+  },
+  {
+   "key": "/admin/assets/Inter-Medium-DosJTVus.woff",
+   "path": "/admin/assets/Inter-Medium-DosJTVus.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "142836"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"22df4-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    }
+   ],
+   "body_file": "bodies/f500bbb919a0133d307a.woff",
+   "size": 142836,
+   "sha256": "f500bbb919a0133d307a302666da33f68569dcc037394840a01e95ccaa46cf01"
+  },
+  {
+   "key": "/admin/assets/Inter-Medium-IZr8HYrM.woff2",
+   "path": "/admin/assets/Inter-Medium-IZr8HYrM.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1a0e0-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "106720"
+    }
+   ],
+   "body_file": "bodies/a4e1e7e6c1021f0f62e6.woff2",
+   "size": 106720,
+   "sha256": "a4e1e7e6c1021f0f62e6f5878d260e7fd69171a110f92306257f1b01240caccd"
+  },
+  {
+   "key": "/admin/assets/Inter-MediumItalic-C-HF1KIs.woff",
+   "path": "/admin/assets/Inter-MediumItalic-C-HF1KIs.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"246c0-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "149184"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    }
+   ],
+   "body_file": "bodies/d06751dd470163563cd5.woff",
+   "size": 149184,
+   "sha256": "d06751dd470163563cd52c105b5d221e0912c5d6cc8e1271ccb3f1aa01168b1d"
+  },
+  {
+   "key": "/admin/assets/Inter-MediumItalic-eHnJB7Jg.woff2",
+   "path": "/admin/assets/Inter-MediumItalic-eHnJB7Jg.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1b778-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "112504"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    }
+   ],
+   "body_file": "bodies/d4a7f5d9a6e530b9ccb3.woff2",
+   "size": 112504,
+   "sha256": "d4a7f5d9a6e530b9ccb3a1ab6b2401fc2644584f732773cc6269fe0877a59d01"
+  },
+  {
+   "key": "/admin/assets/Inter-Regular-C2oJmTkV.woff2",
+   "path": "/admin/assets/Inter-Regular-C2oJmTkV.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1871c-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "100124"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    }
+   ],
+   "body_file": "bodies/c342b1b7f7d19be1429f.woff2",
+   "size": 100124,
+   "sha256": "c342b1b7f7d19be1429fef29bf3af6d9e8c3e21aba846e082cdee1db8a530c83"
+  },
+  {
+   "key": "/admin/assets/Inter-Regular-C9wQxk6G.woff",
+   "path": "/admin/assets/Inter-Regular-C9wQxk6G.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"20dfc-1a1a8341cf0\""
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Content-Length",
+     "value": "134652"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/b825f1bc25dee8a67cf5.woff",
+   "size": 134652,
+   "sha256": "b825f1bc25dee8a67cf5a2c461410c2c755bca29b9297c8f930fe4486ba35dd3"
+  },
+  {
+   "key": "/admin/assets/Inter-SemiBold-1vGiIFm-.woff2",
+   "path": "/admin/assets/Inter-SemiBold-1vGiIFm-.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1a2e0-1a1a8341cf0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Content-Length",
+     "value": "107232"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/af44b8a232c6946b5d4c.woff2",
+   "size": 107232,
+   "sha256": "af44b8a232c6946b5d4ced0df202e29f1330f66a2587b581826fd561bda24fad"
+  },
+  {
+   "key": "/admin/assets/Inter-SemiBold-CUDcKm_l.woff",
+   "path": "/admin/assets/Inter-SemiBold-CUDcKm_l.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"22f90-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "143248"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    }
+   ],
+   "body_file": "bodies/3041a99007a54816a0a3.woff",
+   "size": 143248,
+   "sha256": "3041a99007a54816a0a30df3700049ef85b4a120cfe99a8e27274c93cca1024c"
+  },
+  {
+   "key": "/admin/assets/dist-92X9uGmL.js",
+   "path": "/admin/assets/dist-92X9uGmL.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"a99-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2713"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    }
+   ],
+   "body_file": "bodies/9454a1681167c3de2d6e.js",
+   "size": 2713,
+   "sha256": "9454a1681167c3de2d6ecb06754da9d8762f87f30926c8ed767281af53451a7c"
+  },
+  {
+   "key": "/admin/assets/dist-BTWCW5Me.js",
+   "path": "/admin/assets/dist-BTWCW5Me.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "45992"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"b3a8-1a1a8341cf0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    }
+   ],
+   "body_file": "bodies/5368bdf21b21441a2c84.js",
+   "size": 45992,
+   "sha256": "5368bdf21b21441a2c84ef6e05c44a9e18a46074a306e971c7cf55162a38b7f2"
+  },
+  {
+   "key": "/admin/assets/dist-C5ewZYgq.js",
+   "path": "/admin/assets/dist-C5ewZYgq.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "110691"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1b063-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    }
+   ],
+   "body_file": "bodies/a0e1b52a6590c2f8c844.js",
+   "size": 110691,
+   "sha256": "a0e1b52a6590c2f8c844a52e22a7d92074e9c4dede27d30ccbe6fb6dbe37ef1a"
+  },
+  {
+   "key": "/admin/assets/dist-CY4xoLBv.js",
+   "path": "/admin/assets/dist-CY4xoLBv.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"17d54-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "97620"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    }
+   ],
+   "body_file": "bodies/905e7a054fad4eab903d.js",
+   "size": 97620,
+   "sha256": "905e7a054fad4eab903d42998dbf831a641f7439c21c6d35a77ffb647f140ece"
+  },
+  {
+   "key": "/admin/assets/dist-DTiEB2u0.js",
+   "path": "/admin/assets/dist-DTiEB2u0.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"7ca9c-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "510620"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    }
+   ],
+   "body_file": "bodies/37a68e0a84904f7b1070.js",
+   "size": 510620,
+   "sha256": "37a68e0a84904f7b1070e1e610b21a1daf6f925cd08541ffe7e3c45173f3db66"
+  },
+  {
+   "key": "/admin/assets/dist-DYjp-o4P.js",
+   "path": "/admin/assets/dist-DYjp-o4P.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "11887"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"2e6f-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    }
+   ],
+   "body_file": "bodies/791c9a43a5c4646ec80d.js",
+   "size": 11887,
+   "sha256": "791c9a43a5c4646ec80d003ca8899a644fd97c4c8a256ef76b3957e8d00e2461"
+  },
+  {
+   "key": "/admin/assets/dist-d41iwHfT.js",
+   "path": "/admin/assets/dist-d41iwHfT.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"7a52-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "31314"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/672483334f394472777c.js",
+   "size": 31314,
+   "sha256": "672483334f394472777ca2cce16c52e8f0ebafe5268a0c8d0f14de58336f402d"
+  },
+  {
+   "key": "/admin/assets/history-e70uIiec.js",
+   "path": "/admin/assets/history-e70uIiec.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "9446"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"24e6-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    }
+   ],
+   "body_file": "bodies/e3a146d0fe00e79c89e8.js",
+   "size": 9446,
+   "sha256": "e3a146d0fe00e79c89e8350a04282d1402a4e60029a5d4ed3902d7a4f9048013"
+  },
+  {
+   "key": "/admin/assets/index-CnMUol6d.css",
+   "path": "/admin/assets/index-CnMUol6d.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"af3f6-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "717814"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=UTF-8"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    }
+   ],
+   "body_file": "bodies/2e2b235b1ee4bd44fc13.css",
+   "size": 717814,
+   "sha256": "2e2b235b1ee4bd44fc1313db2e4b7241c96e20b9ff241eb0efbb1949bd791b34"
+  },
+  {
+   "key": "/admin/assets/index.DwjTsjrk.entry.js",
+   "path": "/admin/assets/index.DwjTsjrk.entry.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"62d591-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "6477201"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    }
+   ],
+   "body_file": "bodies/323ed93ead71b879dff5.js",
+   "size": 6477201,
+   "sha256": "323ed93ead71b879dff50c59ba1a905f49f7cd946910c454deb8213f3cca8346"
+  },
+  {
+   "key": "/admin/assets/isPlainObject-BETOSMUO.js",
+   "path": "/admin/assets/isPlainObject-BETOSMUO.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"423-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1059"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    }
+   ],
+   "body_file": "bodies/739c2754145f5ac111b2.js",
+   "size": 1059,
+   "sha256": "739c2754145f5ac111b2525d4fdf2bd56136df54921dcd9b6ea1a795f0493b4a"
+  },
+  {
+   "key": "/admin/assets/material-symbols-ClwuWZXz.woff2?v=2",
+   "path": "/admin/assets/material-symbols-ClwuWZXz.woff2",
+   "query": "v=2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"5f7d8-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Content-Length",
+     "value": "391128"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    }
+   ],
+   "body_file": "bodies/ca076f916e27a1a33d67.woff2",
+   "size": 391128,
+   "sha256": "ca076f916e27a1a33d670ef4dc5f501b21f44b3d5f2fb200e3795864e7bbfd8f"
+  },
+  {
+   "key": "/admin/assets/merriweather-bold-CQICjned.woff",
+   "path": "/admin/assets/merriweather-bold-CQICjned.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"7ae0-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "31456"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    }
+   ],
+   "body_file": "bodies/3e45b7e7bbc1226c59cd.woff",
+   "size": 31456,
+   "sha256": "3e45b7e7bbc1226c59cdcd8ca5ff933548b3d8cc3b99244f3e0460b6a2f207b8"
+  },
+  {
+   "key": "/admin/assets/merriweather-bold-Ehu1LSIs.woff2",
+   "path": "/admin/assets/merriweather-bold-Ehu1LSIs.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Content-Length",
+     "value": "24172"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"5e6c-1a1a8341cf0\""
+    }
+   ],
+   "body_file": "bodies/8c5b2abca593d5bcca35.woff2",
+   "size": 24172,
+   "sha256": "8c5b2abca593d5bcca351c9e67347a403ddbaa290511e2374e8acd4414cc08c6"
+  },
+  {
+   "key": "/admin/assets/merriweather-italic-DDdpEp2m.woff",
+   "path": "/admin/assets/merriweather-italic-DDdpEp2m.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"8904-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "35076"
+    }
+   ],
+   "body_file": "bodies/bbef48541395ce526843.woff",
+   "size": 35076,
+   "sha256": "bbef48541395ce5268439c7299d612a1c0a4f33e4ea58a8e59dc941791aa8586"
+  },
+  {
+   "key": "/admin/assets/merriweather-italic-DQHU05JA.woff2",
+   "path": "/admin/assets/merriweather-italic-DQHU05JA.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6a2c-1a1a8341cf0\""
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Content-Length",
+     "value": "27180"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/d40a22c61ed410a87b7d.woff2",
+   "size": 27180,
+   "sha256": "d40a22c61ed410a87b7dcafed8445ead4b5770e41b50007a0f7b0db437315393"
+  },
+  {
+   "key": "/admin/assets/merriweather-light-MAZijcp-.woff2",
+   "path": "/admin/assets/merriweather-light-MAZijcp-.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"5c28-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "23592"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    }
+   ],
+   "body_file": "bodies/1e84f5cb7826d93a7fdc.woff2",
+   "size": 23592,
+   "sha256": "1e84f5cb7826d93a7fdce9dc604973082e76b2ba3907d8e00e3a3a67c6f247a4"
+  },
+  {
+   "key": "/admin/assets/merriweather-light-_dgfXFiJ.woff",
+   "path": "/admin/assets/merriweather-light-_dgfXFiJ.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"782c-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "30764"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/499d4490176244fe89c0.woff",
+   "size": 30764,
+   "sha256": "499d4490176244fe89c029d5d58a9fdb7c9096c64c9f9f3371d82d8d8315aff8"
+  },
+  {
+   "key": "/admin/assets/merriweather-regular-B5k5JYwq.woff",
+   "path": "/admin/assets/merriweather-regular-B5k5JYwq.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"7960-1a1a8341cf0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Content-Length",
+     "value": "31072"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    }
+   ],
+   "body_file": "bodies/ff8db8bc6851b65f1e13.woff",
+   "size": 31072,
+   "sha256": "ff8db8bc6851b65f1e13571fc31a38093ef387d6a39c1eef24f548bdafa89d3a"
+  },
+  {
+   "key": "/admin/assets/merriweather-regular-D4NWdWaV.woff2",
+   "path": "/admin/assets/merriweather-regular-D4NWdWaV.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"5d38-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "23864"
+    }
+   ],
+   "body_file": "bodies/2661709b605ab17dc53b.woff2",
+   "size": 23864,
+   "sha256": "2661709b605ab17dc53ba436c049e60cea72e0af115e61a3696c5590498f34bf"
+  },
+  {
+   "key": "/admin/assets/pinia-DwJWs0kj.js",
+   "path": "/admin/assets/pinia-DwJWs0kj.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1daa-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "7594"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    }
+   ],
+   "body_file": "bodies/a3e8b569832f4a10770e.js",
+   "size": 7594,
+   "sha256": "a3e8b569832f4a10770ed3c06a960235afc40f1c36d10156bbce353e61cd681b"
+  },
+  {
+   "key": "/admin/assets/shader-background-B1g9prXd.js",
+   "path": "/admin/assets/shader-background-B1g9prXd.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1626cb-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1451723"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    }
+   ],
+   "body_file": "bodies/e4110ca09d930fd0f9d5.js",
+   "size": 1451723,
+   "sha256": "e4110ca09d930fd0f9d521ea15a16c96e9c76e435394c864718364aa0d95e5f8"
+  },
+  {
+   "key": "/admin/assets/sprite-Cvp8IOkP.svg",
+   "path": "/admin/assets/sprite-Cvp8IOkP.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"25f59-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "155481"
+    }
+   ],
+   "body_file": "bodies/e37451a66dcef58479f8.svg",
+   "size": 155481,
+   "sha256": "e37451a66dcef58479f8d3a32f5aa8101b4f4b5964093356d9f1ab08559f9dda"
+  },
+  {
+   "key": "/admin/assets/vue-i18n-DOGLxcwd.js",
+   "path": "/admin/assets/vue-i18n-DOGLxcwd.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"c92e-1a1a8341cf0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "51502"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/6ddd688cb6db25913583.js",
+   "size": 51502,
+   "sha256": "6ddd688cb6db259135832392a5edc0adace78c80d91a2213e5bdd53f741641fd"
+  },
+  {
+   "key": "/admin/assets/vue-router-RGraiTNU.js",
+   "path": "/admin/assets/vue-router-RGraiTNU.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"67f8-1a1a8341cf0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "26616"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    }
+   ],
+   "body_file": "bodies/5197777f6f3af9a8eaf0.js",
+   "size": 26616,
+   "sha256": "5197777f6f3af9a8eaf00726d8dbbeca5a232c64b0df71f6a783fbc8d695a37b"
+  },
+  {
+   "key": "/admin/assets/vue.runtime.esm-bundler-DIuLF-so.js",
+   "path": "/admin/assets/vue.runtime.esm-bundler-DIuLF-so.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"1fd57-1a1a8341cf0\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "130391"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "max-age=31536000, immutable"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Wed, 04 Nov 2026 20:15:50 GMT"
+    }
+   ],
+   "body_file": "bodies/07a4126874012f8a1114.js",
+   "size": 130391,
+   "sha256": "07a4126874012f8a111492ea3ff3550be752a9d458b4c32990fe823628476dba"
+  },
+  {
+   "key": "/admin/login",
+   "path": "/admin/login",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2825"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"b09-Ls7iEd4qWwj+RZXsjeOTmPxTpPQ\""
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    }
+   ],
+   "body_file": "bodies/45a8acc6ba6e46c2c25c.bin",
+   "size": 2825,
+   "sha256": "45a8acc6ba6e46c2c25c9f521137ef007469ed600ebbc7bca753e58779e73895"
+  },
+  {
+   "key": "/auth/refresh",
+   "path": "/auth/refresh",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "124"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"7c-VklicLR3mLfXHw1BzKubaRfTE0E\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/aa02ceb0633542dfc856.bin",
+   "size": 124,
+   "sha256": "aa02ceb0633542dfc856c10dcd4b2a3a1cddbcf9b9c9a36746239486f7985756"
+  },
+  {
+   "key": "/auth?sessionOnly",
+   "path": "/auth",
+   "query": "sessionOnly",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"22-O1BaNaG7zIwtn+iaxMwyk71bs0c\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "34"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    }
+   ],
+   "body_file": "bodies/caabb888b272a02d69bb.bin",
+   "size": 34,
+   "sha256": "caabb888b272a02d69bb2f9910e88ff87d99a171d596d0bd501653e3c154c7fa"
+  },
+  {
+   "key": "/extensions/sources/index.js",
+   "path": "/extensions/sources/index.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/8e42fe9f500a8b43b302.js",
+   "size": 251,
+   "sha256": "8e42fe9f500a8b43b3026f112b90243af4a1a3b9c68bcfe2136465889a235715",
+   "chunked": true
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"7a-0POhP3kCQwjJLlFX3My9N9QSTPs\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Content-Length",
+     "value": "122"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/40ca01b21c266231672b.ico",
+   "size": 122,
+   "sha256": "40ca01b21c266231672b2d7e100f8e34af7b264db8b6f32737ae026d7d384319"
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Content-Length",
+     "value": "25"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"19-2NTlN/votVlrfMtAaltZ799LfR0\""
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    }
+   ],
+   "body_file": "bodies/efdb5938a9736727f5cc.txt",
+   "size": 25,
+   "sha256": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce"
+  },
+  {
+   "key": "/server/health",
+   "path": "/server/health",
+   "method": "GET",
+   "status": 403,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Content-Length",
+     "value": "102"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"66-OPr7zxcJy7+HqVGdrFe1XpeEIao\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/362f5e1afe2d05073cab.bin",
+   "size": 102,
+   "sha256": "362f5e1afe2d05073cab786ab6c9892d65423c7f21877c0d1ea76148ac648b7f"
+  },
+  {
+   "key": "/server/info",
+   "path": "/server/info",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Origin, Cache-Control"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"253-eU4zMAnUfF2p5pJ5+M9YKOwNN4o\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:51 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "Content-Length",
+     "value": "595"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    }
+   ],
+   "body_file": "bodies/1e79d2a1b8d73417368c.bin",
+   "size": 595,
+   "sha256": "1e79d2a1b8d73417368c0ccb5f434ceba96ac1a1dff89c6139ff50d46fad798c"
+  },
+  {
+   "key": "POST /auth/login :: application/json",
+   "path": "/auth/login",
+   "method": "POST",
+   "req_content_type": "application/json",
+   "req_body": "{\"email\":\"admin@example.com\",\"password\":\"definitely-wrong\"}",
+   "status": 401,
+   "headers": [
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Content-Length",
+     "value": "96"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"60-SpvBqFAbsdy4SkXwsevzfPClFZA\""
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:52 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/42d9c14df13852fc78d3.bin",
+   "size": 96,
+   "sha256": "42d9c14df13852fc78d3543b48f8139fb38c689be1e9b02de5bade53018e4c7a"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-5e77f496c5c5",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"ac-bMqN13w13siAhpFLEs9aTcvjrK8\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:59:52 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://raw.githubusercontent.com https://avatars.githubusercontent.com;media-src 'self';connect-src 'self' https://* wss://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'"
+    },
+    {
+     "name": "Content-Length",
+     "value": "172"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin-allow-popups"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Directus"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/e356ba4d77a6a50db186.bin",
+   "size": 172,
+   "sha256": "e356ba4d77a6a50db186f64d861888f2258ecce3a7d44fc22fd4b5a67f92024d"
+  }
+ ]
+}

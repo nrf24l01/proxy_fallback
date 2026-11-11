@@ -1,0 +1,2 @@
+import{X as h,Y as o,Z as S,B as T,_ as Y,a0 as b,a1 as l}from"./DQSHAlqE.js";function n(r,f){return r===f||r?.[l]===f}function x(r={},f,i,c){var d=h.r,w=Y;return o(()=>{var s,a;return S(()=>{s=a,a=c?.()||[],T(()=>{n(i(...a),r)||(f(r,...a),s&&n(i(...s),r)&&f(null,...s))})}),()=>{let t=w;for(;t!==d&&t.parent!==null&&t.parent.f&b;)t=t.parent;const p=()=>{a&&n(i(...a),r)&&f(null,...a)},u=t.teardown;t.teardown=()=>{p(),u?.()}}}),r}export{x as b};
+//# sourceMappingURL=CabDivkX.js.map

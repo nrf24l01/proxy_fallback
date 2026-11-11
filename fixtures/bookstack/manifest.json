@@ -1,0 +1,801 @@
+{
+ "service": "bookstack",
+ "title": "BookStack",
+ "category": "documents",
+ "login_path": "/login",
+ "default_port": 8227,
+ "upstream": "http://127.0.0.1:8227",
+ "public_url": "https://bookstack.example.com",
+ "recorded_at": "2026-11-10T20:07:55.326496707Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "PHP/8.5.12"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Location",
+     "value": "https://bookstack.example.com/login"
+    },
+    {
+     "name": "Expires",
+     "value": "Sun, 12 Jul 2015 19:01:00 GMT"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=63072000"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, private"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'; frame-src 'self' https://*.draw.io https://*.youtube.com https://*.youtube-nocookie.com https://*.vimeo.com https://embed.diagrams.net; script-src http: https: 'nonce-8n7wCU47SmHc1ySHcM9amTMl' 'strict-dynamic'; style-src 'self' 'unsafe-inline' http: https:; img-src 'self' data: blob: http: https:; object-src 'self'; base-uri 'self'"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "XSRF-TOKEN=eyJpdiI6IjhNTHV5OTFsRnI2ZCthNFBNS3MzL0E9PSIsInZhbHVlIjoiNU9tRmlCQkppMUhHSWRNOVBCRzJwWFg2dnU2bU12dXNkWUMrUlhCZTJzaWpPUHU3cW90MU9VL1lieDIzUUdLQmx0R0dIeUx5YmxLNm1SWXRxbUZCdEJQS1I2NUcrY2lOR3ZHZ3h5R3hFb0YrMy9GWGJiMHNvZ2ZVYUpIdm5oRXMiLCJtYWMiOiJmZmFjNTI1YzA3ZWM3ZDNhODEzODkxMWMyZmI3MWZkOGNhYTkyY2IwNTljZjM0YzA3YThjYzRlOWUyMWUwYzhlIiwidGFnIjoiIn0%3D; expires=Tue, 10 Nov 2026 22:07:55 GMT; Max-Age=7200; path=/; secure; samesite=lax"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "bookstack_session=eyJpdiI6Im5oUy92VVNCekRkR2hXMVlHdXR2d0E9PSIsInZhbHVlIjoiTk5zWm91aUkwOUdQMGhrRnFrSGJpYnJjVEpCQ01TYmF5SkU2aUJHVVI1TlV1WmRwN2lNOExBcjdTT0lkTDdZZGtaeHVxaU5UYStYcllTMHJLWFVZRExReFBwcTJLajdvSHF1K3FFNW5Yc1IvZkZERzMrUkJOYU44Wk45UU0wTngiLCJtYWMiOiI4NWQxMmEwMmYwMTEyOTU2YzI4MDI1YTEzMGE4YzFmODJiNzUxYTk3ZWViMzlhYmMyMTRlZTZhMTcyMDZmZTBlIiwidGFnIjoiIn0%3D; expires=Tue, 10 Nov 2026 22:07:55 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax"
+    }
+   ],
+   "body_file": "bodies/bad7245dbc2eb9c3bb4d.bin",
+   "size": 386,
+   "sha256": "bad7245dbc2eb9c3bb4d9da54c1ba661a527cb9b03107074775b4ceddf7feed0",
+   "expires_in": -357613615,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "/dist/app.js?version=v26.09.2",
+   "path": "/dist/app.js",
+   "query": "version=v26.09.2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 20 Oct 2026 11:31:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ad75127-3386e\""
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=63072000"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript"
+    },
+    {
+     "name": "Content-Length",
+     "value": "211054"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/2fe4031e0e36c6dd5446.js",
+   "size": 211054,
+   "sha256": "2fe4031e0e36c6dd5446cef601b06694c22abd9574b118f718d8a14b8fafd7aa"
+  },
+  {
+   "key": "/dist/styles.css?version=v26.09.2",
+   "path": "/dist/styles.css",
+   "query": "version=v26.09.2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ad75127-2445b\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "148571"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 20 Oct 2026 11:31:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=63072000"
+    }
+   ],
+   "body_file": "bodies/96ee2ecc384bc0ce1be6.css",
+   "size": 148571,
+   "sha256": "96ee2ecc384bc0ce1be691d551bfbe93dd262019b4e0ec8bb8b961e742a100ce"
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Content-Length",
+     "value": "10614"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "PHP/8.5.12"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 20 Oct 2026 11:31:51 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'; frame-src 'self' https://*.draw.io https://*.youtube.com https://*.youtube-nocookie.com https://*.vimeo.com https://embed.diagrams.net; script-src http: https: 'nonce-andPIxxkYVa5LuSfvCSznXqj' 'strict-dynamic'; style-src 'self' 'unsafe-inline' http: https:; img-src 'self' data: blob: http: https:; object-src 'self'; base-uri 'self'"
+    },
+    {
+     "name": "Expires",
+     "value": "Sun, 12 Jul 2015 19:01:00 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, private"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "XSRF-TOKEN=eyJpdiI6IlVJaDlkalZDdHVCaW41LzdCMzdYMWc9PSIsInZhbHVlIjoiWlRPZG1PbFFma1F1aFZBM0lIcWYraDBDRzhac1VkUSt1bXJVQzcvUjJMbVFPZFBiVitEdlpMaFdmRXR3S2J6bkNMeTY4R0NEdTQ3b2RoSHpneHhqanlmRU1lWHhzcVRRRDRWNThvaGpzM25ZUXA4bGFrbkFhb3pCdmdMbDJ0WTAiLCJtYWMiOiIyMDc4YmUzMmFhNjAxY2FhMjM5NDc1MmUyNDNiNzVjZjYxMDcyMWE4YzEwMzQ2MjA0MGFhM2UwNGZkY2NhNGNlIiwidGFnIjoiIn0%3D; expires=Tue, 10 Nov 2026 22:07:55 GMT; Max-Age=7200; path=/; secure; samesite=lax"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "bookstack_session=eyJpdiI6IitGemJjeGlhMEJnem9BQkRiVHBEYVE9PSIsInZhbHVlIjoicUluVmlqZGhnTlNvOXAzNExra3ZOZDlnK3ZFTS9jNmNlRC9ocTV1ZVZEMUl1OTg1cUs0WElraWFWcWt2b2dPWnlHdlZ2aEd0SFMwa25xQVducXN6T1RVZzVabHl4M2R4MnRsbWg5NVZYWXlCMjI2WFdPekVpYXV3N1NrN2hiK1oiLCJtYWMiOiJkMjU4ZDc4YWNlYmY5ZmE1MDYwZmMwYjM0ZmM4OGM3NzhkMWFhYTI4OWNkM2U3OWQ5MjllYzNmMjJkYzRlN2NkIiwidGFnIjoiIn0%3D; expires=Tue, 10 Nov 2026 22:07:55 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=63072000"
+    }
+   ],
+   "body_file": "bodies/ecbdc22ab0661079a1a7.ico",
+   "size": 10614,
+   "sha256": "ecbdc22ab0661079a1a7242c406719cf5e39e07511549c2f01fd8c62aedc1fd1",
+   "expires_in": -357613615,
+   "expires_layout": "gmt"
+  },
+  {
+   "key": "/icon-128.png",
+   "path": "/icon-128.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "\"6ad75127-b95\""
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2965"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 20 Oct 2026 11:31:51 GMT"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=63072000"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/30a507cc0c3f372dc9b8.png",
+   "size": 2965,
+   "sha256": "30a507cc0c3f372dc9b84bc1590dd7ec75bc6b5be7c78e17d8e9a30aaa7f792c"
+  },
+  {
+   "key": "/icon-180.png",
+   "path": "/icon-180.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5744"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 20 Oct 2026 11:31:51 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ad75127-1670\""
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=63072000"
+    }
+   ],
+   "body_file": "bodies/1f495eb5a68d55457b7e.png",
+   "size": 5744,
+   "sha256": "1f495eb5a68d55457b7e0067bcddceae058c6a9a11e62d89acdcd2a148af3876"
+  },
+  {
+   "key": "/icon-32.png",
+   "path": "/icon-32.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 20 Oct 2026 11:31:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ad75127-2ea\""
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=63072000"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Content-Length",
+     "value": "746"
+    }
+   ],
+   "body_file": "bodies/c055fdff50b7f6b8c80c.png",
+   "size": 746,
+   "sha256": "c055fdff50b7f6b8c80cb5a25d21d243ff77ed94a7d8d2d1b94f52c2d4cd9437"
+  },
+  {
+   "key": "/icon-64.png",
+   "path": "/icon-64.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 20 Oct 2026 11:31:51 GMT"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=63072000"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1367"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ad75127-557\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/8832bb8eb4536018891c.png",
+   "size": 1367,
+   "sha256": "8832bb8eb4536018891cfe8431267d0966b481880e76d4f96aae9a25d89894d7"
+  },
+  {
+   "key": "/icon.png",
+   "path": "/icon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Content-Length",
+     "value": "6350"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 20 Oct 2026 11:31:51 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ad75127-18ce\""
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=63072000"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/7889fd2d558afc8d014b.png",
+   "size": 6350,
+   "sha256": "7889fd2d558afc8d014b465bd5c200332bdedf028c488e383da8943b3e11eab5"
+  },
+  {
+   "key": "/login",
+   "path": "/login",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'; frame-src 'self' https://*.draw.io https://*.youtube.com https://*.youtube-nocookie.com https://*.vimeo.com https://embed.diagrams.net; script-src http: https: 'nonce-2ZCMQ5eIbJa9692PkDOLLwqz' 'strict-dynamic'; style-src 'self' 'unsafe-inline' http: https:; img-src 'self' data: blob: http: https:; object-src 'self'; base-uri 'self'"
+    },
+    {
+     "name": "Expires",
+     "value": "Sun, 12 Jul 2015 19:01:00 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "PHP/8.5.12"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, private"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "XSRF-TOKEN=eyJpdiI6Ilc2L3pja3l0YTRjQS9QTVJWazlRYkE9PSIsInZhbHVlIjoiUFZDa2IyVG5iaGU2M2VSUmZud1BUNm1YTVI3NGd5amdGei9NRXJkeEJQT0wrb1p3ZTBKWjg4T3ZqQk9abkVRZG8xYXhMMk1KNFduNEE5V0pxT0ppd09LdVVYZFdYYktjU2NxNDVHaEtjQ0pMMUNnekVGdkJBT3FyNE9kdEo4dE0iLCJtYWMiOiI2NTA3OTRmYTJjMTNiMTA0OGNhZDQ2OThkMWYxYTE1NGQzNjZmNDI0NDVlYmZkNTlmZDRhNWJmNDMxZDQ5OTUwIiwidGFnIjoiIn0%3D; expires=Tue, 10 Nov 2026 22:07:55 GMT; Max-Age=7200; path=/; secure; samesite=lax"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "bookstack_session=eyJpdiI6IlJ4Z1JqZGFOWDUyeVdBSlN1c0tnSkE9PSIsInZhbHVlIjoiQTMydjFZYzZKZ0NHYTgveEJGUnVPWVRrUWFZVTV0RjdROGFRbzNOKzBRMlNmNVVKMWY2RmVCUGxoZlNKL3J0dWE2aDNoZXJ6VzdCQm5xaVNpUkIxVmptSU9MZGxpREQvZm9GU1N1R0RHWnhpWHhaNG9qS1E3RG1vd0YzLy8xUWEiLCJtYWMiOiJkY2VmOTYwZTdlOTdhMTUzYjFlMmFlMmZmYzc0MTc4YWZiNjlmZmU4YzM1MThhNWVkMGYwNmQ2ODI4N2MzNGEyIiwidGFnIjoiIn0%3D; expires=Tue, 10 Nov 2026 22:07:55 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=63072000"
+    }
+   ],
+   "body_file": "bodies/6248fa5bfb88f4e4d1bd.bin",
+   "size": 9659,
+   "sha256": "6248fa5bfb88f4e4d1bdce4d24d7bcfdfbd23d1e6309bf5cfa166cefb1ecc0df",
+   "expires_in": -357613615,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "/logo.png",
+   "path": "/logo.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=63072000"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "\"6ad75127-cb8\""
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3256"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Tue, 20 Oct 2026 11:31:51 GMT"
+    }
+   ],
+   "body_file": "bodies/5b3b5e07c50f10df33da.png",
+   "size": 3256,
+   "sha256": "5b3b5e07c50f10df33daa72fa61297c6d224d6bce43fcc75f9c103028615843b"
+  },
+  {
+   "key": "/manifest.json",
+   "path": "/manifest.json",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'; frame-src 'self' https://*.draw.io https://*.youtube.com https://*.youtube-nocookie.com https://*.vimeo.com https://embed.diagrams.net; script-src http: https: 'nonce-YaVlX89A6EJ7IyvuttMogZeA' 'strict-dynamic'; style-src 'self' 'unsafe-inline' http: https:; img-src 'self' data: blob: http: https:; object-src 'self'; base-uri 'self'"
+    },
+    {
+     "name": "Expires",
+     "value": "Sun, 12 Jul 2015 19:01:00 GMT"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "XSRF-TOKEN=eyJpdiI6IkgxMk9CVFdxNXhWdVluQkhrbUgxTmc9PSIsInZhbHVlIjoieTJSYk1WV1VmTUt3empoOHkwMk5NQ0crR1BpVUY4U0hyL2t2ZExKRnZiMGFtb211WGtjN1hYOGZrK0VyaFQvOUVrcUtFbFY2QXhlSkJDckNCZ0g3T1I3OVl0dnhOYW5uUzZiaEVQQkVkZjlBN3Zxc0lSTENLSFNKUHB4aVZ5WDMiLCJtYWMiOiI4NWEwNmVjNDBiNDY2NWRiYmY2MWRhMjVkMjI3MGZlOWY5NjViZDQ0ZDNiY2ZlZTVhOTNlYTFlMGU3ZTMxZWRiIiwidGFnIjoiIn0%3D; expires=Tue, 10 Nov 2026 22:07:55 GMT; Max-Age=7200; path=/; secure; samesite=lax"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "bookstack_session=eyJpdiI6InM4aHQxV0N3L0xlb2tFTkxOejd6Q2c9PSIsInZhbHVlIjoiUHprSGJzWVJFby9sWXcxNDRPalRvdDU2bEE4NHRPZmRpd21IWlE3b1ZIQTFGRVQyVmIvNEVKalR5T2lwa1hUQmFEUGwyZ1doRDBEWjlhSHN2eUJMNlBjNDBiM20wSjd5dEw2Ym9ZcGJrMk5rcFBseDA4dGpvQlJSUlU1Q2x1YW0iLCJtYWMiOiJmNzE1MzA4ZGUwODk5MzVmNTUyOWVlNGZlZjJjZmRlMjA3MWYyYWY4ZDBlODRhNDg1MjVmNWU3ZGMzZjNiNDRiIiwidGFnIjoiIn0%3D; expires=Tue, 10 Nov 2026 22:07:55 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, private"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=63072000"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "PHP/8.5.12"
+    }
+   ],
+   "body_file": "bodies/8cdbf4865c409f4019eb.json",
+   "size": 824,
+   "sha256": "8cdbf4865c409f4019ebdd4e0d39093e65afde74a1f678866ee210823d8aeeda",
+   "expires_in": -357613615,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, private"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'; frame-src 'self' https://*.draw.io https://*.youtube.com https://*.youtube-nocookie.com https://*.vimeo.com https://embed.diagrams.net; script-src http: https: 'nonce-ZZrXSbVKE1CQhmUdKm3Nv2bU' 'strict-dynamic'; style-src 'self' 'unsafe-inline' http: https:; img-src 'self' data: blob: http: https:; object-src 'self'; base-uri 'self'"
+    },
+    {
+     "name": "Expires",
+     "value": "Sun, 12 Jul 2015 19:01:00 GMT"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "XSRF-TOKEN=eyJpdiI6IjR2YUNtNUZxREx3TjlzcW5XM3dpZ3c9PSIsInZhbHVlIjoiVHdyT1U1c2tKUW4vSkdhMmlLQ2xNZXhjUVFPV1UwazhpWlVJOEpGbi9ZT25NY3MydkdveHNGTXJHeFYrVThRcXIvSDMvMGFyZXJvbWVhT1BEcHJXbjU5NXNLdTJ1NXdzQ3JaQkh3dmcvSExRM1NaUzhvb1g0TGtxRnRta2hhOEsiLCJtYWMiOiJkYzhhMTE4YmZhNDg0MzgyZTEzMmRhZjY0NDMwZDI4ZDVjNDAzNWVjYWQ4OTcyZWIxMmEyMWRmZjJmODUyOTdjIiwidGFnIjoiIn0%3D; expires=Tue, 10 Nov 2026 22:07:55 GMT; Max-Age=7200; path=/; secure; samesite=lax"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "bookstack_session=eyJpdiI6InlzaUdnSlJwRFNMNEtmYUNDYStXS1E9PSIsInZhbHVlIjoiOFhIM2ROeDNQcWpuaW5MUCt0L2Z1VVVnbEtzNHB3RzVYMWVEWmptanpFMlR5aFFwWWlObmlaTGkwdzNPcEdndldERUhvL1BlRXk2MDcvS0w4UFh5YWhIS0c5MmRFUGtpZEhlWE9VWFRSeFFlbFBoVVFwL29jbTB0NFF6WUg0aXMiLCJtYWMiOiJkN2VjOGEyN2M3YWRhZjQ0MTFiODU0NGY3Y2ZmYjgyOWM3MjM2MTk2ZGU2OTYxZjExMGFjMTEzOTE3OTM1ZTQ1IiwidGFnIjoiIn0%3D; expires=Tue, 10 Nov 2026 22:07:55 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=63072000"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "PHP/8.5.12"
+    }
+   ],
+   "body_file": "bodies/331ea9090db0c9f6f597.txt",
+   "size": 26,
+   "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+   "expires_in": -357613615,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "POST /login :: application/x-www-form-urlencoded",
+   "path": "/login",
+   "method": "POST",
+   "req_content_type": "application/x-www-form-urlencoded",
+   "req_body": "email=admin%40example.com\u0026password=definitely-wrong",
+   "status": 419,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "PHP/8.5.12"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'; frame-src 'self' https://*.draw.io https://*.youtube.com https://*.youtube-nocookie.com https://*.vimeo.com https://embed.diagrams.net; script-src http: https: 'nonce-7qoAsR4rqFsbNTYeJsp7XC4x' 'strict-dynamic'; style-src 'self' 'unsafe-inline' http: https:; img-src 'self' data: blob: http: https:; object-src 'self'; base-uri 'self'"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, private"
+    },
+    {
+     "name": "Expires",
+     "value": "Sun, 12 Jul 2015 19:01:00 GMT"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "bookstack_session=eyJpdiI6IjI2UDBjdkdkWC9hVEFvdm8rS3F2OUE9PSIsInZhbHVlIjoiM3BUZ3BqUHQyZ24wVllmbFY5WU4vMlFRUTc2Q2dYeEtvNnpCYWJNTC9Pb0g4aGlQbUpQL3FIMjNSanhVWHBCYXJ3SEtlOFgwOFoxc3dNTGx5K0VrRlBkY2JNR1hiWE41MlZhNVE1N1ZMZkZsUStwdW1VU1NsTGIvaDYxWkxVQ3IiLCJtYWMiOiI4NWJjMzM2NjY0MjA5Mzc3ZDgwZWZmODEwMjY2ODdiNTc0YTc4MzRkNmU0YWY4Mjc3OTFkYjEzMTNmYzFiZWUwIiwidGFnIjoiIn0%3D; expires=Tue, 10 Nov 2026 22:07:55 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    }
+   ],
+   "body_file": "bodies/f23432869a4a2350bbf2.bin",
+   "size": 6665,
+   "sha256": "f23432869a4a2350bbf2d461e875fd93ab798722cc4ee1e30ab7ec8a993d6504",
+   "expires_in": -357613615,
+   "expires_layout": "gmt",
+   "chunked": true
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-9346a059889b",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:07:55 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'; frame-src 'self' https://*.draw.io https://*.youtube.com https://*.youtube-nocookie.com https://*.vimeo.com https://embed.diagrams.net; script-src http: https: 'nonce-m1jVmQzG0I1UPnRQnq0DknQf' 'strict-dynamic'; style-src 'self' 'unsafe-inline' http: https:; img-src 'self' data: blob: http: https:; object-src 'self'; base-uri 'self'"
+    },
+    {
+     "name": "Server",
+     "value": "nginx"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "PHP/8.5.12"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, private"
+    },
+    {
+     "name": "Expires",
+     "value": "Sun, 12 Jul 2015 19:01:00 GMT"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "XSRF-TOKEN=eyJpdiI6Imk1U01sN0VKczliSXhVNUYrMlFJdVE9PSIsInZhbHVlIjoia3N4UlRrc05KMFRCVjN0b3BROUVJRDRsaDQ1bWhEdFhqSDhGY2xncDJFbllFeUlOMjRxbWR5SXByeE8razBoV2gySStXWnlkRzZCcHpiYjBDR1JHbmUxMWh0dStSM3pWOTBWSUlKdmZYVWdPY3hTbDRHeDlSd1FtQ1hMWjhubjEiLCJtYWMiOiI2MmEwNmQ3YmE3NTk3MzVlZjZiNjA5YmM4MTkzYTkzMDY5Njk3Y2M3MjY1NDQ1YWVlMjk5M2EzOTllZGI0ZjhiIiwidGFnIjoiIn0%3D; expires=Tue, 10 Nov 2026 22:07:55 GMT; Max-Age=7200; path=/; secure; samesite=lax"
+    },
+    {
+     "name": "Set-Cookie",
+     "value": "bookstack_session=eyJpdiI6ImM5eENjTEZpa3kyUFRUZ1g3bmhVZHc9PSIsInZhbHVlIjoiZ0RlVkg0NXVDYk05SDV2YTFzRS92YjhBTitLem9vbEFENmpEblpMcHRaV1dDU3BWUld4N2xsbHNpRlVmVnk2MzRtOW1GSVNqWW5KeWg2cUlhbE9OOS9XUUlGYVpQdWc5UUJRUmkzWFpwTnNMYStqTWRJM3pLVG13VzBySXVSUFEiLCJtYWMiOiJjMzI1YmEzNWM3ZWI3MjIyMmRkOWE4NDFiMWE5Mzk3YTRhODYyMTUxOTkxMmMzZWRlY2I1M2MzNzhmMTQwMTAwIiwidGFnIjoiIn0%3D; expires=Tue, 10 Nov 2026 22:07:55 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax"
+    }
+   ],
+   "body_file": "bodies/b06e9668a7dbe155eba4.bin",
+   "size": 8526,
+   "sha256": "b06e9668a7dbe155eba4dceebe42d53ed9749948afecb88807ae297ed78b64f3",
+   "expires_in": -357613615,
+   "expires_layout": "gmt",
+   "chunked": true
+  }
+ ]
+}

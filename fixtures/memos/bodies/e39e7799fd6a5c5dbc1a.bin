@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=celadon" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=bird-blue" />
+    <link rel="manifest" href="/site.webmanifest?v=celadon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf9f5" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1d1f23" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <!-- memos.metadata.head -->
+    <title>Memos</title>
+    <script type="module" crossorigin src="/assets/index-DkRgtf1y.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-DWdDZTNf.js">
+    <link rel="modulepreload" crossorigin href="/assets/preload-helper-ca-nBW7U.js">
+    <link rel="modulepreload" crossorigin href="/assets/utils-vendor-uHgwQpzL.js">
+    <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-DG5cC31z.js">
+    <link rel="modulepreload" crossorigin href="/assets/i18n-BFG3VwuD.js">
+    <link rel="modulepreload" crossorigin href="/assets/utils-BJnlq-91.js">
+    <link rel="modulepreload" crossorigin href="/assets/createLucideIcon-DxqpQf-3.js">
+    <link rel="modulepreload" crossorigin href="/assets/button-_qVza8_Z.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-dom-Bpkn6eRK.js">
+    <link rel="modulepreload" crossorigin href="/assets/useOpenInteractionType-CBZSqQNK.js">
+    <link rel="modulepreload" crossorigin href="/assets/useControlled-_VlcP4ii.js">
+    <link rel="modulepreload" crossorigin href="/assets/useFocus-38_mmcsz.js">
+    <link rel="modulepreload" crossorigin href="/assets/timestamp-BKvAlXCt.js">
+    <link rel="modulepreload" crossorigin href="/assets/AuthContext-rki0ar5r.js">
+    <link rel="modulepreload" crossorigin href="/assets/attachment-C9TacjPs.js">
+    <link rel="modulepreload" crossorigin href="/assets/FormContext-VV3-dSOR.js">
+    <link rel="modulepreload" crossorigin href="/assets/Separator-DbhIFKjy.js">
+    <link rel="modulepreload" crossorigin href="/assets/format-CvFBQVpc.js">
+    <link rel="modulepreload" crossorigin href="/assets/error-C2Wwr5Q5.js">
+    <link rel="modulepreload" crossorigin href="/assets/useSpaceQueries-BiUGObx4.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-nK_GJU-G.js">
+    <link rel="modulepreload" crossorigin href="/assets/users-BrEbqbnh.js">
+    <link rel="modulepreload" crossorigin href="/assets/map-pin-OEZFKNF_.js">
+    <link rel="modulepreload" crossorigin href="/assets/sun-BqxnMnLi.js">
+    <link rel="modulepreload" crossorigin href="/assets/CustomIcon-DFap8W52.js">
+    <link rel="modulepreload" crossorigin href="/assets/rotate-ccw-BBUAfAPa.js">
+    <link rel="modulepreload" crossorigin href="/assets/UserAvatar-CQNtBbHg.js">
+    <link rel="modulepreload" crossorigin href="/assets/x-CPH4x8Ef.js">
+    <link rel="modulepreload" crossorigin href="/assets/cel-filter-DHWcevQu.js">
+    <link rel="modulepreload" crossorigin href="/assets/NotFound-qlcjF-EH.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-BpaVWx2m.css">
+  </head>
+  <body class="text-base w-full min-h-svh">
+    <div id="root" class="relative w-full min-h-full"></div>
+    <!-- memos.metadata.body -->
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+"servlet":"Stapler",
+"message":"No valid crumb was included in the request",
+"url":"/j_spring_security_check",
+"status":"403"
+}

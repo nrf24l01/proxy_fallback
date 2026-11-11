@@ -1,0 +1,1 @@
+import{Am as e,qm as t}from"./jR-xmCvV.js";import{o as n}from"./DUzakHLk.js";import{s as r}from"./F3wzqls4.js";import{n as i}from"./CtuySflU.js";t();var a=n(()=>{let{locale:t}=i();return{isRtl:e(()=>r(t.value))}});export{a as t};

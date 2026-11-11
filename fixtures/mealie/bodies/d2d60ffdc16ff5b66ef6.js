@@ -1,0 +1,1 @@
+import{c as e,o as t}from"./BBAEdAbY.js";import{_ as n}from"#entry";var r=t(t=>{let{loggedIn:r}=n();if(!r.value)return e({path:`/login`,query:{redirect:t.fullPath}})});export{r as default};

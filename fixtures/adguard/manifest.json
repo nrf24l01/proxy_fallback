@@ -1,0 +1,387 @@
+{
+ "service": "adguard",
+ "title": "AdGuard Home",
+ "category": "network",
+ "login_path": "/login.html",
+ "default_port": 8210,
+ "upstream": "http://127.0.0.1:8210",
+ "public_url": "https://adguard.example.com",
+ "recorded_at": "2026-11-10T19:54:14.672341171Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Location",
+     "value": "/install.html"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:14 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "36"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/e169e82a123e49f5f997.bin",
+   "size": 36,
+   "sha256": "e169e82a123e49f5f997b3c817a2eacc6706db020cf00937b96f60c8a69204bf"
+  },
+  {
+   "key": "/assets/apple-touch-icon-180x180.png",
+   "path": "/assets/apple-touch-icon-180x180.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:14 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/ad744e8eae3df7cfa708.png",
+   "size": 2162,
+   "sha256": "ad744e8eae3df7cfa7082a5a9fc5e846f745a4c7baa91a50f52083e67c54b67c",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/assets/favicon.png",
+   "path": "/assets/favicon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:14 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1296"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    }
+   ],
+   "body_file": "bodies/1042ddf1c59c73686b6b.png",
+   "size": 1296,
+   "sha256": "1042ddf1c59c73686b6b94114bdf6abcd8295d7ee65dc117c4f7b814daec22dc"
+  },
+  {
+   "key": "/assets/safari-pinned-tab.svg",
+   "path": "/assets/safari-pinned-tab.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "801"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:14 GMT"
+    }
+   ],
+   "body_file": "bodies/11c9ddf7b4d3fb86d9af.svg",
+   "size": 801,
+   "sha256": "11c9ddf7b4d3fb86d9af419cc37c0f004b4575f35dca6d6d81235edcad487650"
+  },
+  {
+   "key": "/control/install/get_addresses",
+   "path": "/control/install/get_addresses",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json"
+    },
+    {
+     "name": "Server",
+     "value": "AdGuardHome/v0.107.80"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:14 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "331"
+    }
+   ],
+   "body_file": "bodies/e8666a3339529726efdd.bin",
+   "size": 331,
+   "sha256": "e8666a3339529726efddbe6109348c0b038628f7010317f89b36075f7ba13785"
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Location",
+     "value": "/install.html"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:14 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "36"
+    }
+   ],
+   "body_file": "bodies/e169e82a123e49f5f997.ico",
+   "size": 36,
+   "sha256": "e169e82a123e49f5f997b3c817a2eacc6706db020cf00937b96f60c8a69204bf"
+  },
+  {
+   "key": "/install.7c9221729fcc590e9f22.js",
+   "path": "/install.7c9221729fcc590e9f22.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:14 GMT"
+    }
+   ],
+   "body_file": "bodies/49233a04dace45f70e8d.js",
+   "size": 710136,
+   "sha256": "49233a04dace45f70e8dbd441acefa40c67a8fb4943112cb67eecedb1a0f06c2",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/install.d078c985d34c30798aad.css",
+   "path": "/install.d078c985d34c30798aad.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Vary",
+     "value": "Accept-Encoding"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:14 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/3e8dc6febcf935a52246.css",
+   "size": 55041,
+   "sha256": "3e8dc6febcf935a52246e42c85b36b3ea5650bd510255f53b47f330324a12fa2",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/install.html",
+   "path": "/install.html",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "879"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:14 GMT"
+    }
+   ],
+   "body_file": "bodies/d5b140eca8acae586d3a.html",
+   "size": 879,
+   "sha256": "d5b140eca8acae586d3a352e6d3699c9495001f2647cea01079e3bea0602f632"
+  },
+  {
+   "key": "/login.html",
+   "path": "/login.html",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:14 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "36"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Location",
+     "value": "/install.html"
+    }
+   ],
+   "body_file": "bodies/e169e82a123e49f5f997.html",
+   "size": 36,
+   "sha256": "e169e82a123e49f5f997b3c817a2eacc6706db020cf00937b96f60c8a69204bf"
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Location",
+     "value": "/install.html"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:14 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "36"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/e169e82a123e49f5f997.txt",
+   "size": 36,
+   "sha256": "e169e82a123e49f5f997b3c817a2eacc6706db020cf00937b96f60c8a69204bf"
+  },
+  {
+   "key": "POST /control/login :: application/json",
+   "path": "/control/login",
+   "method": "POST",
+   "req_content_type": "application/json",
+   "req_body": "{\"name\":\"admin\",\"password\":\"definitely-wrong\"}",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Location",
+     "value": "/control/install.html"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:14 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.bin",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-e6209dfd8855",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Location",
+     "value": "/install.html"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:54:14 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "36"
+    }
+   ],
+   "body_file": "bodies/e169e82a123e49f5f997.bin",
+   "size": 36,
+   "sha256": "e169e82a123e49f5f997b3c817a2eacc6706db020cf00937b96f60c8a69204bf"
+  }
+ ]
+}

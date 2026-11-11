@@ -1,0 +1,1 @@
+import{c as e,o as t}from"./BBAEdAbY.js";import{_ as n}from"#entry";var{user:r}=n(),i=t(()=>{if(!r.value?.canManageHousehold)return e(`/`)});export{i as default};

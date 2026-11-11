@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="ng-csp" data-placeholder-focus="false" lang="en" data-locale="en" translate="no" >
+	<head
+ data-requesttoken="">
+		<meta charset="utf-8">
+		<title>
+			Nextcloud		</title>
+		<meta name="csp-nonce" nonce="pgemJZowdODwQ1QHHR4qZa3HwT3ATKQYhEZ7ggtDYGQ=">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+				<meta name="apple-itunes-app" content="app-id=1125420102">
+				<meta name="theme-color" content="#00679e">
+		<link rel="icon" href="/apps/theming/favicon?v=d6b8f4aa">
+		<link rel="apple-touch-icon" href="/apps/theming/icon?v=d6b8f4aa">
+		<link rel="mask-icon" sizes="any" href="/core/img/favicon-mask.svg" color="#00679e">
+		<link rel="manifest" href="/apps/theming/manifest?v=d6b8f4aa" crossorigin="use-credentials">
+		<link rel="stylesheet" href="/core/css/server.css?v=c0ad4a3a-0">
+<link rel="stylesheet" href="/apps/theming/css/default.css?v=ab4c577a-0">
+<link rel="stylesheet" href="/core/css/guest.css?v=c0ad4a3a-0">
+		<script nonce="pgemJZowdODwQ1QHHR4qZa3HwT3ATKQYhEZ7ggtDYGQ=" defer src="/dist/core-common.js?v=c0ad4a3a-0"></script>
+<script nonce="pgemJZowdODwQ1QHHR4qZa3HwT3ATKQYhEZ7ggtDYGQ=" defer src="/dist/core-main.js?v=c0ad4a3a-0"></script>
+<script nonce="pgemJZowdODwQ1QHHR4qZa3HwT3ATKQYhEZ7ggtDYGQ=" defer src="/apps/theming/js/theming.js?v=c0ad4a3a-0"></script>
+<script nonce="pgemJZowdODwQ1QHHR4qZa3HwT3ATKQYhEZ7ggtDYGQ=" defer src="/dist/files_sharing-main.js?v=c0ad4a3a-0"></script>
+		<link rel="stylesheet" media="" href="/apps/theming/theme/default.css?plain=1&amp;v=d6b8f4aa" class="theme"/><link rel="stylesheet" media="(prefers-color-scheme: light)" href="/apps/theming/theme/light.css?plain=1&amp;v=d6b8f4aa" class="theme"/><link rel="stylesheet" media="(prefers-color-scheme: dark)" href="/apps/theming/theme/dark.css?plain=1&amp;v=d6b8f4aa" class="theme"/><link rel="stylesheet" media="(prefers-contrast: more)" href="/apps/theming/theme/light-highcontrast.css?plain=1&amp;v=d6b8f4aa" class="theme"/><link rel="stylesheet" media="(prefers-color-scheme: dark) and (prefers-contrast: more)" href="/apps/theming/theme/dark-highcontrast.css?plain=1&amp;v=d6b8f4aa" class="theme"/><link rel="stylesheet" media="" href="/apps/theming/theme/light.css?plain=0&amp;v=d6b8f4aa" class="theme"/><link rel="stylesheet" media="" href="/apps/theming/theme/dark.css?plain=0&amp;v=d6b8f4aa" class="theme"/><link rel="stylesheet" media="" href="/apps/theming/theme/light-highcontrast.css?plain=0&amp;v=d6b8f4aa" class="theme"/><link rel="stylesheet" media="" href="/apps/theming/theme/dark-highcontrast.css?plain=0&amp;v=d6b8f4aa" class="theme"/><link rel="stylesheet" media="" href="/apps/theming/theme/opendyslexic.css?plain=0&amp;v=d6b8f4aa" class="theme"/><meta name="color-scheme" content="light dark"/>	</head>
+	<body id="body-login"  data-themes="">
+		<noscript>
+	<div id="nojavascript">
+		<div>
+			This application requires JavaScript for correct operation. Please <a href="https://www.enable-javascript.com/" target="_blank" rel="noreferrer noopener">enable JavaScript</a> and reload the page.		</div>
+	</div>
+</noscript>
+		<div id="initial-state-container" style="display: none;">
+			<input type="hidden" id="initial-state-core-versionHash" value="ImMwYWQ0YTNhIg==">
+			<input type="hidden" id="initial-state-theming-data" value="eyJuYW1lIjoiTmV4dGNsb3VkIiwic2xvZ2FuIjoiYSBzYWZlIGhvbWUgZm9yIGFsbCB5b3VyIGRhdGEiLCJ1cmwiOiJodHRwczpcL1wvbmV4dGNsb3VkLmNvbSIsImltcHJpbnRVcmwiOiIiLCJwcml2YWN5VXJsIjoiIiwicHJpbWFyeUNvbG9yIjoiIzAwNjc5ZSIsImJhY2tncm91bmRDb2xvciI6IiMwMDY3OWUiLCJkZWZhdWx0UHJpbWFyeUNvbG9yIjoiIzAwNjc5ZSIsImRlZmF1bHRCYWNrZ3JvdW5kQ29sb3IiOiIjMDA2NzllIiwiaW52ZXJ0ZWQiOmZhbHNlLCJjYWNoZUJ1c3RlciI6ImQ2YjhmNGFhIiwiZW5hYmxlZFRoZW1lcyI6W10sImNvbG9yIjoiIzAwNjc5ZSIsIiI6ImNvbG9yIGlzIGRlcHJlY2F0ZWQgc2luY2UgTmV4dGNsb3VkIDI5LCB1c2UgcHJpbWFyeUNvbG9yIGluc3RlYWQifQ==">
+			<input type="hidden" id="initial-state-comments-maxAutoCompleteResults" value="MTA=">
+	</div>
+		<div class="wrapper">
+			<div class="v-align">
+									<header>
+						<div id="header">
+							<div class="logo"></div>
+						</div>
+					</header>
+								<main>
+					<h1 class="hidden-visually">
+						Nextcloud					</h1>
+						<div class="body-login-container update">
+		<div class="icon-big icon-search"></div>
+		<h2>Page not found</h2>
+		<p class="infogroup">The page could not be found on the server or you may not be allowed to view it.</p>
+		<p><a class="button primary" href="/">
+			Back to Nextcloud		</a></p>
+	</div>
+				</main>
+			</div>
+		</div>
+				<footer class="guest-box ">
+			<p class="info">
+				<a href="https://nextcloud.com" target="_blank" rel="noreferrer noopener" class="entity-name">Nextcloud</a> – a safe home for all your data			</p>
+		</footer>
+	</body>
+</html>

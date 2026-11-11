@@ -1,0 +1,1 @@
+import{Ih as e,Wh as t}from"./jR-xmCvV.js";import{r as n}from"./DUzakHLk.js";import{t as r}from"./DlW1ygyZ.js";e();var[i,a]=r(()=>t([]));function o(){let e=a();e||=i();let r=n(),o=t(-1);return{states:e,open:t=>{e.value.push(t),o.value=e.value.length-1},close:t=>{e.value.splice(t||o.value,1),o.value!==t&&t||r.trigger()},onClose:r.on}}export{o as n,i as t};

@@ -1,0 +1,8 @@
+/
+/_static/src/browser/media/favicon-dark-support.svg
+/_static/src/browser/media/favicon.ico
+/_static/src/browser/media/pwa-icon-192.png
+/_static/src/browser/pages/global.css
+/_static/src/browser/pages/login.css
+/login
+/manifest.json

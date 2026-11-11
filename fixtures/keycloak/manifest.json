@@ -1,0 +1,3015 @@
+{
+ "service": "keycloak",
+ "title": "Keycloak",
+ "category": "security",
+ "login_path": "/admin/",
+ "default_port": 8215,
+ "upstream": "http://127.0.0.1:8215",
+ "public_url": "https://keycloak.example.com",
+ "recorded_at": "2026-11-10T19:57:53.979377849Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Location",
+     "value": "http://keycloak.example.com/admin/"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.bin",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/admin/",
+   "path": "/admin/",
+   "method": "GET",
+   "status": 302,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    },
+    {
+     "name": "Location",
+     "value": "http://keycloak.example.com/admin/master/console/"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.bin",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/admin/master/console/",
+   "path": "/admin/master/console/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Language",
+     "value": "en"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "none"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3224"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    }
+   ],
+   "body_file": "bodies/b899fca5682b89176947.bin",
+   "size": 3224,
+   "sha256": "b899fca5682b891769473cd135f8e9d20839bcd5408eca77cb60455caa4a80ec"
+  },
+  {
+   "key": "/realms/master/account/",
+   "path": "/realms/master/account/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "3681"
+    },
+    {
+     "name": "Content-Language",
+     "value": "en"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "none"
+    }
+   ],
+   "body_file": "bodies/4619d6d117d88ef6c3cf.bin",
+   "size": 3681,
+   "sha256": "4619d6d117d88ef6c3cfccf49ba0a9bb238872171b1bb809e3bc9a761d7f06a2"
+  },
+  {
+   "key": "/realms/master/protocol/openid-connect/3p-cookies/step1.html",
+   "path": "/realms/master/protocol/openid-connect/3p-cookies/step1.html",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-src 'self'; object-src 'none';"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2318"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, must-revalidate, no-transform, no-store"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html;charset=utf-8"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "none"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/4080ffc9ca89666f1492.html",
+   "size": 2318,
+   "sha256": "4080ffc9ca89666f1492cd9742da52ad6e56bd36191233f9d17f64f1610c22f8"
+  },
+  {
+   "key": "/realms/master/protocol/openid-connect/3p-cookies/step2.html",
+   "path": "/realms/master/protocol/openid-connect/3p-cookies/step2.html",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "686"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, must-revalidate, no-transform, no-store"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-src 'self'; object-src 'none';"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "none"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html;charset=utf-8"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/27abff3edf4192d73c66.html",
+   "size": 686,
+   "sha256": "27abff3edf4192d73c66f42fe9a773358b54c46a38afaa5f1cfe1753f68415eb"
+  },
+  {
+   "key": "/realms/master/protocol/openid-connect/auth?client_id=security-admin-console\u0026redirect_uri=http%3A%2F%2F127.0.0.1%3A8215%2Fadmin%2Fmaster%2Fconsole%2F\u0026state=a63af451-f8a8-42fd-a981-8abb0041eac1\u0026response_mode=query\u0026response_type=code\u0026scope=openid\u0026nonce=57979a02-1a9f-47b2-870d-9d2b41b069a3\u0026code_challenge=JMBE10gfDiSEwZb5UBm8zYHolBRmXa-kNuVQQKbXRiU\u0026code_challenge_method=S256",
+   "path": "/realms/master/protocol/openid-connect/auth",
+   "query": "client_id=security-admin-console\u0026redirect_uri=http%3A%2F%2F127.0.0.1%3A8215%2Fadmin%2Fmaster%2Fconsole%2F\u0026state=a63af451-f8a8-42fd-a981-8abb0041eac1\u0026response_mode=query\u0026response_type=code\u0026scope=openid\u0026nonce=57979a02-1a9f-47b2-870d-9d2b41b069a3\u0026code_challenge=JMBE10gfDiSEwZb5UBm8zYHolBRmXa-kNuVQQKbXRiU\u0026code_challenge_method=S256",
+   "method": "GET",
+   "status": 400,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html;charset=utf-8"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "none"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2791"
+    },
+    {
+     "name": "Content-Language",
+     "value": "en"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    }
+   ],
+   "body_file": "bodies/17820f874c09fd4b8cc3.bin",
+   "size": 2791,
+   "sha256": "17820f874c09fd4b8cc3ed3d581d8dfcc5e43bf0db14ee5728cd0ad036d83e16"
+  },
+  {
+   "key": "/realms/master/protocol/openid-connect/login-status-iframe.html",
+   "path": "/realms/master/protocol/openid-connect/login-status-iframe.html",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Robots-Tag",
+     "value": "none"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4226"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, must-revalidate, no-transform, no-store"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-src 'self'; object-src 'none';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html;charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/dab136f20166fc503030.html",
+   "size": 4226,
+   "sha256": "dab136f20166fc503030c4a39028107ec5c583efe0070f2c8082cc8ea6112f14"
+  },
+  {
+   "key": "/realms/master/protocol/openid-connect/login-status-iframe.html/init?client_id=security-admin-console\u0026origin=http%3A%2F%2F127.0.0.1%3A8215",
+   "path": "/realms/master/protocol/openid-connect/login-status-iframe.html/init",
+   "query": "client_id=security-admin-console\u0026origin=http%3A%2F%2F127.0.0.1%3A8215",
+   "method": "GET",
+   "status": 403,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "0"
+    }
+   ],
+   "body_file": "bodies/e3b0c44298fc1c149afb.bin",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "key": "/resources/master/admin/en",
+   "path": "/resources/master/admin/en",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json;charset=UTF-8"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Frame-Options",
+     "value": "SAMEORIGIN"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/a441ef7e645608cc67c1.bin",
+   "size": 314481,
+   "sha256": "a441ef7e645608cc67c196fa336e77487f35a16a37bf938c6dbb9b11a8e3d0cc",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatDisplay-Bold-4NfIjmgI.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatDisplay-Bold-4NfIjmgI.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    }
+   ],
+   "body_file": "bodies/a1b563a15d3bed4593a3.woff2",
+   "size": 26628,
+   "sha256": "a1b563a15d3bed4593a3af37999859d985312c57b9f9e795cf12196a7e170dbe",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatDisplay-BoldItalic-pTGisv8w.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatDisplay-BoldItalic-pTGisv8w.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/2aeada58e827b99fecee.woff2",
+   "size": 28040,
+   "sha256": "2aeada58e827b99feceea8e35e843e12f1056a7cad6505cad2a2efac4ad8a359",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatDisplay-Medium-C1BzJLzv.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatDisplay-Medium-C1BzJLzv.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    }
+   ],
+   "body_file": "bodies/e54c221f93f7f9f05434.woff2",
+   "size": 26664,
+   "sha256": "e54c221f93f7f9f05434c7a81b638d320e8c3470edb8a6c9b385b5360c730360",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatDisplay-MediumItalic-ZwmBpJRm.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatDisplay-MediumItalic-ZwmBpJRm.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    }
+   ],
+   "body_file": "bodies/1c3a81ce26d4cbc5cf36.woff2",
+   "size": 28032,
+   "sha256": "1c3a81ce26d4cbc5cf36f0f0cfcbf53aef8da22edfbac6e675f8e3d393aa07fc",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatDisplayVF-CYDHf1NI.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatDisplayVF-CYDHf1NI.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    }
+   ],
+   "body_file": "bodies/6f3acb3dddab789e49d5.woff2",
+   "size": 39764,
+   "sha256": "6f3acb3dddab789e49d5122bf0ddadb90502252d4e90d20e660e565af400492f",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatDisplayVF-Italic-CRpusWc8.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatDisplayVF-Italic-CRpusWc8.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    }
+   ],
+   "body_file": "bodies/1882c93a434976274e3b.woff2",
+   "size": 41540,
+   "sha256": "1882c93a434976274e3b71001b2e6b3c68c54930024cddee5c834d7d79fb0217",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatMono-Italic-CV5TsSDj.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatMono-Italic-CV5TsSDj.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    }
+   ],
+   "body_file": "bodies/b41ccb4f22dcf974d4db.woff2",
+   "size": 32704,
+   "sha256": "b41ccb4f22dcf974d4db80db06098a8c6b35e5b9870e8a1cb5f0fbc4a7070d5c",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatMono-Regular-e08YtVYm.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatMono-Regular-e08YtVYm.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/34b89aec843c9de25f42.woff2",
+   "size": 20952,
+   "sha256": "34b89aec843c9de25f423afa9759517461ff05e9234c8be7ce43431c282d8d60",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatMonoVF-C4fMH6Vz.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatMonoVF-C4fMH6Vz.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/4adc1e355272aea4f005.woff2",
+   "size": 29144,
+   "sha256": "4adc1e355272aea4f0056da9c451736f91eda59dc0902a1c8f8a8764ef21bdf0",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatMonoVF-Italic-DGQo2ogW.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatMonoVF-Italic-DGQo2ogW.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/990eee64256d6b4d9d54.woff2",
+   "size": 32668,
+   "sha256": "990eee64256d6b4d9d54946e976ee56b3af0552dc7a5493693864a1616f4f07c",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatText-Italic-BLl-MYdo.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatText-Italic-BLl-MYdo.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/20bfc8b0b8276435548c.woff2",
+   "size": 27044,
+   "sha256": "20bfc8b0b8276435548c3d6cc718722821a01982d99e2ebc134a4abd5d22b13e",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatText-Medium-CFPgPIaW.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatText-Medium-CFPgPIaW.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/bbdd3ef762d9e8f87686.woff2",
+   "size": 26880,
+   "sha256": "bbdd3ef762d9e8f87686065bb2c660f40023d6b8df7c66db4b12ab8bfd6a2f8e",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatText-MediumItalic-B14GYUh6.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatText-MediumItalic-B14GYUh6.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    }
+   ],
+   "body_file": "bodies/f2e479360f1e35a510ce.woff2",
+   "size": 28316,
+   "sha256": "f2e479360f1e35a510cecc8e4cffd749606ac7f4ef1e8e2c5c918e14f4d50500",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatText-Regular-BDARZx4I.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatText-Regular-BDARZx4I.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    }
+   ],
+   "body_file": "bodies/0f10b77caf6709227853.woff2",
+   "size": 25844,
+   "sha256": "0f10b77caf67092278533e5ac5456dc12d341259d21711101eb732e49f89ddb0",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatTextVF-Italic-Dkj_WqbA.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatTextVF-Italic-Dkj_WqbA.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    }
+   ],
+   "body_file": "bodies/3aa1c6902c45ea513b3b.woff2",
+   "size": 41168,
+   "sha256": "3aa1c6902c45ea513b3b15e9564733f2b0d56a64460eea753705aa9d1202245a",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/RedHatTextVF-wYvZ7prR.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/RedHatTextVF-wYvZ7prR.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/4de835a0bc66757aa011.woff2",
+   "size": 38460,
+   "sha256": "4de835a0bc66757aa0119ffef2071587fdde8974d25bdff8daab245584075313",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/main-CUWX3Deh.css",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/main-CUWX3Deh.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    }
+   ],
+   "body_file": "bodies/7927d6bc2d68d063d076.css",
+   "size": 1029886,
+   "sha256": "7927d6bc2d68d063d076372a88f0a31d086c9d7a3b967c702d224c541b209783",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/main-Cwp0syZZ.js",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/main-Cwp0syZZ.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    }
+   ],
+   "body_file": "bodies/3606d5b3d226a573c459.js",
+   "size": 562748,
+   "sha256": "3606d5b3d226a573c459033219d2fa9628e04928b105b3741bdec645e7bbb1f7",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/assets/pf-v5-pficon-Di6gTOT4.woff2",
+   "path": "/resources/mj7ow/account/keycloak.v3/assets/pf-v5-pficon-Di6gTOT4.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    }
+   ],
+   "body_file": "bodies/e5ccee1e926896350da9.woff2",
+   "size": 18456,
+   "sha256": "e5ccee1e926896350da94b0f86f5dcf7b04079339a2d842c799e8f51281beada",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/account/keycloak.v3/favicon.svg",
+   "path": "/resources/mj7ow/account/keycloak.v3/favicon.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "6718"
+    }
+   ],
+   "body_file": "bodies/0322bce1a9f2409cdee4.svg",
+   "size": 6718,
+   "sha256": "0322bce1a9f2409cdee4a2921e287e112f277a6e7774b983f8fcd32fbae19285"
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatDisplay-Bold-4NfIjmgI.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatDisplay-Bold-4NfIjmgI.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/a1b563a15d3bed4593a3.woff2",
+   "size": 26628,
+   "sha256": "a1b563a15d3bed4593a3af37999859d985312c57b9f9e795cf12196a7e170dbe",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatDisplay-BoldItalic-pTGisv8w.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatDisplay-BoldItalic-pTGisv8w.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/2aeada58e827b99fecee.woff2",
+   "size": 28040,
+   "sha256": "2aeada58e827b99feceea8e35e843e12f1056a7cad6505cad2a2efac4ad8a359",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatDisplay-Medium-C1BzJLzv.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatDisplay-Medium-C1BzJLzv.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/e54c221f93f7f9f05434.woff2",
+   "size": 26664,
+   "sha256": "e54c221f93f7f9f05434c7a81b638d320e8c3470edb8a6c9b385b5360c730360",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatDisplay-MediumItalic-ZwmBpJRm.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatDisplay-MediumItalic-ZwmBpJRm.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/1c3a81ce26d4cbc5cf36.woff2",
+   "size": 28032,
+   "sha256": "1c3a81ce26d4cbc5cf36f0f0cfcbf53aef8da22edfbac6e675f8e3d393aa07fc",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatDisplayVF-CYDHf1NI.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatDisplayVF-CYDHf1NI.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/6f3acb3dddab789e49d5.woff2",
+   "size": 39764,
+   "sha256": "6f3acb3dddab789e49d5122bf0ddadb90502252d4e90d20e660e565af400492f",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatDisplayVF-Italic-CRpusWc8.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatDisplayVF-Italic-CRpusWc8.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/1882c93a434976274e3b.woff2",
+   "size": 41540,
+   "sha256": "1882c93a434976274e3b71001b2e6b3c68c54930024cddee5c834d7d79fb0217",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatMono-Italic-CV5TsSDj.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatMono-Italic-CV5TsSDj.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    }
+   ],
+   "body_file": "bodies/b41ccb4f22dcf974d4db.woff2",
+   "size": 32704,
+   "sha256": "b41ccb4f22dcf974d4db80db06098a8c6b35e5b9870e8a1cb5f0fbc4a7070d5c",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatMono-Regular-e08YtVYm.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatMono-Regular-e08YtVYm.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/34b89aec843c9de25f42.woff2",
+   "size": 20952,
+   "sha256": "34b89aec843c9de25f423afa9759517461ff05e9234c8be7ce43431c282d8d60",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatMonoVF-C4fMH6Vz.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatMonoVF-C4fMH6Vz.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/4adc1e355272aea4f005.woff2",
+   "size": 29144,
+   "sha256": "4adc1e355272aea4f0056da9c451736f91eda59dc0902a1c8f8a8764ef21bdf0",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatMonoVF-Italic-DGQo2ogW.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatMonoVF-Italic-DGQo2ogW.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/990eee64256d6b4d9d54.woff2",
+   "size": 32668,
+   "sha256": "990eee64256d6b4d9d54946e976ee56b3af0552dc7a5493693864a1616f4f07c",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatText-Italic-BLl-MYdo.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatText-Italic-BLl-MYdo.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    }
+   ],
+   "body_file": "bodies/20bfc8b0b8276435548c.woff2",
+   "size": 27044,
+   "sha256": "20bfc8b0b8276435548c3d6cc718722821a01982d99e2ebc134a4abd5d22b13e",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatText-Medium-CFPgPIaW.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatText-Medium-CFPgPIaW.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/bbdd3ef762d9e8f87686.woff2",
+   "size": 26880,
+   "sha256": "bbdd3ef762d9e8f87686065bb2c660f40023d6b8df7c66db4b12ab8bfd6a2f8e",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatText-MediumItalic-B14GYUh6.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatText-MediumItalic-B14GYUh6.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/f2e479360f1e35a510ce.woff2",
+   "size": 28316,
+   "sha256": "f2e479360f1e35a510cecc8e4cffd749606ac7f4ef1e8e2c5c918e14f4d50500",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatText-Regular-BDARZx4I.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatText-Regular-BDARZx4I.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    }
+   ],
+   "body_file": "bodies/0f10b77caf6709227853.woff2",
+   "size": 25844,
+   "sha256": "0f10b77caf67092278533e5ac5456dc12d341259d21711101eb732e49f89ddb0",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatTextVF-Italic-Dkj_WqbA.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatTextVF-Italic-Dkj_WqbA.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    }
+   ],
+   "body_file": "bodies/3aa1c6902c45ea513b3b.woff2",
+   "size": 41168,
+   "sha256": "3aa1c6902c45ea513b3b15e9564733f2b0d56a64460eea753705aa9d1202245a",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatTextVF-wYvZ7prR.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/RedHatTextVF-wYvZ7prR.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    }
+   ],
+   "body_file": "bodies/4de835a0bc66757aa011.woff2",
+   "size": 38460,
+   "sha256": "4de835a0bc66757aa0119ffef2071587fdde8974d25bdff8daab245584075313",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/main-CFePQ27m.js",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/main-CFePQ27m.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/9ee8fef360445795f5db.js",
+   "size": 704223,
+   "sha256": "9ee8fef360445795f5db969e31330c2a7995676962563e414e307ce4161ec38b",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/main-CvkXqs02.css",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/main-CvkXqs02.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    }
+   ],
+   "body_file": "bodies/c178d3725f2330554c87.css",
+   "size": 1155388,
+   "sha256": "c178d3725f2330554c8717d113146202941bf1224f54ef51734f3af589a6a62c",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/assets/pf-v5-pficon-Di6gTOT4.woff2",
+   "path": "/resources/mj7ow/admin/keycloak.v2/assets/pf-v5-pficon-Di6gTOT4.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    }
+   ],
+   "body_file": "bodies/e5ccee1e926896350da9.woff2",
+   "size": 18456,
+   "sha256": "e5ccee1e926896350da94b0f86f5dcf7b04079339a2d842c799e8f51281beada",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/admin/keycloak.v2/favicon.svg",
+   "path": "/resources/mj7ow/admin/keycloak.v2/favicon.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "6718"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/0322bce1a9f2409cdee4.svg",
+   "size": 6718,
+   "sha256": "0322bce1a9f2409cdee4a2921e287e112f277a6e7774b983f8fcd32fbae19285"
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatDisplay/RedHatDisplay-Bold.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatDisplay/RedHatDisplay-Bold.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    }
+   ],
+   "body_file": "bodies/a1b563a15d3bed4593a3.woff2",
+   "size": 26628,
+   "sha256": "a1b563a15d3bed4593a3af37999859d985312c57b9f9e795cf12196a7e170dbe",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatDisplay/RedHatDisplay-BoldItalic.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatDisplay/RedHatDisplay-BoldItalic.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/2aeada58e827b99fecee.woff2",
+   "size": 28040,
+   "sha256": "2aeada58e827b99feceea8e35e843e12f1056a7cad6505cad2a2efac4ad8a359",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatDisplay/RedHatDisplay-Medium.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatDisplay/RedHatDisplay-Medium.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    }
+   ],
+   "body_file": "bodies/e54c221f93f7f9f05434.woff2",
+   "size": 26664,
+   "sha256": "e54c221f93f7f9f05434c7a81b638d320e8c3470edb8a6c9b385b5360c730360",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatDisplay/RedHatDisplay-MediumItalic.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatDisplay/RedHatDisplay-MediumItalic.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/1c3a81ce26d4cbc5cf36.woff2",
+   "size": 28032,
+   "sha256": "1c3a81ce26d4cbc5cf36f0f0cfcbf53aef8da22edfbac6e675f8e3d393aa07fc",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatDisplay/RedHatDisplayVF-Italic.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatDisplay/RedHatDisplayVF-Italic.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    }
+   ],
+   "body_file": "bodies/1882c93a434976274e3b.woff2",
+   "size": 41540,
+   "sha256": "1882c93a434976274e3b71001b2e6b3c68c54930024cddee5c834d7d79fb0217",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatDisplay/RedHatDisplayVF.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatDisplay/RedHatDisplayVF.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    }
+   ],
+   "body_file": "bodies/6f3acb3dddab789e49d5.woff2",
+   "size": 39764,
+   "sha256": "6f3acb3dddab789e49d5122bf0ddadb90502252d4e90d20e660e565af400492f",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatMono/RedHatMono-Italic.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatMono/RedHatMono-Italic.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    }
+   ],
+   "body_file": "bodies/b41ccb4f22dcf974d4db.woff2",
+   "size": 32704,
+   "sha256": "b41ccb4f22dcf974d4db80db06098a8c6b35e5b9870e8a1cb5f0fbc4a7070d5c",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatMono/RedHatMono-Regular.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatMono/RedHatMono-Regular.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/34b89aec843c9de25f42.woff2",
+   "size": 20952,
+   "sha256": "34b89aec843c9de25f423afa9759517461ff05e9234c8be7ce43431c282d8d60",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatMono/RedHatMonoVF-Italic.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatMono/RedHatMonoVF-Italic.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/990eee64256d6b4d9d54.woff2",
+   "size": 32668,
+   "sha256": "990eee64256d6b4d9d54946e976ee56b3af0552dc7a5493693864a1616f4f07c",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatMono/RedHatMonoVF.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatMono/RedHatMonoVF.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    }
+   ],
+   "body_file": "bodies/4adc1e355272aea4f005.woff2",
+   "size": 29144,
+   "sha256": "4adc1e355272aea4f0056da9c451736f91eda59dc0902a1c8f8a8764ef21bdf0",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatText/RedHatText-Italic.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatText/RedHatText-Italic.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/20bfc8b0b8276435548c.woff2",
+   "size": 27044,
+   "sha256": "20bfc8b0b8276435548c3d6cc718722821a01982d99e2ebc134a4abd5d22b13e",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatText/RedHatText-Medium.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatText/RedHatText-Medium.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/bbdd3ef762d9e8f87686.woff2",
+   "size": 26880,
+   "sha256": "bbdd3ef762d9e8f87686065bb2c660f40023d6b8df7c66db4b12ab8bfd6a2f8e",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatText/RedHatText-MediumItalic.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatText/RedHatText-MediumItalic.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/f2e479360f1e35a510ce.woff2",
+   "size": 28316,
+   "sha256": "f2e479360f1e35a510cecc8e4cffd749606ac7f4ef1e8e2c5c918e14f4d50500",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatText/RedHatText-Regular.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatText/RedHatText-Regular.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/0f10b77caf6709227853.woff2",
+   "size": 25844,
+   "sha256": "0f10b77caf67092278533e5ac5456dc12d341259d21711101eb732e49f89ddb0",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatText/RedHatTextVF-Italic.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatText/RedHatTextVF-Italic.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/3aa1c6902c45ea513b3b.woff2",
+   "size": 41168,
+   "sha256": "3aa1c6902c45ea513b3b15e9564733f2b0d56a64460eea753705aa9d1202245a",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatText/RedHatTextVF.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/RedHatText/RedHatTextVF.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    }
+   ],
+   "body_file": "bodies/4de835a0bc66757aa011.woff2",
+   "size": 38460,
+   "sha256": "4de835a0bc66757aa0119ffef2071587fdde8974d25bdff8daab245584075313",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/webfonts/fa-solid-900.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/fonts/webfonts/fa-solid-900.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    }
+   ],
+   "body_file": "bodies/f419ad7a4477f36ce73c.woff2",
+   "size": 79100,
+   "sha256": "f419ad7a4477f36ce73c74a23dce784150ca38fa5075a8e06109709cbb716903",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/pficon/pf-v5-pficon.woff2",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/assets/pficon/pf-v5-pficon.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/octet-stream"
+    }
+   ],
+   "body_file": "bodies/e5ccee1e926896350da9.woff2",
+   "size": 18456,
+   "sha256": "e5ccee1e926896350da94b0f86f5dcf7b04079339a2d842c799e8f51281beada",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/patternfly-addons.css",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/patternfly-addons.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    }
+   ],
+   "body_file": "bodies/048733a7b0de85495862.css",
+   "size": 203674,
+   "sha256": "048733a7b0de85495862f45957a223779d7d0c68d7ad6b32b824b815c6790551",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/patternfly.min.css",
+   "path": "/resources/mj7ow/common/keycloak/vendor/patternfly-v5/patternfly.min.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/06b2237b0cd3879d3a0a.css",
+   "size": 1568605,
+   "sha256": "06b2237b0cd3879d3a0a03312c070f42e00e98ed4363fd11cca92c831644e7f9",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/react-dom/react-dom.production.min.js",
+   "path": "/resources/mj7ow/common/keycloak/vendor/react-dom/react-dom.production.min.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/703600413854b4ee9592.js",
+   "size": 132843,
+   "sha256": "703600413854b4ee9592b76f376f0067a25f5398254c57ccbd167dfc4859548e",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/react/react-jsx-runtime.production.min.js",
+   "path": "/resources/mj7ow/common/keycloak/vendor/react/react-jsx-runtime.production.min.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "939"
+    }
+   ],
+   "body_file": "bodies/f6715263ba3043c87c26.js",
+   "size": 939,
+   "sha256": "f6715263ba3043c87c263c60335376da4813f0a17ad4cb69416e0a5744ba4620"
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/react/react.production.min.js",
+   "path": "/resources/mj7ow/common/keycloak/vendor/react/react.production.min.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "7411"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    }
+   ],
+   "body_file": "bodies/637cd4781fed8de81f2f.js",
+   "size": 7411,
+   "sha256": "637cd4781fed8de81f2f67780dbb38a5e8a725115c0cc1533e2f0c1e83bad25f"
+  },
+  {
+   "key": "/resources/mj7ow/common/keycloak/vendor/web-crypto-shim/web-crypto-shim.js",
+   "path": "/resources/mj7ow/common/keycloak/vendor/web-crypto-shim/web-crypto-shim.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5872"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/909c253d378f9cb837b7.js",
+   "size": 5872,
+   "sha256": "909c253d378f9cb837b7a0a7396e5c0380abf2c059eba95b72e1984653e3b0ac"
+  },
+  {
+   "key": "/resources/mj7ow/login/keycloak.v2/css/styles.css",
+   "path": "/resources/mj7ow/login/keycloak.v2/css/styles.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1843"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css"
+    }
+   ],
+   "body_file": "bodies/fc91d800ac849104046a.css",
+   "size": 1843,
+   "sha256": "fc91d800ac849104046ac76b3ee0c69036396219ee8c3d5703017f990b28b284"
+  },
+  {
+   "key": "/resources/mj7ow/login/keycloak.v2/img/keycloak-bg.png",
+   "path": "/resources/mj7ow/login/keycloak.v2/img/keycloak-bg.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    }
+   ],
+   "body_file": "bodies/0825175291be11f7689e.png",
+   "size": 81862,
+   "sha256": "0825175291be11f7689e8718295e422bb6fa4f8fefccc5610292b720c701ac4e",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/login/keycloak.v2/img/keycloak-logo-text.png",
+   "path": "/resources/mj7ow/login/keycloak.v2/img/keycloak-logo-text.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    }
+   ],
+   "body_file": "bodies/f23fc071f436807ccaf2.png",
+   "size": 19994,
+   "sha256": "f23fc071f436807ccaf23fe847ccd7467c4d8c4f9f31207924128dafdf13497d",
+   "chunked": true
+  },
+  {
+   "key": "/resources/mj7ow/login/keycloak.v2/js/authChecker.js",
+   "path": "/resources/mj7ow/login/keycloak.v2/js/authChecker.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1930"
+    }
+   ],
+   "body_file": "bodies/02d278bc871390aed420.js",
+   "size": 1930,
+   "sha256": "02d278bc871390aed420c6f5aa99b2a9105570f2ab148126d04d9cc9449186c9"
+  },
+  {
+   "key": "/resources/mj7ow/login/keycloak.v2/js/passwordVisibility.js",
+   "path": "/resources/mj7ow/login/keycloak.v2/js/passwordVisibility.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "698"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    }
+   ],
+   "body_file": "bodies/6df35fb0b98bfc3b78bb.js",
+   "size": 698,
+   "sha256": "6df35fb0b98bfc3b78bb9936fceca7d91bb53dcc0cd3df7399b4fa3537c565ed"
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Strict-Transport-Security",
+     "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Content-Length",
+     "value": "25"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain;charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/efdb5938a9736727f5cc.txt",
+   "size": 25,
+   "sha256": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-f4c759bcc636",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html;charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2631"
+    }
+   ],
+   "body_file": "bodies/df7ff90c5863684a7f95.bin",
+   "size": 2631,
+   "sha256": "df7ff90c5863684a7f95d1c8bbb05bd72849f8c7efd17a54f979a17f79c52bd4"
+  }
+ ]
+}

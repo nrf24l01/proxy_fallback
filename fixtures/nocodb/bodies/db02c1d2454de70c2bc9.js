@@ -1,0 +1,1 @@
+import{Jm as e,qm as t,uh as n}from"./jR-xmCvV.js";import{D as r}from"./DUzakHLk.js";t();function i(t,i=`InjectionState`){let a=Symbol(i),o;return r(()=>{o=void 0}),[(...e)=>{let i=t(...e);return n(a,i),o=i,r(()=>{o=void 0}),i},()=>{let t=e(a,void 0);return t===void 0&&(t=o),t}]}export{i as t};

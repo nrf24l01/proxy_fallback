@@ -1,0 +1,1 @@
+self.addEventListener(`activate`,e=>{let t=self&&self.registration?self.registration.scope:``;if(!t||typeof caches>`u`)return;let n=`workbox-precache-v2-${t}`;e.waitUntil(caches.keys().then(e=>Promise.all(e.filter(e=>e.startsWith(`workbox-precache-`)).filter(e=>e.endsWith(t)).filter(e=>e!==n).map(e=>caches.delete(e)))))});

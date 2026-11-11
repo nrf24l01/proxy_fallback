@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": 415,
+    "reason": "Unsupported Media Type",
+    "description": "The request entity has a media type which the server or resource does not support."
+  }
+}

@@ -1,0 +1,1241 @@
+{
+ "service": "filebrowser",
+ "title": "File Browser",
+ "category": "files",
+ "login_path": "/login",
+ "default_port": 8080,
+ "upstream": "http://127.0.0.1:18101",
+ "public_url": "https://filebrowser.example.com",
+ "recorded_at": "2026-11-10T13:49:54.908762Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/d6107504935d0d7c4320.bin",
+   "size": 6108,
+   "sha256": "d6107504935d0d7c4320c4662797e3dc19622489d67aa2e070c52b826aa4ba3e",
+   "chunked": true
+  },
+  {
+   "key": "/blob",
+   "path": "/blob",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/d6107504935d0d7c4320.bin",
+   "size": 6108,
+   "sha256": "d6107504935d0d7c4320c4662797e3dc19622489d67aa2e070c52b826aa4ba3e",
+   "chunked": true
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/d6107504935d0d7c4320.ico",
+   "size": 6108,
+   "sha256": "d6107504935d0d7c4320c4662797e3dc19622489d67aa2e070c52b826aa4ba3e",
+   "chunked": true
+  },
+  {
+   "key": "/img/icons/android-chrome-192x192.png",
+   "path": "/img/icons/android-chrome-192x192.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/d6107504935d0d7c4320.png",
+   "size": 6108,
+   "sha256": "d6107504935d0d7c4320c4662797e3dc19622489d67aa2e070c52b826aa4ba3e",
+   "chunked": true
+  },
+  {
+   "key": "/img/icons/android-chrome-512x512.png",
+   "path": "/img/icons/android-chrome-512x512.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/d6107504935d0d7c4320.png",
+   "size": 6108,
+   "sha256": "d6107504935d0d7c4320c4662797e3dc19622489d67aa2e070c52b826aa4ba3e",
+   "chunked": true
+  },
+  {
+   "key": "/img/icons/blob",
+   "path": "/img/icons/blob",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    }
+   ],
+   "body_file": "bodies/d6107504935d0d7c4320.bin",
+   "size": 6108,
+   "sha256": "d6107504935d0d7c4320c4662797e3dc19622489d67aa2e070c52b826aa4ba3e",
+   "chunked": true
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/d6107504935d0d7c4320.txt",
+   "size": 6108,
+   "sha256": "d6107504935d0d7c4320c4662797e3dc19622489d67aa2e070c52b826aa4ba3e",
+   "chunked": true
+  },
+  {
+   "key": "/static/assets/bold-cyrillic--c625Tgp.woff2",
+   "path": "/static/assets/bold-cyrillic--c625Tgp.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "11676"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/c72dc79daa4db0b18dec.woff2",
+   "size": 11676,
+   "sha256": "c72dc79daa4db0b18dec43fa253bb2ac12db0a1cb0b7cfa53f3783e59e595660"
+  },
+  {
+   "key": "/static/assets/bold-cyrillic-ext-E0dvYyMz.woff2",
+   "path": "/static/assets/bold-cyrillic-ext-E0dvYyMz.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "17176"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/d2a7562e393787c0c356.woff2",
+   "size": 17176,
+   "sha256": "d2a7562e393787c0c356bb222071df9689290bfeddbc539db887674ff4493bce"
+  },
+  {
+   "key": "/static/assets/bold-greek-CZts-Xup.woff2",
+   "path": "/static/assets/bold-greek-CZts-Xup.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "9488"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/20b1d460c3e0548d4ab9.woff2",
+   "size": 9488,
+   "sha256": "20b1d460c3e0548d4ab91f5895fd679f4b19f95eff2b7f2067b123652fb60a69"
+  },
+  {
+   "key": "/static/assets/bold-latin-CiQBian2.woff2",
+   "path": "/static/assets/bold-latin-CiQBian2.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "18124"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/827bd1a8d9abaa3382e5.woff2",
+   "size": 18124,
+   "sha256": "827bd1a8d9abaa3382e5142fedf1250a2e703bf1a3fed14dd76a12caa5e1249d"
+  },
+  {
+   "key": "/static/assets/bold-latin-ext-TvF7z9v-.woff2",
+   "path": "/static/assets/bold-latin-ext-TvF7z9v-.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15140"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/2d83ee2587d7e3da96da.woff2",
+   "size": 15140,
+   "sha256": "2d83ee2587d7e3da96da33e1a1fbcef29d82994fff33f16961096215edb20ea9"
+  },
+  {
+   "key": "/static/assets/bold-vietnamese-9GZUqT2t.woff2",
+   "path": "/static/assets/bold-vietnamese-9GZUqT2t.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "7200"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/2096d809b2536bb7d78e.woff2",
+   "size": 7200,
+   "sha256": "2096d809b2536bb7d78e4996934948ff7ef7bd62dc1be62aa7ad2e891ad1eec7"
+  },
+  {
+   "key": "/static/assets/dayjs-DqU3et2E.js",
+   "path": "/static/assets/dayjs-DqU3et2E.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/0fb1aba8651b249d048f.js",
+   "size": 14667,
+   "sha256": "0fb1aba8651b249d048f52accc2cbdff3364befa90916f71b1490f5119f63a80",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/assets/i18n-sWEFv6SY.js",
+   "path": "/static/assets/i18n-sWEFv6SY.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    }
+   ],
+   "body_file": "bodies/fb019dec1aa168870eac.js",
+   "size": 131210,
+   "sha256": "fb019dec1aa168870eac86d1d8c5653df20a860dd33bba2327a86256d07a02d9",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/assets/index-B6-dpoh6.js",
+   "path": "/static/assets/index-B6-dpoh6.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    }
+   ],
+   "body_file": "bodies/9799b75743375d6f7616.js",
+   "size": 133510,
+   "sha256": "9799b75743375d6f76164dd1040cf42cf0433960093c47b75f4abaefaafe21c0",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/assets/index-D4Zz5OAo.css",
+   "path": "/static/assets/index-D4Zz5OAo.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "65491"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/b6fa95efaad30c91ae53.css",
+   "size": 65491,
+   "sha256": "b6fa95efaad30c91ae5317f78cf8f5fafd287c13a3294a987ba50949cc2926b2"
+  },
+  {
+   "key": "/static/assets/index-legacy-CWpIMIWK.js",
+   "path": "/static/assets/index-legacy-CWpIMIWK.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/5b3c149c53a7f5389122.js",
+   "size": 143379,
+   "sha256": "5b3c149c53a7f5389122896621f4d1aa6785d8aabf785b93860d10bac7bd4e43",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/assets/material-icons-Dr0goTwe.woff",
+   "path": "/static/assets/material-icons-Dr0goTwe.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "164912"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/fd84f88b497040d4f7d5.woff",
+   "size": 164912,
+   "sha256": "fd84f88b497040d4f7d5e8c9f8635aef8d3e706c0fa52e2b6facf14eee87e522"
+  },
+  {
+   "key": "/static/assets/material-icons-kAwBdRge.woff2",
+   "path": "/static/assets/material-icons-kAwBdRge.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "128352"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    }
+   ],
+   "body_file": "bodies/8265f64786397d6b832d.woff2",
+   "size": 128352,
+   "sha256": "8265f64786397d6b832d1ca0aafdf149ad84e72759fffa9f7272e91a0fb015d1"
+  },
+  {
+   "key": "/static/assets/medium-cyrillic-CkXvmKJs.woff2",
+   "path": "/static/assets/medium-cyrillic-CkXvmKJs.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "10060"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    }
+   ],
+   "body_file": "bodies/ef372eb91aa5be443c21.woff2",
+   "size": 10060,
+   "sha256": "ef372eb91aa5be443c214d96c2c542d43ae52a7b56003465c4dca43395bb60af"
+  },
+  {
+   "key": "/static/assets/medium-cyrillic-ext-Cs9Yeg2Z.woff2",
+   "path": "/static/assets/medium-cyrillic-ext-Cs9Yeg2Z.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15292"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/2d290fe6fcc231c75380.woff2",
+   "size": 15292,
+   "sha256": "2d290fe6fcc231c75380592920e1764152bc76b1f129e2980d3a15d0ad2b3b30"
+  },
+  {
+   "key": "/static/assets/medium-greek-CYrUg8_A.woff2",
+   "path": "/static/assets/medium-greek-CYrUg8_A.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "7176"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    }
+   ],
+   "body_file": "bodies/1320e5dd3f84989ae520.woff2",
+   "size": 7176,
+   "sha256": "1320e5dd3f84989ae520be53ab40cad329981e36c7d2878ff5a63cbe3970aedc"
+  },
+  {
+   "key": "/static/assets/medium-latin-ext-BKjnCq26.woff2",
+   "path": "/static/assets/medium-latin-ext-BKjnCq26.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "11912"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    }
+   ],
+   "body_file": "bodies/b4dae108f89fade6c1e8.woff2",
+   "size": 11912,
+   "sha256": "b4dae108f89fade6c1e8003cd236b883a5ddb125d79cbba14e900e73bac3219a"
+  },
+  {
+   "key": "/static/assets/medium-latin-qoGZqeje.woff2",
+   "path": "/static/assets/medium-latin-qoGZqeje.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "14596"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/01a44f86a9b361ef0d3a.woff2",
+   "size": 14596,
+   "sha256": "01a44f86a9b361ef0d3ad5e4f9f0f01d394ab53fc5b0e3dff92466fa411e706b"
+  },
+  {
+   "key": "/static/assets/medium-vietnamese-CqtfC5E6.woff2",
+   "path": "/static/assets/medium-vietnamese-CqtfC5E6.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4780"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/20d9ffa9380953b3a6c3.woff2",
+   "size": 4780,
+   "sha256": "20d9ffa9380953b3a6c3f149db0e959d3d061bbf36c332eccdfd556c5bddb885"
+  },
+  {
+   "key": "/static/assets/normal-cyrillic-DIIsSwSF.woff2",
+   "path": "/static/assets/normal-cyrillic-DIIsSwSF.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "9996"
+    }
+   ],
+   "body_file": "bodies/fb0297aa7c51fb762a96.woff2",
+   "size": 9996,
+   "sha256": "fb0297aa7c51fb762a9690871bf3a202a70d1f170c1392a5af06db9f2e314507"
+  },
+  {
+   "key": "/static/assets/normal-cyrillic-ext-BmhtxWN4.woff2",
+   "path": "/static/assets/normal-cyrillic-ext-BmhtxWN4.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15832"
+    }
+   ],
+   "body_file": "bodies/457c1e0dfbc62a882f8a.woff2",
+   "size": 15832,
+   "sha256": "457c1e0dfbc62a882f8ab0fb02ba0e8dc8e6871c81a4c78ee278d3980a54d004"
+  },
+  {
+   "key": "/static/assets/normal-greek-DzgR_hcO.woff2",
+   "path": "/static/assets/normal-greek-DzgR_hcO.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "7208"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/adc0b6a1bfb289ae76f7.woff2",
+   "size": 7208,
+   "sha256": "adc0b6a1bfb289ae76f743744902d05ed33a884b4c63154ccf7abf3b1b845f53"
+  },
+  {
+   "key": "/static/assets/normal-latin-44DxGZCZ.woff2",
+   "path": "/static/assets/normal-latin-44DxGZCZ.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "14584"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/f7bbc8461b2f4cc87074.woff2",
+   "size": 14584,
+   "sha256": "f7bbc8461b2f4cc870743729ee5d44ce0466ca67618f89a8942b655f8a644e68"
+  },
+  {
+   "key": "/static/assets/normal-latin-ext-vBxM5Tkz.woff2",
+   "path": "/static/assets/normal-latin-ext-vBxM5Tkz.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "12008"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    }
+   ],
+   "body_file": "bodies/55f25e8b19696e517772.woff2",
+   "size": 12008,
+   "sha256": "55f25e8b19696e5177720350f2fcaf7712f92b081f3930aefae810ae6cfe3117"
+  },
+  {
+   "key": "/static/assets/normal-vietnamese-BFW_PrBQ.woff2",
+   "path": "/static/assets/normal-vietnamese-BFW_PrBQ.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4896"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    }
+   ],
+   "body_file": "bodies/0af602fe9a85214b015b.woff2",
+   "size": 4896,
+   "sha256": "0af602fe9a85214b015b7b10e2d1da4d60bcb009f2cb7f9877d788a26f68d24b"
+  },
+  {
+   "key": "/static/assets/polyfills-legacy-ZPss0xUo.js",
+   "path": "/static/assets/polyfills-legacy-ZPss0xUo.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Encoding",
+     "value": "gzip"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    }
+   ],
+   "body_file": "bodies/fba6f75ba95f1d6de59e.js",
+   "size": 19444,
+   "sha256": "fba6f75ba95f1d6de59ef92809664304813dd8dc8ffb671b2b0860d2714375b0",
+   "content_encoding": "gzip",
+   "chunked": true
+  },
+  {
+   "key": "/static/img/icons/apple-touch-icon.png",
+   "path": "/static/img/icons/apple-touch-icon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "7420"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/b29a330759d08257b75b.png",
+   "size": 7420,
+   "sha256": "b29a330759d08257b75b9785d677e52c1762e5f3642ef5968be2602032f8019d"
+  },
+  {
+   "key": "/static/img/icons/favicon-16x16.png",
+   "path": "/static/img/icons/favicon-16x16.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "843"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    }
+   ],
+   "body_file": "bodies/ea13b7eb5d5e705de2ef.png",
+   "size": 843,
+   "sha256": "ea13b7eb5d5e705de2efa3161e9a259c10cc729b20196a0449d971910f327af2"
+  },
+  {
+   "key": "/static/img/icons/favicon-32x32.png",
+   "path": "/static/img/icons/favicon-32x32.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=86400"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1250"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self'; style-src 'unsafe-inline';"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/4da336c27e7be5855929.png",
+   "size": 1250,
+   "sha256": "4da336c27e7be585592960ff8e69b0126e86e3a7e9c0b507240947548934ee53"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-71925fb825ca",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "no-cache, no-store, must-revalidate"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "X-Xss-Protection",
+     "value": "1; mode=block"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 10:28:56 GMT"
+    }
+   ],
+   "body_file": "bodies/d6107504935d0d7c4320.bin",
+   "size": 6108,
+   "sha256": "d6107504935d0d7c4320c4662797e3dc19622489d67aa2e070c52b826aa4ba3e",
+   "chunked": true
+  }
+ ]
+}

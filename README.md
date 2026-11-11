@@ -71,8 +71,9 @@ Details that make it indistinguishable from the original:
 
 ## Catalog
 
-Snapshots are data, not code: they live in `fixtures/` and are not committed (see
-[Recording snapshots](#recording-snapshots)). What can be recorded is defined in
+Snapshots live in `fixtures/` in this repository and ship inside the Docker image, so
+`docker compose up -d <service>` works with no volume mounts. What can be recorded is
+defined in
 [`catalog/services.yaml`](catalog/services.yaml) — 35 services, 3 disabled with a
 documented reason.
 
@@ -157,50 +158,44 @@ request.
 ## Docker image
 
 Images are published to `ghcr.io/nrf24l01/proxy_fallback` on every tag (`latest` plus the
-tag itself), built for `linux/amd64` and `linux/arm64`. Snapshots are data — mount them:
+tag itself), built for `linux/amd64` and `linux/arm64` on an Alpine runtime, with the
+snapshots already inside:
 
 ```bash
 docker run --rm -p 127.0.0.1:8080:8080 \
-  -v "$PWD/fixtures:/data/fixtures:ro" \
   ghcr.io/nrf24l01/proxy_fallback serve -service grafana -port 8080 -listen 0.0.0.0
-```
-
-Build it yourself:
-
-```bash
-docker build -t srvimit .
-docker run --rm -v "$PWD/fixtures:/data/fixtures:ro" srvimit list -fixtures /data/fixtures
+docker run --rm ghcr.io/nrf24l01/proxy_fallback list
 ```
 
 ## Docker Compose
 
-Two files, both mounting snapshots read-only at `/data/fixtures`:
+Service selection happens in the compose arguments. The image already contains the
+snapshots, so there are no volume mounts:
 
 ```bash
-# one service (SERVICE / PORT from .env, defaults: grafana on 127.0.0.1:8080)
-cp .env.example .env
-docker compose up -d
-curl -sI http://127.0.0.1:8080/login
-
-# the whole catalog, sequential ports (8000, 8001, …)
-docker compose -f docker-compose.catalog.yml up -d
-curl -sI http://127.0.0.1:8000/login
-./bin/srvimit list          # which service sits on which port
-
-docker compose down         # or: -f docker-compose.catalog.yml down
+docker compose up -d grafana     # imitate exactly one service
+docker compose up -d immich vaultwarden   # or several
+docker compose up -d             # every service in the file, one port each
+docker compose logs -f grafana
+docker compose down
 ```
 
-Any setting is overridable without editing the files:
+`docker-compose.yml` is **generated** from the recorded snapshots (one service per
+snapshot, ports assigned in catalog order starting at 8000):
 
 ```bash
-SERVICE=immich PORT=8081 docker compose up -d
-IMAGE=ghcr.io/nrf24l01/proxy_fallback:latest FIXTURES_PATH=/srv/fixtures docker compose up -d
-IMAGE=srvimit:local docker compose up -d      # use a locally built tag
+srvimit compose > docker-compose.yml            # regenerate after re-recording
+srvimit compose -base-port 9000 -bind 0.0.0.0   # custom ports / bind address
 ```
 
-Both files run the container read-only (`read_only: true`, `no-new-privileges`), publish
-on `127.0.0.1` by default, and health-check through the binary itself (`srvimit list`),
-since a distroless image has no shell or curl.
+On a fresh clone compose builds the image locally (the `build:` section is part of the
+generated file); with the published `ghcr.io/nrf24l01/proxy_fallback` image pulled, it
+is used as-is.
+
+Both the image and the containers stay read-only (`read_only: true`,
+`no-new-privileges`), ports are published on `127.0.0.1` by default, and the
+healthcheck probes the listener with `wget` (Alpine runtime, so a shell exists).
+
 
 ## Limitations (honest)
 
@@ -229,9 +224,7 @@ internal/catalog/      snapshot lookup for -service
 internal/verify/       upstream comparison
 catalog/services.yaml  what can be recorded (images, env, login paths, POST login attempts)
 tools/                 capture-urls.sh (Chromium), browser-smoke.sh
-docker-compose.yml     run one service (SERVICE/PORT from .env)
-docker-compose.catalog.yml  run the whole catalog on sequential ports
-.env.example           defaults for both compose files
+docker-compose.yml     generated: one compose service per snapshot (srvimit compose)
 deploy/                systemd unit
 ```
 

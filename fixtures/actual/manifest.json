@@ -1,0 +1,4260 @@
+{
+ "service": "actual",
+ "title": "Actual Budget",
+ "category": "finance",
+ "login_path": "/",
+ "default_port": 8204,
+ "upstream": "http://127.0.0.1:8204",
+ "public_url": "https://actual.example.com",
+ "recorded_at": "2026-11-10T19:51:56.667149142Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2578"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "463"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"a12-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/1905892763b5fcc49da3.bin",
+   "size": 2578,
+   "sha256": "1905892763b5fcc49da3c34556fae9666642007045ab9ea6d00f90e1939b5c7f"
+  },
+  {
+   "key": "/android-chrome-192x192.png",
+   "path": "/android-chrome-192x192.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "462"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5804"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"16ac-1a199b36fa0\""
+    }
+   ],
+   "body_file": "bodies/5e2bcfc3a79b43ab5fd5.png",
+   "size": 5804,
+   "sha256": "5e2bcfc3a79b43ab5fd59ae277230781876fe93819da926613b76ca727d1b699"
+  },
+  {
+   "key": "/apple-touch-icon.png",
+   "path": "/apple-touch-icon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "430"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"4dff-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "19967"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    }
+   ],
+   "body_file": "bodies/be4ec41e9fe6ddaf6131.png",
+   "size": 19967,
+   "sha256": "be4ec41e9fe6ddaf61311005060f25038654ee540cda6a2847782ec0ad863164"
+  },
+  {
+   "key": "/data-file-index.txt",
+   "path": "/data-file-index.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2884"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"b44-1a199b36fa0\""
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "461"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/cc743bed68f10399c133.txt",
+   "size": 2884,
+   "sha256": "cc743bed68f10399c133c125094e9df620ad9181e3edc981e365baf81a8f8f55"
+  },
+  {
+   "key": "/favicon-16x16.png",
+   "path": "/favicon-16x16.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "319"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "460"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"13f-1a199b36fa0\""
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    }
+   ],
+   "body_file": "bodies/bb1ecf23246c79beee56.png",
+   "size": 319,
+   "sha256": "bb1ecf23246c79beee560096ffcf018ef9a4f9cf39881c5d70b5b47d038b5de1"
+  },
+  {
+   "key": "/favicon-32x32.png",
+   "path": "/favicon-32x32.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "459"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"2c6-1a199b36fa0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "710"
+    }
+   ],
+   "body_file": "bodies/d1fd975e4b8590a67097.png",
+   "size": 710,
+   "sha256": "d1fd975e4b8590a67097de0e9c959b1b7f228319f6028556f7e91b9962af9dde"
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/vnd.microsoft.icon"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15086"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "458"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"3aee-1a199b36fa0\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/5542a98e1db53bbc7527.ico",
+   "size": 15086,
+   "sha256": "5542a98e1db53bbc75279ee0b0555584be7ffd34e0f199d5215ce17d1dc36e33"
+  },
+  {
+   "key": "/index.html",
+   "path": "/index.html",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"a12-1a199b36fa0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "457"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2578"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/1905892763b5fcc49da3.html",
+   "size": 2578,
+   "sha256": "1905892763b5fcc49da3c34556fae9666642007045ab9ea6d00f90e1939b5c7f"
+  },
+  {
+   "key": "/kcab/kcab.worker.rws7bkhh.js",
+   "path": "/kcab/kcab.worker.rws7bkhh.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"3abfb9-1a199b36fa0\""
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3850169"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "456"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    }
+   ],
+   "body_file": "bodies/ccc4013c0c2747e954b4.js",
+   "size": 3850169,
+   "sha256": "ccc4013c0c2747e954b40fb58f831f372abcf2ebb6fe7d940b7b656182689f0b"
+  },
+  {
+   "key": "/manifest.webmanifest",
+   "path": "/manifest.webmanifest",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"ae-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "174"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/manifest+json; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "455"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/b40ae3a8f0dd31fae8ed.bin",
+   "size": 174,
+   "sha256": "b40ae3a8f0dd31fae8eda928c564327ef510421b2bc6a8840a5f86990608fc5a"
+  },
+  {
+   "key": "/maskable-192x192.png",
+   "path": "/maskable-192x192.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"39d5-1a199b36fa0\""
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Content-Length",
+     "value": "14805"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "454"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/91d5001b6307f0dfed5f.png",
+   "size": 14805,
+   "sha256": "91d5001b6307f0dfed5f359e36a30b4c81f8e3a8bd7c13da83a22fb7c3633a59"
+  },
+  {
+   "key": "/maskable-512x512.png",
+   "path": "/maskable-512x512.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"101b1-1a199b36fa0\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "453"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Content-Length",
+     "value": "65969"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    }
+   ],
+   "body_file": "bodies/a9aef3871e66897f3b2b.png",
+   "size": 65969,
+   "sha256": "a9aef3871e66897f3b2b8e43a23a9cc2210bb4bb868fa32a0bccfa5d73e9ef62"
+  },
+  {
+   "key": "/mstile-150x150.png",
+   "path": "/mstile-150x150.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"107c-1a199b36fa0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "452"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4220"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/55ad38c23923e96113f1.png",
+   "size": 4220,
+   "sha256": "55ad38c23923e96113f1ed56a7abbba5f02e8851784c670b9080b4dd04c85172"
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2578"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "412"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"a12-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/1905892763b5fcc49da3.txt",
+   "size": 2578,
+   "sha256": "1905892763b5fcc49da3c34556fae9666642007045ab9ea6d00f90e1939b5c7f"
+  },
+  {
+   "key": "/screenshot_narrow.png",
+   "path": "/screenshot_narrow.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "25638"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6426-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "451"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    }
+   ],
+   "body_file": "bodies/21b4a3824213e49bd901.png",
+   "size": 25638,
+   "sha256": "21b4a3824213e49bd901b424a80738db0a71ca9f6d3e539bee53f5f1ef5df3ad"
+  },
+  {
+   "key": "/screenshot_wide.png",
+   "path": "/screenshot_wide.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"14daa-1a199b36fa0\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "85418"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "450"
+    }
+   ],
+   "body_file": "bodies/06425e695fb0b8f34c56.png",
+   "size": 85418,
+   "sha256": "06425e695fb0b8f34c56504dd16cae8259de8615865822bd430d8bdf1a24f89c"
+  },
+  {
+   "key": "/site.webmanifest",
+   "path": "/site.webmanifest",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"79d-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/manifest+json; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1949"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "449"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/86dc6052d74038610c48.bin",
+   "size": 1949,
+   "sha256": "86dc6052d74038610c488ce21d8a9fb29eaac2f2db6a1ba4453b84e4925a973c"
+  },
+  {
+   "key": "/sql-wasm.wasm",
+   "path": "/sql-wasm.wasm",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "448"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/wasm"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1105290"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"10dd8a-1a199b36fa0\""
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/806886f413da1a6acc1d.wasm",
+   "size": 1105290,
+   "sha256": "806886f413da1a6acc1db373285adda1b6750c8d434c75a5a6042af0a65cbafd"
+  },
+  {
+   "key": "/static/css/index.DaMJyE_v.css",
+   "path": "/static/css/index.DaMJyE_v.css",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "4828"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/css; charset=utf-8"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "447"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"12dc-1a199b36fa0\""
+    }
+   ],
+   "body_file": "bodies/4f3053701f4a44dc33d6.css",
+   "size": 4828,
+   "sha256": "4f3053701f4a44dc33d66d0fdf19b8d47ed0b73baabf5016aa0181bf021a86e3"
+  },
+  {
+   "key": "/static/js/BackgroundImage.TCObV-V6.chunk.js",
+   "path": "/static/js/BackgroundImage.TCObV-V6.chunk.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "121859"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "446"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1dc03-1a199b36fa0\""
+    }
+   ],
+   "body_file": "bodies/a938586ac96add773255.js",
+   "size": 121859,
+   "sha256": "a938586ac96add7732555166a077ca940952f12f7933e6a8037c8be321bb1daa"
+  },
+  {
+   "key": "/static/js/DateSelect.BVYaCNUe.chunk.js",
+   "path": "/static/js/DateSelect.BVYaCNUe.chunk.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2191517"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"21709d-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "445"
+    }
+   ],
+   "body_file": "bodies/9e45139dd0b510ad7014.js",
+   "size": 2191517,
+   "sha256": "9e45139dd0b510ad7014188a5e9d11b307c2ac15dfdc761050388e76e94759bf"
+  },
+  {
+   "key": "/static/js/TransactionEdit.C3L723rq.chunk.js",
+   "path": "/static/js/TransactionEdit.C3L723rq.chunk.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "180572"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "444"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"2c15c-1a199b36fa0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/16eb0b3285a79e678eb8.js",
+   "size": 180572,
+   "sha256": "16eb0b3285a79e678eb858f11ba0cba59c9020a3d40e5dc30f4cc29b1b588bc0"
+  },
+  {
+   "key": "/static/js/Value.FdYRYOLz.chunk.js",
+   "path": "/static/js/Value.FdYRYOLz.chunk.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "59"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1439002"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"15f51a-1a199b36fa0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "443"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    }
+   ],
+   "body_file": "bodies/7fe8dcd0adc1500d9714.js",
+   "size": 1439002,
+   "sha256": "7fe8dcd0adc1500d9714011c47964887365006216cad8bf68771c6c1137a24ed"
+  },
+  {
+   "key": "/static/js/browser-server.Bn9r7T7W.js",
+   "path": "/static/js/browser-server.Bn9r7T7W.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "442"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3089"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"c11-1a199b36fa0\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/84c5a2dbb2d71e905557.js",
+   "size": 3089,
+   "sha256": "84c5a2dbb2d71e90555731b2572599a58274694e1add582431fceed0510807e8"
+  },
+  {
+   "key": "/static/js/columns.BR9M2Oqz.chunk.js",
+   "path": "/static/js/columns.BR9M2Oqz.chunk.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "530693"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"81905-1a199b36fa0\""
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "441"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    }
+   ],
+   "body_file": "bodies/c05557db3e5455c33ba9.js",
+   "size": 530693,
+   "sha256": "c05557db3e5455c33ba926f5e61446605050e1fdf1be85560ef18619d9bf5702"
+  },
+  {
+   "key": "/static/js/en.zWpeOkMV.chunk.js",
+   "path": "/static/js/en.zWpeOkMV.chunk.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "440"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"4447c-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "279676"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/4514c7829dd41cf9ad7d.js",
+   "size": 279676,
+   "sha256": "4514c7829dd41cf9ad7d5d8ed58f5519d768b8ddc5dfe84abefe55b5c6027b97"
+  },
+  {
+   "key": "/static/js/index.CMrE7aQb.js",
+   "path": "/static/js/index.CMrE7aQb.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2078745"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1fb819-1a199b36fa0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "439"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    }
+   ],
+   "body_file": "bodies/937f792d1849b69a6e07.js",
+   "size": 2078745,
+   "sha256": "937f792d1849b69a6e0741234428b22b4884ec0157ea31dd6949dd1bacc46456"
+  },
+  {
+   "key": "/static/js/months.CGmeIa7I.chunk.js",
+   "path": "/static/js/months.CGmeIa7I.chunk.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"792e3-1a199b36fa0\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "496355"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "438"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    }
+   ],
+   "body_file": "bodies/341f46f8efee5ad5d2cb.js",
+   "size": 496355,
+   "sha256": "341f46f8efee5ad5d2cbec2c80f3a42295ec253d03f2f0b45012639a5d3c12e8"
+  },
+  {
+   "key": "/static/js/theme.EvD-JhP6.chunk.js",
+   "path": "/static/js/theme.EvD-JhP6.chunk.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "437"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"7416-1a199b36fa0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Content-Length",
+     "value": "29718"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/10ecf4c66ae103222a7c.js",
+   "size": 29718,
+   "sha256": "10ecf4c66ae103222a7c146ad9b945dc83e78b6c78ce05021296e3c2f799bd5b"
+  },
+  {
+   "key": "/static/js/useLocalPref.CMSDl-Rj.chunk.js",
+   "path": "/static/js/useLocalPref.CMSDl-Rj.chunk.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "436"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1292b-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "76075"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    }
+   ],
+   "body_file": "bodies/c7432abd3b82039e3a43.js",
+   "size": 76075,
+   "sha256": "c7432abd3b82039e3a43e17a32829d1720ec4d90e5f19ed36447725588e8ae62"
+  },
+  {
+   "key": "/static/js/workbox-window.prod.es5.D5AzH0Wa.chunk.js",
+   "path": "/static/js/workbox-window.prod.es5.D5AzH0Wa.chunk.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "435"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1658-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5720"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/9fcbd9a740f1e90ecda0.js",
+   "size": 5720,
+   "sha256": "9fcbd9a740f1e90ecda06cd76e53ddfdaede4d0fa9da39c93725593f8a4f5279"
+  },
+  {
+   "key": "/static/media/inter-cyrillic-ext-wght-italic.B5xAaiFk.woff2",
+   "path": "/static/media/inter-cyrillic-ext-wght-italic.B5xAaiFk.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "27380"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6af4-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "419"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    }
+   ],
+   "body_file": "bodies/39689184132e9fba8fb1.woff2",
+   "size": 27380,
+   "sha256": "39689184132e9fba8fb1066f429125d14445352a566f47f4edcae7c3c90e486d"
+  },
+  {
+   "key": "/static/media/inter-cyrillic-ext-wght-normal.BOeWTOD4.woff2",
+   "path": "/static/media/inter-cyrillic-ext-wght-normal.BOeWTOD4.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"6568-1a199b36fa0\""
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "425"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Content-Length",
+     "value": "25960"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/ca157063339ac4ad418f.woff2",
+   "size": 25960,
+   "sha256": "ca157063339ac4ad418f214f3abfed119b0798ab4d377386ce5c9e5a7a435ebd"
+  },
+  {
+   "key": "/static/media/inter-cyrillic-wght-italic.DzZdc28x.woff2",
+   "path": "/static/media/inter-cyrillic-wght-italic.DzZdc28x.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"4e0c-1a199b36fa0\""
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "418"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Length",
+     "value": "19980"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/47d42151dff6d13f1c2b.woff2",
+   "size": 19980,
+   "sha256": "47d42151dff6d13f1c2b9a1f278290f625593c1f01c89612ee4ae7f063167f7a"
+  },
+  {
+   "key": "/static/media/inter-cyrillic-wght-normal.DqGufNeO.woff2",
+   "path": "/static/media/inter-cyrillic-wght-normal.DqGufNeO.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "18748"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "424"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"493c-1a199b36fa0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    }
+   ],
+   "body_file": "bodies/71d5ee93cc1e9f1d520a.woff2",
+   "size": 18748,
+   "sha256": "71d5ee93cc1e9f1d520a3a8b66456de18c7879d8df09d57fcd2eaff75fef0075"
+  },
+  {
+   "key": "/static/media/inter-greek-ext-wght-italic.DcOpz6Lw.woff2",
+   "path": "/static/media/inter-greek-ext-wght-italic.DcOpz6Lw.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "417"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"2f40-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Length",
+     "value": "12096"
+    }
+   ],
+   "body_file": "bodies/787fc783f35c91333444.woff2",
+   "size": 12096,
+   "sha256": "787fc783f35c913334445a7c4502bb272f94a8328426578776eac5e4ebd03ba1"
+  },
+  {
+   "key": "/static/media/inter-greek-ext-wght-normal.DlzME5K_.woff2",
+   "path": "/static/media/inter-greek-ext-wght-normal.DlzME5K_.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "11232"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "423"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"2be0-1a199b36fa0\""
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    }
+   ],
+   "body_file": "bodies/6e9e020a25f9b56d418f.woff2",
+   "size": 11232,
+   "sha256": "6e9e020a25f9b56d418f2c085b1d3c09725a4da23fe693a5b463064606732190"
+  },
+  {
+   "key": "/static/media/inter-greek-wght-italic.CILZdfAp.woff2",
+   "path": "/static/media/inter-greek-wght-italic.CILZdfAp.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"5004-1a199b36fa0\""
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "416"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Length",
+     "value": "20484"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    }
+   ],
+   "body_file": "bodies/29e273a42cac8240f37f.woff2",
+   "size": 20484,
+   "sha256": "29e273a42cac8240f37fbdd94c684f8a255e61c8076942d9b8f18a0e2c014991"
+  },
+  {
+   "key": "/static/media/inter-greek-wght-normal.CkhJZR-_.woff2",
+   "path": "/static/media/inter-greek-wght-normal.CkhJZR-_.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"4a34-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "18996"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "422"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    }
+   ],
+   "body_file": "bodies/1be3448e292fbf05ffe1.woff2",
+   "size": 18996,
+   "sha256": "1be3448e292fbf05ffe176fe1e43f135013d50b1e7d324ad1a558f623d3bb6f6"
+  },
+  {
+   "key": "/static/media/inter-latin-ext-wght-italic.0pjOp8NU.woff2",
+   "path": "/static/media/inter-latin-ext-wght-italic.0pjOp8NU.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"166fc-1a199b36fa0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "414"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "91900"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/71254244ccb1ec21e14d.woff2",
+   "size": 91900,
+   "sha256": "71254244ccb1ec21e14db3480fef6f6826d1136dc4aca1c7d3ca7ce31294fcce"
+  },
+  {
+   "key": "/static/media/inter-latin-ext-wght-normal.DO1Apj_S.woff2",
+   "path": "/static/media/inter-latin-ext-wght-normal.DO1Apj_S.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "420"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"14c4c-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Length",
+     "value": "85068"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/34b9c504cab7a73e37b7.woff2",
+   "size": 85068,
+   "sha256": "34b9c504cab7a73e37b746343a449132e56cf7b5481af2cb81dc74dcff25c956"
+  },
+  {
+   "key": "/static/media/inter-latin-wght-italic.DpCbqKDY.woff2",
+   "path": "/static/media/inter-latin-wght-italic.DpCbqKDY.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "51832"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"ca78-1a199b36fa0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "413"
+    }
+   ],
+   "body_file": "bodies/7291b5970da223744127.woff2",
+   "size": 51832,
+   "sha256": "7291b5970da2237441273c03b424a504b70b18f09791473fab99687dcc314720"
+  },
+  {
+   "key": "/static/media/inter-latin-wght-normal.Dx4kXJAl.woff2",
+   "path": "/static/media/inter-latin-wght-normal.Dx4kXJAl.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "434"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"bc80-1a199b36fa0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "48256"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/3100e775e8616cd2611b.woff2",
+   "size": 48256,
+   "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+  },
+  {
+   "key": "/static/media/inter-vietnamese-wght-italic.K3WlGtc8.woff2",
+   "path": "/static/media/inter-vietnamese-wght-italic.K3WlGtc8.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Length",
+     "value": "10596"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "415"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"2964-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/1991ed5832eb07f7523f.woff2",
+   "size": 10596,
+   "sha256": "1991ed5832eb07f7523f22a843ca9a8aa83c51c8e87062ce77794855d2f5dee8"
+  },
+  {
+   "key": "/static/media/inter-vietnamese-wght-normal.CBcvBZtf.woff2",
+   "path": "/static/media/inter-vietnamese-wght-normal.CBcvBZtf.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "421"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"280c-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "10252"
+    }
+   ],
+   "body_file": "bodies/5c66f9e07e90c6d4ac49.woff2",
+   "size": 10252,
+   "sha256": "5c66f9e07e90c6d4ac4922cc68d60de26c17b1858e677fb5e603fce3952b3ff2"
+  },
+  {
+   "key": "/static/media/redacted-script-latin-400-normal.DH5Ip5Nv.woff",
+   "path": "/static/media/redacted-script-latin-400-normal.DH5Ip5Nv.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"cb0-1a199b36fa0\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3248"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "426"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/9ae75526ae847a682129.woff",
+   "size": 3248,
+   "sha256": "9ae75526ae847a682129dbf7d21b4e043b57b37fea1b58bd392fef6d3ab824fe"
+  },
+  {
+   "key": "/static/media/redacted-script-latin-400-normal.DO_NTpDN.woff2",
+   "path": "/static/media/redacted-script-latin-400-normal.DO_NTpDN.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1294-1a199b36fa0\""
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4756"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "427"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/b78e6d7daa990b9cb009.woff2",
+   "size": 4756,
+   "sha256": "b78e6d7daa990b9cb009e80e75ec9f7979e1985649d6d59226d75477358d9f04"
+  },
+  {
+   "key": "/static/media/redacted-script-latin-ext-400-normal.BsF1F2G5.woff2",
+   "path": "/static/media/redacted-script-latin-ext-400-normal.BsF1F2G5.woff2",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"10a0-1a199b36fa0\""
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff2"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "429"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4256"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    }
+   ],
+   "body_file": "bodies/3f13139344ca0ef8a7a1.woff2",
+   "size": 4256,
+   "sha256": "3f13139344ca0ef8a7a12c2124a12d4f316cc1bf0e7867c5c824d219529af40b"
+  },
+  {
+   "key": "/static/media/redacted-script-latin-ext-400-normal.COdB0Snm.woff",
+   "path": "/static/media/redacted-script-latin-ext-400-normal.COdB0Snm.woff",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2712"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "428"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"a98-1a199b36fa0\""
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/woff"
+    }
+   ],
+   "body_file": "bodies/3dede34b74b03927293e.woff",
+   "size": 2712,
+   "sha256": "3dede34b74b03927293efa97cb5c428990d471516c19591596c1b46ae0aa1c54"
+  },
+  {
+   "key": "/static/shared-browser-server-jhCkIdZN.js",
+   "path": "/static/shared-browser-server-jhCkIdZN.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Length",
+     "value": "11187"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "433"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"2bb3-1a199b36fa0\""
+    }
+   ],
+   "body_file": "bodies/1b9ad669e75fbaf3983c.js",
+   "size": 11187,
+   "sha256": "1b9ad669e75fbaf3983c9410f00ab5159eda8cc7ce129a9ccc1a2b33f89beecb"
+  },
+  {
+   "key": "/sw.js",
+   "path": "/sw.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "13081"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "432"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"3319-1a199b36fa0\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/c2c44f820b9f0e8b8b63.js",
+   "size": 13081,
+   "sha256": "c2c44f820b9f0e8b8b63c97e5524639de94a6e9928657fdd4a5b722c593bada0"
+  },
+  {
+   "key": "/workbox-2fbc6a65.js",
+   "path": "/workbox-2fbc6a65.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"3b0c-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "15116"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/javascript; charset=utf-8"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "431"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/c7351afad07c7a3f5421.js",
+   "size": 15116,
+   "sha256": "c7351afad07c7a3f5421b85f64e1e811dfd6ba40cf9d7a82af275179f4e23eb7"
+  },
+  {
+   "key": "POST /account/login :: application/json",
+   "path": "/account/login",
+   "method": "POST",
+   "req_content_type": "application/json",
+   "req_body": "{\"password\":\"definitely-wrong\"}",
+   "status": 400,
+   "headers": [
+    {
+     "name": "Ratelimit-Policy",
+     "value": "5;w=900"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "5"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "4"
+    },
+    {
+     "name": "X-Powered-By",
+     "value": "Express"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "46"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "900"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"2e-jcKIVt12oE5DVoiGj/alOjgZu2M\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/d77fedb8ba48d7539ad2.bin",
+   "size": 46,
+   "sha256": "d77fedb8ba48d7539ad2fdb33a75623f7f0aab850e37c539c25d6dbd2acb197e"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-4f9b08780a12",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Ratelimit-Policy",
+     "value": "500;w=60"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "58"
+    },
+    {
+     "name": "Cross-Origin-Opener-Policy",
+     "value": "same-origin"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'self' blob:; img-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src http: https:"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Mon, 02 Nov 2026 00:40:36 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"a12-1a199b36fa0\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Cross-Origin-Embedder-Policy",
+     "value": "require-corp"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2578"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 19:51:56 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "500"
+    },
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "410"
+    },
+    {
+     "name": "Access-Control-Allow-Origin",
+     "value": "*"
+    }
+   ],
+   "body_file": "bodies/1905892763b5fcc49da3.bin",
+   "size": 2578,
+   "sha256": "1905892763b5fcc49da3c34556fae9666642007045ab9ea6d00f90e1939b5c7f"
+  }
+ ]
+}

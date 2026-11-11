@@ -1,0 +1,1341 @@
+{
+ "service": "audiobookshelf",
+ "title": "Audiobookshelf",
+ "category": "media",
+ "login_path": "/login",
+ "default_port": 8223,
+ "upstream": "http://127.0.0.1:8223",
+ "public_url": "https://audiobookshelf.example.com",
+ "recorded_at": "2026-11-10T20:03:46.900630965Z",
+ "entries": [
+  {
+   "key": "/",
+   "path": "/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4136"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1028-1a16a46b830\""
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/40661f7e17ee9f8fe57a.bin",
+   "size": 4136,
+   "sha256": "40661f7e17ee9f8fe57abb9d172066410f42ce20551ab47ddf0530e858f8ec54"
+  },
+  {
+   "key": "/audiobookshelf/_nuxt/0daab17.js",
+   "path": "/audiobookshelf/_nuxt/0daab17.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"3f3be-1a16a46b830\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "259006"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    }
+   ],
+   "body_file": "bodies/ae8cd120138c26bac19d.js",
+   "size": 259006,
+   "sha256": "ae8cd120138c26bac19d7739903b95d1ae7ab78c3512feef578e86e2086d2096"
+  },
+  {
+   "key": "/audiobookshelf/_nuxt/1e963c6.js",
+   "path": "/audiobookshelf/_nuxt/1e963c6.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"151171-1a16a46b830\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1380721"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    }
+   ],
+   "body_file": "bodies/d0478e8844ca93aeb01b.js",
+   "size": 1380721,
+   "sha256": "d0478e8844ca93aeb01bba909bcaf93c35e39910f1b7054db6a6bd8d4f71747f"
+  },
+  {
+   "key": "/audiobookshelf/_nuxt/3099607.js",
+   "path": "/audiobookshelf/_nuxt/3099607.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"9cd68-1a16a46b830\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "642408"
+    }
+   ],
+   "body_file": "bodies/726a3c4a0f001cc329d8.js",
+   "size": 642408,
+   "sha256": "726a3c4a0f001cc329d809cf562fe5bdf6ecb74d8fd50f0263fb0fbf1325ea18"
+  },
+  {
+   "key": "/audiobookshelf/_nuxt/5bf7e5a.js",
+   "path": "/audiobookshelf/_nuxt/5bf7e5a.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"3caa-1a16a46b830\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "15530"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    }
+   ],
+   "body_file": "bodies/a74154784091d99a4fff.js",
+   "size": 15530,
+   "sha256": "a74154784091d99a4fff30f1380efa78f4c0c1c6a9b1295c47358524be28aac7"
+  },
+  {
+   "key": "/audiobookshelf/_nuxt/5fc0507.js",
+   "path": "/audiobookshelf/_nuxt/5fc0507.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1486-1a16a46b830\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5254"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    }
+   ],
+   "body_file": "bodies/4349ad340eba53964fd0.js",
+   "size": 5254,
+   "sha256": "4349ad340eba53964fd0bb36583e18ab2efc209d7649cf0056c30373c5bd1fa7"
+  },
+  {
+   "key": "/audiobookshelf/_nuxt/9028881.js",
+   "path": "/audiobookshelf/_nuxt/9028881.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"385c-1a16a46b830\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "14428"
+    }
+   ],
+   "body_file": "bodies/df3c9ddb5d10d14f5b5c.js",
+   "size": 14428,
+   "sha256": "df3c9ddb5d10d14f5b5cd3a5cf6eee6e3871d99f604f3e03f74b004ef7168999"
+  },
+  {
+   "key": "/audiobookshelf/_nuxt/c7f3e29.js",
+   "path": "/audiobookshelf/_nuxt/c7f3e29.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1417-1a16a46b830\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "5143"
+    }
+   ],
+   "body_file": "bodies/02448618ecf14303009d.js",
+   "size": 5143,
+   "sha256": "02448618ecf14303009d0de319b5ae79c8514fda2ee372dfafd0e70c4cc8c70c"
+  },
+  {
+   "key": "/audiobookshelf/_nuxt/fonts/SourceSansPro-Regular.47dbe58.ttf",
+   "path": "/audiobookshelf/_nuxt/fonts/SourceSansPro-Regular.47dbe58.ttf",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"3c944-1a16a46b830\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/ttf"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Length",
+     "value": "248132"
+    }
+   ],
+   "body_file": "bodies/e0acaced3f5686390c4c.ttf",
+   "size": 248132,
+   "sha256": "e0acaced3f5686390c4c2ed8d3b447c725660252d1a20a71fdab5110a435c463"
+  },
+  {
+   "key": "/audiobookshelf/_nuxt/fonts/SourceSansPro-SemiBold.c1b4f41.ttf",
+   "path": "/audiobookshelf/_nuxt/fonts/SourceSansPro-SemiBold.c1b4f41.ttf",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Etag",
+     "value": "W/\"3c854-1a16a46b830\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "font/ttf"
+    },
+    {
+     "name": "Content-Length",
+     "value": "247892"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    }
+   ],
+   "body_file": "bodies/c263e4612b3cf54dc5ba.ttf",
+   "size": 247892,
+   "sha256": "c263e4612b3cf54dc5ba91c086e10aa60756fe6cda2cdf2494ed616124452eae"
+  },
+  {
+   "key": "/audiobookshelf/_nuxt/img/icon.d3d4aef.svg",
+   "path": "/audiobookshelf/_nuxt/img/icon.d3d4aef.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"99a-1a16a46b830\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "2458"
+    }
+   ],
+   "body_file": "bodies/560baf46422e3ff516d2.svg",
+   "size": 2458,
+   "sha256": "560baf46422e3ff516d249b449bd331d6b257f1099a130150e10845a8c922a69"
+  },
+  {
+   "key": "/audiobookshelf/_nuxt/manifest.2f7e41c6.json",
+   "path": "/audiobookshelf/_nuxt/manifest.2f7e41c6.json",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1a0-1a16a46b830\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "416"
+    }
+   ],
+   "body_file": "bodies/33ee44b18eda7ec4b278.json",
+   "size": 416,
+   "sha256": "33ee44b18eda7ec4b2784df60b6fdc350d03c9f8efdfc0ab0d7dd2b20ef0a8b1"
+  },
+  {
+   "key": "/audiobookshelf/favicon.ico",
+   "path": "/audiobookshelf/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "image/x-icon"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1411"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"583-1a16a46b830\""
+    }
+   ],
+   "body_file": "bodies/9b9fefaac67efc160014.ico",
+   "size": 1411,
+   "sha256": "9b9fefaac67efc160014bb8939f5e40ee219023c0b17cc416d2add2ec2dc15b6"
+  },
+  {
+   "key": "/audiobookshelf/icon.svg",
+   "path": "/audiobookshelf/icon.svg",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"99a-1a16a46b830\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/svg+xml"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Content-Length",
+     "value": "2458"
+    }
+   ],
+   "body_file": "bodies/560baf46422e3ff516d2.svg",
+   "size": 2458,
+   "sha256": "560baf46422e3ff516d249b449bd331d6b257f1099a130150e10845a8c922a69"
+  },
+  {
+   "key": "/audiobookshelf/icon192.png",
+   "path": "/audiobookshelf/icon192.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1927-1a16a46b830\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "6439"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    }
+   ],
+   "body_file": "bodies/f84f31434f4e0c4b4527.png",
+   "size": 6439,
+   "sha256": "f84f31434f4e0c4b4527229574f0c947a443431d94403cd74ce417b566b6a6f3"
+  },
+  {
+   "key": "/audiobookshelf/ios_icon.png",
+   "path": "/audiobookshelf/ios_icon.png",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"8361-1a16a46b830\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/png"
+    },
+    {
+     "name": "Content-Length",
+     "value": "33633"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    }
+   ],
+   "body_file": "bodies/ff08eeaa38b54bdb5428.png",
+   "size": 33633,
+   "sha256": "ff08eeaa38b54bdb542817f86a2908f623c59aab3b127795d903ed61d73d98d6"
+  },
+  {
+   "key": "/audiobookshelf/status",
+   "path": "/audiobookshelf/status",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "202"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"ca-Bf8B6qRFSXe2g0/YjUJozPFp+Kk\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    }
+   ],
+   "body_file": "bodies/0d540eb5dd34b339ed9a.bin",
+   "size": 202,
+   "sha256": "0d540eb5dd34b339ed9acc927441a43dc0e41b69f9de578a91c945d3ef650fda"
+  },
+  {
+   "key": "/audiobookshelf/sw.js",
+   "path": "/audiobookshelf/sw.js",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"df7-1a16a46b830\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "application/javascript; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "3575"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    }
+   ],
+   "body_file": "bodies/c7caece943ceff17b242.js",
+   "size": 3575,
+   "sha256": "c7caece943ceff17b24259d586087e388bf1248aa9c8fd03383f55a07d72249c"
+  },
+  {
+   "key": "/favicon.ico",
+   "path": "/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "image/x-icon"
+    },
+    {
+     "name": "Content-Length",
+     "value": "1411"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"583-1a16a46b830\""
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/9b9fefaac67efc160014.ico",
+   "size": 1411,
+   "sha256": "9b9fefaac67efc160014bb8939f5e40ee219023c0b17cc416d2add2ec2dc15b6"
+  },
+  {
+   "key": "/login",
+   "path": "/login",
+   "method": "GET",
+   "status": 301,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "177"
+    },
+    {
+     "name": "Location",
+     "value": "/login/"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    }
+   ],
+   "body_file": "bodies/5cce500b63325a94439f.bin",
+   "size": 177,
+   "sha256": "5cce500b63325a94439f5c9b3ee88bb25c4a2515ba9446934cf619f6d3639e21"
+  },
+  {
+   "key": "/login/",
+   "path": "/login/",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1028-1a16a46b830\""
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=UTF-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "4136"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    }
+   ],
+   "body_file": "bodies/40661f7e17ee9f8fe57a.bin",
+   "size": 4136,
+   "sha256": "40661f7e17ee9f8fe57abb9d172066410f42ce20551ab47ddf0530e858f8ec54"
+  },
+  {
+   "key": "/robots.txt",
+   "path": "/robots.txt",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Cache-Control",
+     "value": "public, max-age=0"
+    },
+    {
+     "name": "Last-Modified",
+     "value": "Fri, 23 Oct 2026 19:39:42 GMT"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"1b-1a16a46b830\""
+    },
+    {
+     "name": "Content-Length",
+     "value": "27"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Accept-Ranges",
+     "value": "bytes"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/plain; charset=UTF-8"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    }
+   ],
+   "body_file": "bodies/6b2e90e50ef8b070bd8e.txt",
+   "size": 27,
+   "sha256": "6b2e90e50ef8b070bd8eaa058ebf49befd7b26d496f3c4549ba637d031fdf685"
+  },
+  {
+   "key": "/status",
+   "path": "/status",
+   "method": "GET",
+   "status": 200,
+   "headers": [
+    {
+     "name": "Content-Type",
+     "value": "application/json; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "202"
+    },
+    {
+     "name": "Etag",
+     "value": "W/\"ca-Bf8B6qRFSXe2g0/YjUJozPFp+Kk\""
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    }
+   ],
+   "body_file": "bodies/0d540eb5dd34b339ed9a.bin",
+   "size": 202,
+   "sha256": "0d540eb5dd34b339ed9acc927441a43dc0e41b69f9de578a91c945d3ef650fda"
+  },
+  {
+   "key": "POST /login :: application/json",
+   "path": "/login",
+   "method": "POST",
+   "req_content_type": "application/json",
+   "req_body": "{\"username\":\"admin\",\"password\":\"definitely-wrong\"}",
+   "status": 401,
+   "headers": [
+    {
+     "name": "Ratelimit-Remaining",
+     "value": "39"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    },
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "frame-ancestors 'self'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "Ratelimit-Policy",
+     "value": "40;w=600"
+    },
+    {
+     "name": "Ratelimit-Limit",
+     "value": "40"
+    },
+    {
+     "name": "Ratelimit-Reset",
+     "value": "600"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Length",
+     "value": "12"
+    }
+   ],
+   "body_file": "bodies/d089c8a9fc28e4e50223.bin",
+   "size": 12,
+   "sha256": "d089c8a9fc28e4e50223eb38c9409e362521be9380a37341304fbac7a4cd9e5f"
+  },
+  {
+   "key": "__404__",
+   "path": "/veil-fallback-404-probe-5f2413dfda1f",
+   "method": "GET",
+   "status": 404,
+   "headers": [
+    {
+     "name": "Connection",
+     "value": "keep-alive"
+    },
+    {
+     "name": "Keep-Alive",
+     "value": "timeout=5"
+    },
+    {
+     "name": "Content-Security-Policy",
+     "value": "default-src 'none'"
+    },
+    {
+     "name": "Referrer-Policy",
+     "value": "no-referrer"
+    },
+    {
+     "name": "X-Content-Type-Options",
+     "value": "nosniff"
+    },
+    {
+     "name": "Content-Type",
+     "value": "text/html; charset=utf-8"
+    },
+    {
+     "name": "Content-Length",
+     "value": "175"
+    },
+    {
+     "name": "Date",
+     "value": "Tue, 10 Nov 2026 20:03:46 GMT"
+    }
+   ],
+   "body_file": "bodies/ddb312cdb8fec808d2bc.bin",
+   "size": 175,
+   "sha256": "ddb312cdb8fec808d2bc7d967c182add773f46047998b5c737e4f18bcb78b700"
+  }
+ ]
+}
