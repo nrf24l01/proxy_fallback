@@ -172,6 +172,36 @@ docker build -t srvimit .
 docker run --rm -v "$PWD/fixtures:/data/fixtures:ro" srvimit list -fixtures /data/fixtures
 ```
 
+## Docker Compose
+
+Two files, both mounting snapshots read-only at `/data/fixtures`:
+
+```bash
+# one service (SERVICE / PORT from .env, defaults: grafana on 127.0.0.1:8080)
+cp .env.example .env
+docker compose up -d
+curl -sI http://127.0.0.1:8080/login
+
+# the whole catalog, sequential ports (8000, 8001, …)
+docker compose -f docker-compose.catalog.yml up -d
+curl -sI http://127.0.0.1:8000/login
+./bin/srvimit list          # which service sits on which port
+
+docker compose down         # or: -f docker-compose.catalog.yml down
+```
+
+Any setting is overridable without editing the files:
+
+```bash
+SERVICE=immich PORT=8081 docker compose up -d
+IMAGE=ghcr.io/nrf24l01/proxy_fallback:latest FIXTURES_PATH=/srv/fixtures docker compose up -d
+IMAGE=srvimit:local docker compose up -d      # use a locally built tag
+```
+
+Both files run the container read-only (`read_only: true`, `no-new-privileges`), publish
+on `127.0.0.1` by default, and health-check through the binary itself (`srvimit list`),
+since a distroless image has no shell or curl.
+
 ## Limitations (honest)
 
 - A **snapshot**, not a proxy: only recorded responses exist. POST login, writes and
@@ -199,6 +229,9 @@ internal/catalog/      snapshot lookup for -service
 internal/verify/       upstream comparison
 catalog/services.yaml  what can be recorded (images, env, login paths, POST login attempts)
 tools/                 capture-urls.sh (Chromium), browser-smoke.sh
+docker-compose.yml     run one service (SERVICE/PORT from .env)
+docker-compose.catalog.yml  run the whole catalog on sequential ports
+.env.example           defaults for both compose files
 deploy/                systemd unit
 ```
 

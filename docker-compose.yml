@@ -1,0 +1,41 @@
+# Run one imitated service.
+#
+#   docker compose up -d                      # grafana on 127.0.0.1:8080
+#   SERVICE=immich PORT=8081 docker compose up -d
+#   IMAGE=ghcr.io/nrf24l01/proxy_fallback:latest FIXTURES_PATH=/srv/fixtures docker compose up -d
+#
+# Snapshots are data: mount them, never bake them into the image.
+services:
+  srvimit:
+    image: ${IMAGE:-ghcr.io/nrf24l01/proxy_fallback:latest}
+    build:
+      context: .
+      args:
+        VERSION: ${VERSION:-dev}
+    container_name: ${CONTAINER_NAME:-srvimit}
+    restart: unless-stopped
+    command:
+      - serve
+      - -service
+      - ${SERVICE:-grafana}
+      - -port
+      - "${PORT:-8080}"
+      - -listen
+      - 0.0.0.0
+    volumes:
+      - ${FIXTURES_PATH:-./fixtures}:/data/fixtures:ro
+    ports:
+      - "${BIND_ADDR:-127.0.0.1}:${PORT:-8080}:${PORT:-8080}"
+    # distroless image: the healthcheck can only use the binary itself.
+    # `list` proves the snapshot directory is mounted and readable.
+    healthcheck:
+      test: ["CMD", "/usr/local/bin/srvimit", "list", "-fixtures", "/data/fixtures"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp

@@ -7,5 +7,7 @@ dist/
 # snapshots are recorded locally (see README: Recording snapshots)
 fixtures/
 
+.env
+
 # docker catalog scratch space
 .catalog/

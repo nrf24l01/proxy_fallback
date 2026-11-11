@@ -170,6 +170,36 @@ docker build -t srvimit .
 docker run --rm -v "$PWD/fixtures:/data/fixtures:ro" srvimit list -fixtures /data/fixtures
 ```
 
+## Docker Compose
+
+Два файла, оба монтируют снапшоты read-only в `/data/fixtures`:
+
+```bash
+# один сервис (SERVICE / PORT из .env, по умолчанию grafana на 127.0.0.1:8080)
+cp .env.example .env
+docker compose up -d
+curl -sI http://127.0.0.1:8080/login
+
+# весь каталог, подряд идущие порты (8000, 8001, …)
+docker compose -f docker-compose.catalog.yml up -d
+curl -sI http://127.0.0.1:8000/login
+./bin/srvimit list          # какой сервис на каком порту
+
+docker compose down         # или: -f docker-compose.catalog.yml down
+```
+
+Любой параметр переопределяется без правки файлов:
+
+```bash
+SERVICE=immich PORT=8081 docker compose up -d
+IMAGE=ghcr.io/nrf24l01/proxy_fallback:latest FIXTURES_PATH=/srv/fixtures docker compose up -d
+IMAGE=srvimit:local docker compose up -d      # локально собранный тег
+```
+
+Оба файла запускают контейнер в режиме read-only (`read_only: true`,
+`no-new-privileges`), публикуют порт на `127.0.0.1` и проверяют здоровье через сам бинарь
+(`srvimit list`), потому что в distroless-образе нет shell и curl.
+
 ## Ограничения (честно)
 
 - Это **снапшот**, а не прокси: существуют только записанные ответы. POST-логин, запись
@@ -197,6 +227,9 @@ internal/verify/       сравнение с живым апстримом
 catalog/services.yaml  что можно записать (образы, env, пути логина, POST-пробы)
 tools/                 capture-urls.sh (Chromium), browser-smoke.sh
 deploy/                systemd unit
+docker-compose.yml     один сервис (SERVICE/PORT из .env)
+docker-compose.catalog.yml  весь каталог подряд идущими портами
+.env.example           дефолты для обоих compose-файлов
 ```
 
 ## CI/CD
